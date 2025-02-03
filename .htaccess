@@ -1,0 +1,25 @@
+# Deshabilitar la exploración de directorios
+Options -Indexes
+
+# Activar el motor de reescritura
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Especificar el índice predeterminado
+    DirectoryIndex index.php
+
+    # Asegurar que las solicitudes no correspondan a un archivo o directorio existente
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # Redirigir todas las solicitudes a index.php, eliminando index.php de la URL
+    RewriteRule ^(.*)$ index.php/$1 [L]
+</IfModule>
+
+<IfModule !mod_rewrite.c>
+    # Si mod_rewrite no está habilitado, manejar errores 404
+    ErrorDocument 404 /index.php
+</IfModule>
+
+# Deshabilitar la firma del servidor
+ServerSignature Off

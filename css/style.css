@@ -1,0 +1,24 @@
+.sidebar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem; /* Ajusta el padding según sea necesario */
+}
+
+.sidebar-brand-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; /* Redondea el contenedor del logo */
+    background-color: #EFEFE1; /* Fondo semi-transparente para el contenedor */
+    width: 60px; /* Ajusta el tamaño del contenedor */
+    height: 60px; /* Asegura que el contenedor sea circular */
+    margin-right: 0.5rem; /* Espacio entre el logo y el texto */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
+}
+
+.sidebar-brand-icon img {
+    width: 51%;
+    height: 84%; /* Ajusta la altura al tamaño del contenedor */
+    object-fit: cover; /* Asegura que la imagen cubra el área sin distorsionarse */
+}
