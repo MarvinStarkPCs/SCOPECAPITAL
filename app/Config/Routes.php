@@ -15,7 +15,11 @@ $routes->get('logout', 'AuthController::logout');
 
 // Rutas protegidas (requieren autenticación)
 $routes->group('admin', ['filter' => 'auth'], function ($routes) {
-    $routes->get('pqrs', 'Cpqrs::index');
+
+    $routes->get('extrasmanagement', 'ExtrasController::index');
+  
+
+    $routes->get('pqrsmanagement', 'PqrsController::index');
     $routes->get('transactions', 'Ctransactions::index');
     $routes->get('dashboard', 'HomeController::index');
 });

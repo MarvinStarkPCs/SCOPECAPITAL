@@ -187,7 +187,7 @@
 
                    -->
 
-                   <a class="collapse-item" href="gestion-extras">
+                   <a class="collapse-item" href="extrasmanagement">
                         <i class="fas fa-tools"></i> 
                         Gestión de Extras
                     </a> 
