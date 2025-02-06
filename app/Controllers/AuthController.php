@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 use App\Models\UserModel;
 
-class Clogin extends BaseController
+class AuthController extends BaseController
 {
     public function index()
     {
@@ -13,13 +13,14 @@ class Clogin extends BaseController
         // Verifica si el usuario está logueado
         if ($session->get('login')) {
             // Redirige al usuario a la página principal
-            return redirect()->to('/dashboard');
+            return redirect()->to('/admin/dashboard');
         } else {
             // Muestra la vista de login si no está logueado
-            return view('login');
+            return view('/auth/login');
         }
 }
-    public function authenticate()
+ 
+     public function authenticate()
     {
         log_message('info', 'El método authenticate fue llamado');
 
@@ -61,16 +62,23 @@ class Clogin extends BaseController
                 'last_name' => $user['last_name'],
                 'email' => $user['email']
             ]);
-            return redirect()->to('/dashboard'); // Redirige a la página principal
+            return redirect()->to('/admin/dashboard'); // Redirige a la página principal
         } else {
             return redirect()->back()->with('error', 'Correo electrónico o contraseña incorrectos.');
         }
     }
 
     public function logout()
-    {
-        $session = session();
-        $session->destroy(); // Destruye la sesión actual
-        return redirect()->to(base_url('/')); // Redirige a la página de login
-    }
+{
+    $session = session();
+    $session->remove('login');  // Elimina la variable de sesión
+
+    $session->destroy(); // Destruye la sesión actual
+
+    // Agregar un retraso en la sesión para evitar redirección inmediata con caché
+    session_write_close();
+
+    return redirect()->to(base_url('/login'))->with('message', 'Sesión cerrada correctamente.');
+}
+
 }

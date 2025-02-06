@@ -10,18 +10,20 @@
 
     <title>SCOOPECAPITAL - Dashboard</title>
 
-    <!-- Custom fonts for this template -->
-    <link href="./assets/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-          rel="stylesheet"> -->
+   <!-- Custom fonts for this template -->
+<link href="<?= base_url('assets/fontawesome-free/css/all.min.css') ?>" rel="stylesheet" type="text/css">
 
-    <!-- CSS de Select2 (si lo usas) -->
-    <link href="./assets/select2/dist/css/select2.min.css" rel="stylesheet">
+<!-- <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"> -->
 
-    <!-- Custom styles for this template -->
-    <link href="./assets/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
-    <link href="./css/sb-admin-2.min.css" rel="stylesheet">
-    <link href="./css/loader.css" rel="stylesheet">
+<!-- CSS de Select2 (si lo usas) -->
+<link href="<?= base_url('assets/select2/dist/css/select2.min.css') ?>" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="<?= base_url('assets/datatables/dataTables.bootstrap4.min.css') ?>" rel="stylesheet">
+<link href="<?= base_url('css/sb-admin-2.min.css') ?>" rel="stylesheet">
+<link href="<?= base_url('css/loader.css') ?>" rel="stylesheet">
+
 
 
     <style>
@@ -276,7 +278,7 @@
                         <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                              aria-labelledby="userDropdown">
 
-                            <a class="dropdown-item" href="<?= base_url('clogin/logout'); ?>" data-toggle="modal"
+                            <a class="dropdown-item" href="<?= base_url('logout'); ?>" data-toggle="modal"
                                data-target="#logoutModal">
                                 <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                 Logout
@@ -382,56 +384,53 @@
             <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
             <div class="modal-footer">
                 <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                <a class="btn btn-primary" href="<?= base_url('clogin/logout'); ?>">Logout</a>
+                <a class="btn btn-primary" href="<?= base_url('logout'); ?>">Logout</a>
             </div>
         </div>
     </div>
 </div>
 
 <!-- Scripts -->
-<script src="./js/toggleloader.js"></script>
-
+<script src="<?= base_url('js/toggleloader.js') ?>"></script>
 
 <!-- jQuery -->
-<script src="./assets/jquery/jquery.min.js"></script>
+<script src="<?= base_url('assets/jquery/jquery.min.js') ?>"></script>
 
-<script src="./assets/sweetalert2/dist/sweetalert2.all.min.js" ></script>
+<script src="<?= base_url('assets/sweetalert2/dist/sweetalert2.all.min.js') ?>"></script>
 
-<script src="./assets/select2/dist/js/select2.min.js" ></script>
+<script src="<?= base_url('assets/select2/dist/js/select2.min.js') ?>"></script>
 
 <!-- Select2 JavaScript (si lo usas) -->
 
-
 <!-- Bootstrap core JavaScript -->
-<script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="<?= base_url('assets/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
 
 <!-- Core plugin JavaScript -->
-<script src="./assets/jquery-easing/jquery.easing.min.js"></script>
+<script src="<?= base_url('assets/jquery-easing/jquery.easing.min.js') ?>"></script>
 
 <!-- Custom scripts for all pages -->
-<script src="./js/sb-admin-2.min.js"></script>
+<script src="<?= base_url('js/sb-admin-2.min.js') ?>"></script>
 
 <!-- Page level plugins -->
-<script src="./assets/chart.js/Chart.min.js"></script>
+<script src="<?= base_url('assets/chart.js/Chart.min.js') ?>"></script>
 
 <!-- Page level custom scripts -->
-<script src="./js/demo/chart-area-demo.js"></script>
-<script src="./js/demo/chart-pie-demo.js"></script>
+<script src="<?= base_url('js/demo/chart-area-demo.js') ?>"></script>
+<script src="<?= base_url('js/demo/chart-pie-demo.js') ?>"></script>
 
 <!-- DataTables -->
-<script src="./assets/datatables/jquery.dataTables.min.js"></script>
-<script src="./assets/datatables/dataTables.bootstrap4.min.js"></script>
-<script src="./js/demo/datatables-demo.js"></script>
+<script src="<?= base_url('assets/datatables/jquery.dataTables.min.js') ?>"></script>
+<script src="<?= base_url('assets/datatables/dataTables.bootstrap4.min.js') ?>"></script>
+<script src="<?= base_url('js/demo/datatables-demo.js') ?>"></script>
 
-<script src="./js/selectInventario.js"></script>
-<script src="./js/AsignarArticulo.js"></script>
+<script src="<?= base_url('js/selectInventario.js') ?>"></script>
+<script src="<?= base_url('js/AsignarArticulo.js') ?>"></script>
 
-<script src="./js/AsignarxSerial.js"></script>
-
-
+<script src="<?= base_url('js/AsignarxSerial.js') ?>"></script>
 
 <!-- Custom alerts -->
-<script src="./js/demo/alert_custom.js"></script>
+<script src="<?= base_url('js/demo/alert_custom.js') ?>"></script>
+
 
 </body>
 

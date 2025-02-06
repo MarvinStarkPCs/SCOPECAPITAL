@@ -156,7 +156,7 @@
       </div>
     <?php endif; ?>
 
-    <form method="post" action="<?= base_url('clogin/authenticate') ?>">
+    <form method="post" action="<?= base_url('authenticate') ?>">
       <?= csrf_field() ?>
       <div class="form-group">
         <label for="email">Email</label>

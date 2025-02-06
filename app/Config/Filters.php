@@ -34,6 +34,8 @@ class Filters extends BaseFilters
         'forcehttps'    => ForceHTTPS::class,
         'pagecache'     => PageCache::class,
         'performance'   => PerformanceMetrics::class,
+        'auth'    => \App\Filters\AuthFilter::class, 
+
     ];
 
     /**
@@ -68,16 +70,17 @@ class Filters extends BaseFilters
      * @var array<string, array<string, array<string, string>>>|array<string, list<string>>
      */
 
+
     public array $globals = [
         'before' => [
-            //'csrf',
+            'csrf',
+        
         ],
         'after'  => [
             'toolbar',
         ],
     ];
-
-
+    
     /**
      * List of filter aliases that works on a
      * particular HTTP method (GET, POST, etc.).
@@ -102,5 +105,8 @@ class Filters extends BaseFilters
      *
      * @var array<string, array<string, list<string>>>
      */
-    public array $filters = [];
+    public array $filters = [
+        
+    
+    ];
 }

@@ -21,4 +21,4 @@ class helpers
         // Retornar el serial completo
         return $prefix . $randomString;
     }
-};
+};  
