@@ -230,7 +230,7 @@
                  data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
                     <h6 class="collapse-header">SECURITY SETTINGS:</h6>
-                    <a class="collapse-item" href="<?= base_url('gestion-usuarios'); ?>">
+                    <a class="collapse-item" href="<?= base_url(''); ?>">
                         <i class="fas fa-users-cog"></i> <!-- Icono de gestión de usuarios -->
                         User Management                    </a>
 

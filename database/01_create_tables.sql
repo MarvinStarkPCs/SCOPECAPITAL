@@ -1,3 +1,4 @@
+-- Active: 1738964565388@@127.0.0.1@3306
 -- Crear la base de datos
 DROP DATABASE IF EXISTS `scopecapital`;
 CREATE DATABASE `scopecapital`;

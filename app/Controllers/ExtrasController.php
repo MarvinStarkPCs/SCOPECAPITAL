@@ -3,7 +3,7 @@ namespace App\Controllers;
 
 use CodeIgniter\Controller;
 
-class ExtrasController extends Controller
+class ExtrasController extends BaseController
 {
     public function index()
     {
