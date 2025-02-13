@@ -230,7 +230,7 @@
                  data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
                     <h6 class="collapse-header">SECURITY SETTINGS:</h6>
-                    <a class="collapse-item" href="<?= base_url(''); ?>">
+                    <a class="collapse-item" href="usermanagement">
                         <i class="fas fa-users-cog"></i> <!-- Icono de gestión de usuarios -->
                         User Management                    </a>
 
@@ -314,9 +314,9 @@
                 <?php endif; ?>
 
                 <!-- Mostrar mensajes largos -->
-                <?php if (session()->get('mensaje')): ?>
+                <?php if (session()->get('message')): ?>
                     <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                        <strong>Atención!</strong> <?= session()->get('mensaje') ?>
+                        <strong>Atención!</strong> <?= session()->get('message') ?>
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
@@ -343,27 +343,8 @@
     </div>
     <!-- End of Content Wrapper -->
 </div>
-<!-- Loader superpuesto -->
 
 
-<script>
-    function toggleLoader(show) {
-        const loaderOverlay = document.getElementById('loader-overlay');
-
-        if (show) {
-            loaderOverlay.style.display = 'flex'; // Mostrar el loader
-        } else {
-            loaderOverlay.style.display = 'none'; // Ocultar el loader
-        }
-    }
-
-    // Ejemplo de uso:
-    // // Mostrar el loader
-    // setTimeout(() => toggleLoader(true), 1000); // Mostrar el loader después de 1 segundo
-    //
-    // // Ocultar el loader
-    // setTimeout(() => toggleLoader(false), 5000); // Ocultar el loader después de 5 segundos
-</script><!-- End of Page Wrapper -->
 
 <!-- Scroll to Top Button-->
 <a class="scroll-to-top rounded" href="#page-top">
@@ -422,11 +403,6 @@
 <script src="<?= base_url('assets/datatables/jquery.dataTables.min.js') ?>"></script>
 <script src="<?= base_url('assets/datatables/dataTables.bootstrap4.min.js') ?>"></script>
 <script src="<?= base_url('js/demo/datatables-demo.js') ?>"></script>
-
-<script src="<?= base_url('js/selectInventario.js') ?>"></script>
-<script src="<?= base_url('js/AsignarArticulo.js') ?>"></script>
-
-<script src="<?= base_url('js/AsignarxSerial.js') ?>"></script>
 
 <!-- Custom alerts -->
 <script src="<?= base_url('js/demo/alert_custom.js') ?>"></script>

@@ -19,6 +19,7 @@ CREATE TABLE users (
     date_registration DATETIME DEFAULT CURRENT_TIMESTAMP,
     email VARCHAR(100) UNIQUE,               -- Restricción UNIQUE
     phone VARCHAR(15),
+    address VARCHAR(255),
     status ENUM('active', 'inactive') DEFAULT 'active',
     password_hash VARCHAR(255) NOT NULL,
     login_attempts INT DEFAULT 0,
