@@ -26,7 +26,7 @@ $routes->group('admin', ['filter' => 'auth'], function ($routes) {
     $routes->get('usermanagement/show/(:num)', 'UserManagementController::show/$1'); // Obtener un usuario específico
     $routes->post('usermanagement/add', 'UserManagementController::addUser'); // Crear usuario
     $routes->post('usermanagement/update/(:num)', 'UserManagementController::updateUser/$1'); // Actualizar usuario
-    $routes->post('usermanagement/delete/(:num)', 'UserManagementController::deleteUser/$1'); // Eliminar usuario
+    $routes->get('usermanagement/delete/(:num)', 'UserManagementController::deleteUser/$1'); // Eliminar usuario
     
 });
 

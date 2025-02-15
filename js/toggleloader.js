@@ -17,8 +17,8 @@
   }
 
   // Ejecutar el loader después de que el documento y los recursos estén completamente cargados
-  window.onload = () => {
-    toggleLoader(true,0); // Mostrar el loader por 5 segundos
+  
+    toggleLoader(true,1000000000); // Mostrar el loader por 5 segundos
 
     // Aquí puedes llamar a la función toggleLoader en cualquier otro lugar del documento cuando lo necesites
-  };
+  

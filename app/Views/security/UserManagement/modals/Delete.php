@@ -19,7 +19,7 @@
                     <?= csrf_field() ?>
                     <input type="hidden" name="_method" value="DELETE">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-                    <a href="gestion-users/deleteuser/<?php echo $user['id_user']; ?>" class="btn btn-danger">Eliminar</a>
+                    <a href="./usermanagement/delete/<?php echo $user['id_user']; ?>" class="btn btn-danger">Eliminar</a>
 
                 </div>
             </div>

@@ -2,7 +2,7 @@
 namespace App\Models;
 use CodeIgniter\Model;
 
-class UsermanagementModel extends Model{
+class UserManagementModel extends Model{
     protected $table = 'users';
     protected $primaryKey = 'id_user';
     protected $allowedFields = ['name', 'last_name', 'identification', 'password_hash', 'role_id', 'email', 'phone', 'address','status', 'login_attempts', 'last_login_attempt'];

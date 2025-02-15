@@ -1,0 +1,50 @@
+ /* Estilo para el mensaje de alerta */
+ .alert {
+    position: fixed;
+    top: -100px;
+    /* Posición inicial fuera de la pantalla */
+    right: 20px;
+    /* A la derecha de la pantalla */
+    width: 50%;
+    /* Ancho del mensaje */
+    max-width: 300px;
+    /* Tamaño máximo del mensaje */
+    z-index: 9999;
+    transition: top 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.alert.show {
+    top: 95px;
+    /* Ajusta este valor para moverlo más abajo */
+}
+
+.alert.hide {
+    top: -100px;
+    /* Desaparece fuera de la pantalla hacia arriba */
+    opacity: 0;
+}
+
+/* Estilo para la barra de progreso */
+.progress {
+    height: 5px;
+    background-color: #f1f1f1;
+    margin-top: 10px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    transition: width 5s linear;
+}
+
+/* Diferentes colores para la barra según el tipo de mensaje */
+.alert-success .progress-bar {
+    background-color: #28a745;
+    /* Verde para éxito */
+}
+
+.alert-danger .progress-bar {
+    background-color: #dc3545;
+    /* Rojo para error */
+}

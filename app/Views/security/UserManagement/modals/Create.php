@@ -63,14 +63,14 @@
                             </div>
                         </div>
                         <div class="form-group col-md-6">
-                            <label for="inputAddress">Address</label>
-                            <input type="text"
-                                class="form-control <?= session('errors-insert.address') ? 'is-invalid errors-insert' : '' ?>"
-                                id="inputAddress" name="address" placeholder="Address" value="<?= old('address') ?>">
-                            <div class="invalid-feedback">
-                                <?= session('errors-insert.address') ?>
-                            </div>
-                        </div>
+    <label for="inputAddress">Address</label>
+    <textarea class="form-control <?= session('errors-insert.address') ? 'is-invalid errors-insert' : '' ?>" 
+        id="inputAddress" name="address" placeholder="Address"><?= old('address') ?></textarea>
+    <div class="invalid-feedback">
+        <?= session('errors-insert.address') ?>
+    </div>
+</div>
+
                     </div>
                     <div class="form-group">
                         <label for="selectRole">Seleted Rol</label>
@@ -122,7 +122,7 @@
 document.addEventListener('DOMContentLoaded', function () {
         // Verifica si hay un input con la clase específica dentro del formulario
         let form = document.getElementById('addUserForm');
-        let input = form.querySelector('input.errors-insert, select.errors-insert');
+        let input = form.querySelector('input.errors-insert, select.errors-insert, textarea.errors-insert');
 
 
         if (input) {
