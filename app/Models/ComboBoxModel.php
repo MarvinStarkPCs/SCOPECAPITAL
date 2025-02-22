@@ -4,6 +4,8 @@ use CodeIgniter\Model;
 
 class ComboBoxModel extends Model
 {
+    protected $returnType = 'array';
+
     protected $DBGroup = 'default';
 
     public function getTableData($tablaName, $exclusions = [])

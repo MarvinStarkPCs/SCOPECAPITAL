@@ -22,25 +22,57 @@ CREATE TABLE users (
     address VARCHAR(255),
     status ENUM('active', 'inactive') DEFAULT 'active',
     password_hash VARCHAR(255) NOT NULL,
+    balance DECIMAL(10, 2) NOT NULL DEFAULT 0.00,
+    swift_code VARCHAR(11),
+    routing VARCHAR(9),
+    checking VARCHAR(17),
+    account_number VARCHAR(17),
+    account_signatory VARCHAR(100),
     login_attempts INT DEFAULT 0,
     last_login_attempt DATETIME,
+    id_company INT,                           -- Campo para clave foránea
+    id_bank INT,                              -- Campo para clave foránea
+    id_banker INT,                            -- Campo para clave foránea
     role_id INT                             -- Campo para clave foránea
 );
 
+CREATE TABLE history_transactions (
+    user_id INT NOT NULL,                     -- Campo para clave foránea
+    amount DECIMAL(10, 2) NOT NULL,
+    transaction_type ENUM('deposit', 'withdrawal','discount') NOT NULL,
+    transaction_date DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+-- Crear la tabla de company asociada a usuarios
+CREATE TABLE company(
+name VARCHAR(100) NOT NULL UNIQUE,
+address VARCHAR(255),
+telephone VARCHAR(15),
+email VARCHAR(100) UNIQUE,
+representative VARCHAR(100)
+);
+-- Crear la tabla de bank asociada a usuarios
+CREATE TABLE bank(
+name VARCHAR(100) NOT NULL UNIQUE,
+address VARCHAR(255),
+account_name VARCHAR(100) NOT NULL UNIQUE
+);
+-- Crear la tabla de banqueros asociada a usuarios
+CREATE TABLE banker (
+    name VARCHAR(70) NOT NULL,
+    telephone VARCHAR(15),
+    email VARCHAR(100) UNIQUE              -- Restricción UNIQUE
+);
 -- Crear la tabla de configuración asociada a usuarios
 CREATE TABLE configuration (
-    id_config INT,
     config_key VARCHAR(100) NOT NULL UNIQUE,
     config_value VARCHAR(255) NOT NULL,
     description VARCHAR(255),
-    user_id INT NOT NULL,  -- Relación con la tabla `users`
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
     updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
 
 -- Crear la tabla de parámetros independiente
 CREATE TABLE parameters (
-    id_param INT,
     param_key VARCHAR(100) NOT NULL UNIQUE,
     param_value VARCHAR(255) NOT NULL,
     description VARCHAR(255),

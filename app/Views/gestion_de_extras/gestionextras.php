@@ -16,12 +16,11 @@
         padding: 15px;
         border: 2px solid #ddd;
         border-radius: 8px;
-        background-color: #fff;
+        background-color: #FEC659;
         transition: background-color 0.3s, box-shadow 0.3s, border-color 0.3s;
         box-shadow: 0 4px 8px rgba(0,0,0,0.2);
         text-decoration: none;
         color: inherit;
-        background-color: #FEC659 ;
     }
 
     .card:hover {
@@ -55,26 +54,34 @@
         margin-left: 15px;
     }
 
+    /* Estilos mejorados para el botón de regreso */
     .back-button {
         display: flex;
         align-items: center;
-        margin-bottom: 20px;
-        font-size: 1.2rem;
+        font-size: 0.9rem; /* Tamaño más pequeño */
         font-weight: bold;
-        color: #FEC659;
+        color: #192229; /* Color oscuro para mejor contraste */
         text-decoration: none;
+        margin-bottom: 10px;
     }
 
     .back-button i {
-        margin-right: 10px;
-        font-size: 1.5rem;
+        margin-right: 5px;
+        font-size: 1.1rem; /* Ícono más pequeño */
+        color: #192229;
+        transition: transform 0.2s;
     }
+
     .back-button:hover {
-        color:rgba(131, 103, 46, 0.68);
+        color: rgba(25, 34, 41, 0.8);
+    }
+
+    .back-button:hover i {
+        transform: translateX(-3px); /* Pequeño efecto de movimiento */
     }
 
     .container-box {
-        border: 2px solidrgb(42, 61, 77);
+        border: 2px solid rgb(42, 61, 77);
         border-radius: 10px;
         padding: 20px;
         box-shadow: 0 6px 12px rgba(0,0,0,0.2);
@@ -110,14 +117,14 @@
             font-size: 1.5rem;
         }
     }
-    .color-text{
-        color: #409b41;
 
+    .color-text {
+        color: #409b41;
     }
 </style>
 
 <div class="container">
-    <!-- Botón de regreso -->
+    <!-- Botón de regreso mejorado -->
     <a href="javascript:history.back()" class="back-button">
         <i class="fas fa-arrow-left"></i> Volver
     </a>
@@ -128,105 +135,92 @@
 
     <div class="container-box bg-dark-blue">
         <div class="row bg-dark-blue">
-            <!-- Artículos -->
+            <!-- Bank -->
             <div class="col-12 col-md-4 mb-4">
-                <a href="<?= base_url('articulos'); ?>" class="card">
+                <a href="<?= base_url('bank'); ?>" class="card">
+                    <div class="card-content">
+                        <div class="card-text">
+                            <h5 class="mb-0">Bank</h5>
+                        </div>
+                        <div class="card-image">
+                            <img src="<?= base_url('img/gestionextras/6.png'); ?>" alt="Bank" class="icon-image">
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Banker -->
+            <div class="col-12 col-md-4 mb-4">
+                <a href="<?= base_url('banker'); ?>" class="card">
+                    <div class="card-content">
+                        <div class="card-text">
+                            <h5 class="mb-0">Banker</h5>
+                        </div>
+                        <div class="card-image">
+                            <img src="<?= base_url('img/gestionextras/5.png'); ?>" alt="Banker" class="icon-image">
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Company -->
+            <div class="col-12 col-md-4 mb-4">
+                <a href="<?= base_url('company'); ?>" class="card">
+                    <div class="card-content">
+                        <div class="card-text">
+                            <h5 class="mb-0">Company</h5>
+                        </div>
+                        <div class="card-image">
+                            <img src="<?= base_url('img/gestionextras/4.png'); ?>" alt="Company" class="icon-image">
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Parameters -->
+            <div class="col-12 col-md-4 mb-4">
+                <a href="<?= base_url('parameters'); ?>" class="card">
                     <div class="card-content">
                         <div class="card-text">
                             <h5 class="mb-0">Parameters</h5>
                         </div>
                         <div class="card-image">
-                            <img src="<?= base_url('img/gestionextras/1.png'); ?>" alt="Artículos" class="icon-image">
+                            <img src="<?= base_url('img/gestionextras/3.png'); ?>" alt="Parameters" class="icon-image">
                         </div>
                     </div>
                 </a>
             </div>
 
-            <!-- Categorías -->
+            <!-- Request Statuses -->
             <div class="col-12 col-md-4 mb-4">
-                <a href="<?= base_url('categorias'); ?>" class="card">
+                <a href="<?= base_url('request-statuses'); ?>" class="card">
                     <div class="card-content">
                         <div class="card-text">
-                            <h5 class="mb-0">Request_Statuses</h5>
+                            <h5 class="mb-0">Request Statuses</h5>
                         </div>
                         <div class="card-image">
-                            <img src="<?= base_url('img/gestionextras/2.png'); ?>" alt="Categorías" class="icon-image">
+                            <img src="<?= base_url('img/gestionextras/3.png'); ?>" alt="Request Statuses" class="icon-image">
                         </div>
                     </div>
                 </a>
             </div>
 
-            <!-- Estados -->
+            <!-- Request Types -->
             <div class="col-12 col-md-4 mb-4">
-                <a href="<?= base_url('estados'); ?>" class="card">
+                <a href="<?= base_url('request-types'); ?>" class="card">
                     <div class="card-content">
                         <div class="card-text">
-                            <h5 class="mb-0">Estados</h5>
+                            <h5 class="mb-0">Request Types</h5>
                         </div>
                         <div class="card-image">
-                            <img src="<?= base_url('img/gestionextras/3.png'); ?>" alt="Estados" class="icon-image">
+                            <img src="<?= base_url('img/gestionextras/3.png'); ?>" alt="Request Types" class="icon-image">
                         </div>
                     </div>
                 </a>
             </div>
-
-            <!-- Sedes -->
-            <div class="col-12 col-md-4 mb-4">
-                <a href="<?= base_url('sedes'); ?>" class="card">
-                    <div class="card-content">
-                        <div class="card-text">
-                            <h5 class="mb-0">Sedes</h5>
-                        </div>
-                        <div class="card-image">
-                            <img src="<?= base_url('img/gestionextras/4.png'); ?>" alt="Sedes" class="icon-image">
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <!-- Ubicación -->
-            <div class="col-12 col-md-4 mb-4">
-                <a href="<?= base_url('ubicaciones'); ?>" class="card">
-                    <div class="card-content">
-                        <div class="card-text">
-                            <h5 class="mb-0">Ubicación</h5>
-                        </div>
-                        <div class="card-image">
-                            <img src="<?= base_url('img/gestionextras/5.png'); ?>" alt="Ubicación" class="icon-image">
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <!-- Procedencias -->
-            <div class="col-12 col-md-4 mb-4">
-                <a href="<?= base_url('procedencias'); ?>" class="card">
-                    <div class="card-content">
-                        <div class="card-text">
-                            <h5 class="mb-0">Procedencias</h5>
-                        </div>
-                        <div class="card-image">
-                            <img src="<?= base_url('img/gestionextras/6.png'); ?>" alt="Procedencias" class="icon-image">
-                        </div>
-                    </div>
-                </a>
-            </div>
-<!-- 
-            <div class="col-12 col-md-4 mb-4">
-                <a href="< ?= base_url('marcas'); ?>" class="card">
-                    <div class="card-content">
-                        <div class="card-text">
-                            <h5 class="mb-0">Marcas</h5>
-                        </div>
-                        <div class="card-image">
-                            <img src="< ?= base_url('img/gestionextras/7.png'); ?>" alt="Marcas" class="icon-image">
-                        </div>
-                    </div>
-                </a>
-            </div> -->
-
         </div>
     </div>
 </div>
 
 <?= $this->endSection() ?>
+

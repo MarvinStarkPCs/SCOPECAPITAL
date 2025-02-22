@@ -9,16 +9,19 @@ class AuthController extends BaseController
     public function index()
     {
         $session = session();
-
-        // Verifica si el usuario está logueado
-        if ($session->get('login')) {
-            // Redirige al usuario a la página principal
-            return redirect()->to('/admin/dashboard');
-        } else {
-            // Muestra la vista de login si no está logueado
-            return view('/auth/login');
+        $roleId = $session->get('role_id');
+        log_message('info', "Usuario autenticado con role_id: {$roleId}");   
+        // Verifica si el usuario está autenticado
+        if (!$session->has('login')) {
+            return view('/auth/login'); // Si no está logueado, muestra la vista de login
         }
-}
+    
+        // Redirige según el rol del usuario
+        return ($session->get('role_id') == 1) 
+            ? redirect()->to('/admin/dashboard') 
+            : redirect()->to('/client/dashboard');
+    }
+    
  
      public function authenticate()
     {
@@ -60,8 +63,10 @@ class AuthController extends BaseController
                 'id_user' => $user['id_user'],
                 'name' => $user['name'],
                 'last_name' => $user['last_name'],
-                'email' => $user['email']
+                'email' => $user['email'],
+                'role_id' => $user['role_id'],
             ]);
+            
             return redirect()->to('/admin/dashboard'); // Redirige a la página principal
         } else {
             return redirect()->back()->with('error', 'Correo electrónico o contraseña incorrectos.');

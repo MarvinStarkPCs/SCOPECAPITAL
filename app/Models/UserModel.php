@@ -9,7 +9,7 @@ class UserModel extends Model
     protected $table = 'users';
     protected $primaryKey = 'id_user';
 
-    protected $allowedFields = ['name', 'last_name', 'identification', 'password_hash', 'role_id', 'email', 'phone', 'status', 'login_attempts', 'last_login_attempt'];
+    protected $allowedFields = ['name', 'last_name', 'identification', 'password_hash', 'role_id', 'email', 'phone', 'status','login_attempts', 'last_login_attempt'];
     protected $useTimestamps = false;
 
     // Verifica si el usuario existe y la contraseña es correcta

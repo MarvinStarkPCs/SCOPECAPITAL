@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <meta name="csrf-token" content="<?= csrf_hash() ?>">
+
 
     <title>SCOOPECAPITAL - Dashboard</title>
 
@@ -26,7 +28,8 @@
     <link href="<?= base_url(relativePath: 'css/partials/alert.css') ?>" rel="stylesheet">
 
 
-
+<!-- jQuery -->
+<script src="<?= base_url('assets/jquery/jquery.min.js') ?>"></script>
 
     <style>
         .table thead th {
@@ -151,8 +154,7 @@
     <!-- Scripts -->
     <script src="<?= base_url('js/toggleloader.js') ?>"></script>
 
-    <!-- jQuery -->
-    <script src="<?= base_url('assets/jquery/jquery.min.js') ?>"></script>
+    
 
     <script src="<?= base_url('assets/sweetalert2/dist/sweetalert2.all.min.js') ?>"></script>
 
@@ -184,7 +186,13 @@
     <!-- Custom alerts -->
     <script src="<?= base_url('js/demo/alert_custom.js') ?>"></script>
 
-
+    <script>
+        // Tu código que usa jQuery aquí
+        $(document).ready(function() {
+            console.log("jQuery está cargado!");
+            // Aquí va tu código que utiliza jQuery
+        });
+    </script>
 </body>
 
 </html>

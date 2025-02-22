@@ -71,3 +71,12 @@ VALUES
     (2, 2, 'ESTADO ACTUALIZADO DE PENDIENTE A EN PROCESO.'),
     (3, 3, 'SOLICITUD RESUELTA CON ÉXITO.'),
     (4, 1, 'EL ESTADO FUE ACTUALIZADO A RECHAZADA.');
+--Insertar configuración
+INSERT INTO configuration (config_key, config_value, description) VALUES
+('smtp_host', 'smtp.gmail.com', 'Servidor SMTP'),
+('smtp_port', '587', 'Puerto SMTP (TLS)'),
+('smtp_user', 'tu_correo@gmail.com', 'Usuario SMTP'),
+('smtp_password', 'tu_contraseña', 'Contraseña SMTP'),
+('smtp_secure', 'tls', 'Tipo de seguridad (tls o ssl)'),
+('smtp_from_name', 'Nombre Remitente', 'Nombre del remitente'),
+('smtp_from_email', 'tu_correo@gmail.com', 'Correo electrónico del remitente');

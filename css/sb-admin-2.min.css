@@ -10,7 +10,7 @@
  */
 
  div#content {
-  background-color: #000;
+  background-color: #FEC659;
 }
 
 :root {
@@ -9336,6 +9336,7 @@ a:focus {
 }
 .topbar {
   height: 4.375rem;
+  z-index: 1020;
 }
 .topbar #sidebarToggleTop {
   height: 2.5rem;
@@ -9462,6 +9463,7 @@ a:focus {
 .sidebar {
   width: 6.5rem;
   min-height: 100vh;
+  z-index: 1020;
 }
 .sidebar .nav-item {
   position: relative;
@@ -9557,6 +9559,7 @@ a:focus {
 .sidebar.toggled {
   width: 0 !important;
   overflow: hidden;
+  z-index:1020 ;
 }
 .sidebar.toggled #sidebarToggle::after {
   content: "\f105";
@@ -10328,6 +10331,7 @@ form.user .btn-user {
 footer.sticky-footer {
   padding: 2rem 0;
   flex-shrink: 0;
+  z-index: 1020;
 }
 footer.sticky-footer .copyright {
   line-height: 1;

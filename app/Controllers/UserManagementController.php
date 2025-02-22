@@ -149,8 +149,6 @@ class UserManagementController extends BaseController
     
     
     
-
-
     public function deleteUser($id)
     {
         $userModel = new UserManagementModel();
@@ -158,7 +156,7 @@ class UserManagementController extends BaseController
             $result = $userModel->delete($id);
 
             if ($result) {
-                return redirect()->to('/admin/usermanagement')->with('success', 'Usuario eliminado correctamente.');
+                return redirect()->to('/admin/usermanagement')->with('error', 'Usuario eliminado correctamente.');
             } else {
                 return redirect()->to('/admin/usermanagement')->with('error', 'No se pudo eliminar el usuario.');
             }

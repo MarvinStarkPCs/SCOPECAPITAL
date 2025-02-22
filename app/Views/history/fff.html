@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historial de Transacciones</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .timeline {
+            list-style: none;
+            padding-left: 0;
+            position: relative;
+            margin: 0;
+        }
+
+        .timeline::before {
+            content: "";
+            position: absolute;
+            left: 10px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #ccc;
+        }
+
+        .timeline-item {
+            display: flex;
+            align-items: center;
+            position: relative;
+            height: 40px; /* Ajustar espacio entre puntos */
+        }
+
+        .timeline-item::before {
+            content: '';
+            width: 12px;
+            height: 12px;
+            background: #007bff;
+            border-radius: 50%;
+            position: absolute;
+            left: 5px;
+        }
+
+        .table-container {
+            overflow-x: auto;
+            padding-left: 30px; /* Acerca la tabla al timeline */
+        }
+
+        .table {
+            border-collapse: collapse;
+            margin: 0;
+        }
+
+        .table th, .table td {
+            border: none; /* Quitar bordes de la tabla */
+            padding: 8px;
+            text-align: left;
+        }
+
+        .table thead th {
+            font-weight: bold;
+            background: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="row">
+        <!-- Timeline -->
+        <div class="col-md-1" style="left: 89px; top:40px">
+            <ul class="timeline" id="timeline"></ul>
+        </div>
+
+        <!-- Tabla -->
+        <div class="col-md-11">
+            <div class="table-container">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Amount</th>
+                            <th>Amount Calculate</th>
+                            <th>Type Transaction</th>
+                            <th>Date Transaction</th>
+                        </tr>
+                    </thead>
+                    <tbody id="transactions">
+                        <tr>
+                            <td>19.0 USD</td>
+                            <td>32.0 USD</td>
+                            <td>Deposit</td>
+                            <td>20/2/2012 12:03:34</td>
+                        </tr>
+                        <tr>
+                            <td>25.0 USD</td>
+                            <td>50.0 USD</td>
+                            <td>Withdraw</td>
+                            <td>21/2/2012 14:45:10</td>
+                        </tr>
+                        <tr>
+                            <td>10.0 USD</td>
+                            <td>20.0 USD</td>
+                            <td>Deposit</td>
+                            <td>22/2/2012 09:30:22</td>
+                        </tr>
+                        <tr>
+                            <td>10.0 USD</td>
+                            <td>20.0 USD</td>
+                            <td>Deposit</td>
+                            <td>22/2/2012 09:30:22</td>
+                        </tr>
+                        <tr>
+                            <td>10.0 USD</td>
+                            <td>20.0 USD</td>
+                            <td>Deposit</td>
+                            <td>22/2/2012 09:30:22</td>
+                        </tr>
+                        <tr>
+                            <td>10.0 USD</td>
+                            <td>20.0 USD</td>
+                            <td>Deposit</td>
+                            <td>22/2/2012 09:30:22</td>
+                        </tr>
+                        <tr>
+                            <td>10.0 USD</td>
+                            <td>20.0 USD</td>
+                            <td>Deposit</td>
+                            <td>22/2/2012 09:30:22</td>
+                        </tr>
+                        <tr>
+                            <td>10.0 USD</td>
+                            <td>20.0 USD</td>
+                            <td>Deposit</td>
+                            <td>22/2/2012 09:30:22</td>
+                        </tr>
+                        <tr>
+                            <td>10.0 USD</td>
+                            <td>20.0 USD</td>
+                            <td>Deposit</td>
+                            <td>22/2/2012 09:30:22</td>
+                        </tr>
+                        <tr>
+                            <td>10.0 USD</td>
+                            <td>20.0 USD</td>
+                            <td>Deposit</td>
+                            <td>22/2/2012 09:30:22</td>
+                        </tr>
+                        <tr>
+                            <td>10.0 USD</td>
+                            <td>20.0 USD</td>
+                            <td>Deposit</td>
+                            <td>22/2/2012 09:30:22</td>
+                        </tr>
+                        <tr>
+                            <td>10.0 USD</td>
+                            <td>20.0 USD</td>
+                            <td>Deposit</td>
+                            <td>22/2/2012 09:30:22</td>
+                        </tr>
+                        <tr>
+                            <td>10.0 USD</td>
+                            <td>20.0 USD</td>
+                            <td>Deposit</td>
+                            <td>22/2/2012 09:30:22</td>
+                        </tr>
+                        <tr>
+                            <td>10.0 USD</td>
+                            <td>20.0 USD</td>
+                            <td>Deposit</td>
+                            <td>22/2/2012 09:30:22</td>
+                        </tr>
+                        <tr>
+                            <td>10.0 USD</td>
+                            <td>20.0 USD</td>
+                            <td>Deposit</td>
+                            <td>22/2/2012 09:30:22</td>
+                        </tr>
+                        <tr>
+                            <td>10.0 USD</td>
+                            <td>20.0 USD</td>
+                            <td>Deposit</td>
+                            <td>22/2/2012 09:30:22</td>
+                        </tr>
+                        <tr>
+                            <td>10.0 USD</td>
+                            <td>20.0 USD</td>
+                            <td>Deposit</td>
+                            <td>22/2/2012 09:30:22</td>
+                        </tr>
+                        <tr>
+                            <td>10.0 USD</td>
+                            <td>20.0 USD</td>
+                            <td>Deposit</td>
+                            <td>22/2/2012 09:30:22</td>
+                        </tr>
+                        <tr>
+                            <td>10.0 USD</td>
+                            <td>20.0 USD</td>
+                            <td>Deposit</td>
+                            <td>22/2/2012 09:30:22</td>
+                        </tr>
+                        <tr>
+                            <td>10.0 USD</td>
+                            <td>20.0 USD</td>
+                            <td>Deposit</td>
+                            <td>22/2/2012 09:30:22</td>
+                        </tr>
+                        <tr>
+                            <td>10.0 USD</td>
+                            <td>20.0 USD</td>
+                            <td>Deposit</td>
+                            <td>22/2/2012 09:30:22</td>
+                        </tr>
+                        <tr>
+                            <td>10.0 USD</td>
+                            <td>20.0 USD</td>
+                            <td>Deposit</td>
+                            <td>22/2/2012 09:30:22</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        let rows = document.querySelectorAll("#transactions tr");
+        let timeline = document.getElementById("timeline");
+
+        timeline.innerHTML = ""; // Limpiar antes de agregar nuevos puntos
+
+        rows.forEach(() => {
+            let li = document.createElement("li");
+            li.classList.add("timeline-item");
+            timeline.appendChild(li);
+        });
+    });
+</script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
