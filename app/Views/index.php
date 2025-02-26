@@ -55,7 +55,7 @@
 <body>
     <div class="container" id="container">
         <h1>Welcome to Scope Capital</h1>
-        <p>Click on our logo to get started</p>
+        <p>Click on our logo to sign in</p>
         <div class="logo" onclick="redirectToLogin()"></div>
     </div>
 

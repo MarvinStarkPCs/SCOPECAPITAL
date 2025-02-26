@@ -11,12 +11,6 @@ class HistoryTransactionModel extends Model
 
     protected $allowedFields = ['user_id','amount','transaction_type','transaction_date','id_transaction']; // Campos permitidos para inserción/actualización
 
-    protected $useTimestamps = true; // Activa created_at y updated_at si existen
-    protected $createdField  = 'created_at'; // Campo de creación
-    protected $updatedField  = 'updated_at'; // Campo de actualización
-    protected $deletedField  = 'deleted_at'; // Campo de eliminación lógica (si se usa soft deletes)
-
-    protected $useSoftDeletes = false; // Cambia a true si quieres eliminar registros sin borrarlos de la BD
     protected $returnType = 'array';
 
     // === MÉTODOS PERSONALIZADOS ===

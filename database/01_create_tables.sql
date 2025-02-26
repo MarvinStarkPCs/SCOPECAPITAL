@@ -41,6 +41,7 @@ CREATE TABLE history_transactions (
     amount DECIMAL(10, 2) NOT NULL,
     transaction_type ENUM('deposit', 'withdrawal','discount') NOT NULL,
     transaction_date DATETIME DEFAULT CURRENT_TIMESTAMP
+    
 );
 -- Crear la tabla de company asociada a usuarios
 CREATE TABLE company(

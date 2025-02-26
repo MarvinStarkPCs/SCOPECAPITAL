@@ -137,7 +137,7 @@
         <div class="row bg-dark-blue">
             <!-- Bank -->
             <div class="col-12 col-md-4 mb-4">
-                <a href="<?= base_url('bank'); ?>" class="card">
+                <a href="<?= base_url('admin/bank'); ?>" class="card">
                     <div class="card-content">
                         <div class="card-text">
                             <h5 class="mb-0">Bank</h5>
@@ -151,7 +151,7 @@
 
             <!-- Banker -->
             <div class="col-12 col-md-4 mb-4">
-                <a href="<?= base_url('banker'); ?>" class="card">
+                <a href="<?= base_url('admin/banker'); ?>" class="card">
                     <div class="card-content">
                         <div class="card-text">
                             <h5 class="mb-0">Banker</h5>
@@ -165,7 +165,7 @@
 
             <!-- Company -->
             <div class="col-12 col-md-4 mb-4">
-                <a href="<?= base_url('company'); ?>" class="card">
+                <a href="<?= base_url('admin/company'); ?>" class="card">
                     <div class="card-content">
                         <div class="card-text">
                             <h5 class="mb-0">Company</h5>
@@ -179,13 +179,13 @@
 
             <!-- Parameters -->
             <div class="col-12 col-md-4 mb-4">
-                <a href="<?= base_url('parameters'); ?>" class="card">
+                <a href="<?= base_url('admin/parameters'); ?>" class="card">
                     <div class="card-content">
                         <div class="card-text">
                             <h5 class="mb-0">Parameters</h5>
                         </div>
                         <div class="card-image">
-                            <img src="<?= base_url('img/gestionextras/3.png'); ?>" alt="Parameters" class="icon-image">
+                            <img src="<?= base_url('img/gestionextras/1.png'); ?>" alt="Parameters" class="icon-image">
                         </div>
                     </div>
                 </a>
@@ -193,7 +193,7 @@
 
             <!-- Request Statuses -->
             <div class="col-12 col-md-4 mb-4">
-                <a href="<?= base_url('request-statuses'); ?>" class="card">
+                <a href="<?= base_url('admin/request-statuses'); ?>" class="card">
                     <div class="card-content">
                         <div class="card-text">
                             <h5 class="mb-0">Request Statuses</h5>
@@ -207,7 +207,7 @@
 
             <!-- Request Types -->
             <div class="col-12 col-md-4 mb-4">
-                <a href="<?= base_url('request-types'); ?>" class="card">
+                <a href="<?= base_url('admin/request-types'); ?>" class="card">
                     <div class="card-content">
                         <div class="card-text">
                             <h5 class="mb-0">Request Types</h5>

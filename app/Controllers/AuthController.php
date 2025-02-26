@@ -66,8 +66,13 @@ class AuthController extends BaseController
                 'email' => $user['email'],
                 'role_id' => $user['role_id'],
             ]);
+
+
+        // Redirige según el rol del usuario
+        return ($session->get('role_id') == 1) 
+        ? redirect()->to('/admin/dashboard') 
+        : redirect()->to('/client/dashboard');
             
-            return redirect()->to('/admin/dashboard'); // Redirige a la página principal
         } else {
             return redirect()->back()->with('error', 'Correo electrónico o contraseña incorrectos.');
         }

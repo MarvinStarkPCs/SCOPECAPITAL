@@ -102,9 +102,13 @@ $(document).ready(function() {
     $('#rechargeForm').submit(function(e) {
         e.preventDefault();
         const amount = parseFloat($('#amount').val());
+       
+        const id_user = $('#id_user').val(); 
+
         const identification = $(this).data('identification');
 console.log(amount);
 console.log(identification);
+console.log(id_user);
         if (isNaN(amount) || amount <= 0) {
             mostrarAlerta('warning', 'Por favor ingresa un monto válido.');
             return;
@@ -114,6 +118,7 @@ console.log(identification);
             url: './transactions/recharge',
             type: 'POST',
             data: {
+                id_user: id_user,
                 identification: identification,
                 amount: amount
             },
