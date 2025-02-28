@@ -1,0 +1,1846 @@
+INFO - 2025-02-24 16:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:38:48 --> Usuario autenticado con role_id: 
+INFO - 2025-02-24 16:38:57 --> El método authenticate fue llamado
+INFO - 2025-02-24 16:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:39:04 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-24 16:39:04 --> Identificación recibida: 1111111
+INFO - 2025-02-24 16:39:04 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"1111111","date_registration":"2025-02-18 23:13:37","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"inactive","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"121212.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-24 16:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:39:06 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:14"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:16"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:31"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:37"
+    }
+]
+INFO - 2025-02-24 16:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:39:13 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:14"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:16"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:31"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:37"
+    }
+]
+INFO - 2025-02-24 16:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:39:26 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:14"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:16"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:31"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:37"
+    }
+]
+INFO - 2025-02-24 16:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:39:46 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-02-24 16:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 16:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 18:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 18:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 18:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 18:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 18:29:42 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-24 18:29:42 --> Identificación recibida: 1111111
+INFO - 2025-02-24 18:29:42 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"1111111","date_registration":"2025-02-18 23:13:37","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"inactive","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"121212.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-24 18:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 18:29:46 --> Iniciando el método recharge()
+INFO - 2025-02-24 18:29:46 --> Identificación recibida: 1111111
+INFO - 2025-02-24 18:29:46 --> Monto recibido: 121212
+CRITICAL - 2025-02-24 18:29:46 --> Error: Class "App\Models\HistoryTransactionsModel" not found
+[Method: POST, Route: admin/transactions/recharge]
+in APPPATH/Controllers/TransactionsController.php on line 64.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TransactionsController->recharge()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionsController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-24 18:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 18:32:35 --> Iniciando el método recharge()
+INFO - 2025-02-24 18:32:35 --> Identificación recibida: 1111111
+INFO - 2025-02-24 18:32:35 --> Monto recibido: 121212
+INFO - 2025-02-24 18:32:35 --> Modelo de usuarios cargado
+INFO - 2025-02-24 18:32:35 --> Consulta realizada para buscar usuario
+INFO - 2025-02-24 18:32:35 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"1111111","date_registration":"2025-02-18 23:13:37","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"inactive","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"121212.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-24 18:32:35 --> Nuevo balance calculado: 242424
+INFO - 2025-02-24 18:32:35 --> Saldo actualizado correctamente
+INFO - 2025-02-24 18:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 18:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 18:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 18:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 18:33:15 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-24 18:33:15 --> Identificación recibida: 1111111
+INFO - 2025-02-24 18:33:15 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"1111111","date_registration":"2025-02-18 23:13:37","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"inactive","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"242424.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-24 18:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 18:33:17 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:14"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:16"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:31"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:37"
+    }
+]
+INFO - 2025-02-24 18:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 18:55:04 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:14"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:16"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:31"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:37"
+    }
+]
+INFO - 2025-02-24 18:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 18:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 18:55:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 18:55:15 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-24 18:55:15 --> Identificación recibida: 1111111
+INFO - 2025-02-24 18:55:15 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"1111111","date_registration":"2025-02-18 23:13:37","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"inactive","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"242424.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-24 18:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 18:55:19 --> Iniciando el método recharge()
+INFO - 2025-02-24 18:55:19 --> Identificación recibida: 1111111
+INFO - 2025-02-24 18:55:19 --> Monto recibido: 12121
+INFO - 2025-02-24 18:55:19 --> Modelo de usuarios cargado
+INFO - 2025-02-24 18:55:19 --> Consulta realizada para buscar usuario
+INFO - 2025-02-24 18:55:19 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"1111111","date_registration":"2025-02-18 23:13:37","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"inactive","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"242424.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-24 18:55:19 --> Nuevo balance calculado: 254545
+INFO - 2025-02-24 18:55:19 --> Saldo actualizado correctamente
+ERROR - 2025-02-24 18:55:19 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in /opt/lampp/htdocs/SCOPECAPITAL/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/SCOPECAPITAL/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `hi...', 0)
+#1 /opt/lampp/htdocs/SCOPECAPITAL/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `hi...')
+#2 /opt/lampp/htdocs/SCOPECAPITAL/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `hi...')
+#3 /opt/lampp/htdocs/SCOPECAPITAL/system/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `hi...', Array, false)
+#4 /opt/lampp/htdocs/SCOPECAPITAL/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/SCOPECAPITAL/system/BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 /opt/lampp/htdocs/SCOPECAPITAL/system/Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 /opt/lampp/htdocs/SCOPECAPITAL/app/Models/HistoryTransactionModel.php(57): CodeIgniter\Model->insert(Array)
+#8 /opt/lampp/htdocs/SCOPECAPITAL/app/Controllers/TransactionsController.php(83): App\Models\HistoryTransactionModel->create(Array)
+#9 /opt/lampp/htdocs/SCOPECAPITAL/system/CodeIgniter.php(933): App\Controllers\TransactionsController->recharge()
+#10 /opt/lampp/htdocs/SCOPECAPITAL/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionsController))
+#11 /opt/lampp/htdocs/SCOPECAPITAL/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /opt/lampp/htdocs/SCOPECAPITAL/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 /opt/lampp/htdocs/SCOPECAPITAL/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 /opt/lampp/htdocs/SCOPECAPITAL/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2025-02-24 18:55:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+[Method: POST, Route: admin/transactions/recharge]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (:user_id:, :amount:, :transaction_type:, :transaction_date:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Models/HistoryTransactionModel.php(57): CodeIgniter\Model->insert([...])
+ 6 APPPATH/Controllers/TransactionsController.php(83): App\Models\HistoryTransactionModel->create([...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TransactionsController->recharge()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionsController))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 18:55:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (\'17\', 12121, \'deposit\', \'2025-02-24 18:55:19\', \'2025-02-24 18:55:19\', \'2025-02-24 18:55:19\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (\'17\', 12121, \'deposit\', \'2025-02-24 18:55:19\', \'2025-02-24 18:55:19\', \'2025-02-24 18:55:19\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (:user_id:, :amount:, :transaction_type:, :transaction_date:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Models/HistoryTransactionModel.php(57): CodeIgniter\Model->insert([...])
+ 8 APPPATH/Controllers/TransactionsController.php(83): App\Models\HistoryTransactionModel->create([...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TransactionsController->recharge()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionsController))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 18:55:19 --> [Caused by] mysqli_sql_exception: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (\'17\', 12121, \'deposit\', \'2025-02-24 18:55:19\', \'2025-02-24 18:55:19\', \'2025-02-24 18:55:19\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (\'17\', 12121, \'deposit\', \'2025-02-24 18:55:19\', \'2025-02-24 18:55:19\', \'2025-02-24 18:55:19\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (\'17\', 12121, \'deposit\', \'2025-02-24 18:55:19\', \'2025-02-24 18:55:19\', \'2025-02-24 18:55:19\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (:user_id:, :amount:, :transaction_type:, :transaction_date:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Models/HistoryTransactionModel.php(57): CodeIgniter\Model->insert([...])
+ 9 APPPATH/Controllers/TransactionsController.php(83): App\Models\HistoryTransactionModel->create([...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TransactionsController->recharge()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionsController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-24 18:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 18:56:56 --> Iniciando el método recharge()
+INFO - 2025-02-24 18:56:56 --> Identificación recibida: 1111111
+INFO - 2025-02-24 18:56:56 --> Monto recibido: 12121
+INFO - 2025-02-24 18:56:56 --> Modelo de usuarios cargado
+INFO - 2025-02-24 18:56:56 --> Consulta realizada para buscar usuario
+INFO - 2025-02-24 18:56:56 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"1111111","date_registration":"2025-02-18 23:13:37","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"inactive","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"254545.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-24 18:56:56 --> Nuevo balance calculado: 266666
+INFO - 2025-02-24 18:56:57 --> Saldo actualizado correctamente
+ERROR - 2025-02-24 18:56:57 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in /opt/lampp/htdocs/SCOPECAPITAL/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/SCOPECAPITAL/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `hi...', 0)
+#1 /opt/lampp/htdocs/SCOPECAPITAL/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `hi...')
+#2 /opt/lampp/htdocs/SCOPECAPITAL/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `hi...')
+#3 /opt/lampp/htdocs/SCOPECAPITAL/system/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `hi...', Array, false)
+#4 /opt/lampp/htdocs/SCOPECAPITAL/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/SCOPECAPITAL/system/BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 /opt/lampp/htdocs/SCOPECAPITAL/system/Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 /opt/lampp/htdocs/SCOPECAPITAL/app/Models/HistoryTransactionModel.php(57): CodeIgniter\Model->insert(Array)
+#8 /opt/lampp/htdocs/SCOPECAPITAL/app/Controllers/TransactionsController.php(83): App\Models\HistoryTransactionModel->create(Array)
+#9 /opt/lampp/htdocs/SCOPECAPITAL/system/CodeIgniter.php(933): App\Controllers\TransactionsController->recharge()
+#10 /opt/lampp/htdocs/SCOPECAPITAL/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionsController))
+#11 /opt/lampp/htdocs/SCOPECAPITAL/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /opt/lampp/htdocs/SCOPECAPITAL/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 /opt/lampp/htdocs/SCOPECAPITAL/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 /opt/lampp/htdocs/SCOPECAPITAL/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2025-02-24 18:56:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+[Method: POST, Route: admin/transactions/recharge]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (:user_id:, :amount:, :transaction_type:, :transaction_date:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Models/HistoryTransactionModel.php(57): CodeIgniter\Model->insert([...])
+ 6 APPPATH/Controllers/TransactionsController.php(83): App\Models\HistoryTransactionModel->create([...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TransactionsController->recharge()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionsController))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 18:56:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (NULL, 12121, \'deposit\', \'2025-02-24 18:56:57\', \'2025-02-24 18:56:57\', \'2025-02-24 18:56:57\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (NULL, 12121, \'deposit\', \'2025-02-24 18:56:57\', \'2025-02-24 18:56:57\', \'2025-02-24 18:56:57\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (:user_id:, :amount:, :transaction_type:, :transaction_date:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Models/HistoryTransactionModel.php(57): CodeIgniter\Model->insert([...])
+ 8 APPPATH/Controllers/TransactionsController.php(83): App\Models\HistoryTransactionModel->create([...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TransactionsController->recharge()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionsController))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 18:56:57 --> [Caused by] mysqli_sql_exception: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (NULL, 12121, \'deposit\', \'2025-02-24 18:56:57\', \'2025-02-24 18:56:57\', \'2025-02-24 18:56:57\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (NULL, 12121, \'deposit\', \'2025-02-24 18:56:57\', \'2025-02-24 18:56:57\', \'2025-02-24 18:56:57\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (NULL, 12121, \'deposit\', \'2025-02-24 18:56:57\', \'2025-02-24 18:56:57\', \'2025-02-24 18:56:57\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (:user_id:, :amount:, :transaction_type:, :transaction_date:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Models/HistoryTransactionModel.php(57): CodeIgniter\Model->insert([...])
+ 9 APPPATH/Controllers/TransactionsController.php(83): App\Models\HistoryTransactionModel->create([...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TransactionsController->recharge()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionsController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-24 18:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 18:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 18:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 18:58:50 --> Iniciando el método recharge()
+INFO - 2025-02-24 18:58:50 --> Identificación recibida: 
+INFO - 2025-02-24 18:58:50 --> Identificación recibida: 1111111
+INFO - 2025-02-24 18:58:50 --> Monto recibido: 12121
+INFO - 2025-02-24 18:58:50 --> Modelo de usuarios cargado
+INFO - 2025-02-24 18:58:50 --> Consulta realizada para buscar usuario
+INFO - 2025-02-24 18:58:50 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"1111111","date_registration":"2025-02-18 23:13:37","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"inactive","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"266666.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-24 18:58:50 --> Nuevo balance calculado: 278787
+INFO - 2025-02-24 18:58:50 --> Saldo actualizado correctamente
+ERROR - 2025-02-24 18:58:50 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in /opt/lampp/htdocs/SCOPECAPITAL/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/SCOPECAPITAL/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `hi...', 0)
+#1 /opt/lampp/htdocs/SCOPECAPITAL/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `hi...')
+#2 /opt/lampp/htdocs/SCOPECAPITAL/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `hi...')
+#3 /opt/lampp/htdocs/SCOPECAPITAL/system/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `hi...', Array, false)
+#4 /opt/lampp/htdocs/SCOPECAPITAL/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/SCOPECAPITAL/system/BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 /opt/lampp/htdocs/SCOPECAPITAL/system/Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 /opt/lampp/htdocs/SCOPECAPITAL/app/Models/HistoryTransactionModel.php(57): CodeIgniter\Model->insert(Array)
+#8 /opt/lampp/htdocs/SCOPECAPITAL/app/Controllers/TransactionsController.php(85): App\Models\HistoryTransactionModel->create(Array)
+#9 /opt/lampp/htdocs/SCOPECAPITAL/system/CodeIgniter.php(933): App\Controllers\TransactionsController->recharge()
+#10 /opt/lampp/htdocs/SCOPECAPITAL/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionsController))
+#11 /opt/lampp/htdocs/SCOPECAPITAL/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /opt/lampp/htdocs/SCOPECAPITAL/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 /opt/lampp/htdocs/SCOPECAPITAL/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 /opt/lampp/htdocs/SCOPECAPITAL/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2025-02-24 18:58:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+[Method: POST, Route: admin/transactions/recharge]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (:user_id:, :amount:, :transaction_type:, :transaction_date:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Models/HistoryTransactionModel.php(57): CodeIgniter\Model->insert([...])
+ 6 APPPATH/Controllers/TransactionsController.php(85): App\Models\HistoryTransactionModel->create([...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TransactionsController->recharge()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionsController))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 18:58:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (NULL, 12121, \'deposit\', \'2025-02-24 18:58:50\', \'2025-02-24 18:58:50\', \'2025-02-24 18:58:50\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (NULL, 12121, \'deposit\', \'2025-02-24 18:58:50\', \'2025-02-24 18:58:50\', \'2025-02-24 18:58:50\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (:user_id:, :amount:, :transaction_type:, :transaction_date:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Models/HistoryTransactionModel.php(57): CodeIgniter\Model->insert([...])
+ 8 APPPATH/Controllers/TransactionsController.php(85): App\Models\HistoryTransactionModel->create([...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TransactionsController->recharge()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionsController))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 18:58:50 --> [Caused by] mysqli_sql_exception: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (NULL, 12121, \'deposit\', \'2025-02-24 18:58:50\', \'2025-02-24 18:58:50\', \'2025-02-24 18:58:50\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (NULL, 12121, \'deposit\', \'2025-02-24 18:58:50\', \'2025-02-24 18:58:50\', \'2025-02-24 18:58:50\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (NULL, 12121, \'deposit\', \'2025-02-24 18:58:50\', \'2025-02-24 18:58:50\', \'2025-02-24 18:58:50\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (:user_id:, :amount:, :transaction_type:, :transaction_date:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Models/HistoryTransactionModel.php(57): CodeIgniter\Model->insert([...])
+ 9 APPPATH/Controllers/TransactionsController.php(85): App\Models\HistoryTransactionModel->create([...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TransactionsController->recharge()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionsController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-24 19:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:00:52 --> Iniciando el método recharge()
+INFO - 2025-02-24 19:00:52 --> Identificación recibida: 
+INFO - 2025-02-24 19:00:52 --> Identificación recibida: 1111111
+INFO - 2025-02-24 19:00:52 --> Monto recibido: 12121
+INFO - 2025-02-24 19:00:52 --> Modelo de usuarios cargado
+INFO - 2025-02-24 19:00:52 --> Consulta realizada para buscar usuario
+INFO - 2025-02-24 19:00:52 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"1111111","date_registration":"2025-02-18 23:13:37","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"inactive","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"278787.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-24 19:00:52 --> Nuevo balance calculado: 290908
+INFO - 2025-02-24 19:00:52 --> Saldo actualizado correctamente
+ERROR - 2025-02-24 19:00:52 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in /opt/lampp/htdocs/SCOPECAPITAL/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/SCOPECAPITAL/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `hi...', 0)
+#1 /opt/lampp/htdocs/SCOPECAPITAL/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `hi...')
+#2 /opt/lampp/htdocs/SCOPECAPITAL/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `hi...')
+#3 /opt/lampp/htdocs/SCOPECAPITAL/system/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `hi...', Array, false)
+#4 /opt/lampp/htdocs/SCOPECAPITAL/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/SCOPECAPITAL/system/BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 /opt/lampp/htdocs/SCOPECAPITAL/system/Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 /opt/lampp/htdocs/SCOPECAPITAL/app/Models/HistoryTransactionModel.php(54): CodeIgniter\Model->insert(Array)
+#8 /opt/lampp/htdocs/SCOPECAPITAL/app/Controllers/TransactionsController.php(85): App\Models\HistoryTransactionModel->create(Array)
+#9 /opt/lampp/htdocs/SCOPECAPITAL/system/CodeIgniter.php(933): App\Controllers\TransactionsController->recharge()
+#10 /opt/lampp/htdocs/SCOPECAPITAL/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionsController))
+#11 /opt/lampp/htdocs/SCOPECAPITAL/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /opt/lampp/htdocs/SCOPECAPITAL/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 /opt/lampp/htdocs/SCOPECAPITAL/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 /opt/lampp/htdocs/SCOPECAPITAL/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2025-02-24 19:00:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+[Method: POST, Route: admin/transactions/recharge]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (:user_id:, :amount:, :transaction_type:, :transaction_date:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Models/HistoryTransactionModel.php(54): CodeIgniter\Model->insert([...])
+ 6 APPPATH/Controllers/TransactionsController.php(85): App\Models\HistoryTransactionModel->create([...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TransactionsController->recharge()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionsController))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 19:00:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (NULL, 12121, \'deposit\', \'2025-02-24 19:00:52\', \'2025-02-24 19:00:52\', \'2025-02-24 19:00:52\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (NULL, 12121, \'deposit\', \'2025-02-24 19:00:52\', \'2025-02-24 19:00:52\', \'2025-02-24 19:00:52\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (:user_id:, :amount:, :transaction_type:, :transaction_date:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Models/HistoryTransactionModel.php(54): CodeIgniter\Model->insert([...])
+ 8 APPPATH/Controllers/TransactionsController.php(85): App\Models\HistoryTransactionModel->create([...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TransactionsController->recharge()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionsController))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 19:00:52 --> [Caused by] mysqli_sql_exception: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (NULL, 12121, \'deposit\', \'2025-02-24 19:00:52\', \'2025-02-24 19:00:52\', \'2025-02-24 19:00:52\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (NULL, 12121, \'deposit\', \'2025-02-24 19:00:52\', \'2025-02-24 19:00:52\', \'2025-02-24 19:00:52\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (NULL, 12121, \'deposit\', \'2025-02-24 19:00:52\', \'2025-02-24 19:00:52\', \'2025-02-24 19:00:52\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (:user_id:, :amount:, :transaction_type:, :transaction_date:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Models/HistoryTransactionModel.php(54): CodeIgniter\Model->insert([...])
+ 9 APPPATH/Controllers/TransactionsController.php(85): App\Models\HistoryTransactionModel->create([...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TransactionsController->recharge()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionsController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-24 19:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:03:10 --> Iniciando el método recharge()
+INFO - 2025-02-24 19:03:10 --> Identificación recibida: 
+INFO - 2025-02-24 19:03:10 --> Identificación recibida: 1111111
+INFO - 2025-02-24 19:03:10 --> Monto recibido: 12121
+INFO - 2025-02-24 19:03:10 --> Modelo de usuarios cargado
+INFO - 2025-02-24 19:03:10 --> Consulta realizada para buscar usuario
+INFO - 2025-02-24 19:03:10 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"1111111","date_registration":"2025-02-18 23:13:37","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"inactive","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"290908.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-24 19:03:10 --> Nuevo balance calculado: 303029
+INFO - 2025-02-24 19:03:10 --> Saldo actualizado correctamente
+ERROR - 2025-02-24 19:03:10 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in /opt/lampp/htdocs/SCOPECAPITAL/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/SCOPECAPITAL/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `hi...', 0)
+#1 /opt/lampp/htdocs/SCOPECAPITAL/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `hi...')
+#2 /opt/lampp/htdocs/SCOPECAPITAL/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `hi...')
+#3 /opt/lampp/htdocs/SCOPECAPITAL/system/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `hi...', Array, false)
+#4 /opt/lampp/htdocs/SCOPECAPITAL/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/SCOPECAPITAL/system/BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 /opt/lampp/htdocs/SCOPECAPITAL/system/Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 /opt/lampp/htdocs/SCOPECAPITAL/app/Models/HistoryTransactionModel.php(54): CodeIgniter\Model->insert(Array)
+#8 /opt/lampp/htdocs/SCOPECAPITAL/app/Controllers/TransactionsController.php(85): App\Models\HistoryTransactionModel->create(Array)
+#9 /opt/lampp/htdocs/SCOPECAPITAL/system/CodeIgniter.php(933): App\Controllers\TransactionsController->recharge()
+#10 /opt/lampp/htdocs/SCOPECAPITAL/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionsController))
+#11 /opt/lampp/htdocs/SCOPECAPITAL/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /opt/lampp/htdocs/SCOPECAPITAL/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 /opt/lampp/htdocs/SCOPECAPITAL/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 /opt/lampp/htdocs/SCOPECAPITAL/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2025-02-24 19:03:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+[Method: POST, Route: admin/transactions/recharge]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (:user_id:, :amount:, :transaction_type:, :transaction_date:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Models/HistoryTransactionModel.php(54): CodeIgniter\Model->insert([...])
+ 6 APPPATH/Controllers/TransactionsController.php(85): App\Models\HistoryTransactionModel->create([...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TransactionsController->recharge()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionsController))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 19:03:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (NULL, 12121, \'deposit\', \'2025-02-24 19:03:10\', \'2025-02-24 19:03:10\', \'2025-02-24 19:03:10\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (NULL, 12121, \'deposit\', \'2025-02-24 19:03:10\', \'2025-02-24 19:03:10\', \'2025-02-24 19:03:10\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (:user_id:, :amount:, :transaction_type:, :transaction_date:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Models/HistoryTransactionModel.php(54): CodeIgniter\Model->insert([...])
+ 8 APPPATH/Controllers/TransactionsController.php(85): App\Models\HistoryTransactionModel->create([...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TransactionsController->recharge()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionsController))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 19:03:10 --> [Caused by] mysqli_sql_exception: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (NULL, 12121, \'deposit\', \'2025-02-24 19:03:10\', \'2025-02-24 19:03:10\', \'2025-02-24 19:03:10\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (NULL, 12121, \'deposit\', \'2025-02-24 19:03:10\', \'2025-02-24 19:03:10\', \'2025-02-24 19:03:10\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (NULL, 12121, \'deposit\', \'2025-02-24 19:03:10\', \'2025-02-24 19:03:10\', \'2025-02-24 19:03:10\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`, `created_at`, `updated_at`) VALUES (:user_id:, :amount:, :transaction_type:, :transaction_date:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Models/HistoryTransactionModel.php(54): CodeIgniter\Model->insert([...])
+ 9 APPPATH/Controllers/TransactionsController.php(85): App\Models\HistoryTransactionModel->create([...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TransactionsController->recharge()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionsController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-24 19:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:04:40 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-24 19:04:40 --> Identificación recibida: 1111111
+INFO - 2025-02-24 19:04:40 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"1111111","date_registration":"2025-02-18 23:13:37","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"inactive","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"303029.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-24 19:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:04:41 --> Iniciando el método recharge()
+INFO - 2025-02-24 19:04:41 --> Identificación recibida: 
+INFO - 2025-02-24 19:04:41 --> Identificación recibida: 1111111
+INFO - 2025-02-24 19:04:41 --> Monto recibido: 12121
+INFO - 2025-02-24 19:04:41 --> Modelo de usuarios cargado
+INFO - 2025-02-24 19:04:41 --> Consulta realizada para buscar usuario
+INFO - 2025-02-24 19:04:41 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"1111111","date_registration":"2025-02-18 23:13:37","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"inactive","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"303029.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-24 19:04:41 --> Nuevo balance calculado: 315150
+INFO - 2025-02-24 19:04:41 --> Saldo actualizado correctamente
+ERROR - 2025-02-24 19:04:41 --> mysqli_sql_exception: Column 'user_id' cannot be null in /opt/lampp/htdocs/SCOPECAPITAL/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/SCOPECAPITAL/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `hi...', 0)
+#1 /opt/lampp/htdocs/SCOPECAPITAL/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `hi...')
+#2 /opt/lampp/htdocs/SCOPECAPITAL/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `hi...')
+#3 /opt/lampp/htdocs/SCOPECAPITAL/system/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `hi...', Array, false)
+#4 /opt/lampp/htdocs/SCOPECAPITAL/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/SCOPECAPITAL/system/BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 /opt/lampp/htdocs/SCOPECAPITAL/system/Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 /opt/lampp/htdocs/SCOPECAPITAL/app/Models/HistoryTransactionModel.php(51): CodeIgniter\Model->insert(Array)
+#8 /opt/lampp/htdocs/SCOPECAPITAL/app/Controllers/TransactionsController.php(85): App\Models\HistoryTransactionModel->create(Array)
+#9 /opt/lampp/htdocs/SCOPECAPITAL/system/CodeIgniter.php(933): App\Controllers\TransactionsController->recharge()
+#10 /opt/lampp/htdocs/SCOPECAPITAL/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionsController))
+#11 /opt/lampp/htdocs/SCOPECAPITAL/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /opt/lampp/htdocs/SCOPECAPITAL/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 /opt/lampp/htdocs/SCOPECAPITAL/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 /opt/lampp/htdocs/SCOPECAPITAL/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2025-02-24 19:04:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+[Method: POST, Route: admin/transactions/recharge]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`) VALUES (:user_id:, :amount:, :transaction_type:, :transaction_date:)', [...], false)
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Models/HistoryTransactionModel.php(51): CodeIgniter\Model->insert([...])
+ 6 APPPATH/Controllers/TransactionsController.php(85): App\Models\HistoryTransactionModel->create([...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TransactionsController->recharge()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionsController))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 19:04:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`) VALUES (NULL, 12121, \'deposit\', \'2025-02-24 19:04:41\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`) VALUES (NULL, 12121, \'deposit\', \'2025-02-24 19:04:41\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`) VALUES (:user_id:, :amount:, :transaction_type:, :transaction_date:)', [...], false)
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Models/HistoryTransactionModel.php(51): CodeIgniter\Model->insert([...])
+ 8 APPPATH/Controllers/TransactionsController.php(85): App\Models\HistoryTransactionModel->create([...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TransactionsController->recharge()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionsController))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 19:04:41 --> [Caused by] mysqli_sql_exception: Column 'user_id' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`) VALUES (NULL, 12121, \'deposit\', \'2025-02-24 19:04:41\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`) VALUES (NULL, 12121, \'deposit\', \'2025-02-24 19:04:41\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`) VALUES (NULL, 12121, \'deposit\', \'2025-02-24 19:04:41\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`) VALUES (:user_id:, :amount:, :transaction_type:, :transaction_date:)', [...], false)
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Models/HistoryTransactionModel.php(51): CodeIgniter\Model->insert([...])
+ 9 APPPATH/Controllers/TransactionsController.php(85): App\Models\HistoryTransactionModel->create([...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TransactionsController->recharge()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionsController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-24 19:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:06:30 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-24 19:06:30 --> Identificación recibida: 1111111
+INFO - 2025-02-24 19:06:30 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"1111111","date_registration":"2025-02-18 23:13:37","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"inactive","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"315150.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-24 19:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:06:32 --> Iniciando el método recharge()
+INFO - 2025-02-24 19:06:32 --> Identificación recibida: 
+INFO - 2025-02-24 19:06:32 --> Identificación recibida: 1111111
+INFO - 2025-02-24 19:06:32 --> Monto recibido: 12121
+INFO - 2025-02-24 19:06:32 --> Modelo de usuarios cargado
+INFO - 2025-02-24 19:06:32 --> Consulta realizada para buscar usuario
+INFO - 2025-02-24 19:06:32 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"1111111","date_registration":"2025-02-18 23:13:37","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"inactive","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"315150.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-24 19:06:32 --> Nuevo balance calculado: 327271
+INFO - 2025-02-24 19:06:32 --> Saldo actualizado correctamente
+ERROR - 2025-02-24 19:06:32 --> mysqli_sql_exception: Column 'user_id' cannot be null in /opt/lampp/htdocs/SCOPECAPITAL/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/SCOPECAPITAL/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `hi...', 0)
+#1 /opt/lampp/htdocs/SCOPECAPITAL/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `hi...')
+#2 /opt/lampp/htdocs/SCOPECAPITAL/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `hi...')
+#3 /opt/lampp/htdocs/SCOPECAPITAL/system/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `hi...', Array, false)
+#4 /opt/lampp/htdocs/SCOPECAPITAL/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/SCOPECAPITAL/system/BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 /opt/lampp/htdocs/SCOPECAPITAL/system/Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 /opt/lampp/htdocs/SCOPECAPITAL/app/Models/HistoryTransactionModel.php(51): CodeIgniter\Model->insert(Array)
+#8 /opt/lampp/htdocs/SCOPECAPITAL/app/Controllers/TransactionsController.php(85): App\Models\HistoryTransactionModel->create(Array)
+#9 /opt/lampp/htdocs/SCOPECAPITAL/system/CodeIgniter.php(933): App\Controllers\TransactionsController->recharge()
+#10 /opt/lampp/htdocs/SCOPECAPITAL/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionsController))
+#11 /opt/lampp/htdocs/SCOPECAPITAL/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /opt/lampp/htdocs/SCOPECAPITAL/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 /opt/lampp/htdocs/SCOPECAPITAL/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 /opt/lampp/htdocs/SCOPECAPITAL/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2025-02-24 19:06:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+[Method: POST, Route: admin/transactions/recharge]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`) VALUES (:user_id:, :amount:, :transaction_type:, :transaction_date:)', [...], false)
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Models/HistoryTransactionModel.php(51): CodeIgniter\Model->insert([...])
+ 6 APPPATH/Controllers/TransactionsController.php(85): App\Models\HistoryTransactionModel->create([...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TransactionsController->recharge()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionsController))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 19:06:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`) VALUES (NULL, 12121, \'deposit\', \'2025-02-24 19:06:32\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`) VALUES (NULL, 12121, \'deposit\', \'2025-02-24 19:06:32\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`) VALUES (:user_id:, :amount:, :transaction_type:, :transaction_date:)', [...], false)
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Models/HistoryTransactionModel.php(51): CodeIgniter\Model->insert([...])
+ 8 APPPATH/Controllers/TransactionsController.php(85): App\Models\HistoryTransactionModel->create([...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TransactionsController->recharge()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionsController))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 19:06:32 --> [Caused by] mysqli_sql_exception: Column 'user_id' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`) VALUES (NULL, 12121, \'deposit\', \'2025-02-24 19:06:32\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`) VALUES (NULL, 12121, \'deposit\', \'2025-02-24 19:06:32\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`) VALUES (NULL, 12121, \'deposit\', \'2025-02-24 19:06:32\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `history_transactions` (`user_id`, `amount`, `transaction_type`, `transaction_date`) VALUES (:user_id:, :amount:, :transaction_type:, :transaction_date:)', [...], false)
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Models/HistoryTransactionModel.php(51): CodeIgniter\Model->insert([...])
+ 9 APPPATH/Controllers/TransactionsController.php(85): App\Models\HistoryTransactionModel->create([...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TransactionsController->recharge()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionsController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-24 19:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:08:42 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-24 19:08:42 --> Identificación recibida: 1111111
+INFO - 2025-02-24 19:08:42 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"1111111","date_registration":"2025-02-18 23:13:37","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"inactive","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"327271.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-24 19:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:09:31 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-24 19:09:31 --> Identificación recibida: 1111111
+INFO - 2025-02-24 19:09:31 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"1111111","date_registration":"2025-02-18 23:13:37","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"inactive","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"327271.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-24 19:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:10:39 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-24 19:10:39 --> Identificación recibida: 1111111
+INFO - 2025-02-24 19:10:39 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"1111111","date_registration":"2025-02-18 23:13:37","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"inactive","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"327271.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-24 19:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:10:42 --> Iniciando el método recharge()
+INFO - 2025-02-24 19:10:42 --> Identificación recibida: 17
+INFO - 2025-02-24 19:10:42 --> Identificación recibida: 1111111
+INFO - 2025-02-24 19:10:42 --> Monto recibido: 2123123
+INFO - 2025-02-24 19:10:42 --> Modelo de usuarios cargado
+INFO - 2025-02-24 19:10:42 --> Consulta realizada para buscar usuario
+INFO - 2025-02-24 19:10:42 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"1111111","date_registration":"2025-02-18 23:13:37","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"inactive","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"327271.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-24 19:10:42 --> Nuevo balance calculado: 2450394
+INFO - 2025-02-24 19:10:42 --> Saldo actualizado correctamente
+INFO - 2025-02-24 19:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:10:42 --> Iniciando el método recharge()
+INFO - 2025-02-24 19:10:42 --> Identificación recibida: 17
+INFO - 2025-02-24 19:10:42 --> Identificación recibida: 1111111
+INFO - 2025-02-24 19:10:42 --> Monto recibido: 2123123
+INFO - 2025-02-24 19:10:42 --> Modelo de usuarios cargado
+INFO - 2025-02-24 19:10:42 --> Consulta realizada para buscar usuario
+INFO - 2025-02-24 19:10:42 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"1111111","date_registration":"2025-02-18 23:13:37","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"inactive","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"2450394.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-24 19:10:42 --> Nuevo balance calculado: 4573517
+INFO - 2025-02-24 19:10:42 --> Saldo actualizado correctamente
+INFO - 2025-02-24 19:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:10:53 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-24 19:10:53 --> Identificación recibida: 1111111
+INFO - 2025-02-24 19:10:53 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"1111111","date_registration":"2025-02-18 23:13:37","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"inactive","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"4573517.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-24 19:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:10:55 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:14"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:16"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:31"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:37"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "2123123.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:10:42"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "2123123.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:10:42"
+    }
+]
+INFO - 2025-02-24 19:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-24 19:12:01 --> No se encontraron transacciones para el usuario ID: 17
+INFO - 2025-02-24 19:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-24 19:12:06 --> No se encontraron transacciones para el usuario ID: 17
+INFO - 2025-02-24 19:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:12:09 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-24 19:12:09 --> Identificación recibida: 1111111
+ERROR - 2025-02-24 19:12:09 --> Usuario no encontrado con identificación: 1111111
+INFO - 2025-02-24 19:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:12:23 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-24 19:12:23 --> Identificación recibida: 1111111
+ERROR - 2025-02-24 19:12:23 --> Usuario no encontrado con identificación: 1111111
+INFO - 2025-02-24 19:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:12:44 --> Starting updateUser() method for user ID: 17
+INFO - 2025-02-24 19:12:44 --> Validation rules defined.
+ERROR - 2025-02-24 19:12:44 --> Validation failed: {"phone":"El campo phone es obligatorio.","address":"El campo address es obligatorio."}
+INFO - 2025-02-24 19:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:12:48 --> Starting updateUser() method for user ID: 17
+INFO - 2025-02-24 19:12:48 --> Validation rules defined.
+INFO - 2025-02-24 19:12:48 --> Validation successful.
+INFO - 2025-02-24 19:12:48 --> Collected form data: {"name":"ALBERTO","last_name":"ORTEGA","identification":"321654987","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","email":"alberto@example.com","role_id":"2","status":"active"}
+INFO - 2025-02-24 19:12:48 --> Executed query: UPDATE `users` SET `name` = 'ALBERTO', `last_name` = 'ORTEGA', `identification` = '321654987', `phone` = '3132311084', `address` = 'KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES', `email` = 'alberto@example.com', `role_id` = '2', `status` = 'active'
+WHERE `users`.`id_user` IN ('17')
+INFO - 2025-02-24 19:12:48 --> User successfully updated.
+INFO - 2025-02-24 19:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:12:52 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-24 19:12:52 --> Identificación recibida: 321654987
+INFO - 2025-02-24 19:12:52 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"321654987","date_registration":"2025-02-24 14:11:57","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"0.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"17"}
+INFO - 2025-02-24 19:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:13:00 --> Iniciando el método recharge()
+INFO - 2025-02-24 19:13:00 --> Identificación recibida: 17
+INFO - 2025-02-24 19:13:00 --> Identificación recibida: 321654987
+INFO - 2025-02-24 19:13:00 --> Monto recibido: 20000
+INFO - 2025-02-24 19:13:00 --> Modelo de usuarios cargado
+INFO - 2025-02-24 19:13:00 --> Consulta realizada para buscar usuario
+INFO - 2025-02-24 19:13:00 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"321654987","date_registration":"2025-02-24 14:11:57","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"0.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"17"}
+INFO - 2025-02-24 19:13:00 --> Nuevo balance calculado: 20000
+INFO - 2025-02-24 19:13:00 --> Saldo actualizado correctamente
+INFO - 2025-02-24 19:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:13:11 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-24 19:13:11 --> Identificación recibida: 321654987
+INFO - 2025-02-24 19:13:11 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"321654987","date_registration":"2025-02-24 14:11:57","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"20000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"17"}
+INFO - 2025-02-24 19:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:13:13 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:13:00"
+    }
+]
+INFO - 2025-02-24 19:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:28:33 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:13:00"
+    }
+]
+INFO - 2025-02-24 19:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:28:49 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-24 19:28:49 --> Identificación recibida: 321654987
+INFO - 2025-02-24 19:28:49 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"321654987","date_registration":"2025-02-24 14:11:57","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"20000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"17"}
+INFO - 2025-02-24 19:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:28:57 --> Iniciando el método recharge()
+INFO - 2025-02-24 19:28:57 --> Identificación recibida: 17
+INFO - 2025-02-24 19:28:57 --> Identificación recibida: 321654987
+INFO - 2025-02-24 19:28:57 --> Monto recibido: 25000
+INFO - 2025-02-24 19:28:57 --> Modelo de usuarios cargado
+INFO - 2025-02-24 19:28:57 --> Consulta realizada para buscar usuario
+INFO - 2025-02-24 19:28:57 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"321654987","date_registration":"2025-02-24 14:11:57","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"20000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"17"}
+INFO - 2025-02-24 19:28:57 --> Nuevo balance calculado: 45000
+INFO - 2025-02-24 19:28:57 --> Saldo actualizado correctamente
+INFO - 2025-02-24 19:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:28:59 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:13:00"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "25000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:28:57"
+    }
+]
+INFO - 2025-02-24 19:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:29:25 --> Iniciando el método recharge()
+INFO - 2025-02-24 19:29:25 --> Identificación recibida: 17
+INFO - 2025-02-24 19:29:25 --> Identificación recibida: 321654987
+INFO - 2025-02-24 19:29:25 --> Monto recibido: 100000
+INFO - 2025-02-24 19:29:25 --> Modelo de usuarios cargado
+INFO - 2025-02-24 19:29:25 --> Consulta realizada para buscar usuario
+INFO - 2025-02-24 19:29:25 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"321654987","date_registration":"2025-02-24 14:11:57","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"45000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"17"}
+INFO - 2025-02-24 19:29:25 --> Nuevo balance calculado: 145000
+INFO - 2025-02-24 19:29:25 --> Saldo actualizado correctamente
+INFO - 2025-02-24 19:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:29:27 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:13:00"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "25000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:28:57"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "100000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:29:25"
+    }
+]
+INFO - 2025-02-24 19:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:32:05 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:13:00"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "25000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:28:57"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "100000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:29:25"
+    }
+]
+INFO - 2025-02-24 19:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:35:45 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:13:00"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "25000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:28:57"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "100000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:29:25"
+    }
+]
+INFO - 2025-02-24 19:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:35:52 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:13:00"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "25000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:28:57"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "100000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:29:25"
+    }
+]
+INFO - 2025-02-24 19:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:35:53 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:13:00"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "25000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:28:57"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "100000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:29:25"
+    }
+]
+INFO - 2025-02-24 19:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:36:37 --> Iniciando el método recharge()
+INFO - 2025-02-24 19:36:37 --> Identificación recibida: 17
+INFO - 2025-02-24 19:36:37 --> Identificación recibida: 321654987
+INFO - 2025-02-24 19:36:37 --> Monto recibido: 10000
+INFO - 2025-02-24 19:36:37 --> Modelo de usuarios cargado
+INFO - 2025-02-24 19:36:37 --> Consulta realizada para buscar usuario
+INFO - 2025-02-24 19:36:37 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"321654987","date_registration":"2025-02-24 14:11:57","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"145000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"17"}
+INFO - 2025-02-24 19:36:37 --> Nuevo balance calculado: 155000
+INFO - 2025-02-24 19:36:37 --> Saldo actualizado correctamente
+INFO - 2025-02-24 19:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:36:44 --> Iniciando el método recharge()
+INFO - 2025-02-24 19:36:44 --> Identificación recibida: 17
+INFO - 2025-02-24 19:36:44 --> Identificación recibida: 321654987
+INFO - 2025-02-24 19:36:44 --> Monto recibido: 1000
+INFO - 2025-02-24 19:36:44 --> Modelo de usuarios cargado
+INFO - 2025-02-24 19:36:44 --> Consulta realizada para buscar usuario
+INFO - 2025-02-24 19:36:44 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"321654987","date_registration":"2025-02-24 14:11:57","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"155000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"17"}
+INFO - 2025-02-24 19:36:44 --> Nuevo balance calculado: 156000
+INFO - 2025-02-24 19:36:44 --> Saldo actualizado correctamente
+INFO - 2025-02-24 19:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:36:50 --> Iniciando el método recharge()
+INFO - 2025-02-24 19:36:50 --> Identificación recibida: 17
+INFO - 2025-02-24 19:36:50 --> Identificación recibida: 321654987
+INFO - 2025-02-24 19:36:50 --> Monto recibido: 100
+INFO - 2025-02-24 19:36:50 --> Modelo de usuarios cargado
+INFO - 2025-02-24 19:36:50 --> Consulta realizada para buscar usuario
+INFO - 2025-02-24 19:36:50 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"321654987","date_registration":"2025-02-24 14:11:57","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"156000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"17"}
+INFO - 2025-02-24 19:36:50 --> Nuevo balance calculado: 156100
+INFO - 2025-02-24 19:36:50 --> Saldo actualizado correctamente
+INFO - 2025-02-24 19:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:36:52 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:13:00"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "25000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:28:57"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "100000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:29:25"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "10000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:37"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "1000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:44"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "100.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:50"
+    }
+]
+INFO - 2025-02-24 19:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:38:12 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:13:00"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "25000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:28:57"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "100000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2016-02-24 19:29:25"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "10000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:37"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "1000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:44"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "100.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:50"
+    }
+]
+INFO - 2025-02-24 19:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:38:20 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:13:00"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "25000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:28:57"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "100000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2016-02-24 19:29:25"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "10000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:37"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "1000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:44"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "100.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:50"
+    }
+]
+INFO - 2025-02-24 19:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:38:21 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:13:00"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "25000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:28:57"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "100000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2016-02-24 19:29:25"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "10000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:37"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "1000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:44"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "100.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:50"
+    }
+]
+INFO - 2025-02-24 19:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:38:21 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:13:00"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "25000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:28:57"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "100000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2016-02-24 19:29:25"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "10000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:37"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "1000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:44"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "100.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:50"
+    }
+]
+INFO - 2025-02-24 19:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:38:21 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:13:00"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "25000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:28:57"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "100000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2016-02-24 19:29:25"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "10000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:37"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "1000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:44"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "100.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:50"
+    }
+]
+INFO - 2025-02-24 19:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:38:22 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:13:00"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "25000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:28:57"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "100000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2016-02-24 19:29:25"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "10000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:37"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "1000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:44"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "100.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:50"
+    }
+]
+INFO - 2025-02-24 19:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:38:22 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:13:00"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "25000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:28:57"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "100000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2016-02-24 19:29:25"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "10000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:37"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "1000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:44"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "100.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:50"
+    }
+]
+INFO - 2025-02-24 19:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:38:22 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:13:00"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "25000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:28:57"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "100000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2016-02-24 19:29:25"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "10000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:37"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "1000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:44"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "100.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:50"
+    }
+]
+INFO - 2025-02-24 19:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:38:22 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:13:00"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "25000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:28:57"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "100000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2016-02-24 19:29:25"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "10000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:37"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "1000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:44"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "100.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:50"
+    }
+]
+INFO - 2025-02-24 19:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 19:38:23 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:13:00"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "25000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:28:57"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "100000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2016-02-24 19:29:25"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "10000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:37"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "1000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:44"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "100.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-24 19:36:50"
+    }
+]
+INFO - 2025-02-24 20:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-24 20:36:21 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-24 20:36:21 --> Identificación recibida: 321654987
+INFO - 2025-02-24 20:36:21 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"321654987","date_registration":"2025-02-24 14:11:57","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"156100.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"17"}
+INFO - 2025-02-24 20:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,258 @@
+INFO - 2025-02-19 00:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 00:04:33 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-19 00:04:33 --> Identificación recibida: 2354235423
+ERROR - 2025-02-19 00:04:33 --> Usuario no encontrado con identificación: 2354235423
+INFO - 2025-02-19 00:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 00:27:30 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-19 00:27:30 --> Identificación recibida: 2354235423
+ERROR - 2025-02-19 00:27:30 --> Usuario no encontrado con identificación: 2354235423
+INFO - 2025-02-19 00:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 00:27:44 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-19 00:27:44 --> Identificación recibida: 963852741
+INFO - 2025-02-19 00:27:44 --> Usuario encontrado: {"name":"NATALIA","last_name":"TORRES","identification":"963852741","date_registration":"2025-02-18 14:18:50","email":"natalia@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"0.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"10"}
+INFO - 2025-02-19 00:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 00:27:49 --> Iniciando el método recharge()
+INFO - 2025-02-19 00:27:49 --> Identificación recibida: 963852741
+INFO - 2025-02-19 00:27:49 --> Monto recibido: 1000
+INFO - 2025-02-19 00:27:49 --> Modelo de usuarios cargado
+INFO - 2025-02-19 00:27:49 --> Consulta realizada para buscar usuario
+INFO - 2025-02-19 00:27:49 --> Usuario encontrado: {"name":"NATALIA","last_name":"TORRES","identification":"963852741","date_registration":"2025-02-18 14:18:50","email":"natalia@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"0.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"10"}
+INFO - 2025-02-19 00:27:49 --> Nuevo balance calculado: 1000
+INFO - 2025-02-19 00:27:49 --> Saldo actualizado correctamente
+INFO - 2025-02-19 00:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 00:28:18 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-19 00:28:18 --> Identificación recibida: 963852741
+INFO - 2025-02-19 00:28:18 --> Usuario encontrado: {"name":"NATALIA","last_name":"TORRES","identification":"963852741","date_registration":"2025-02-18 14:18:50","email":"natalia@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"1000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"10"}
+INFO - 2025-02-19 00:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 00:28:20 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-19 00:28:20 --> Identificación recibida: 963852741
+INFO - 2025-02-19 00:28:20 --> Usuario encontrado: {"name":"NATALIA","last_name":"TORRES","identification":"963852741","date_registration":"2025-02-18 14:18:50","email":"natalia@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"1000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"10"}
+INFO - 2025-02-19 00:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 00:28:20 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-19 00:28:20 --> Identificación recibida: 963852741
+INFO - 2025-02-19 00:28:20 --> Usuario encontrado: {"name":"NATALIA","last_name":"TORRES","identification":"963852741","date_registration":"2025-02-18 14:18:50","email":"natalia@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"1000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"10"}
+INFO - 2025-02-19 00:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 00:28:21 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-19 00:28:21 --> Identificación recibida: 963852741
+INFO - 2025-02-19 00:28:21 --> Usuario encontrado: {"name":"NATALIA","last_name":"TORRES","identification":"963852741","date_registration":"2025-02-18 14:18:50","email":"natalia@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"1000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"10"}
+INFO - 2025-02-19 00:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 00:28:21 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-19 00:28:21 --> Identificación recibida: 963852741
+INFO - 2025-02-19 00:28:21 --> Usuario encontrado: {"name":"NATALIA","last_name":"TORRES","identification":"963852741","date_registration":"2025-02-18 14:18:50","email":"natalia@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"1000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"10"}
+INFO - 2025-02-19 00:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 00:28:21 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-19 00:28:21 --> Identificación recibida: 963852741
+INFO - 2025-02-19 00:28:21 --> Usuario encontrado: {"name":"NATALIA","last_name":"TORRES","identification":"963852741","date_registration":"2025-02-18 14:18:50","email":"natalia@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"1000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"10"}
+INFO - 2025-02-19 00:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 00:28:21 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-19 00:28:21 --> Identificación recibida: 963852741
+INFO - 2025-02-19 00:28:21 --> Usuario encontrado: {"name":"NATALIA","last_name":"TORRES","identification":"963852741","date_registration":"2025-02-18 14:18:50","email":"natalia@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"1000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"10"}
+INFO - 2025-02-19 00:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 00:28:21 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-19 00:28:21 --> Identificación recibida: 963852741
+INFO - 2025-02-19 00:28:21 --> Usuario encontrado: {"name":"NATALIA","last_name":"TORRES","identification":"963852741","date_registration":"2025-02-18 14:18:50","email":"natalia@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"1000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"10"}
+INFO - 2025-02-19 00:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 00:28:22 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-19 00:28:22 --> Identificación recibida: 963852741
+INFO - 2025-02-19 00:28:22 --> Usuario encontrado: {"name":"NATALIA","last_name":"TORRES","identification":"963852741","date_registration":"2025-02-18 14:18:50","email":"natalia@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"1000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"10"}
+INFO - 2025-02-19 00:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 00:28:22 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-19 00:28:22 --> Identificación recibida: 963852741
+INFO - 2025-02-19 00:28:22 --> Usuario encontrado: {"name":"NATALIA","last_name":"TORRES","identification":"963852741","date_registration":"2025-02-18 14:18:50","email":"natalia@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"1000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"10"}
+INFO - 2025-02-19 00:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 00:28:22 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-19 00:28:22 --> Identificación recibida: 963852741
+INFO - 2025-02-19 00:28:22 --> Usuario encontrado: {"name":"NATALIA","last_name":"TORRES","identification":"963852741","date_registration":"2025-02-18 14:18:50","email":"natalia@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"1000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"10"}
+INFO - 2025-02-19 00:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 00:28:22 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-19 00:28:22 --> Identificación recibida: 963852741
+INFO - 2025-02-19 00:28:22 --> Usuario encontrado: {"name":"NATALIA","last_name":"TORRES","identification":"963852741","date_registration":"2025-02-18 14:18:50","email":"natalia@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"1000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"10"}
+INFO - 2025-02-19 00:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 00:28:22 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-19 00:28:22 --> Identificación recibida: 963852741
+INFO - 2025-02-19 00:28:22 --> Usuario encontrado: {"name":"NATALIA","last_name":"TORRES","identification":"963852741","date_registration":"2025-02-18 14:18:50","email":"natalia@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"1000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"10"}
+INFO - 2025-02-19 00:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 00:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 00:28:53 --> El método authenticate fue llamado
+INFO - 2025-02-19 00:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 00:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 00:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 00:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 00:36:39 --> El método authenticate fue llamado
+INFO - 2025-02-19 00:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 00:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 00:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 00:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 00:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 00:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 02:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 02:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 02:36:16 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-19 02:36:16 --> Identificación recibida: 321654987
+INFO - 2025-02-19 02:36:16 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"321654987","date_registration":"2025-02-18 19:30:26","email":"alberto@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"0.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-19 02:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 02:36:22 --> Iniciando el método recharge()
+INFO - 2025-02-19 02:36:22 --> Identificación recibida: 321654987
+INFO - 2025-02-19 02:36:22 --> Monto recibido: 1000
+INFO - 2025-02-19 02:36:22 --> Modelo de usuarios cargado
+INFO - 2025-02-19 02:36:22 --> Consulta realizada para buscar usuario
+INFO - 2025-02-19 02:36:22 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"321654987","date_registration":"2025-02-18 19:30:26","email":"alberto@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"0.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-19 02:36:22 --> Nuevo balance calculado: 1000
+INFO - 2025-02-19 02:36:22 --> Saldo actualizado correctamente
+INFO - 2025-02-19 02:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 02:48:02 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-19 02:48:02 --> Identificación recibida: 321654987
+INFO - 2025-02-19 02:48:02 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"321654987","date_registration":"2025-02-18 21:46:44","email":"alberto@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"0.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-19 02:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 02:48:07 --> Iniciando el método recharge()
+INFO - 2025-02-19 02:48:07 --> Identificación recibida: 321654987
+INFO - 2025-02-19 02:48:07 --> Monto recibido: 12222
+INFO - 2025-02-19 02:48:07 --> Modelo de usuarios cargado
+INFO - 2025-02-19 02:48:07 --> Consulta realizada para buscar usuario
+INFO - 2025-02-19 02:48:07 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"321654987","date_registration":"2025-02-18 21:46:44","email":"alberto@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"0.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-19 02:48:07 --> Nuevo balance calculado: 12222
+INFO - 2025-02-19 02:48:07 --> Saldo actualizado correctamente
+INFO - 2025-02-19 02:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 02:48:13 --> Iniciando el método recharge()
+INFO - 2025-02-19 02:48:13 --> Identificación recibida: 321654987
+INFO - 2025-02-19 02:48:13 --> Monto recibido: 22222
+INFO - 2025-02-19 02:48:13 --> Modelo de usuarios cargado
+INFO - 2025-02-19 02:48:13 --> Consulta realizada para buscar usuario
+INFO - 2025-02-19 02:48:13 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"321654987","date_registration":"2025-02-18 21:46:44","email":"alberto@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"12222.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-19 02:48:13 --> Nuevo balance calculado: 34444
+INFO - 2025-02-19 02:48:13 --> Saldo actualizado correctamente
+INFO - 2025-02-19 02:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 02:48:15 --> Iniciando el método recharge()
+INFO - 2025-02-19 02:48:15 --> Identificación recibida: 321654987
+INFO - 2025-02-19 02:48:15 --> Monto recibido: 22222
+INFO - 2025-02-19 02:48:15 --> Modelo de usuarios cargado
+INFO - 2025-02-19 02:48:15 --> Consulta realizada para buscar usuario
+INFO - 2025-02-19 02:48:15 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"321654987","date_registration":"2025-02-18 21:46:44","email":"alberto@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"34444.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-19 02:48:15 --> Nuevo balance calculado: 56666
+INFO - 2025-02-19 02:48:15 --> Saldo actualizado correctamente
+INFO - 2025-02-19 02:48:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 02:48:17 --> Iniciando el método recharge()
+INFO - 2025-02-19 02:48:17 --> Identificación recibida: 321654987
+INFO - 2025-02-19 02:48:17 --> Monto recibido: 2222
+INFO - 2025-02-19 02:48:17 --> Modelo de usuarios cargado
+INFO - 2025-02-19 02:48:17 --> Consulta realizada para buscar usuario
+INFO - 2025-02-19 02:48:17 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"321654987","date_registration":"2025-02-18 21:46:44","email":"alberto@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"56666.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-19 02:48:17 --> Nuevo balance calculado: 58888
+INFO - 2025-02-19 02:48:17 --> Saldo actualizado correctamente
+INFO - 2025-02-19 02:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 02:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 02:52:12 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-19 02:52:12 --> Identificación recibida: 2354235423
+ERROR - 2025-02-19 02:52:12 --> Usuario no encontrado con identificación: 2354235423
+INFO - 2025-02-19 02:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 02:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-19 02:53:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pqrs.php"
+[Method: GET, Route: admin/pqrsmanagement]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pqrs.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('pqrs', [], true)
+ 3 APPPATH/Controllers/PqrsController.php(11): view('pqrs')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PqrsController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PqrsController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-19 02:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 02:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 04:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 04:13:00 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-19 04:13:00 --> Identificación recibida: 321654987
+INFO - 2025-02-19 04:13:00 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"321654987","date_registration":"2025-02-18 21:46:44","email":"alberto@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"58888.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-19 04:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 04:13:03 --> Iniciando el método recharge()
+INFO - 2025-02-19 04:13:03 --> Identificación recibida: 321654987
+INFO - 2025-02-19 04:13:03 --> Monto recibido: 1313123123
+INFO - 2025-02-19 04:13:03 --> Modelo de usuarios cargado
+INFO - 2025-02-19 04:13:03 --> Consulta realizada para buscar usuario
+INFO - 2025-02-19 04:13:03 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"321654987","date_registration":"2025-02-18 21:46:44","email":"alberto@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"58888.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-19 04:13:03 --> Nuevo balance calculado: 1313182011
+INFO - 2025-02-19 04:13:03 --> Saldo actualizado correctamente
+INFO - 2025-02-19 04:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 04:13:07 --> Iniciando el método recharge()
+INFO - 2025-02-19 04:13:07 --> Identificación recibida: 321654987
+INFO - 2025-02-19 04:13:07 --> Monto recibido: 12312312
+INFO - 2025-02-19 04:13:07 --> Modelo de usuarios cargado
+INFO - 2025-02-19 04:13:07 --> Consulta realizada para buscar usuario
+INFO - 2025-02-19 04:13:07 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"321654987","date_registration":"2025-02-18 21:46:44","email":"alberto@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"99999999.99","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-19 04:13:07 --> Nuevo balance calculado: 112312311.99
+INFO - 2025-02-19 04:13:07 --> Saldo actualizado correctamente
+INFO - 2025-02-19 04:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 04:13:09 --> Iniciando el método recharge()
+INFO - 2025-02-19 04:13:09 --> Identificación recibida: 321654987
+INFO - 2025-02-19 04:13:09 --> Monto recibido: 21312312
+INFO - 2025-02-19 04:13:09 --> Modelo de usuarios cargado
+INFO - 2025-02-19 04:13:09 --> Consulta realizada para buscar usuario
+INFO - 2025-02-19 04:13:09 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"321654987","date_registration":"2025-02-18 21:46:44","email":"alberto@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"99999999.99","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-19 04:13:09 --> Nuevo balance calculado: 121312311.99
+INFO - 2025-02-19 04:13:09 --> Saldo actualizado correctamente
+INFO - 2025-02-19 04:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 04:13:11 --> Iniciando el método recharge()
+INFO - 2025-02-19 04:13:11 --> Identificación recibida: 321654987
+INFO - 2025-02-19 04:13:11 --> Monto recibido: 12123123
+INFO - 2025-02-19 04:13:11 --> Modelo de usuarios cargado
+INFO - 2025-02-19 04:13:11 --> Consulta realizada para buscar usuario
+INFO - 2025-02-19 04:13:11 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"321654987","date_registration":"2025-02-18 21:46:44","email":"alberto@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"99999999.99","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-19 04:13:11 --> Nuevo balance calculado: 112123122.99
+INFO - 2025-02-19 04:13:11 --> Saldo actualizado correctamente
+INFO - 2025-02-19 04:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 04:13:13 --> Iniciando el método recharge()
+INFO - 2025-02-19 04:13:13 --> Identificación recibida: 321654987
+INFO - 2025-02-19 04:13:13 --> Monto recibido: 123123123
+INFO - 2025-02-19 04:13:13 --> Modelo de usuarios cargado
+INFO - 2025-02-19 04:13:13 --> Consulta realizada para buscar usuario
+INFO - 2025-02-19 04:13:13 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"321654987","date_registration":"2025-02-18 21:46:44","email":"alberto@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"99999999.99","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-19 04:13:13 --> Nuevo balance calculado: 223123122.99
+INFO - 2025-02-19 04:13:13 --> Saldo actualizado correctamente
+INFO - 2025-02-19 04:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 04:13:16 --> Iniciando el método recharge()
+INFO - 2025-02-19 04:13:16 --> Identificación recibida: 321654987
+INFO - 2025-02-19 04:13:16 --> Monto recibido: 1.2312312312313E+20
+INFO - 2025-02-19 04:13:16 --> Modelo de usuarios cargado
+INFO - 2025-02-19 04:13:16 --> Consulta realizada para buscar usuario
+INFO - 2025-02-19 04:13:16 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"321654987","date_registration":"2025-02-18 21:46:44","email":"alberto@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"99999999.99","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-19 04:13:16 --> Nuevo balance calculado: 1.2312312312323E+20
+INFO - 2025-02-19 04:13:16 --> Saldo actualizado correctamente
+INFO - 2025-02-19 04:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 04:13:19 --> Iniciando el método recharge()
+INFO - 2025-02-19 04:13:19 --> Identificación recibida: 321654987
+INFO - 2025-02-19 04:13:19 --> Monto recibido: 1.2312312312312E+30
+INFO - 2025-02-19 04:13:19 --> Modelo de usuarios cargado
+INFO - 2025-02-19 04:13:19 --> Consulta realizada para buscar usuario
+INFO - 2025-02-19 04:13:19 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"321654987","date_registration":"2025-02-18 21:46:44","email":"alberto@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"99999999.99","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-19 04:13:19 --> Nuevo balance calculado: 1.2312312312312E+30
+INFO - 2025-02-19 04:13:19 --> Saldo actualizado correctamente
+INFO - 2025-02-19 04:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 04:13:23 --> Iniciando el método recharge()
+INFO - 2025-02-19 04:13:23 --> Identificación recibida: 321654987
+INFO - 2025-02-19 04:13:23 --> Monto recibido: 1.2312312312312E+22
+INFO - 2025-02-19 04:13:23 --> Modelo de usuarios cargado
+INFO - 2025-02-19 04:13:23 --> Consulta realizada para buscar usuario
+INFO - 2025-02-19 04:13:23 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"321654987","date_registration":"2025-02-18 21:46:44","email":"alberto@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"99999999.99","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-19 04:13:23 --> Nuevo balance calculado: 1.2312312312312E+22
+INFO - 2025-02-19 04:13:23 --> Saldo actualizado correctamente
+INFO - 2025-02-19 04:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 04:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 04:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 04:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 04:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 04:24:37 --> Starting updateUser() method for user ID: 17
+INFO - 2025-02-19 04:24:37 --> Validation rules defined.
+INFO - 2025-02-19 04:24:37 --> Validation successful.
+INFO - 2025-02-19 04:24:37 --> Collected form data: {"name":"ALBERTO","last_name":"ORTEGA","identification":"321654987","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","email":"alberto@example.com","role_id":"3","status":"inactive"}
+INFO - 2025-02-19 04:24:37 --> Executed query: UPDATE `users` SET `name` = 'ALBERTO', `last_name` = 'ORTEGA', `identification` = '321654987', `phone` = '3132311084', `address` = 'KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES', `email` = 'alberto@example.com', `role_id` = '3', `status` = 'inactive'
+WHERE `users`.`id_user` IN ('17')
+INFO - 2025-02-19 04:24:37 --> User successfully updated.
+INFO - 2025-02-19 04:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 04:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 04:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 04:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 04:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 04:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 04:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-19 04:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

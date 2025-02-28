@@ -1,0 +1,1154 @@
+INFO - 2025-02-13 02:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 02:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 02:54:29 --> CSRF token verified.
+INFO - 2025-02-13 02:54:29 --> El método authenticate fue llamado
+INFO - 2025-02-13 02:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 02:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 02:54:52 --> CSRF token verified.
+INFO - 2025-02-13 02:54:52 --> El método authenticate fue llamado
+INFO - 2025-02-13 02:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 02:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 02:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 03:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 03:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 03:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 03:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 03:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-13 03:13:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "security/UserManagement.php"
+[Method: GET, Route: admin/usermanagement]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('security/UserManagement.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('security/UserManagement', [], true)
+ 3 APPPATH/Controllers/UserManagementController.php(20): view('security/UserManagement', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserManagementController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-13 03:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-13 03:13:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "security/UserManagement.php"
+[Method: GET, Route: admin/usermanagement]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('security/UserManagement.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('security/UserManagement', [], true)
+ 3 APPPATH/Controllers/UserManagementController.php(20): view('security/UserManagement', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserManagementController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-13 03:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-13 03:13:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "security/UserManagement.php"
+[Method: GET, Route: admin/usermanagement]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('security/UserManagement.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('security/UserManagement', [], true)
+ 3 APPPATH/Controllers/UserManagementController.php(20): view('security/UserManagement', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserManagementController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-13 03:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-13 03:14:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "security/modals/delete.php"
+[Method: GET, Route: admin/usermanagement]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('security/modals/delete.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('security/modals/delete', [], true)
+ 3 APPPATH/Views/security/UserManagement/UserManagement.php(57): view('security/modals/delete')
+ 4 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/UserManagement.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('security/UserManagement/UserManagement', [], true)
+ 7 APPPATH/Controllers/UserManagementController.php(20): view('security/UserManagement/UserManagement', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserManagementController->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-13 03:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-13 03:14:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "security/modals/delete.php"
+[Method: GET, Route: admin/usermanagement]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('security/modals/delete.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('security/modals/delete', [], true)
+ 3 APPPATH/Views/security/UserManagement/UserManagement.php(57): view('security/modals/delete')
+ 4 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/UserManagement.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('security/UserManagement/UserManagement', [], true)
+ 7 APPPATH/Controllers/UserManagementController.php(20): view('security/UserManagement/UserManagement', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserManagementController->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-13 03:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-13 03:14:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "security/modals/delete.php"
+[Method: GET, Route: admin/usermanagement]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('security/modals/delete.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('security/modals/delete', [], true)
+ 3 APPPATH/Views/security/UserManagement/UserManagement.php(57): view('security/modals/delete')
+ 4 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/UserManagement.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('security/UserManagement/UserManagement', [], true)
+ 7 APPPATH/Controllers/UserManagementController.php(20): view('security/UserManagement/UserManagement', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserManagementController->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-13 03:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-13 03:14:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "security/modals/delete.php"
+[Method: GET, Route: admin/usermanagement]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('security/modals/delete.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('security/modals/delete', [], true)
+ 3 APPPATH/Views/security/UserManagement/UserManagement.php(57): view('security/modals/delete')
+ 4 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/UserManagement.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('security/UserManagement/UserManagement', [], true)
+ 7 APPPATH/Controllers/UserManagementController.php(20): view('security/UserManagement/UserManagement', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserManagementController->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-13 03:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 03:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 03:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 03:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-13 03:16:30 --> ErrorException: Undefined variable $rol
+[Method: GET, Route: admin/usermanagement]
+in APPPATH/Views/security/UserManagement/modals/edit.php on line 86.
+ 1 APPPATH/Views/security/UserManagement/modals/edit.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rol', '/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/modals/edit.php', 86)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/modals/edit.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('security/UserManagement/modals/edit', [], true)
+ 5 APPPATH/Views/security/UserManagement/UserManagement.php(58): view('security/UserManagement/modals/edit')
+ 6 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/UserManagement.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('security/UserManagement/UserManagement', [], true)
+ 9 APPPATH/Controllers/UserManagementController.php(20): view('security/UserManagement/UserManagement', [...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserManagementController->index()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-13 03:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-13 03:16:37 --> ErrorException: Undefined variable $rol
+[Method: GET, Route: admin/usermanagement]
+in APPPATH/Views/security/UserManagement/modals/edit.php on line 86.
+ 1 APPPATH/Views/security/UserManagement/modals/edit.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rol', '/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/modals/edit.php', 86)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/modals/edit.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('security/UserManagement/modals/edit', [], true)
+ 5 APPPATH/Views/security/UserManagement/UserManagement.php(58): view('security/UserManagement/modals/edit')
+ 6 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/UserManagement.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('security/UserManagement/UserManagement', [], true)
+ 9 APPPATH/Controllers/UserManagementController.php(20): view('security/UserManagement/UserManagement', [...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserManagementController->index()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-13 03:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 03:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 03:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 03:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 03:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 03:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 03:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 03:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 03:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 03:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 03:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 03:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 03:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 03:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 03:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 03:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 03:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 03:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 03:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 03:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 03:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 03:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 03:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 03:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 13:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 13:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 13:08:04 --> CSRF token verified.
+INFO - 2025-02-13 13:08:04 --> El método authenticate fue llamado
+INFO - 2025-02-13 13:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 13:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 13:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 13:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 13:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 13:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 13:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 13:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 13:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 13:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 13:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 13:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 13:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-13 13:26:02 --> ErrorException: Undefined variable $estados
+[Method: GET, Route: admin/usermanagement]
+in APPPATH/Views/security/UserManagement/modals/Create.php on line 97.
+ 1 APPPATH/Views/security/UserManagement/modals/Create.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $estados', '/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/modals/Create.php', 97)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/modals/Create.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('security/UserManagement/modals/Create', [], true)
+ 5 APPPATH/Views/security/UserManagement/UserManagement.php(57): view('security/UserManagement/modals/Create')
+ 6 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/UserManagement.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('security/UserManagement/UserManagement', [], true)
+ 9 APPPATH/Controllers/UserManagementController.php(20): view('security/UserManagement/UserManagement', [...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserManagementController->index()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-13 13:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 13:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 13:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 13:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 14:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 14:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 14:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 14:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 14:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 14:46:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 14:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 14:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-13 14:57:07 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "addusers')"
+[Method: POST, Route: admin/usermanagement/addusers%27%29]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('admin/usermanagement/addusers\')')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('admin/usermanagement/addusers\')')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-13 14:57:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 14:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 14:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 14:57:50 --> CSRF token verified.
+INFO - 2025-02-13 14:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-13 14:57:50 --> Error: Class "App\Controllers\GestionUsuariosModel" not found
+[Method: POST, Route: admin/usermanagement/add]
+in APPPATH/Controllers/UserManagementController.php on line 39.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserManagementController->addUser()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-13 15:02:49 --> CSRF token verified.
+INFO - 2025-02-13 15:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-13 15:02:49 --> Error: Class "App\Controllers\GestionUsuariosModel" not found
+[Method: POST, Route: admin/usermanagement/add]
+in APPPATH/Controllers/UserManagementController.php on line 39.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserManagementController->addUser()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-13 15:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:02:53 --> CSRF token verified.
+INFO - 2025-02-13 15:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-13 15:02:53 --> Error: Class "App\Controllers\GestionUsuariosModel" not found
+[Method: POST, Route: admin/usermanagement/add]
+in APPPATH/Controllers/UserManagementController.php on line 39.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserManagementController->addUser()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-13 15:04:47 --> CSRF token verified.
+INFO - 2025-02-13 15:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:05:12 --> CSRF token verified.
+INFO - 2025-02-13 15:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:05:39 --> CSRF token verified.
+INFO - 2025-02-13 15:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:05:44 --> CSRF token verified.
+INFO - 2025-02-13 15:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:06:12 --> CSRF token verified.
+INFO - 2025-02-13 15:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:06:21 --> CSRF token verified.
+INFO - 2025-02-13 15:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:06:38 --> CSRF token verified.
+INFO - 2025-02-13 15:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:09:09 --> CSRF token verified.
+INFO - 2025-02-13 15:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:09:09 --> Iniciando el método addUser()
+INFO - 2025-02-13 15:09:09 --> Reglas de validación definidas.
+ERROR - 2025-02-13 15:09:09 --> Error en la validación de datos: {"name":"El campo name es obligatorio.","last_name":"El campo last_name es obligatorio.","identification":"El campo identification es obligatorio.","email":"El campo email es obligatorio.","phone":"El campo phone es obligatorio.","adress":"El campo adress es obligatorio.","role_id":"El campo role_id es obligatorio."}
+INFO - 2025-02-13 15:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:10:20 --> CSRF token verified.
+INFO - 2025-02-13 15:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:10:20 --> Iniciando el método addUser()
+INFO - 2025-02-13 15:10:20 --> Reglas de validación definidas.
+ERROR - 2025-02-13 15:10:20 --> Error en la validación de datos: {"name":"El campo name es obligatorio.","last_name":"El campo last_name es obligatorio.","identification":"El campo identification es obligatorio.","email":"El campo email es obligatorio.","phone":"El campo phone es obligatorio.","adress":"El campo adress es obligatorio.","role_id":"El campo role_id es obligatorio."}
+INFO - 2025-02-13 15:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:12:13 --> CSRF token verified.
+INFO - 2025-02-13 15:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:12:13 --> Iniciando el método addUser()
+INFO - 2025-02-13 15:12:13 --> Reglas de validación definidas.
+ERROR - 2025-02-13 15:12:13 --> Error en la validación de datos: {"name":"El campo name es obligatorio.","last_name":"El campo last_name es obligatorio.","identification":"El campo identification es obligatorio.","email":"El campo email es obligatorio.","phone":"El campo phone es obligatorio.","adress":"El campo adress es obligatorio.","role_id":"El campo role_id es obligatorio."}
+INFO - 2025-02-13 15:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:15:53 --> CSRF token verified.
+INFO - 2025-02-13 15:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:15:53 --> Iniciando el método addUser()
+INFO - 2025-02-13 15:15:53 --> Reglas de validación definidas.
+ERROR - 2025-02-13 15:15:53 --> Error en la validación de datos: {"role_id":"El campo role_id es obligatorio."}
+INFO - 2025-02-13 15:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:16:01 --> CSRF token verified.
+INFO - 2025-02-13 15:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:16:01 --> Iniciando el método addUser()
+INFO - 2025-02-13 15:16:01 --> Reglas de validación definidas.
+ERROR - 2025-02-13 15:16:01 --> Error en la validación de datos: {"role_id":"El campo role_id es obligatorio."}
+INFO - 2025-02-13 15:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:16:09 --> CSRF token verified.
+INFO - 2025-02-13 15:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:16:09 --> Iniciando el método addUser()
+INFO - 2025-02-13 15:16:09 --> Reglas de validación definidas.
+ERROR - 2025-02-13 15:16:09 --> Error en la validación de datos: {"role_id":"El campo role_id es obligatorio."}
+INFO - 2025-02-13 15:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:16:15 --> CSRF token verified.
+INFO - 2025-02-13 15:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:16:15 --> Iniciando el método addUser()
+INFO - 2025-02-13 15:16:15 --> Reglas de validación definidas.
+ERROR - 2025-02-13 15:16:15 --> Error en la validación de datos: {"role_id":"El campo role_id es obligatorio."}
+INFO - 2025-02-13 15:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:17:28 --> CSRF token verified.
+INFO - 2025-02-13 15:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:17:28 --> Iniciando el método addUser()
+INFO - 2025-02-13 15:17:28 --> Reglas de validación definidas.
+ERROR - 2025-02-13 15:17:28 --> Error en la validación de datos: {"name":"El campo name es obligatorio.","last_name":"El campo last_name es obligatorio.","identification":"El campo identification es obligatorio.","email":"El campo email es obligatorio.","phone":"El campo phone es obligatorio.","adress":"El campo adress es obligatorio.","role_id":"El campo role_id es obligatorio."}
+INFO - 2025-02-13 15:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:17:34 --> CSRF token verified.
+INFO - 2025-02-13 15:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:17:34 --> Iniciando el método addUser()
+INFO - 2025-02-13 15:17:34 --> Reglas de validación definidas.
+ERROR - 2025-02-13 15:17:34 --> Error en la validación de datos: {"name":"El campo name es obligatorio.","last_name":"El campo last_name es obligatorio.","identification":"El campo identification es obligatorio.","email":"El campo email es obligatorio.","phone":"El campo phone es obligatorio.","adress":"El campo adress es obligatorio.","role_id":"El campo role_id es obligatorio."}
+INFO - 2025-02-13 15:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:18:17 --> CSRF token verified.
+INFO - 2025-02-13 15:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:18:17 --> Iniciando el método addUser()
+INFO - 2025-02-13 15:18:17 --> Reglas de validación definidas.
+ERROR - 2025-02-13 15:18:17 --> Error en la validación de datos: {"role_id":"El campo role_id es obligatorio."}
+INFO - 2025-02-13 15:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:21:28 --> CSRF token verified.
+INFO - 2025-02-13 15:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 15:21:28 --> Iniciando el método addUser()
+INFO - 2025-02-13 15:21:28 --> Reglas de validación definidas.
+ERROR - 2025-02-13 15:21:28 --> Error en la validación de datos: {"role_id":"El campo role_id es obligatorio.","status":"El campo status es obligatorio."}
+INFO - 2025-02-13 15:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:01:44 --> CSRF token verified.
+INFO - 2025-02-13 17:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:01:44 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:01:44 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:01:44 --> Error en la validación de datos: {"role_id":"El campo role_id es obligatorio."}
+INFO - 2025-02-13 17:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:02:19 --> CSRF token verified.
+INFO - 2025-02-13 17:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:02:19 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:02:19 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:02:19 --> Error en la validación de datos: {"identification":"El campo identification es obligatorio.","adress":"El campo adress es obligatorio.","role_id":"El campo role_id es obligatorio."}
+INFO - 2025-02-13 17:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:03:19 --> CSRF token verified.
+INFO - 2025-02-13 17:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:03:19 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:03:19 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:03:19 --> Error en la validación de datos: {"role_id":"El campo role_id es obligatorio."}
+INFO - 2025-02-13 17:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:03:25 --> CSRF token verified.
+INFO - 2025-02-13 17:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:03:25 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:03:25 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:03:25 --> Error en la validación de datos: {"role_id":"El campo role_id es obligatorio."}
+INFO - 2025-02-13 17:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:03:37 --> CSRF token verified.
+INFO - 2025-02-13 17:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:03:37 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:03:37 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:03:37 --> Error en la validación de datos: {"role_id":"El campo role_id es obligatorio."}
+INFO - 2025-02-13 17:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:04:50 --> CSRF token verified.
+INFO - 2025-02-13 17:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:04:50 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:04:50 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:04:50 --> Error en la validación de datos: {"role_id":"El campo role_id es obligatorio."}
+INFO - 2025-02-13 17:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:07:46 --> CSRF token verified.
+INFO - 2025-02-13 17:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:07:46 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:07:46 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:07:46 --> Error en la validación de datos: {"id_role":"El campo id_role es obligatorio."}
+INFO - 2025-02-13 17:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:07:52 --> CSRF token verified.
+INFO - 2025-02-13 17:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:07:52 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:07:52 --> Reglas de validación definidas.
+INFO - 2025-02-13 17:07:52 --> Validación exitosa.
+INFO - 2025-02-13 17:07:52 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"2354235423","phone":"3132311084","adress":"12341234","email":"marvin.santos@soy.sena.edu.co","role_id":null,"status":"inactive","password_hash":"$2y$10$Ifo7n.vFRIRoAHwjC2VO1efFUCWQADN1rau7nQbpyt1.Vj1Mk0sZW"}
+INFO - 2025-02-13 17:07:52 --> Usuario agregado correctamente en la base de datos.
+INFO - 2025-02-13 17:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:08:31 --> CSRF token verified.
+INFO - 2025-02-13 17:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:08:31 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:08:31 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:08:31 --> Error en la validación de datos: {"identification":"The identification field must contain a unique value.","email":"The email field must contain a unique value."}
+INFO - 2025-02-13 17:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:09:54 --> CSRF token verified.
+INFO - 2025-02-13 17:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:09:54 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:09:54 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:09:54 --> Error en la validación de datos: {"identification":"The identification field must contain a unique value.","email":"The email field must contain a unique value."}
+INFO - 2025-02-13 17:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:12:13 --> CSRF token verified.
+INFO - 2025-02-13 17:12:13 --> El método authenticate fue llamado
+INFO - 2025-02-13 17:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:12:22 --> CSRF token verified.
+INFO - 2025-02-13 17:12:22 --> El método authenticate fue llamado
+INFO - 2025-02-13 17:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:14:07 --> CSRF token verified.
+INFO - 2025-02-13 17:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:14:07 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:14:07 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:14:07 --> Error en la validación de datos: {"identification":"The identification field must contain a unique value.","email":"The email field must contain a unique value."}
+INFO - 2025-02-13 17:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-13 17:14:07 --> ErrorException: Array to string conversion
+[Method: GET, Route: admin/usermanagement]
+in APPPATH/Views/layouts/main.php on line 308.
+ 1 APPPATH/Views/layouts/main.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/opt/lampp/htdocs/SCOPECAPITAL/app/Views/layouts/main.php', 308)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/SCOPECAPITAL/app/Views/layouts/main.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render('layouts/main', [], true)
+ 5 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('security/UserManagement/UserManagement', [], true)
+ 6 APPPATH/Controllers/UserManagementController.php(20): view('security/UserManagement/UserManagement', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserManagementController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-13 17:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:17:07 --> CSRF token verified.
+INFO - 2025-02-13 17:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:17:07 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:19:04 --> CSRF token verified.
+INFO - 2025-02-13 17:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:19:04 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:19:04 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:19:04 --> Error en la validación de datos: {"identification":"El campo identification es obligatorio.","email":"The email field must contain a unique value.","adress":"El campo adress es obligatorio.","id_role":"El campo id_role es obligatorio."}
+INFO - 2025-02-13 17:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:19:11 --> CSRF token verified.
+INFO - 2025-02-13 17:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:19:11 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:19:11 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:19:11 --> Error en la validación de datos: {"identification":"The identification field must contain a unique value.","email":"The email field must contain a unique value.","id_role":"El campo id_role es obligatorio."}
+INFO - 2025-02-13 17:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:20:07 --> CSRF token verified.
+INFO - 2025-02-13 17:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:20:07 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:20:07 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:20:07 --> Error en la validación de datos: {"name":"El campo name es obligatorio.","last_name":"El campo last_name es obligatorio.","identification":"El campo identification es obligatorio.","email":"El campo email es obligatorio.","phone":"El campo phone es obligatorio.","adress":"El campo adress es obligatorio.","id_role":"El campo id_role es obligatorio.","status":"El campo status es obligatorio."}
+INFO - 2025-02-13 17:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:20:32 --> CSRF token verified.
+INFO - 2025-02-13 17:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:20:32 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:20:32 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:20:32 --> Error en la validación de datos: {"name":"El campo name es obligatorio.","last_name":"El campo last_name es obligatorio.","identification":"El campo identification es obligatorio.","email":"El campo email es obligatorio.","phone":"El campo phone es obligatorio.","adress":"El campo adress es obligatorio.","id_role":"El campo id_role es obligatorio.","status":"El campo status es obligatorio."}
+INFO - 2025-02-13 17:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:21:36 --> CSRF token verified.
+INFO - 2025-02-13 17:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:21:36 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:21:36 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:21:36 --> Error en la validación de datos: {"identification":"El campo identification es obligatorio.","email":"The email field must contain a unique value.","adress":"El campo adress es obligatorio.","id_role":"El campo id_role es obligatorio."}
+INFO - 2025-02-13 17:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:21:47 --> CSRF token verified.
+INFO - 2025-02-13 17:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:21:47 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:21:47 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:21:47 --> Error en la validación de datos: {"identification":"El campo identification es obligatorio.","email":"The email field must contain a unique value.","adress":"El campo adress es obligatorio."}
+INFO - 2025-02-13 17:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:22:15 --> CSRF token verified.
+INFO - 2025-02-13 17:22:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:22:15 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:22:15 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:22:15 --> Error en la validación de datos: {"identification":"El campo identification es obligatorio.","email":"The email field must contain a unique value.","adress":"El campo adress es obligatorio.","status":"El campo status es obligatorio."}
+INFO - 2025-02-13 17:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:22:36 --> CSRF token verified.
+INFO - 2025-02-13 17:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:22:36 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:22:36 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:22:36 --> Error en la validación de datos: {"identification":"The identification field must contain a unique value.","email":"The email field must contain a unique value."}
+INFO - 2025-02-13 17:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:22:54 --> CSRF token verified.
+INFO - 2025-02-13 17:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:22:54 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:22:54 --> Reglas de validación definidas.
+INFO - 2025-02-13 17:22:54 --> Validación exitosa.
+INFO - 2025-02-13 17:22:54 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"235423542345","phone":"3132311084","adress":"12341234","email":"marvinamazon730@gmail.com","role_id":null,"status":"inactive","password_hash":"$2y$10$kopG\/wkhvzpxBsPtKl0v2..C8MP11yehsb3Z3mLVqtmj\/rIG9MRP2"}
+INFO - 2025-02-13 17:22:55 --> Usuario agregado correctamente en la base de datos.
+INFO - 2025-02-13 17:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:24:41 --> CSRF token verified.
+INFO - 2025-02-13 17:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:24:41 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:24:41 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:24:41 --> Error en la validación de datos: {"name":"El campo name es obligatorio.","last_name":"El campo last_name es obligatorio.","identification":"El campo identification es obligatorio.","email":"El campo email es obligatorio.","phone":"El campo phone es obligatorio.","adress":"El campo adress es obligatorio.","id_role":"El campo id_role es obligatorio."}
+INFO - 2025-02-13 17:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:32:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:32:03 --> CSRF token verified.
+INFO - 2025-02-13 17:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:32:03 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:32:03 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:32:03 --> Error en la validación de datos: {"name":"El campo name es obligatorio.","last_name":"El campo last_name es obligatorio.","identification":"El campo identification es obligatorio.","email":"El campo email es obligatorio.","phone":"El campo phone es obligatorio.","adress":"El campo adress es obligatorio.","id_role":"El campo id_role es obligatorio."}
+INFO - 2025-02-13 17:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:32:14 --> CSRF token verified.
+INFO - 2025-02-13 17:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:32:14 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:32:14 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:32:14 --> Error en la validación de datos: {"last_name":"El campo last_name es obligatorio.","identification":"El campo identification es obligatorio.","email":"El campo email es obligatorio.","phone":"El campo phone es obligatorio.","adress":"El campo adress es obligatorio.","id_role":"El campo id_role es obligatorio."}
+INFO - 2025-02-13 17:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:32:21 --> CSRF token verified.
+INFO - 2025-02-13 17:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:32:21 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:32:21 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:32:21 --> Error en la validación de datos: {"identification":"El campo identification es obligatorio.","email":"El campo email es obligatorio.","phone":"El campo phone es obligatorio.","adress":"El campo adress es obligatorio.","id_role":"El campo id_role es obligatorio."}
+INFO - 2025-02-13 17:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:32:24 --> CSRF token verified.
+INFO - 2025-02-13 17:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:32:24 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:32:24 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:32:24 --> Error en la validación de datos: {"email":"El campo email es obligatorio.","phone":"El campo phone es obligatorio.","adress":"El campo adress es obligatorio.","id_role":"El campo id_role es obligatorio."}
+INFO - 2025-02-13 17:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:32:30 --> CSRF token verified.
+INFO - 2025-02-13 17:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:32:30 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:32:30 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:32:30 --> Error en la validación de datos: {"phone":"El campo phone es obligatorio.","adress":"El campo adress es obligatorio.","id_role":"El campo id_role es obligatorio."}
+INFO - 2025-02-13 17:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:32:35 --> CSRF token verified.
+INFO - 2025-02-13 17:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:32:35 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:32:35 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:32:35 --> Error en la validación de datos: {"adress":"El campo adress es obligatorio.","id_role":"El campo id_role es obligatorio."}
+INFO - 2025-02-13 17:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:32:45 --> CSRF token verified.
+INFO - 2025-02-13 17:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:32:45 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:32:45 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:32:45 --> Error en la validación de datos: {"id_role":"El campo id_role es obligatorio."}
+INFO - 2025-02-13 17:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:34:04 --> CSRF token verified.
+INFO - 2025-02-13 17:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:34:04 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:34:04 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:34:04 --> Error en la validación de datos: {"id_role":"El campo id_role es obligatorio."}
+INFO - 2025-02-13 17:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:34:30 --> CSRF token verified.
+INFO - 2025-02-13 17:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:34:30 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:34:30 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:34:30 --> Error en la validación de datos: {"id_role":"El campo id_role es obligatorio.","status":"El campo status es obligatorio."}
+INFO - 2025-02-13 17:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:35:25 --> CSRF token verified.
+INFO - 2025-02-13 17:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:35:25 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:35:25 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:35:25 --> Error en la validación de datos: {"id_role":"El campo id_role es obligatorio."}
+INFO - 2025-02-13 17:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:35:33 --> CSRF token verified.
+INFO - 2025-02-13 17:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:35:33 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:35:33 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:35:33 --> Error en la validación de datos: {"adress":"El campo adress es obligatorio.","id_role":"El campo id_role es obligatorio."}
+INFO - 2025-02-13 17:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:36:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:36:28 --> CSRF token verified.
+INFO - 2025-02-13 17:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:36:28 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:36:28 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:36:28 --> Error en la validación de datos: {"id_role":"El campo id_role es obligatorio."}
+INFO - 2025-02-13 17:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:37:26 --> CSRF token verified.
+INFO - 2025-02-13 17:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:37:26 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:37:26 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:37:26 --> Error en la validación de datos: {"adress":"El campo adress es obligatorio.","id_role":"El campo id_role es obligatorio."}
+INFO - 2025-02-13 17:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:37:32 --> CSRF token verified.
+INFO - 2025-02-13 17:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:37:32 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:37:32 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:37:32 --> Error en la validación de datos: {"id_role":"El campo id_role es obligatorio."}
+INFO - 2025-02-13 17:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:37:38 --> CSRF token verified.
+INFO - 2025-02-13 17:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:37:38 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:37:38 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:37:38 --> Error en la validación de datos: {"status":"El campo status es obligatorio."}
+INFO - 2025-02-13 17:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:39:45 --> CSRF token verified.
+INFO - 2025-02-13 17:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:39:45 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:39:45 --> Reglas de validación definidas.
+INFO - 2025-02-13 17:39:45 --> Validación exitosa.
+INFO - 2025-02-13 17:39:45 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"2354235423","phone":"3132311084","adress":"12341234","email":"marvin.santos@soy.sena.edu.co","role_id":null,"status":"inactive","password_hash":"$2y$10$hjK27Y6eGkWOCf878XU\/K.oo7TyeH.NJurkcdg6GzDTEcR4M7vg5m"}
+INFO - 2025-02-13 17:39:45 --> Usuario agregado correctamente en la base de datos.
+INFO - 2025-02-13 17:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:44:35 --> CSRF token verified.
+INFO - 2025-02-13 17:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:44:35 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:44:35 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:44:35 --> Error en la validación de datos: {"identification":"The identification field must contain a unique value.","email":"The email field must contain a unique value."}
+INFO - 2025-02-13 17:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:44:42 --> CSRF token verified.
+INFO - 2025-02-13 17:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:44:42 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:44:42 --> Reglas de validación definidas.
+INFO - 2025-02-13 17:44:42 --> Validación exitosa.
+INFO - 2025-02-13 17:44:42 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"2354235423324234","phone":"3132311084","adress":"12341234","email":"marvin.santos@soy.sena.edu.coADFDSA","role_id":null,"status":"active","password_hash":"$2y$10$Z9LUT27gCIrUGlIPThszduz1HS156zTnApaFtL1gZ2KkYnlX0gEi2"}
+INFO - 2025-02-13 17:44:42 --> Usuario agregado correctamente en la base de datos.
+INFO - 2025-02-13 17:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-13 17:46:49 --> ErrorException: Undefined array key "role_id"
+[Method: GET, Route: admin/usermanagement]
+in APPPATH/Views/security/UserManagement/modals/Create.php on line 82.
+ 1 APPPATH/Views/security/UserManagement/modals/Create.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role_id"', '/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/modals/Create.php', 82)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/modals/Create.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('security/UserManagement/modals/Create', [], true)
+ 5 APPPATH/Views/security/UserManagement/UserManagement.php(57): view('security/UserManagement/modals/Create')
+ 6 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/UserManagement.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('security/UserManagement/UserManagement', [], true)
+ 9 APPPATH/Controllers/UserManagementController.php(20): view('security/UserManagement/UserManagement', [...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserManagementController->index()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-13 17:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:47:40 --> CSRF token verified.
+INFO - 2025-02-13 17:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:47:40 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:47:40 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:47:40 --> Error en la validación de datos: {"identification":"The identification field must contain a unique value.","email":"The email field must contain a unique value.","id_role":"El campo id_role es obligatorio."}
+INFO - 2025-02-13 17:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:47:46 --> CSRF token verified.
+INFO - 2025-02-13 17:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:47:46 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:47:46 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:47:46 --> Error en la validación de datos: {"id_role":"El campo id_role es obligatorio."}
+INFO - 2025-02-13 17:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:48:07 --> CSRF token verified.
+INFO - 2025-02-13 17:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:48:07 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:48:07 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:48:07 --> Error en la validación de datos: {"id_role":"El campo id_role es obligatorio."}
+INFO - 2025-02-13 17:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:59:13 --> CSRF token verified.
+INFO - 2025-02-13 17:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:59:13 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:59:13 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:59:13 --> Error en la validación de datos: {"identification":"The identification field must contain a unique value.","email":"The email field must contain a unique value.","id_role":"El campo id_role es obligatorio."}
+INFO - 2025-02-13 17:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:59:20 --> CSRF token verified.
+INFO - 2025-02-13 17:59:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:59:20 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:59:20 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:59:20 --> Error en la validación de datos: {"id_role":"El campo id_role es obligatorio."}
+INFO - 2025-02-13 17:59:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:59:29 --> CSRF token verified.
+INFO - 2025-02-13 17:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 17:59:29 --> Iniciando el método addUser()
+INFO - 2025-02-13 17:59:29 --> Reglas de validación definidas.
+ERROR - 2025-02-13 17:59:29 --> Error en la validación de datos: {"id_role":"El campo id_role es obligatorio."}
+INFO - 2025-02-13 17:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:01:13 --> CSRF token verified.
+INFO - 2025-02-13 18:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:01:13 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:01:13 --> Reglas de validación definidas.
+ERROR - 2025-02-13 18:01:13 --> Error en la validación de datos: {"identification":"The identification field must contain a unique value.","email":"The email field must contain a unique value."}
+INFO - 2025-02-13 18:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:01:21 --> CSRF token verified.
+INFO - 2025-02-13 18:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:01:21 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:01:21 --> Reglas de validación definidas.
+INFO - 2025-02-13 18:01:21 --> Validación exitosa.
+INFO - 2025-02-13 18:01:21 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"235423542312321","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","email":"mareevin.santos@soy.sena.edu.co","role_id":null,"status":"active","password_hash":"$2y$10$YUVQoZ5GUCdQQiP4hguc.eYSNU6UwLzoL.wn7m3\/eyglOlGw.1ooa"}
+INFO - 2025-02-13 18:01:21 --> Usuario agregado correctamente en la base de datos.
+INFO - 2025-02-13 18:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:02:23 --> CSRF token verified.
+INFO - 2025-02-13 18:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:02:23 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:02:23 --> Reglas de validación definidas.
+ERROR - 2025-02-13 18:02:23 --> Error en la validación de datos: {"id_role":"El campo id_role es obligatorio."}
+INFO - 2025-02-13 18:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:02:28 --> CSRF token verified.
+INFO - 2025-02-13 18:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:02:28 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:02:28 --> Reglas de validación definidas.
+ERROR - 2025-02-13 18:02:28 --> Error en la validación de datos: {"id_role":"El campo id_role es obligatorio.","status":"El campo status es obligatorio."}
+INFO - 2025-02-13 18:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:03:09 --> CSRF token verified.
+INFO - 2025-02-13 18:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:03:09 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:03:09 --> Reglas de validación definidas.
+ERROR - 2025-02-13 18:03:09 --> Error en la validación de datos: {"status":"El campo status es obligatorio."}
+INFO - 2025-02-13 18:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:03:13 --> CSRF token verified.
+INFO - 2025-02-13 18:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:03:13 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:03:13 --> Reglas de validación definidas.
+ERROR - 2025-02-13 18:03:13 --> Error en la validación de datos: {"status":"El campo status es obligatorio."}
+INFO - 2025-02-13 18:03:13 --> CSRF token verified.
+INFO - 2025-02-13 18:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:03:13 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:03:13 --> Reglas de validación definidas.
+ERROR - 2025-02-13 18:03:13 --> Error en la validación de datos: {"status":"El campo status es obligatorio."}
+INFO - 2025-02-13 18:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:03:45 --> CSRF token verified.
+INFO - 2025-02-13 18:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:03:45 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:03:45 --> Reglas de validación definidas.
+ERROR - 2025-02-13 18:03:45 --> Error en la validación de datos: {"status":"El campo status es obligatorio."}
+INFO - 2025-02-13 18:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:03:49 --> CSRF token verified.
+INFO - 2025-02-13 18:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:03:49 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:03:49 --> Reglas de validación definidas.
+INFO - 2025-02-13 18:03:49 --> Validación exitosa.
+INFO - 2025-02-13 18:03:49 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"2354235423","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","email":"marvin.santos@soy.sena.edu.co","role_id":null,"status":"active","password_hash":"$2y$10$4Y3g2Y2WlyqLRBn7PzegoOcNdhc9z8TEvmsOpIOiF3rkXbQMQ4bOK"}
+INFO - 2025-02-13 18:03:49 --> Usuario agregado correctamente en la base de datos.
+INFO - 2025-02-13 18:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:06:14 --> CSRF token verified.
+INFO - 2025-02-13 18:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:06:14 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:06:14 --> Reglas de validación definidas.
+ERROR - 2025-02-13 18:06:14 --> Error en la validación de datos: {"id_role":"El campo id_role es obligatorio."}
+INFO - 2025-02-13 18:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:06:18 --> CSRF token verified.
+INFO - 2025-02-13 18:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:06:18 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:06:18 --> Reglas de validación definidas.
+INFO - 2025-02-13 18:06:18 --> Validación exitosa.
+INFO - 2025-02-13 18:06:18 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"2354235423","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","email":"marvin.santos@soy.sena.edu.co","role_id":null,"status":"active","password_hash":"$2y$10$kDp0yp8qE6EhRQM7OTc5YeqB\/EZtBWG5bclC3l.I\/um0OQe490LIC"}
+INFO - 2025-02-13 18:06:18 --> Usuario agregado correctamente en la base de datos.
+INFO - 2025-02-13 18:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:11:53 --> CSRF token verified.
+INFO - 2025-02-13 18:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:11:53 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:11:53 --> Reglas de validación definidas.
+INFO - 2025-02-13 18:11:53 --> Validación exitosa.
+INFO - 2025-02-13 18:11:53 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"235423542322","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","email":"m1arvin.santos@soy.sena.edu.co","role_id":null,"status":"active","password_hash":"$2y$10$wWHzBDm1YQfdMZZsAwlWcOV9HSAR1i\/S5X5zX1.Lt8n7nQNcOffb."}
+INFO - 2025-02-13 18:11:53 --> Usuario agregado correctamente en la base de datos.
+INFO - 2025-02-13 18:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-13 18:17:05 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: admin/usermanagement]
+in APPPATH/Views/security/UserManagement/modals/Create.php on line 82.
+ 1 APPPATH/Views/security/UserManagement/modals/Create.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', '/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/modals/Create.php', 82)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/modals/Create.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('security/UserManagement/modals/Create', [], true)
+ 5 APPPATH/Views/security/UserManagement/UserManagement.php(57): view('security/UserManagement/modals/Create')
+ 6 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/UserManagement.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('security/UserManagement/UserManagement', [], true)
+ 9 APPPATH/Controllers/UserManagementController.php(20): view('security/UserManagement/UserManagement', [...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserManagementController->index()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-13 18:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-13 18:17:44 --> ErrorException: Undefined array key "role_id"
+[Method: GET, Route: admin/usermanagement]
+in APPPATH/Views/security/UserManagement/modals/Create.php on line 82.
+ 1 APPPATH/Views/security/UserManagement/modals/Create.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role_id"', '/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/modals/Create.php', 82)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/modals/Create.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('security/UserManagement/modals/Create', [], true)
+ 5 APPPATH/Views/security/UserManagement/UserManagement.php(57): view('security/UserManagement/modals/Create')
+ 6 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/UserManagement.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('security/UserManagement/UserManagement', [], true)
+ 9 APPPATH/Controllers/UserManagementController.php(20): view('security/UserManagement/UserManagement', [...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserManagementController->index()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-13 18:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-13 18:17:53 --> ErrorException: Undefined array key "role_id"
+[Method: GET, Route: admin/usermanagement]
+in APPPATH/Views/security/UserManagement/modals/Create.php on line 82.
+ 1 APPPATH/Views/security/UserManagement/modals/Create.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role_id"', '/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/modals/Create.php', 82)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/modals/Create.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('security/UserManagement/modals/Create', [], true)
+ 5 APPPATH/Views/security/UserManagement/UserManagement.php(57): view('security/UserManagement/modals/Create')
+ 6 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/UserManagement.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('security/UserManagement/UserManagement', [], true)
+ 9 APPPATH/Controllers/UserManagementController.php(20): view('security/UserManagement/UserManagement', [...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserManagementController->index()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-13 18:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-13 18:17:54 --> ErrorException: Undefined array key "role_id"
+[Method: GET, Route: admin/usermanagement]
+in APPPATH/Views/security/UserManagement/modals/Create.php on line 82.
+ 1 APPPATH/Views/security/UserManagement/modals/Create.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role_id"', '/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/modals/Create.php', 82)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/modals/Create.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('security/UserManagement/modals/Create', [], true)
+ 5 APPPATH/Views/security/UserManagement/UserManagement.php(57): view('security/UserManagement/modals/Create')
+ 6 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/UserManagement.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('security/UserManagement/UserManagement', [], true)
+ 9 APPPATH/Controllers/UserManagementController.php(20): view('security/UserManagement/UserManagement', [...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserManagementController->index()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-13 18:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:18:44 --> CSRF token verified.
+INFO - 2025-02-13 18:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:18:44 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:18:44 --> Reglas de validación definidas.
+ERROR - 2025-02-13 18:18:44 --> Error en la validación de datos: {"identification":"The identification field must contain a unique value.","email":"The email field must contain a unique value.","role_id":"El campo role_id es obligatorio."}
+INFO - 2025-02-13 18:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:19:39 --> CSRF token verified.
+INFO - 2025-02-13 18:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:19:39 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:19:39 --> Reglas de validación definidas.
+ERROR - 2025-02-13 18:19:39 --> Error en la validación de datos: {"name":"El campo name es obligatorio.","last_name":"El campo last_name es obligatorio.","identification":"El campo identification es obligatorio.","email":"El campo email es obligatorio.","phone":"El campo phone es obligatorio.","address":"El campo address es obligatorio.","role_id":"El campo role_id es obligatorio."}
+INFO - 2025-02-13 18:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:19:52 --> CSRF token verified.
+INFO - 2025-02-13 18:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:19:52 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:19:52 --> Reglas de validación definidas.
+ERROR - 2025-02-13 18:19:52 --> Error en la validación de datos: {"identification":"The identification field must contain a unique value.","email":"The email field must contain a unique value.","address":"El campo address es obligatorio.","role_id":"El campo role_id es obligatorio."}
+INFO - 2025-02-13 18:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:26:20 --> CSRF token verified.
+INFO - 2025-02-13 18:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:26:20 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:26:20 --> Reglas de validación definidas.
+ERROR - 2025-02-13 18:26:20 --> Error en la validación de datos: {"identification":"The identification field must contain a unique value.","email":"The email field must contain a unique value.","address":"El campo address es obligatorio.","role_id":"El campo role_id es obligatorio."}
+INFO - 2025-02-13 18:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:26:41 --> CSRF token verified.
+INFO - 2025-02-13 18:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:26:41 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:26:41 --> Reglas de validación definidas.
+ERROR - 2025-02-13 18:26:41 --> Error en la validación de datos: {"identification":"The identification field must contain a unique value.","email":"The email field must contain a unique value.","address":"El campo address es obligatorio.","role_id":"El campo role_id es obligatorio."}
+INFO - 2025-02-13 18:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:26:55 --> CSRF token verified.
+INFO - 2025-02-13 18:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:26:55 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:26:55 --> Reglas de validación definidas.
+ERROR - 2025-02-13 18:26:55 --> Error en la validación de datos: {"email":"The email field must contain a unique value.","address":"El campo address es obligatorio.","role_id":"El campo role_id es obligatorio."}
+INFO - 2025-02-13 18:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:27:00 --> CSRF token verified.
+INFO - 2025-02-13 18:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:27:00 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:27:00 --> Reglas de validación definidas.
+ERROR - 2025-02-13 18:27:00 --> Error en la validación de datos: {"address":"El campo address es obligatorio.","role_id":"El campo role_id es obligatorio."}
+INFO - 2025-02-13 18:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:27:12 --> CSRF token verified.
+INFO - 2025-02-13 18:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:27:12 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:27:12 --> Reglas de validación definidas.
+ERROR - 2025-02-13 18:27:12 --> Error en la validación de datos: {"address":"El campo address es obligatorio."}
+INFO - 2025-02-13 18:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:27:19 --> CSRF token verified.
+INFO - 2025-02-13 18:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:27:19 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:27:19 --> Reglas de validación definidas.
+ERROR - 2025-02-13 18:27:19 --> Error en la validación de datos: {"address":"El campo address es obligatorio."}
+INFO - 2025-02-13 18:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:27:26 --> CSRF token verified.
+INFO - 2025-02-13 18:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:27:26 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:27:26 --> Reglas de validación definidas.
+ERROR - 2025-02-13 18:27:26 --> Error en la validación de datos: {"address":"El campo address es obligatorio.","id_role":"El campo id_role es obligatorio."}
+INFO - 2025-02-13 18:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:27:30 --> CSRF token verified.
+INFO - 2025-02-13 18:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:27:30 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:27:30 --> Reglas de validación definidas.
+ERROR - 2025-02-13 18:27:31 --> Error en la validación de datos: {"address":"El campo address es obligatorio."}
+INFO - 2025-02-13 18:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:27:35 --> CSRF token verified.
+INFO - 2025-02-13 18:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:27:35 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:27:35 --> Reglas de validación definidas.
+ERROR - 2025-02-13 18:27:35 --> Error en la validación de datos: {"address":"El campo address es obligatorio.","status":"El campo status es obligatorio."}
+INFO - 2025-02-13 18:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:27:46 --> CSRF token verified.
+INFO - 2025-02-13 18:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:27:46 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:27:46 --> Reglas de validación definidas.
+ERROR - 2025-02-13 18:27:46 --> Error en la validación de datos: {"address":"El campo address es obligatorio.","status":"El campo status es obligatorio."}
+INFO - 2025-02-13 18:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:28:33 --> CSRF token verified.
+INFO - 2025-02-13 18:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:28:33 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:28:33 --> Reglas de validación definidas.
+ERROR - 2025-02-13 18:28:33 --> Error en la validación de datos: {"address":"El campo address es obligatorio.","status":"El campo status es obligatorio."}
+INFO - 2025-02-13 18:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:29:03 --> CSRF token verified.
+INFO - 2025-02-13 18:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:29:03 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:29:03 --> Reglas de validación definidas.
+ERROR - 2025-02-13 18:29:03 --> Error en la validación de datos: {"address":"El campo address es obligatorio.","status":"El campo status es obligatorio."}
+INFO - 2025-02-13 18:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:29:07 --> CSRF token verified.
+INFO - 2025-02-13 18:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:29:07 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:29:07 --> Reglas de validación definidas.
+ERROR - 2025-02-13 18:29:07 --> Error en la validación de datos: {"status":"El campo status es obligatorio."}
+INFO - 2025-02-13 18:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:29:28 --> CSRF token verified.
+INFO - 2025-02-13 18:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:29:28 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:29:28 --> Reglas de validación definidas.
+ERROR - 2025-02-13 18:29:28 --> Error en la validación de datos: {"status":"El campo status es obligatorio."}
+INFO - 2025-02-13 18:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:29:34 --> CSRF token verified.
+INFO - 2025-02-13 18:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:29:34 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:29:34 --> Reglas de validación definidas.
+ERROR - 2025-02-13 18:29:34 --> Error en la validación de datos: {"id_role":"El campo id_role es obligatorio."}
+INFO - 2025-02-13 18:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:29:42 --> CSRF token verified.
+INFO - 2025-02-13 18:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:29:42 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:29:42 --> Reglas de validación definidas.
+INFO - 2025-02-13 18:29:42 --> Validación exitosa.
+INFO - 2025-02-13 18:29:42 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"2132354235423","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","email":"maarvin.santos@soy.sena.edu.co","role_id":null,"status":"inactive","password_hash":"$2y$10$.p8su8DoUtHC49vCKhZ0W.8ayQ7rz5r0RECXTdTnZ3yU8Ur35wnFy"}
+INFO - 2025-02-13 18:29:42 --> Usuario agregado correctamente en la base de datos.
+INFO - 2025-02-13 18:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:30:39 --> CSRF token verified.
+INFO - 2025-02-13 18:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:30:39 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:30:39 --> Reglas de validación definidas.
+INFO - 2025-02-13 18:30:39 --> Validación exitosa.
+INFO - 2025-02-13 18:30:39 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"235423542333","phone":"3132311084","address":"RRDV","email":"ddmarvin.santos@soy.sena.edu.co","role_id":null,"status":"inactive","password_hash":"$2y$10$Nibqg0bBEzMreDGfiSYahOQe22QQHhAHcpW7OflLHJK.u68tqrZCq"}
+INFO - 2025-02-13 18:30:39 --> Usuario agregado correctamente en la base de datos.
+INFO - 2025-02-13 18:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:31:58 --> CSRF token verified.
+INFO - 2025-02-13 18:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:31:58 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:31:58 --> Reglas de validación definidas.
+ERROR - 2025-02-13 18:31:58 --> Error en la validación de datos: {"identification":"The identification field must contain a unique value.","email":"The email field must contain a unique value."}
+INFO - 2025-02-13 18:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:32:03 --> CSRF token verified.
+INFO - 2025-02-13 18:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:32:03 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:32:03 --> Reglas de validación definidas.
+INFO - 2025-02-13 18:32:03 --> Validación exitosa.
+INFO - 2025-02-13 18:32:04 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"2354235423333","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","email":"marvin.santos@soy.sena.edu.co3","role_id":null,"status":"active","password_hash":"$2y$10$nWLcG89rvu69S2FMEDkyieqUmrNfxPNs0pzvn6kONMJ1wy2aGhiGe"}
+INFO - 2025-02-13 18:32:04 --> Consulta ejecutada: INSERT INTO `users` (`name`, `last_name`, `identification`, `phone`, `email`, `role_id`, `status`, `password_hash`) VALUES ('MARVIN', 'PEREZ', '2354235423333', '3132311084', 'marvin.santos@soy.sena.edu.co3', NULL, 'active', '$2y$10$nWLcG89rvu69S2FMEDkyieqUmrNfxPNs0pzvn6kONMJ1wy2aGhiGe')
+INFO - 2025-02-13 18:32:04 --> Usuario agregado correctamente en la base de datos.
+INFO - 2025-02-13 18:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:34:06 --> CSRF token verified.
+INFO - 2025-02-13 18:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:34:06 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:34:06 --> Reglas de validación definidas.
+INFO - 2025-02-13 18:34:06 --> Validación exitosa.
+INFO - 2025-02-13 18:34:06 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"2354235423234","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","email":"marvin.333santos@soy.sena.edu.co","role_id":null,"status":"active","password_hash":"$2y$10$u4Fl6m8uaA5V0CZIOLuh6edGkL1SAppmYJGf\/NhbiDY\/SQry343qW"}
+INFO - 2025-02-13 18:34:06 --> Consulta ejecutada: INSERT INTO `users` (`name`, `last_name`, `identification`, `phone`, `address`, `email`, `role_id`, `status`, `password_hash`) VALUES ('MARVIN', 'PEREZ', '2354235423234', '3132311084', 'KDX 286-300 AV CIRCUNVALAR', 'marvin.333santos@soy.sena.edu.co', NULL, 'active', '$2y$10$u4Fl6m8uaA5V0CZIOLuh6edGkL1SAppmYJGf/NhbiDY/SQry343qW')
+INFO - 2025-02-13 18:34:06 --> Usuario agregado correctamente en la base de datos.
+INFO - 2025-02-13 18:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:36:01 --> CSRF token verified.
+INFO - 2025-02-13 18:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:36:01 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:36:01 --> Reglas de validación definidas.
+ERROR - 2025-02-13 18:36:01 --> Error en la validación de datos: {"identification":"The identification field must contain a unique value."}
+INFO - 2025-02-13 18:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:36:05 --> CSRF token verified.
+INFO - 2025-02-13 18:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:36:05 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:36:05 --> Reglas de validación definidas.
+INFO - 2025-02-13 18:36:05 --> Validación exitosa.
+INFO - 2025-02-13 18:36:05 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"235423542223","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","email":"marvssssin.santos@soy.sena.edu.co","role_id":"2","status":"active","password_hash":"$2y$10$fEGheocIQb7wp9cJAHfg4uUooAam4gaGLJqKGWLeNFiLRV7MiF8hm"}
+INFO - 2025-02-13 18:36:05 --> Consulta ejecutada: INSERT INTO `users` (`name`, `last_name`, `identification`, `phone`, `address`, `email`, `role_id`, `status`, `password_hash`) VALUES ('MARVIN', 'PEREZ', '235423542223', '3132311084', 'KDX 286-300 AV CIRCUNVALAR', 'marvssssin.santos@soy.sena.edu.co', '2', 'active', '$2y$10$fEGheocIQb7wp9cJAHfg4uUooAam4gaGLJqKGWLeNFiLRV7MiF8hm')
+INFO - 2025-02-13 18:36:05 --> Usuario agregado correctamente en la base de datos.
+INFO - 2025-02-13 18:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:36:31 --> CSRF token verified.
+INFO - 2025-02-13 18:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:36:31 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:36:31 --> Reglas de validación definidas.
+INFO - 2025-02-13 18:36:31 --> Validación exitosa.
+INFO - 2025-02-13 18:36:31 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"2354235423","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","email":"marvin.santos@soy.sena.edu.co","role_id":"2","status":"active","password_hash":"$2y$10$7SNk9sH0Mdj\/7HV.b2DGeewZAmpfUy.C85rHyeiTeUuDu0ddY\/JN2"}
+INFO - 2025-02-13 18:36:31 --> Consulta ejecutada: INSERT INTO `users` (`name`, `last_name`, `identification`, `phone`, `address`, `email`, `role_id`, `status`, `password_hash`) VALUES ('MARVIN', 'PEREZ', '2354235423', '3132311084', 'KDX 286-300 AV CIRCUNVALAR', 'marvin.santos@soy.sena.edu.co', '2', 'active', '$2y$10$7SNk9sH0Mdj/7HV.b2DGeewZAmpfUy.C85rHyeiTeUuDu0ddY/JN2')
+INFO - 2025-02-13 18:36:31 --> Usuario agregado correctamente en la base de datos.
+INFO - 2025-02-13 18:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:36:48 --> CSRF token verified.
+INFO - 2025-02-13 18:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:36:48 --> Iniciando el método addUser()
+INFO - 2025-02-13 18:36:48 --> Reglas de validación definidas.
+ERROR - 2025-02-13 18:36:48 --> Error en la validación de datos: {"last_name":"El campo last_name es obligatorio.","identification":"El campo identification es obligatorio.","email":"El campo email es obligatorio.","phone":"El campo phone es obligatorio.","address":"El campo address es obligatorio.","id_role":"El campo id_role es obligatorio.","status":"El campo status es obligatorio."}
+INFO - 2025-02-13 18:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-13 18:54:02 --> ParseError: syntax error, unexpected token "public", expecting "]"
+[Method: GET, Route: admin/usermanagement]
+in APPPATH/Controllers/UserManagementController.php on line 16.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/SCOPECAPITAL/app/Controllers/UserManagementController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserManagementController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserManagementController')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\UserManagementController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-13 18:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-13 18:54:03 --> ParseError: syntax error, unexpected token "public", expecting "]"
+[Method: GET, Route: admin/usermanagement]
+in APPPATH/Controllers/UserManagementController.php on line 16.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/SCOPECAPITAL/app/Controllers/UserManagementController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserManagementController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserManagementController')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\UserManagementController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-13 18:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-13 18:54:34 --> ErrorException: Undefined array key "id_user"
+[Method: GET, Route: admin/usermanagement]
+in APPPATH/Views/security/UserManagement/UserManagement.php on line 37.
+ 1 APPPATH/Views/security/UserManagement/UserManagement.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_user"', '/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/UserManagement.php', 37)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/UserManagement.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('security/UserManagement/UserManagement', [], true)
+ 5 APPPATH/Controllers/UserManagementController.php(21): view('security/UserManagement/UserManagement', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserManagementController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-13 18:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-13 18:54:35 --> ErrorException: Undefined array key "id_user"
+[Method: GET, Route: admin/usermanagement]
+in APPPATH/Views/security/UserManagement/UserManagement.php on line 37.
+ 1 APPPATH/Views/security/UserManagement/UserManagement.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_user"', '/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/UserManagement.php', 37)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/SCOPECAPITAL/app/Views/security/UserManagement/UserManagement.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('security/UserManagement/UserManagement', [], true)
+ 5 APPPATH/Controllers/UserManagementController.php(21): view('security/UserManagement/UserManagement', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserManagementController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-13 18:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 18:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-13 19:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

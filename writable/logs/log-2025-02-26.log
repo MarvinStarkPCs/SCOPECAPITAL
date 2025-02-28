@@ -1,0 +1,1958 @@
+INFO - 2025-02-26 02:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 02:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 02:57:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 02:57:29 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 02:57:39 --> El método authenticate fue llamado
+INFO - 2025-02-26 02:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 02:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 02:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:06:35 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 03:06:41 --> El método authenticate fue llamado
+INFO - 2025-02-26 03:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:07:25 --> Usuario autenticado con role_id: 2
+INFO - 2025-02-26 03:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:07:31 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 03:07:44 --> El método authenticate fue llamado
+INFO - 2025-02-26 03:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:07:49 --> Usuario autenticado con role_id: 1
+INFO - 2025-02-26 03:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:09:12 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 03:09:23 --> El método authenticate fue llamado
+INFO - 2025-02-26 03:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:09:39 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 03:09:54 --> El método authenticate fue llamado
+INFO - 2025-02-26 03:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:13:33 --> Usuario autenticado con role_id: 2
+INFO - 2025-02-26 03:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:13:42 --> Usuario autenticado con role_id: 2
+INFO - 2025-02-26 03:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:14:54 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 03:15:03 --> El método authenticate fue llamado
+INFO - 2025-02-26 03:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:15:28 --> Usuario autenticado con role_id: 2
+INFO - 2025-02-26 03:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:20:23 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 03:20:34 --> El método authenticate fue llamado
+INFO - 2025-02-26 03:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:21:12 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-02-26 03:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:21:19 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 03:21:29 --> El método authenticate fue llamado
+INFO - 2025-02-26 03:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:21:33 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-02-26 03:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 03:26:52 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 04:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:10:03 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 04:20:03 --> El método authenticate fue llamado
+INFO - 2025-02-26 04:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:24:36 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-26 04:24:36 --> Identificación recibida: 987654321
+INFO - 2025-02-26 04:24:36 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-02-25 22:06:07","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"0.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-02-26 04:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-26 04:24:40 --> No se encontraron transacciones para el usuario ID: 2
+INFO - 2025-02-26 04:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-26 04:24:48 --> No se encontraron transacciones para el usuario ID: 2
+INFO - 2025-02-26 04:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:24:58 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-26 04:24:58 --> Identificación recibida: 987654321
+INFO - 2025-02-26 04:24:58 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-02-25 22:06:07","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"0.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-02-26 04:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:25:05 --> Iniciando el método recharge()
+INFO - 2025-02-26 04:25:05 --> Identificación recibida: 2
+INFO - 2025-02-26 04:25:05 --> Identificación recibida: 987654321
+INFO - 2025-02-26 04:25:05 --> Monto recibido: 20000
+INFO - 2025-02-26 04:25:05 --> Modelo de usuarios cargado
+INFO - 2025-02-26 04:25:05 --> Consulta realizada para buscar usuario
+INFO - 2025-02-26 04:25:05 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-02-25 22:06:07","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"0.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-02-26 04:25:05 --> Nuevo balance calculado: 20000
+INFO - 2025-02-26 04:25:05 --> Saldo actualizado correctamente
+INFO - 2025-02-26 04:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:25:10 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-26 04:25:10 --> Identificación recibida: 987654321
+INFO - 2025-02-26 04:25:10 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-02-25 22:06:07","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"20000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-02-26 04:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:25:12 --> Historial de transacciones: [
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-26 04:25:05"
+    }
+]
+INFO - 2025-02-26 04:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:25:28 --> Historial de transacciones: [
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-26 04:25:05"
+    }
+]
+INFO - 2025-02-26 04:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:29:20 --> Historial de transacciones: [
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-26 04:25:05"
+    }
+]
+INFO - 2025-02-26 04:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:30:13 --> Historial de transacciones: [
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-26 04:25:05"
+    }
+]
+INFO - 2025-02-26 04:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:30:45 --> Historial de transacciones: [
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-26 04:25:05"
+    }
+]
+INFO - 2025-02-26 04:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:30:59 --> Historial de transacciones: [
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-26 04:25:05"
+    }
+]
+INFO - 2025-02-26 04:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:33:53 --> Historial de transacciones: [
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-26 04:25:05"
+    }
+]
+INFO - 2025-02-26 04:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:34:02 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 04:34:14 --> El método authenticate fue llamado
+INFO - 2025-02-26 04:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:34:30 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 04:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:34:32 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 04:34:41 --> El método authenticate fue llamado
+INFO - 2025-02-26 04:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:34:41 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 04:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:38:27 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 04:38:41 --> El método authenticate fue llamado
+INFO - 2025-02-26 04:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:38:41 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 04:38:50 --> El método authenticate fue llamado
+INFO - 2025-02-26 04:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:39:15 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 04:39:38 --> El método authenticate fue llamado
+INFO - 2025-02-26 04:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 04:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 05:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 05:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 05:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 05:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 05:03:16 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 05:03:33 --> El método authenticate fue llamado
+INFO - 2025-02-26 05:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 05:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 05:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 05:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 05:04:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 05:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 05:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 05:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 05:07:16 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 05:07:26 --> El método authenticate fue llamado
+INFO - 2025-02-26 05:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 05:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 05:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 05:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 05:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 05:08:10 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-02-26 05:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 05:08:34 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-02-26 05:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 05:09:57 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-02-26 05:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 05:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 05:10:08 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 05:10:16 --> El método authenticate fue llamado
+INFO - 2025-02-26 05:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 05:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 05:10:16 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 05:10:27 --> El método authenticate fue llamado
+INFO - 2025-02-26 05:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 05:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 05:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 05:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 05:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 05:14:01 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 15:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:03:24 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 15:03:39 --> El método authenticate fue llamado
+INFO - 2025-02-26 15:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:04:02 --> Datos enviados para actualizar SMTP: Array
+(
+    [config_key] => smtp_config
+    [config_value] => {"host":"smtp.gmail.com","username":"marvin.santos@soy.sena.edu.co","port":"11","smtp_password":"\u00ba12\u00ba12\u00ba12\u00ba12","security":"tls"}
+    [updated_at] => 2025-02-26 15:04:02
+)
+
+INFO - 2025-02-26 15:04:02 --> Configuración SMTP actualizada exitosamente.
+INFO - 2025-02-26 15:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:07:37 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 15:08:18 --> El método authenticate fue llamado
+INFO - 2025-02-26 15:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:08:18 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 15:30:04 --> El método authenticate fue llamado
+INFO - 2025-02-26 15:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:30:04 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 15:30:28 --> El método authenticate fue llamado
+INFO - 2025-02-26 15:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:34:16 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 15:34:31 --> El método authenticate fue llamado
+INFO - 2025-02-26 15:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:34:36 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 15:34:52 --> El método authenticate fue llamado
+INFO - 2025-02-26 15:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:35:03 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 15:35:14 --> El método authenticate fue llamado
+INFO - 2025-02-26 15:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:38:12 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-26 15:38:12 --> Identificación recibida: 1111111
+ERROR - 2025-02-26 15:38:12 --> Usuario no encontrado con identificación: 1111111
+INFO - 2025-02-26 15:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:38:43 --> Usuario autenticado con role_id: 1
+INFO - 2025-02-26 15:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 15:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 16:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:23:36 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 17:23:46 --> El método authenticate fue llamado
+INFO - 2025-02-26 17:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:27:32 --> ErrorException: Undefined variable $request_types
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 15.
+ 1 APPPATH/Views/system/pqrsmanagementclient.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request_types', '/opt/lampp/htdocs/SCOPECAPITAL/app/Views/system/pqrsmanagementclient.php', 15)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/SCOPECAPITAL/app/Views/system/pqrsmanagementclient.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 5 APPPATH/Controllers/HomeController.php(13): view('system/pqrsmanagementclient')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:29:43 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 17:29:51 --> El método authenticate fue llamado
+INFO - 2025-02-26 17:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:29:52 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 17:30:01 --> El método authenticate fue llamado
+INFO - 2025-02-26 17:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:30:14 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 17:30:22 --> El método authenticate fue llamado
+INFO - 2025-02-26 17:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:30:22 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 17:30:31 --> El método authenticate fue llamado
+INFO - 2025-02-26 17:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:34:44 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 16.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(13): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:36:05 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 16.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(13): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:36:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:36:06 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 16.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(13): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:36:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:36:06 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 16.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(13): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:36:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:36:06 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 16.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(13): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:37:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:37:47 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 16.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(13): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:40:01 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 18.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(13): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:40:01 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 18.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(13): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:40:02 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 18.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(13): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:40:48 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 18.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:40:48 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 18.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:40:48 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 18.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:40:49 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 18.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:40:49 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 18.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:40:49 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 18.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:42:13 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:42:14 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:42:14 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:42:14 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:42:15 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:42:15 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:42:15 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:42:16 --> Usuario autenticado con role_id: 2
+INFO - 2025-02-26 17:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:42:16 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:42:17 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:42:17 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:42:17 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:42:17 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:42:18 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:42:18 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:43:58 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:43:58 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:43:58 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:43:59 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:43:59 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:44:00 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:44:00 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:44:00 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:44:00 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:44:00 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:44:01 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:44:37 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:44:38 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:44:38 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:44:38 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:44:38 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:44:38 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:44:39 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:46:05 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 22.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:46:05 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 22.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:46:06 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 22.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:46:06 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 22.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:46:16 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 21.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:46:17 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 21.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:46:17 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 21.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 17:46:17 --> Error: Call to undefined function generate_request_code()
+[Method: GET, Route: client/dashboard]
+in APPPATH/Views/system/pqrsmanagementclient.php on line 21.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagementclient', [], true)
+ 4 APPPATH/Controllers/HomeController.php(14): view('system/pqrsmanagementclient')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-26 17:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 17:51:47 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 18:07:59 --> El método authenticate fue llamado
+INFO - 2025-02-26 18:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:28:48 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-26 18:28:48 --> Identificación recibida: 2354235423
+ERROR - 2025-02-26 18:28:48 --> Usuario no encontrado con identificación: 2354235423
+INFO - 2025-02-26 18:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:28:57 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-26 18:28:57 --> Identificación recibida: 987654321
+INFO - 2025-02-26 18:28:57 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-02-25 22:06:07","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"20000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-02-26 18:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:29:00 --> Historial de transacciones: [
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-26 04:25:05"
+    }
+]
+INFO - 2025-02-26 18:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:36:15 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-26 18:36:15 --> Identificación recibida: 2354235423
+ERROR - 2025-02-26 18:36:15 --> Usuario no encontrado con identificación: 2354235423
+INFO - 2025-02-26 18:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:45:49 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 18:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:46:56 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 18:47:06 --> El método authenticate fue llamado
+INFO - 2025-02-26 18:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:47:22 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-26 18:47:22 --> Identificación recibida: 987654321
+INFO - 2025-02-26 18:47:22 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-02-25 22:06:07","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"20000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-02-26 18:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 18:47:25 --> Historial de transacciones: [
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-26 04:25:05"
+    }
+]
+INFO - 2025-02-26 19:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:05:55 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 19:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:06:05 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 19:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:06:32 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 19:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:06:33 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 19:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:07:05 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 19:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:07:06 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 19:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:07:15 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 19:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:07:15 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 19:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:07:59 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 19:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:07:59 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 19:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:08:35 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 19:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:08:36 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 19:08:54 --> El método authenticate fue llamado
+INFO - 2025-02-26 19:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:10:44 --> Datos enviados para actualizar SMTP: Array
+(
+    [config_key] => smtp_config
+    [config_value] => {"host":"smtp.gmail.com","username":"marvin.santos@soy.sena.edu.co","port":"11","smtp_password":"123456","security":"tls"}
+    [updated_at] => 2025-02-26 19:10:44
+)
+
+INFO - 2025-02-26 19:10:44 --> Configuración SMTP actualizada exitosamente.
+INFO - 2025-02-26 19:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:14:23 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-26 19:14:23 --> Identificación recibida: 987654321
+INFO - 2025-02-26 19:14:23 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-02-25 22:06:07","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"20000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-02-26 19:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:14:42 --> Iniciando el método recharge()
+INFO - 2025-02-26 19:14:42 --> Identificación recibida: 2
+INFO - 2025-02-26 19:14:42 --> Identificación recibida: 987654321
+INFO - 2025-02-26 19:14:42 --> Monto recibido: 150000
+INFO - 2025-02-26 19:14:42 --> Modelo de usuarios cargado
+INFO - 2025-02-26 19:14:42 --> Consulta realizada para buscar usuario
+INFO - 2025-02-26 19:14:42 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-02-25 22:06:07","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"20000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-02-26 19:14:42 --> Nuevo balance calculado: 170000
+INFO - 2025-02-26 19:14:42 --> Saldo actualizado correctamente
+INFO - 2025-02-26 19:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:14:56 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-26 19:14:56 --> Identificación recibida: 987654321
+INFO - 2025-02-26 19:14:56 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-02-25 22:06:07","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"170000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-02-26 19:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:15:05 --> Historial de transacciones: [
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-26 04:25:05"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "150000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-26 19:14:42"
+    }
+]
+INFO - 2025-02-26 19:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:15:05 --> Historial de transacciones: [
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-26 04:25:05"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "150000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-26 19:14:42"
+    }
+]
+INFO - 2025-02-26 19:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:16:03 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-26 19:16:03 --> Identificación recibida: 987654321
+INFO - 2025-02-26 19:16:03 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-02-25 22:06:07","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"170000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-02-26 19:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:16:10 --> Iniciando el método recharge()
+INFO - 2025-02-26 19:16:10 --> Identificación recibida: 2
+INFO - 2025-02-26 19:16:10 --> Identificación recibida: 987654321
+INFO - 2025-02-26 19:16:10 --> Monto recibido: 30000
+INFO - 2025-02-26 19:16:10 --> Modelo de usuarios cargado
+INFO - 2025-02-26 19:16:10 --> Consulta realizada para buscar usuario
+INFO - 2025-02-26 19:16:10 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-02-25 22:06:07","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"170000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-02-26 19:16:10 --> Nuevo balance calculado: 200000
+INFO - 2025-02-26 19:16:10 --> Saldo actualizado correctamente
+INFO - 2025-02-26 19:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:16:19 --> Iniciando el método recharge()
+INFO - 2025-02-26 19:16:19 --> Identificación recibida: 2
+INFO - 2025-02-26 19:16:19 --> Identificación recibida: 987654321
+INFO - 2025-02-26 19:16:19 --> Monto recibido: 20000
+INFO - 2025-02-26 19:16:19 --> Modelo de usuarios cargado
+INFO - 2025-02-26 19:16:19 --> Consulta realizada para buscar usuario
+INFO - 2025-02-26 19:16:19 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-02-25 22:06:07","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"200000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-02-26 19:16:19 --> Nuevo balance calculado: 220000
+INFO - 2025-02-26 19:16:19 --> Saldo actualizado correctamente
+INFO - 2025-02-26 19:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:16:29 --> Iniciando el método recharge()
+INFO - 2025-02-26 19:16:29 --> Identificación recibida: 2
+INFO - 2025-02-26 19:16:29 --> Identificación recibida: 987654321
+INFO - 2025-02-26 19:16:29 --> Monto recibido: 30000
+INFO - 2025-02-26 19:16:29 --> Modelo de usuarios cargado
+INFO - 2025-02-26 19:16:29 --> Consulta realizada para buscar usuario
+INFO - 2025-02-26 19:16:29 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-02-25 22:06:07","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"220000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-02-26 19:16:29 --> Nuevo balance calculado: 250000
+INFO - 2025-02-26 19:16:29 --> Saldo actualizado correctamente
+INFO - 2025-02-26 19:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:16:38 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-26 19:16:38 --> Identificación recibida: 987654321
+INFO - 2025-02-26 19:16:38 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-02-25 22:06:07","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"250000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-02-26 19:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:16:41 --> Historial de transacciones: [
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-26 04:25:05"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "150000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-26 19:14:42"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "30000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-26 19:16:10"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-26 19:16:19"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "30000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-26 19:16:29"
+    }
+]
+INFO - 2025-02-26 19:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:16:41 --> Historial de transacciones: [
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-26 04:25:05"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "150000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-26 19:14:42"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "30000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-26 19:16:10"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-26 19:16:19"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "30000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-26 19:16:29"
+    }
+]
+INFO - 2025-02-26 19:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:18:21 --> Historial de transacciones: [
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2005-02-26 04:25:05"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "150000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2017-02-26 19:14:42"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "30000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-26 19:16:10"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2016-02-26 19:16:19"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "30000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-26 19:16:29"
+    }
+]
+INFO - 2025-02-26 19:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:18:22 --> Historial de transacciones: [
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2005-02-26 04:25:05"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "150000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2017-02-26 19:14:42"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "30000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-26 19:16:10"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2016-02-26 19:16:19"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "30000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-26 19:16:29"
+    }
+]
+INFO - 2025-02-26 19:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:21:29 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 19:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:21:29 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 19:21:48 --> El método authenticate fue llamado
+INFO - 2025-02-26 19:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:22:53 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-02-26 19:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:22:54 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-02-26 19:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:23:34 --> Solicitud de cambio de contraseña recibida.
+ERROR - 2025-02-26 19:23:34 --> Las contraseñas no coinciden.
+INFO - 2025-02-26 19:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:23:35 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-02-26 19:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:23:35 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-02-26 19:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:24:02 --> Solicitud de cambio de contraseña recibida.
+ERROR - 2025-02-26 19:24:02 --> Las contraseñas no coinciden.
+INFO - 2025-02-26 19:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:24:03 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-02-26 19:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:24:03 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-02-26 19:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:24:41 --> Solicitud de cambio de contraseña recibida.
+ERROR - 2025-02-26 19:24:41 --> Las contraseñas no coinciden.
+INFO - 2025-02-26 19:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:24:42 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-02-26 19:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:24:42 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-02-26 19:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:27:07 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 19:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:27:08 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 19:27:17 --> El método authenticate fue llamado
+INFO - 2025-02-26 19:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:28:18 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-26 19:28:18 --> Identificación recibida: 987654321
+INFO - 2025-02-26 19:28:18 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-02-25 22:06:07","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"250000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-02-26 19:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:28:29 --> Historial de transacciones: [
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2005-02-26 04:25:05"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "150000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2017-02-26 19:14:42"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "30000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-26 19:16:10"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2016-02-26 19:16:19"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "30000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-26 19:16:29"
+    }
+]
+INFO - 2025-02-26 19:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:28:30 --> Historial de transacciones: [
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2005-02-26 04:25:05"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "150000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2017-02-26 19:14:42"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "30000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-26 19:16:10"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2016-02-26 19:16:19"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "30000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-26 19:16:29"
+    }
+]
+INFO - 2025-02-26 19:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-26 19:28:58 --> No se encontraron transacciones para el usuario ID: 1
+INFO - 2025-02-26 19:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-26 19:28:59 --> No se encontraron transacciones para el usuario ID: 1
+INFO - 2025-02-26 19:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:29:19 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 19:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:29:19 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 19:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:29:29 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 19:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:29:30 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 19:29:46 --> El método authenticate fue llamado
+INFO - 2025-02-26 19:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:30:13 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 19:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:30:13 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 19:30:28 --> El método authenticate fue llamado
+INFO - 2025-02-26 19:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:31:32 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 19:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:31:32 --> Usuario autenticado con role_id: 
+INFO - 2025-02-26 19:31:39 --> El método authenticate fue llamado
+INFO - 2025-02-26 19:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-26 19:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

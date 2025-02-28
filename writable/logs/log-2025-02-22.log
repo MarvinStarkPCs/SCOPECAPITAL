@@ -1,0 +1,1146 @@
+INFO - 2025-02-22 16:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 16:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 16:48:14 --> El método authenticate fue llamado
+INFO - 2025-02-22 16:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 16:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 16:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 16:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 16:48:32 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-22 16:48:32 --> Identificación recibida: 1111111
+INFO - 2025-02-22 16:48:32 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"1111111","date_registration":"2025-02-18 23:13:37","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"inactive","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"121212.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-22 16:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 16:48:33 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "0.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:14"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "0.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:16"
+    }
+]
+INFO - 2025-02-22 16:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 16:50:42 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "0.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:14"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "0.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:16"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:31"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:37"
+    }
+]
+INFO - 2025-02-22 16:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 16:52:07 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "0.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:14"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "0.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:16"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:31"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:37"
+    }
+]
+INFO - 2025-02-22 16:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 16:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 16:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 16:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 16:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 17:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 17:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 17:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 17:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 17:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 17:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 17:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 17:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 17:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 17:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 17:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 17:11:09 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-22 17:11:09 --> Identificación recibida: 1111111
+INFO - 2025-02-22 17:11:09 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"1111111","date_registration":"2025-02-18 23:13:37","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"inactive","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"121212.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-22 17:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 17:11:13 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "0.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:14"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "0.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:16"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:31"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:37"
+    }
+]
+INFO - 2025-02-22 17:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 17:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 17:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 17:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 17:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 17:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 17:12:28 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-22 17:12:28 --> Identificación recibida: 1111111
+INFO - 2025-02-22 17:12:28 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"1111111","date_registration":"2025-02-18 23:13:37","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"inactive","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"121212.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-22 17:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 17:12:29 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "0.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:14"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "0.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:16"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:31"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:37"
+    }
+]
+INFO - 2025-02-22 17:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 17:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 17:12:45 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-22 17:12:45 --> Identificación recibida: 1111111
+INFO - 2025-02-22 17:12:45 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"1111111","date_registration":"2025-02-18 23:13:37","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"inactive","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"121212.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-22 17:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 17:12:47 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "0.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:14"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "0.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:16"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:31"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:37"
+    }
+]
+INFO - 2025-02-22 17:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 17:14:53 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "0.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:14"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "0.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:16"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:31"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:37"
+    }
+]
+INFO - 2025-02-22 17:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 17:17:24 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "0.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:14"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "0.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:16"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:31"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:37"
+    }
+]
+INFO - 2025-02-22 17:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 17:18:30 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "0.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:14"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "0.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:16"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:31"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:37"
+    }
+]
+INFO - 2025-02-22 17:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 17:18:41 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "0.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:14"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "0.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:16"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:31"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:37"
+    }
+]
+INFO - 2025-02-22 19:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:33:36 --> El método authenticate fue llamado
+INFO - 2025-02-22 19:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:33:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:34:35 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-22 19:34:35 --> Identificación recibida: 1111111
+INFO - 2025-02-22 19:34:35 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"1111111","date_registration":"2025-02-18 23:13:37","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"inactive","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"121212.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-22 19:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:34:37 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:14"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:16"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:31"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:37"
+    }
+]
+INFO - 2025-02-22 19:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:35:18 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-22 19:35:18 --> Identificación recibida: 1111111
+INFO - 2025-02-22 19:35:18 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"1111111","date_registration":"2025-02-18 23:13:37","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"inactive","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"121212.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-22 19:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:35:21 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:14"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:16"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:31"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:37"
+    }
+]
+INFO - 2025-02-22 19:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:36:09 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:14"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:16"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:31"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:37"
+    }
+]
+INFO - 2025-02-22 19:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:36:29 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:14"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:16"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:31"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:37"
+    }
+]
+INFO - 2025-02-22 19:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:36:30 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:14"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:16"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:31"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:37"
+    }
+]
+INFO - 2025-02-22 19:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:36:31 --> Historial de transacciones: [
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:14"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-20 17:07:16"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:31"
+    },
+    {
+        "name": "ALBERTO",
+        "last_name": "ORTEGA",
+        "email": "alberto@example.com",
+        "phone": "3132311084",
+        "amount": "13121.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-02-22 11:50:37"
+    }
+]
+INFO - 2025-02-22 19:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:47:45 --> El método authenticate fue llamado
+INFO - 2025-02-22 19:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:47:57 --> El método authenticate fue llamado
+INFO - 2025-02-22 19:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 19:47:57 --> CodeIgniter\Filters\Exceptions\FilterException: "" filter must have a matching alias defined.
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH/Filters/Filters.php on line 495.
+ 1 SYSTEMPATH/Filters/Filters.php(495): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('')
+ 2 SYSTEMPATH/Filters/Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 19:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:48:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 19:52:01 --> ErrorException: Attempt to read property "aliases" on null
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH/Filters/Filters.php on line 494.
+ 1 SYSTEMPATH/Filters/Filters.php(494): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "aliases" on null', '/opt/lampp/htdocs/SCOPECAPITAL/system/Filters/Filters.php', 494)
+ 2 SYSTEMPATH/Filters/Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-22 19:52:07 --> ErrorException: Attempt to read property "aliases" on null
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH/Filters/Filters.php on line 494.
+ 1 SYSTEMPATH/Filters/Filters.php(494): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "aliases" on null', '/opt/lampp/htdocs/SCOPECAPITAL/system/Filters/Filters.php', 494)
+ 2 SYSTEMPATH/Filters/Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-22 19:52:08 --> ErrorException: Attempt to read property "aliases" on null
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH/Filters/Filters.php on line 494.
+ 1 SYSTEMPATH/Filters/Filters.php(494): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "aliases" on null', '/opt/lampp/htdocs/SCOPECAPITAL/system/Filters/Filters.php', 494)
+ 2 SYSTEMPATH/Filters/Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-22 19:52:08 --> ErrorException: Attempt to read property "aliases" on null
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH/Filters/Filters.php on line 494.
+ 1 SYSTEMPATH/Filters/Filters.php(494): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "aliases" on null', '/opt/lampp/htdocs/SCOPECAPITAL/system/Filters/Filters.php', 494)
+ 2 SYSTEMPATH/Filters/Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-22 19:52:26 --> ErrorException: Attempt to read property "aliases" on null
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH/Filters/Filters.php on line 494.
+ 1 SYSTEMPATH/Filters/Filters.php(494): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "aliases" on null', '/opt/lampp/htdocs/SCOPECAPITAL/system/Filters/Filters.php', 494)
+ 2 SYSTEMPATH/Filters/Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-22 19:52:27 --> ErrorException: Attempt to read property "aliases" on null
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH/Filters/Filters.php on line 494.
+ 1 SYSTEMPATH/Filters/Filters.php(494): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "aliases" on null', '/opt/lampp/htdocs/SCOPECAPITAL/system/Filters/Filters.php', 494)
+ 2 SYSTEMPATH/Filters/Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-22 19:52:27 --> ErrorException: Attempt to read property "aliases" on null
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH/Filters/Filters.php on line 494.
+ 1 SYSTEMPATH/Filters/Filters.php(494): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "aliases" on null', '/opt/lampp/htdocs/SCOPECAPITAL/system/Filters/Filters.php', 494)
+ 2 SYSTEMPATH/Filters/Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-22 19:52:27 --> ErrorException: Attempt to read property "aliases" on null
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH/Filters/Filters.php on line 494.
+ 1 SYSTEMPATH/Filters/Filters.php(494): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "aliases" on null', '/opt/lampp/htdocs/SCOPECAPITAL/system/Filters/Filters.php', 494)
+ 2 SYSTEMPATH/Filters/Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 19:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 19:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 19:52:33 --> ErrorException: Attempt to read property "aliases" on null
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH/Filters/Filters.php on line 494.
+ 1 SYSTEMPATH/Filters/Filters.php(494): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "aliases" on null', '/opt/lampp/htdocs/SCOPECAPITAL/system/Filters/Filters.php', 494)
+ 2 SYSTEMPATH/Filters/Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-22 19:52:33 --> ErrorException: Attempt to read property "aliases" on null
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH/Filters/Filters.php on line 494.
+ 1 SYSTEMPATH/Filters/Filters.php(494): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "aliases" on null', '/opt/lampp/htdocs/SCOPECAPITAL/system/Filters/Filters.php', 494)
+ 2 SYSTEMPATH/Filters/Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-22 19:52:33 --> ErrorException: Attempt to read property "aliases" on null
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH/Filters/Filters.php on line 494.
+ 1 SYSTEMPATH/Filters/Filters.php(494): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "aliases" on null', '/opt/lampp/htdocs/SCOPECAPITAL/system/Filters/Filters.php', 494)
+ 2 SYSTEMPATH/Filters/Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-22 20:02:19 --> ErrorException: Attempt to read property "aliases" on null
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH/Filters/Filters.php on line 494.
+ 1 SYSTEMPATH/Filters/Filters.php(494): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "aliases" on null', '/opt/lampp/htdocs/SCOPECAPITAL/system/Filters/Filters.php', 494)
+ 2 SYSTEMPATH/Filters/Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-22 20:02:24 --> ErrorException: Attempt to read property "aliases" on null
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH/Filters/Filters.php on line 494.
+ 1 SYSTEMPATH/Filters/Filters.php(494): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "aliases" on null', '/opt/lampp/htdocs/SCOPECAPITAL/system/Filters/Filters.php', 494)
+ 2 SYSTEMPATH/Filters/Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-22 20:02:24 --> ErrorException: Attempt to read property "aliases" on null
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH/Filters/Filters.php on line 494.
+ 1 SYSTEMPATH/Filters/Filters.php(494): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "aliases" on null', '/opt/lampp/htdocs/SCOPECAPITAL/system/Filters/Filters.php', 494)
+ 2 SYSTEMPATH/Filters/Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-22 20:02:24 --> ErrorException: Attempt to read property "aliases" on null
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH/Filters/Filters.php on line 494.
+ 1 SYSTEMPATH/Filters/Filters.php(494): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "aliases" on null', '/opt/lampp/htdocs/SCOPECAPITAL/system/Filters/Filters.php', 494)
+ 2 SYSTEMPATH/Filters/Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-22 20:02:24 --> ErrorException: Attempt to read property "aliases" on null
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH/Filters/Filters.php on line 494.
+ 1 SYSTEMPATH/Filters/Filters.php(494): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "aliases" on null', '/opt/lampp/htdocs/SCOPECAPITAL/system/Filters/Filters.php', 494)
+ 2 SYSTEMPATH/Filters/Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-22 20:02:25 --> ErrorException: Attempt to read property "aliases" on null
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH/Filters/Filters.php on line 494.
+ 1 SYSTEMPATH/Filters/Filters.php(494): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "aliases" on null', '/opt/lampp/htdocs/SCOPECAPITAL/system/Filters/Filters.php', 494)
+ 2 SYSTEMPATH/Filters/Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 20:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 20:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 20:02:49 --> El método authenticate fue llamado
+INFO - 2025-02-22 20:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 20:02:50 --> ErrorException: Attempt to read property "aliases" on null
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH/Filters/Filters.php on line 494.
+ 1 SYSTEMPATH/Filters/Filters.php(494): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "aliases" on null', '/opt/lampp/htdocs/SCOPECAPITAL/system/Filters/Filters.php', 494)
+ 2 SYSTEMPATH/Filters/Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 20:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:13:28 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-22 21:13:28 --> Identificación recibida: 1111111
+INFO - 2025-02-22 21:13:28 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"1111111","date_registration":"2025-02-18 23:13:37","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"inactive","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"121212.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+CRITICAL - 2025-02-22 21:17:27 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: client/historytransactions]
+in APPPATH/Config/Routes.php on line 65.
+ 1 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-22 21:20:04 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: client/profile]
+in APPPATH/Config/Routes.php on line 65.
+ 1 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-22 21:20:51 --> ErrorException: Undefined variable $route
+[Method: GET, Route: client/profile]
+in APPPATH/Config/Routes.php on line 55.
+ 1 APPPATH/Config/Routes.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', '/opt/lampp/htdocs/SCOPECAPITAL/app/Config/Routes.php', 55)
+ 2 SYSTEMPATH/Router/RouteCollection.php(340): require('/opt/lampp/htdocs/SCOPECAPITAL/app/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-22 21:20:51 --> ErrorException: Undefined variable $route
+[Method: GET, Route: client/profile]
+in APPPATH/Config/Routes.php on line 55.
+ 1 APPPATH/Config/Routes.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', '/opt/lampp/htdocs/SCOPECAPITAL/app/Config/Routes.php', 55)
+ 2 SYSTEMPATH/Router/RouteCollection.php(340): require('/opt/lampp/htdocs/SCOPECAPITAL/app/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 21:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:26:17 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-02-22 21:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:26:22 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-02-22 21:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:26:24 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-02-22 21:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:26:24 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-02-22 21:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:26:55 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-02-22 21:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 21:41:08 --> ParseError: syntax error, unexpected token ")"
+[Method: GET, Route: logout]
+in APPPATH/Controllers/AuthController.php on line 31.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/SCOPECAPITAL/app/Controllers/AuthController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuthController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuthController')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\AuthController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-22 21:41:13 --> ParseError: syntax error, unexpected token ")"
+[Method: GET, Route: logout]
+in APPPATH/Controllers/AuthController.php on line 31.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/SCOPECAPITAL/app/Controllers/AuthController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuthController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuthController')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\AuthController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 21:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:41:46 --> El método authenticate fue llamado
+INFO - 2025-02-22 21:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:43:37 --> Iniciando búsqueda de usuario...
+INFO - 2025-02-22 21:43:37 --> Identificación recibida: 1111111
+INFO - 2025-02-22 21:43:37 --> Usuario encontrado: {"name":"ALBERTO","last_name":"ORTEGA","identification":"1111111","date_registration":"2025-02-18 23:13:37","email":"alberto@example.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"inactive","password_hash":"$2y$10$HASHPARAUSUARIO","balance":"121212.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"3","id_user":"17"}
+INFO - 2025-02-22 21:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:45:03 --> El método authenticate fue llamado
+INFO - 2025-02-22 21:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:47:49 --> Usuario autenticado con role_id: 
+INFO - 2025-02-22 21:48:21 --> El método authenticate fue llamado
+INFO - 2025-02-22 21:48:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:48:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:48:38 --> Usuario autenticado con role_id: 2
+INFO - 2025-02-22 21:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:48:53 --> Usuario autenticado con role_id: 
+INFO - 2025-02-22 21:49:03 --> El método authenticate fue llamado
+INFO - 2025-02-22 21:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
