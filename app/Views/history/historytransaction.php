@@ -11,7 +11,7 @@
             <!-- Campo Identificación con icono -->
             <div class="col-md-3">
                 <label for="identification" class="form-label">
-                    <i class="fas fa-id-card"></i> Identification
+                    <i class="fas fa-id-card"></i> Identificación
                 </label>
                 <div class="input-group">
                     <input type="text" class="form-control" id="identification" placeholder="Ingrese la identificación">
