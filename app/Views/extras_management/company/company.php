@@ -7,12 +7,13 @@
     <a href="<?= base_url('admin/extrasmanagement') ?>" class="btn btn-outline-light rounded-circle shadow-sm p-1 mr-2" style="width: 32px; height: 32px; display: flex; align-items: center; justify-content: center;">
         <i class="fas fa-arrow-left fa-lg"></i>
     </a>
+        <h6 class="m-0 font-weight-bold text-primary">List of companys</h6>
     </div>
     <div class="card-body">
         <div class="d-flex justify-content-end mb-2">
-            <button type="button" id="openModalButtonbank" class="btn btn-primary" data-toggle="modal"
-                data-target="#addbankModal">
-                <i class="fas fa-bank-plus"></i> Add bank
+            <button type="button" id="openModalButtoncompany" class="btn btn-primary" data-toggle="modal"
+                data-target="#addcompanyModal">
+                <i class="fas fa-company-plus"></i> Add company
             </button>
         </div>
 
@@ -24,30 +25,32 @@
 
                         <th>Name</th>
                         <th>Address</th>
-                        <th>Account Name</th>
+                        <th>Telephone</th>
+                        <th>Email</th>
+                        <th>Representative</th>
                         <th>Actions</th>
                     </tr>
                 </thead>
 
                 <tbody>
-                    <?php foreach ($banks as $bank): ?>
+                    <?php foreach ($companies as $company): ?>
                         <tr>
-                            <td><?= !empty($bank['name']) ? esc($bank['name']) : 'Not applicable' ?></td>
-                            <td><?= !empty($bank['address']) ? esc($bank['address']) : 'Not applicable' ?></td>
-                            <td><?= !empty($bank['account_name']) ? esc($bank['account_name']) : 'Not applicable' ?></td>
-
-
+                            <td><?= !empty($company['name']) ? esc($company['name']) : 'Not applicable' ?></td>
+                            <td><?= !empty($company['address']) ? esc($company['address']) : 'Not applicable' ?></td>
+                            <td><?= !empty($company['telephone']) ? esc($company['telephone']) : 'Not applicable' ?></td>
+                            <td><?= !empty($company['email']) ? esc($company['email']) : 'Not applicable' ?></td>
+                            <td><?= !empty($company['representative']) ? esc($company['representative']) : 'Not applicable' ?></td>
                             <td class="text-center">
                                 <!-- <button class="btn btn-icon btn-secondary btn-sm" data-toggle="modal"
-                                    data-target="#detailsModal-< ?= $bank['id_bank'] ?>" title="View Details">
+                                    data-target="#detailsModal-< ?= $company['id_company'] ?>" title="View Details">
                                     <i class="fas fa-info-circle"></i>
                                 </button> -->
                                 <button class="btn btn-icon btn-info btn-sm" data-toggle="modal" id="editButton"
-                                    data-target="#editModal-<?= $bank['id_bank'] ?>" title="Edit bank">
+                                    data-target="#editModal-<?= $company['id_company'] ?>" title="Edit company">
                                     <i class="fas fa-edit"></i>
                                 </button>
                                 <button class="btn btn-icon btn-danger btn-sm" data-toggle="modal"
-                                    data-target="#deleteModal-<?= $bank['id_bank'] ?>" title="Delete bank">
+                                    data-target="#deleteModal-<?= $company['id_company'] ?>" title="Delete company">
                                     <i class="fas fa-trash-alt"></i>
                                 </button>
                             </td>
@@ -58,11 +61,11 @@
         </div>
     </div>
 </div>
-<?= view('extras_management/bank/modals/Create') ?>
-<?= view('extras_management/bank/modals/Update') ?> 
-<?= view('extras_management/bank/modals/Delete') ?>
+<?= view('extras_management/company/modals/Create') ?>
+<?= view('extras_management/company/modals/Delete') ?>
+<?= view('extras_management/company/modals/Update') ?> 
 
-<!-- < ?= view('security/bankManagement/modals/Delete') ?>
-< ?= view('security/bankManagement/modals/Detail') ?> -->
+<!-- 
+< ?= view('security/companyManagement/modals/Detail') ?> -->
 
 <?= $this->endSection() ?>

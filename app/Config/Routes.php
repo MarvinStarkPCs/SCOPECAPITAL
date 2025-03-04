@@ -16,11 +16,24 @@ $routes->get('logout', 'AuthController::logout');
 // Rutas protegidas (requieren autenticación)
 $routes->group('admin', ['filter' => 'auth'], function ($routes) {
     $routes->get('dashboard', 'HomeController::index');
-    // rutas de gestion de extras
+    // Rutas de autenticación (protegidas) para el gestion de extras
+    ///gestion de extras
     $routes->get('extrasmanagement', 'ExtrasController::index');
-    //rutas de gestion de extras (bank)
-    $routes->get('extrasmanagement/bank', 'ExtrasController::index');
-    $routes->get('pqrsmanagement', 'PqrsController::index');
+    //bank
+    $routes->get('extrasmanagement/bank', 'BankController::index');
+    $routes->post('extrasmanagement/bank/add', 'BankController::create');
+    $routes->post('extrasmanagement/bank/update/(:num)', 'BankController::update/$1');  
+    $routes->get('extrasmanagement/bank/delete/(:num)', 'BankController::delete/$1');  
+ //banker
+ $routes->get('extrasmanagement/banker', 'BankerController::index');
+ $routes->post('extrasmanagement/banker/add', 'BankerController::create');
+ $routes->post('extrasmanagement/banker/update/(:num)', 'BankerController::update/$1');  
+ $routes->get('extrasmanagement/banker/delete/(:num)', 'BankerController::delete/$1');  
+  //company
+  $routes->get('extrasmanagement/company', 'CompanyController::index');
+  $routes->post('extrasmanagement/company/add', 'CompanyController::create');
+  $routes->post('extrasmanagement/company/update/(:num)', 'CompanyController::update/$1');  
+  $routes->get('extrasmanagement/company/delete/(:num)', 'CompanyController::delete/$1'); 
     // Rutas de autenticación (protegidas) para el aside
     ///setting
     $routes->get('setting', 'SettingController::index');
@@ -28,16 +41,21 @@ $routes->group('admin', ['filter' => 'auth'], function ($routes) {
     $routes->post('setting/save_smtp', 'SettingController::saveSMTPConfig');
     ///profile
     $routes->get('profile', 'ProfileController::index');
+
     // Rutas de autenticación (protegidas) para el modulo de sistema
+    //pqrsmanagement
+    $routes->get('pqrsmanagement', 'PqrsController::index');
     ///transactions
     $routes->get('transactions', 'TransactionsController::index');
     $routes->post('transactions/search', 'TransactionsController::search');
     $routes->post('transactions/recharge', 'TransactionsController::recharge');
+
     // Rutas de autenticación (protegidas) para el modulo de historial
     ///historytransactions
     $routes->get('historytransactions', 'HistoryTransactionsController::index');
     $routes->get('historytransactions/detail/(:num)', 'HistoryTransactionsController::renderViewHistoryTransaction/$1');
     $routes->post('historytransactions/search', 'TransactionsController::search');
+
     // Rutas de autenticación (protegidas) para el modulo de seguridad
     ///usermanagemen
     $routes->get('usermanagement', 'UserManagementController::index'); // Listar usuarios

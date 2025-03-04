@@ -1,48 +1,48 @@
-<?php foreach ($banks as $bank): ?>
-    <!-- Edit bank Modal -->
-    <div class="modal fade" id="editModal-<?= $bank['id_bank'] ?>" tabindex="-1" role="dialog"
-        aria-labelledby="editModalLabel-<?= $bank['id_bank'] ?>" aria-hidden="true">
+<?php foreach ($bankers as $banker): ?>
+    <!-- Edit banker Modal -->
+    <div class="modal fade" id="editModal-<?= $banker['id_banker'] ?>" tabindex="-1" role="dialog"
+        aria-labelledby="editModalLabel-<?= $banker['id_banker'] ?>" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="editModalLabel-<?= $bank['id_bank'] ?>">Edit bank</h5>
+                    <h5 class="modal-title" id="editModalLabel-<?= $banker['id_banker'] ?>">Edit banker</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"
                         onclick="location.reload();">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form action="./bank/update/<?= $bank['id_bank'] ?>" id="editForm-<?= $bank['id_bank'] ?>" method="post">
+                    <form action="./banker/update/<?= $banker['id_banker'] ?>" id="editForm-<?= $banker['id_banker'] ?>" method="post">
                         <?= csrf_field() ?>
                         <div class="form-row">
                             <div class="form-group col-md-6">
-                                <label for="editName-<?= $bank['id_bank'] ?>">Name</label>
+                                <label for="editName-<?= $banker['id_banker'] ?>">Name</label>
                                 <input type="text"
                                     class="form-control <?= session('errors-update.name') ? 'is-invalid errors-update ' : '' ?>"
-                                    id="editName-<?= $bank['id_bank'] ?>" name="name"
-                                    value="<?= old('name', esc($bank['name'])) ?>">
+                                    id="editName-<?= $banker['id_banker'] ?>" name="name"
+                                    value="<?= old('name', esc($banker['name'])) ?>">
                                 <div class="invalid-feedback">
                                     <?= session('errors-update.name') ?>
                                 </div>
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="editLastname-<?= $bank['id_bank'] ?>">Address</label>
+                                <label for="editLastname-<?= $banker['id_banker'] ?>">telephone</label>
                                 <input type="text"
-                                    class="form-control <?= session('errors-update.address') ? 'is-invalid errors-update' : '' ?>"
-                                    id="editLastname-<?= $bank['id_bank'] ?>" name="address"
-                                    value="<?= old('address', esc($bank['address'])) ?>">
+                                    class="form-control <?= session('errors-update.telephone') ? 'is-invalid errors-update' : '' ?>"
+                                    id="editLastname-<?= $banker['id_banker'] ?>" name="telephone"
+                                    value="<?= old('telephone', esc($banker['telephone'])) ?>">
                                 <div class="invalid-feedback">
-                                    <?= session('errors-update.address') ?>
+                                    <?= session('errors-update.telephone') ?>
                                 </div>
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="editIdentity-<?= $bank['id_bank'] ?>">Account Name</label>
+                                <label for="editIdentity-<?= $banker['id_banker'] ?>">Email</label>
                                 <input type="text"
-                                    class="form-control <?= session('errors-update.account_name') ? 'is-invalid errors-update' : '' ?>"
-                                    id="editIdentity-<?= $bank['id_bank'] ?>" name="account_name"
-                                    value="<?= old('account_name', esc($bank['account_name'])) ?>">
+                                    class="form-control <?= session('errors-update.email') ? 'is-invalid errors-update' : '' ?>"
+                                    id="editIdentity-<?= $banker['id_banker'] ?>" name="email"
+                                    value="<?= old('email', esc($banker['email'])) ?>">
                                 <div class="invalid-feedback">
-                                    <?= session('errors-update.account_name') ?>
+                                    <?= session('errors-update.email') ?>
                                 </div>
                             </div>
                         </div>

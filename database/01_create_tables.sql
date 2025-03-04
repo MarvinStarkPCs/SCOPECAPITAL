@@ -45,7 +45,7 @@ CREATE TABLE history_transactions (
 );
 -- Crear la tabla de company asociada a usuarios
 CREATE TABLE company(
-name VARCHAR(100) NOT NULL UNIQUE,
+name VARCHAR(100) NOT NULL,
 address VARCHAR(255),
 telephone VARCHAR(15),
 email VARCHAR(100) UNIQUE,
@@ -53,7 +53,7 @@ representative VARCHAR(100)
 );
 -- Crear la tabla de bank asociada a usuarios
 CREATE TABLE bank(
-name VARCHAR(100) NOT NULL UNIQUE,
+name VARCHAR(100) NOT NULL,
 address VARCHAR(255),
 account_name VARCHAR(100) NOT NULL UNIQUE
 );
