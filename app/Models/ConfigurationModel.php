@@ -4,7 +4,7 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class SettingModel extends Model
+class ConfigurationModel extends Model
 {
     protected $table = 'configuration';  // Nombre de la tabla
     protected $primaryKey = 'id_config'; // Clave primaria de la tabla
@@ -26,4 +26,15 @@ class SettingModel extends Model
             return $this->insert($data);
         }
     }
+    public function getEmailSettings()
+    {
+        // Obtiene la configuración SMTP desde la base de datos
+        $smtpConfig = $this->where('config_key', 'smtp_config')->first();
+        log_message('info', 'Configuración SMTP obtenida: ' . print_r($smtpConfig, true));
+        // Decodifica el valor de config_value que es un JSON
+        return isset($smtpConfig['config_value']) && !empty($smtpConfig['config_value']) 
+            ? json_decode($smtpConfig['config_value'], true) 
+            : [];
+
+}
 }

@@ -1,0 +1,63 @@
+INFO - 2025-03-15 14:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-15 14:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-15 14:09:47 --> Usuario autenticado con role_id: 
+INFO - 2025-03-15 14:09:49 --> El método authenticate fue llamado
+INFO - 2025-03-15 14:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-15 14:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-15 14:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-15 14:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-15 14:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-15 14:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-15 14:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-15 14:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-15 14:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-15 14:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-15 14:10:21 --> Iniciando búsqueda de usuario...
+INFO - 2025-03-15 14:10:21 --> Identificación recibida: 987654321
+INFO - 2025-03-15 14:10:21 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-03-14 15:04:58","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"0.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-03-15 14:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-15 14:10:25 --> Iniciando el método recharge()
+INFO - 2025-03-15 14:10:25 --> Identificación recibida: 2
+INFO - 2025-03-15 14:10:25 --> Identificación recibida: 987654321
+INFO - 2025-03-15 14:10:25 --> Monto recibido: 20000
+INFO - 2025-03-15 14:10:25 --> Modelo de usuarios cargado
+INFO - 2025-03-15 14:10:25 --> Consulta realizada para buscar usuario
+INFO - 2025-03-15 14:10:25 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-03-14 15:04:58","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"0.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-03-15 14:10:25 --> Nuevo balance calculado: 20000
+INFO - 2025-03-15 14:10:25 --> Saldo actualizado correctamente
+INFO - 2025-03-15 14:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-15 14:10:29 --> Iniciando el método recharge()
+INFO - 2025-03-15 14:10:29 --> Identificación recibida: 2
+INFO - 2025-03-15 14:10:29 --> Identificación recibida: 987654321
+INFO - 2025-03-15 14:10:29 --> Monto recibido: 2000
+INFO - 2025-03-15 14:10:29 --> Modelo de usuarios cargado
+INFO - 2025-03-15 14:10:29 --> Consulta realizada para buscar usuario
+INFO - 2025-03-15 14:10:29 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-03-14 15:04:58","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"20000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-03-15 14:10:29 --> Nuevo balance calculado: 22000
+INFO - 2025-03-15 14:10:29 --> Saldo actualizado correctamente
+INFO - 2025-03-15 14:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-15 14:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-15 14:10:34 --> Iniciando búsqueda de usuario...
+INFO - 2025-03-15 14:10:34 --> Identificación recibida: 987654321
+INFO - 2025-03-15 14:10:34 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-03-14 15:04:58","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"22000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-03-15 14:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-15 14:10:37 --> Historial de transacciones: [
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-03-15 14:10:25"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "2000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-03-15 14:10:29"
+    }
+]

@@ -22,26 +22,25 @@ $routes->group('admin', ['filter' => 'auth'], function ($routes) {
     //bank
     $routes->get('extrasmanagement/bank', 'BankController::index');
     $routes->post('extrasmanagement/bank/add', 'BankController::create');
-    $routes->post('extrasmanagement/bank/update/(:num)', 'BankController::update/$1');  
-    $routes->get('extrasmanagement/bank/delete/(:num)', 'BankController::delete/$1');  
- //banker
- $routes->get('extrasmanagement/banker', 'BankerController::index');
- $routes->post('extrasmanagement/banker/add', 'BankerController::create');
- $routes->post('extrasmanagement/banker/update/(:num)', 'BankerController::update/$1');  
- $routes->get('extrasmanagement/banker/delete/(:num)', 'BankerController::delete/$1');  
-  //company
-  $routes->get('extrasmanagement/company', 'CompanyController::index');
-  $routes->post('extrasmanagement/company/add', 'CompanyController::create');
-  $routes->post('extrasmanagement/company/update/(:num)', 'CompanyController::update/$1');  
-  $routes->get('extrasmanagement/company/delete/(:num)', 'CompanyController::delete/$1'); 
+    $routes->post('extrasmanagement/bank/update/(:num)', 'BankController::update/$1');
+    $routes->get('extrasmanagement/bank/delete/(:num)', 'BankController::delete/$1');
+    //banker
+    $routes->get('extrasmanagement/banker', 'BankerController::index');
+    $routes->post('extrasmanagement/banker/add', 'BankerController::create');
+    $routes->post('extrasmanagement/banker/update/(:num)', 'BankerController::update/$1');
+    $routes->get('extrasmanagement/banker/delete/(:num)', 'BankerController::delete/$1');
+    //company
+    $routes->get('extrasmanagement/company', 'CompanyController::index');
+    $routes->post('extrasmanagement/company/add', 'CompanyController::create');
+    $routes->post('extrasmanagement/company/update/(:num)', 'CompanyController::update/$1');
+    $routes->get('extrasmanagement/company/delete/(:num)', 'CompanyController::delete/$1');
     // Rutas de autenticación (protegidas) para el aside
     ///setting
-    $routes->get('setting', 'SettingController::index');
-    $routes->post('setting/save_security_settings', 'SettingController::saveSecuritySettings');
-    $routes->post('setting/save_smtp', 'SettingController::saveSMTPConfig');
+    $routes->get('setting', 'ConfigurationController::index');
+    $routes->post('setting/save_security_settings', 'ConfigurationController::saveSecuritySettings');
+    $routes->post('setting/save_smtp', 'ConfigurationController::saveSMTPConfig');
     ///profile
     $routes->get('profile', 'ProfileController::index');
-
     // Rutas de autenticación (protegidas) para el modulo de sistema
     //pqrsmanagement
     $routes->get('pqrsmanagement', 'PqrsController::index');
@@ -49,13 +48,18 @@ $routes->group('admin', ['filter' => 'auth'], function ($routes) {
     $routes->get('transactions', 'TransactionsController::index');
     $routes->post('transactions/search', 'TransactionsController::search');
     $routes->post('transactions/recharge', 'TransactionsController::recharge');
-
+// Rutas de autenticación (protegidas) para el modulo de seguridad
+    ///clientmanagemen
+    $routes->get('clientmanagement', 'ClientsManagementController::index'); // Listar usuarios
+    $routes->get('clientmanagement/show/(:num)', 'ClientsManagementController::show/$1'); // Obtener un usuario específico
+    $routes->post('clientmanagement/add', 'ClientsManagementController::addUser'); // Crear usuario
+    $routes->post('clientmanagement/update/(:num)', 'ClientsManagementController::updateUser/$1'); // Actualizar usuario
+    $routes->get('clientmanagement/delete/(:num)', 'ClientsManagementController::deleteUser/$1'); // Eliminar usuario
     // Rutas de autenticación (protegidas) para el modulo de historial
     ///historytransactions
     $routes->get('historytransactions', 'HistoryTransactionsController::index');
     $routes->get('historytransactions/detail/(:num)', 'HistoryTransactionsController::renderViewHistoryTransaction/$1');
     $routes->post('historytransactions/search', 'TransactionsController::search');
-
     // Rutas de autenticación (protegidas) para el modulo de seguridad
     ///usermanagemen
     $routes->get('usermanagement', 'UserManagementController::index'); // Listar usuarios
@@ -66,7 +70,6 @@ $routes->group('admin', ['filter' => 'auth'], function ($routes) {
     ///changepassword
     $routes->get('changepassword', 'ChangePasswordController::index');  // Cargar formulario
     $routes->post('changepassword/update', 'ChangePasswordController::updatePassword');  // Enviar formulario
-
 });
 
 

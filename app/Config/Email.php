@@ -32,20 +32,5 @@ class Email extends BaseConfig
     public int $BCCBatchSize = 200;
     public bool $DSN = false;
 
-    public function __construct()
-    {
-        parent::__construct();
-        
-        // Cargar configuración desde la base de datos
-        $settingsModel = new SettingModel();
-        $smtpConfig = $settingsModel->getSMTPConfig(); // Método que debes crear en tu modelo
-
-        if ($smtpConfig) {
-            // Asigna los valores desde la base de datos
-            $this->SMTPHost = $smtpConfig['host'];
-            $this->SMTPUser = $smtpConfig['usuario_smtp'];
-            $this->SMTPPass = $smtpConfig['clave_smtp'];
-            $this->SMTPPort = (int)$smtpConfig['puerto'];
-        }
-    }
+ 
 }

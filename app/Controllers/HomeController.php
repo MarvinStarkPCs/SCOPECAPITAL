@@ -8,7 +8,7 @@ class HomeController extends BaseController
         $role_id = $session->get('role_id');
     
         if ($role_id == 1) {
-            return view('home'); // Vista para administradores
+            return view('extras_management/extras_management'); // Vista para administradores
         } else {
             return view(name: 'system/pqrsmanagementclient'); // Vista para otros usuarios
         }

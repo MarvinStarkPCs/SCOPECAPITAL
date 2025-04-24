@@ -1,0 +1,19 @@
+INFO - 2025-04-10 23:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-10 23:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-10 23:32:23 --> Usuario autenticado con role_id: 
+INFO - 2025-04-10 23:32:25 --> El método authenticate fue llamado
+INFO - 2025-04-10 23:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-10 23:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-10 23:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-10 23:32:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-10 23:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-10 23:32:57 --> Iniciando búsqueda de usuario...
+INFO - 2025-04-10 23:32:57 --> Identificación recibida: 1111111
+ERROR - 2025-04-10 23:32:57 --> Usuario no encontrado con identificación: 1111111
+INFO - 2025-04-10 23:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-10 23:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-10 23:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-10 23:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-10 23:33:07 --> Iniciando búsqueda de usuario...
+INFO - 2025-04-10 23:33:07 --> Identificación recibida: 987654321
+INFO - 2025-04-10 23:33:07 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-03-14 15:04:58","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"22000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}

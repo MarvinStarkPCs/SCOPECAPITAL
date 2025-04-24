@@ -75,7 +75,8 @@ CREATE TABLE configuration (
 -- Crear la tabla de parámetros independiente
 CREATE TABLE parameters (
     param_key VARCHAR(100) NOT NULL UNIQUE,
-    param_value VARCHAR(255) NOT NULL,
+    param_value VARCHAR(255),
+    numeric_value DECIMAL(15, 2),      -- valor numérico para dinero, porcentajes, etc.
     description VARCHAR(255),
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
     updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP

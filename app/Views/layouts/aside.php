@@ -40,9 +40,12 @@
                     <a class="collapse-item" href="<?= base_url('admin/transactions'); ?>">
                         <i class="fas fa-exchange-alt"></i> Transactions
                     </a>
-                    <a class="collapse-item" href="<?= base_url('admin/extrasmanagement'); ?>">
-                        <i class="fas fa-tools"></i> Gestión de Extras
+                    <a class="collapse-item" href="<?= base_url('admin/clientmanagement'); ?>">
+                        <i class="fas fa-users"></i> clients
                     </a>
+                    <!-- <a class="collapse-item" href="<?= base_url('admin/extrasmanagement'); ?>">
+                        <i class="fas fa-tools"></i> Gestión de Extras
+                    </a> -->
                 </div>
             </div>
         </li>

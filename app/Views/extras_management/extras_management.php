@@ -125,9 +125,9 @@
 
 <div class="container">
     <!-- Botón de regreso mejorado -->
-    <a href="javascript:history.back()" class="back-button">
+    <!-- <a href="javascript:history.back()" class="back-button">
         <i class="fas fa-arrow-left"></i> Volver
-    </a>
+    </a> -->
 
     <div class="header mb-4">
         <h1 class="h3 color-text">Gestión de Extras</h1>

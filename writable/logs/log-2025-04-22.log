@@ -1,0 +1,470 @@
+INFO - 2025-04-22 03:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:03:41 --> Usuario autenticado con role_id: 
+INFO - 2025-04-22 03:03:43 --> El método authenticate fue llamado
+INFO - 2025-04-22 03:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:04:21 --> Iniciando búsqueda de usuario...
+INFO - 2025-04-22 03:04:21 --> Identificación recibida: 2354235423
+ERROR - 2025-04-22 03:04:21 --> Usuario no encontrado con identificación: 2354235423
+INFO - 2025-04-22 03:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:04:24 --> Iniciando búsqueda de usuario...
+INFO - 2025-04-22 03:04:24 --> Identificación recibida: 2354235423
+ERROR - 2025-04-22 03:04:24 --> Usuario no encontrado con identificación: 2354235423
+INFO - 2025-04-22 03:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:21:16 --> Usuario autenticado con role_id: 
+INFO - 2025-04-22 05:21:19 --> El método authenticate fue llamado
+INFO - 2025-04-22 05:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 05:22:54 --> ErrorException: Undefined variable $companies
+[Method: GET, Route: admin/clientmanagement]
+in APPPATH\Views\system\ClientManagement\modals\Create.php on line 70.
+ 1 APPPATH\Views\system\ClientManagement\modals\Create.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $companies', 'C:\\xampp\\htdocs\\SCOPECAPITAL\\app\\Views\\system\\ClientManagement\\modals\\Create.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SCOPECAPITAL\\app\\Views\\system\\ClientManagement\\modals\\Create.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('system/ClientManagement/modals/Create', [], true)
+ 5 APPPATH\Views\system\ClientManagement\ClientManagement.php(72): view('system/ClientManagement/modals/Create')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SCOPECAPITAL\\app\\Views\\system\\ClientManagement\\ClientManagement.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('system/ClientManagement/ClientManagement', [], true)
+ 9 APPPATH\Controllers\ClientsManagementController.php(21): view('system/ClientManagement/ClientManagement', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientsManagementController->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-22 05:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 05:23:27 --> ErrorException: Undefined variable $companies
+[Method: GET, Route: admin/clientmanagement]
+in APPPATH\Views\system\ClientManagement\modals\Create.php on line 70.
+ 1 APPPATH\Views\system\ClientManagement\modals\Create.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $companies', 'C:\\xampp\\htdocs\\SCOPECAPITAL\\app\\Views\\system\\ClientManagement\\modals\\Create.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SCOPECAPITAL\\app\\Views\\system\\ClientManagement\\modals\\Create.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('system/ClientManagement/modals/Create', [], true)
+ 5 APPPATH\Views\system\ClientManagement\ClientManagement.php(72): view('system/ClientManagement/modals/Create')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SCOPECAPITAL\\app\\Views\\system\\ClientManagement\\ClientManagement.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('system/ClientManagement/ClientManagement', [], true)
+ 9 APPPATH\Controllers\ClientsManagementController.php(21): view('system/ClientManagement/ClientManagement', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientsManagementController->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-22 05:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 05:28:58 --> ErrorException: foreach() argument must be of type array|object, bool given
+[Method: GET, Route: admin/clientmanagement]
+in APPPATH\Views\system\ClientManagement\modals\Create.php on line 70.
+ 1 APPPATH\Views\system\ClientManagement\modals\Create.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\SCOPECAPITAL\\app\\Views\\system\\ClientManagement\\modals\\Create.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SCOPECAPITAL\\app\\Views\\system\\ClientManagement\\modals\\Create.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('system/ClientManagement/modals/Create', [], true)
+ 5 APPPATH\Views\system\ClientManagement\ClientManagement.php(72): view('system/ClientManagement/modals/Create')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SCOPECAPITAL\\app\\Views\\system\\ClientManagement\\ClientManagement.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('system/ClientManagement/ClientManagement', [], true)
+ 9 APPPATH\Controllers\ClientsManagementController.php(23): view('system/ClientManagement/ClientManagement', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientsManagementController->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-22 05:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 05:28:59 --> ErrorException: foreach() argument must be of type array|object, bool given
+[Method: GET, Route: admin/clientmanagement]
+in APPPATH\Views\system\ClientManagement\modals\Create.php on line 70.
+ 1 APPPATH\Views\system\ClientManagement\modals\Create.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\SCOPECAPITAL\\app\\Views\\system\\ClientManagement\\modals\\Create.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SCOPECAPITAL\\app\\Views\\system\\ClientManagement\\modals\\Create.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('system/ClientManagement/modals/Create', [], true)
+ 5 APPPATH\Views\system\ClientManagement\ClientManagement.php(72): view('system/ClientManagement/modals/Create')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SCOPECAPITAL\\app\\Views\\system\\ClientManagement\\ClientManagement.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('system/ClientManagement/ClientManagement', [], true)
+ 9 APPPATH\Controllers\ClientsManagementController.php(23): view('system/ClientManagement/ClientManagement', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientsManagementController->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-22 05:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 05:29:00 --> ErrorException: foreach() argument must be of type array|object, bool given
+[Method: GET, Route: admin/clientmanagement]
+in APPPATH\Views\system\ClientManagement\modals\Create.php on line 70.
+ 1 APPPATH\Views\system\ClientManagement\modals\Create.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\SCOPECAPITAL\\app\\Views\\system\\ClientManagement\\modals\\Create.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SCOPECAPITAL\\app\\Views\\system\\ClientManagement\\modals\\Create.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('system/ClientManagement/modals/Create', [], true)
+ 5 APPPATH\Views\system\ClientManagement\ClientManagement.php(72): view('system/ClientManagement/modals/Create')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SCOPECAPITAL\\app\\Views\\system\\ClientManagement\\ClientManagement.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('system/ClientManagement/ClientManagement', [], true)
+ 9 APPPATH\Controllers\ClientsManagementController.php(23): view('system/ClientManagement/ClientManagement', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientsManagementController->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-22 05:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 05:29:00 --> ErrorException: foreach() argument must be of type array|object, bool given
+[Method: GET, Route: admin/clientmanagement]
+in APPPATH\Views\system\ClientManagement\modals\Create.php on line 70.
+ 1 APPPATH\Views\system\ClientManagement\modals\Create.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\SCOPECAPITAL\\app\\Views\\system\\ClientManagement\\modals\\Create.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SCOPECAPITAL\\app\\Views\\system\\ClientManagement\\modals\\Create.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('system/ClientManagement/modals/Create', [], true)
+ 5 APPPATH\Views\system\ClientManagement\ClientManagement.php(72): view('system/ClientManagement/modals/Create')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SCOPECAPITAL\\app\\Views\\system\\ClientManagement\\ClientManagement.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('system/ClientManagement/ClientManagement', [], true)
+ 9 APPPATH\Controllers\ClientsManagementController.php(23): view('system/ClientManagement/ClientManagement', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientsManagementController->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-22 05:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 05:31:11 --> ErrorException: foreach() argument must be of type array|object, bool given
+[Method: GET, Route: admin/clientmanagement]
+in APPPATH\Views\system\ClientManagement\modals\Create.php on line 82.
+ 1 APPPATH\Views\system\ClientManagement\modals\Create.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\SCOPECAPITAL\\app\\Views\\system\\ClientManagement\\modals\\Create.php', 82)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SCOPECAPITAL\\app\\Views\\system\\ClientManagement\\modals\\Create.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('system/ClientManagement/modals/Create', [], true)
+ 5 APPPATH\Views\system\ClientManagement\ClientManagement.php(72): view('system/ClientManagement/modals/Create')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SCOPECAPITAL\\app\\Views\\system\\ClientManagement\\ClientManagement.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('system/ClientManagement/ClientManagement', [], true)
+ 9 APPPATH\Controllers\ClientsManagementController.php(23): view('system/ClientManagement/ClientManagement', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientsManagementController->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-22 05:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 05:31:12 --> ErrorException: foreach() argument must be of type array|object, bool given
+[Method: GET, Route: admin/clientmanagement]
+in APPPATH\Views\system\ClientManagement\modals\Create.php on line 82.
+ 1 APPPATH\Views\system\ClientManagement\modals\Create.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\SCOPECAPITAL\\app\\Views\\system\\ClientManagement\\modals\\Create.php', 82)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SCOPECAPITAL\\app\\Views\\system\\ClientManagement\\modals\\Create.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('system/ClientManagement/modals/Create', [], true)
+ 5 APPPATH\Views\system\ClientManagement\ClientManagement.php(72): view('system/ClientManagement/modals/Create')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SCOPECAPITAL\\app\\Views\\system\\ClientManagement\\ClientManagement.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('system/ClientManagement/ClientManagement', [], true)
+ 9 APPPATH\Controllers\ClientsManagementController.php(23): view('system/ClientManagement/ClientManagement', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientsManagementController->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-22 05:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:33:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 14:30:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 14:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 14:30:52 --> Usuario autenticado con role_id: 
+INFO - 2025-04-22 14:30:54 --> El método authenticate fue llamado
+INFO - 2025-04-22 14:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 14:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 14:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 14:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 15:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 15:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 15:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 15:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 15:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:29:19 --> Usuario autenticado con role_id: 
+INFO - 2025-04-22 18:29:21 --> El método authenticate fue llamado
+INFO - 2025-04-22 18:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:29:26 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-04-22 18:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:29:51 --> Solicitud de cambio de contraseña recibida.
+ERROR - 2025-04-22 18:29:51 --> Las contraseñas no coinciden.
+INFO - 2025-04-22 18:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:29:51 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-04-22 18:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:32:05 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-04-22 18:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:34:35 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-04-22 18:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:35:27 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-04-22 18:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:35:38 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-04-22 18:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:35:58 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-04-22 18:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:35:59 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-04-22 18:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:36:03 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-04-22 18:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:37:51 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-04-22 18:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:37:54 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-04-22 18:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:38:01 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-04-22 18:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:38:09 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-04-22 18:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:38:25 --> Solicitud de cambio de contraseña recibida.
+INFO - 2025-04-22 18:38:25 --> Nueva contraseña encriptada para el usuario con ID: 
+INFO - 2025-04-22 18:38:25 --> Contraseña actualizada con éxito para el usuario con ID: 
+INFO - 2025-04-22 18:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:38:26 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-04-22 18:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:45:03 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-04-22 18:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:45:17 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-04-22 18:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:45:29 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-04-22 18:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:46:39 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-04-22 18:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:47:24 --> Solicitud de cambio de contraseña recibida.
+INFO - 2025-04-22 18:47:24 --> Nueva contraseña encriptada para el usuario con ID: 
+INFO - 2025-04-22 18:47:24 --> Contraseña actualizada con éxito para el usuario con ID: 
+INFO - 2025-04-22 18:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:47:24 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-04-22 18:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:47:31 --> Usuario autenticado con role_id: 
+INFO - 2025-04-22 18:47:34 --> El método authenticate fue llamado
+INFO - 2025-04-22 18:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:47:35 --> Usuario autenticado con role_id: 
+INFO - 2025-04-22 18:47:39 --> El método authenticate fue llamado
+INFO - 2025-04-22 18:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:47:49 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-04-22 18:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:48:02 --> Solicitud de cambio de contraseña recibida.
+ERROR - 2025-04-22 18:48:02 --> La contraseña actual es incorrecta para el usuario con ID: 
+INFO - 2025-04-22 18:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:48:02 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-04-22 18:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:49:00 --> Usuario autenticado con role_id: 
+INFO - 2025-04-22 18:49:11 --> El método authenticate fue llamado
+INFO - 2025-04-22 18:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:50:10 --> Usuario autenticado con role_id: 
+INFO - 2025-04-22 18:50:13 --> El método authenticate fue llamado
+INFO - 2025-04-22 18:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:52:14 --> Iniciando el método addUser()
+INFO - 2025-04-22 18:52:14 --> Reglas de validación definidas.
+INFO - 2025-04-22 18:52:14 --> Validación exitosa.
+INFO - 2025-04-22 18:52:14 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"2354235423","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","email":"marvin.santos@soy.sena.edu.co","role_id":"1","status":"active","password_hash":"$2y$10$L6vT7n34FPthF7PW1gos2ONF62jB4ir8LVi8jG8t.6LqBlbD0kwd2"}
+INFO - 2025-04-22 18:52:14 --> Consulta ejecutada: INSERT INTO `users` (`name`, `last_name`, `identification`, `phone`, `address`, `email`, `role_id`, `status`, `password_hash`) VALUES ('MARVIN', 'PEREZ', '2354235423', '3132311084', 'KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES', 'marvin.santos@soy.sena.edu.co', '1', 'active', '$2y$10$L6vT7n34FPthF7PW1gos2ONF62jB4ir8LVi8jG8t.6LqBlbD0kwd2')
+INFO - 2025-04-22 18:52:14 --> Usuario agregado correctamente en la base de datos.
+INFO - 2025-04-22 18:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 18:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 19:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 19:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:13:12 --> Usuario autenticado con role_id: 
+INFO - 2025-04-22 23:13:15 --> El método authenticate fue llamado
+INFO - 2025-04-22 23:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:15:37 --> Iniciando el método addUser()
+INFO - 2025-04-22 23:15:37 --> Reglas de validación definidas.
+INFO - 2025-04-22 23:15:37 --> Validación exitosa.
+INFO - 2025-04-22 23:15:37 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"1111111222","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","email":"marv222in.santos@soy.sena.edu.co","role_id":"1","status":"active","password_hash":"$2y$10$6xF8nSSG0v9cTeVZiIiLj.6V5XH2R3HXx5LoEGnV5BhXf5MB8pPLi"}
+INFO - 2025-04-22 23:15:37 --> Consulta ejecutada: INSERT INTO `users` (`name`, `last_name`, `identification`, `phone`, `address`, `email`, `role_id`, `status`, `password_hash`) VALUES ('MARVIN', 'PEREZ', '1111111222', '3132311084', 'KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES', 'marv222in.santos@soy.sena.edu.co', '1', 'active', '$2y$10$6xF8nSSG0v9cTeVZiIiLj.6V5XH2R3HXx5LoEGnV5BhXf5MB8pPLi')
+INFO - 2025-04-22 23:15:37 --> Usuario agregado correctamente en la base de datos.
+INFO - 2025-04-22 23:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:18:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:19:45 --> Starting updateUser() method for user ID: 1
+INFO - 2025-04-22 23:19:45 --> Validation rules defined.
+INFO - 2025-04-22 23:19:45 --> Validation successful.
+INFO - 2025-04-22 23:19:45 --> Collected form data: {"name":"JUAN","last_name":"P\u00c9REZ","identification":"123456789","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","email":"admin@admin.com","status":"active"}
+INFO - 2025-04-22 23:19:45 --> Executed query: UPDATE `users` SET `name` = 'JUAN', `last_name` = 'PÉREZ', `identification` = '123456789', `phone` = '3132311084', `address` = 'KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES', `email` = 'admin@admin.com', `status` = 'active'
+WHERE `users`.`id_user` IN ('1')
+INFO - 2025-04-22 23:19:45 --> User successfully updated.
+INFO - 2025-04-22 23:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:22:45 --> Iniciando el método addUser()
+INFO - 2025-04-22 23:22:45 --> Reglas de validación definidas.
+ERROR - 2025-04-22 23:22:45 --> Error en la validación de datos: {"identification":"El campo identification es obligatorio."}
+INFO - 2025-04-22 23:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:22:51 --> Iniciando el método addUser()
+INFO - 2025-04-22 23:22:51 --> Reglas de validación definidas.
+INFO - 2025-04-22 23:22:51 --> Validación exitosa.
+INFO - 2025-04-22 23:22:52 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"1111111","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","email":"marvin.santos@soy.sena.edu.co","role_id":"1","status":"active","password_hash":"$2y$10$fZcloZ8rYsIv9rAkFr5SAeDK8\/AULr8r30rNTJ\/A6D8BUUqQ0YLk6"}
+INFO - 2025-04-22 23:22:52 --> Consulta ejecutada: INSERT INTO `users` (`name`, `last_name`, `identification`, `phone`, `address`, `email`, `role_id`, `status`, `password_hash`) VALUES ('MARVIN', 'PEREZ', '1111111', '3132311084', 'KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES', 'marvin.santos@soy.sena.edu.co', '1', 'active', '$2y$10$fZcloZ8rYsIv9rAkFr5SAeDK8/AULr8r30rNTJ/A6D8BUUqQ0YLk6')
+INFO - 2025-04-22 23:22:52 --> Usuario agregado correctamente en la base de datos.
+INFO - 2025-04-22 23:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:23:08 --> Iniciando el método addUser()
+INFO - 2025-04-22 23:23:08 --> Reglas de validación definidas.
+ERROR - 2025-04-22 23:23:09 --> Error en la validación de datos: {"identification":"El campo identification es obligatorio.","email":"The email field must contain a unique value."}
+INFO - 2025-04-22 23:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:23:15 --> Iniciando el método addUser()
+INFO - 2025-04-22 23:23:15 --> Reglas de validación definidas.
+ERROR - 2025-04-22 23:23:15 --> Error en la validación de datos: {"identification":"The identification field must contain a unique value.","email":"The email field must contain a unique value."}
+INFO - 2025-04-22 23:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-22 23:36:17 --> mysqli_sql_exception: Table 'scopecapital.cofigurationmodel' doesn't exist in C:\xampp\htdocs\SCOPECAPITAL\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\SCOPECAPITAL\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\SCOPECAPITAL\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\SCOPECAPITAL\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\SCOPECAPITAL\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\SCOPECAPITAL\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\SCOPECAPITAL\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\SCOPECAPITAL\app\Controllers\CofigurationController.php(14): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\SCOPECAPITAL\system\CodeIgniter.php(933): App\Controllers\CofigurationController->index()
+#8 C:\xampp\htdocs\SCOPECAPITAL\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CofigurationController))
+#9 C:\xampp\htdocs\SCOPECAPITAL\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\SCOPECAPITAL\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\SCOPECAPITAL\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\SCOPECAPITAL\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-04-22 23:36:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'scopecapital.cofigurationmodel' doesn't exist
+[Method: GET, Route: admin/setting]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `CofigurationModel`
+WHERE `config_key` = :config_key:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\CofigurationController.php(14): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CofigurationController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CofigurationController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-22 23:36:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'scopecapital.cofigurationmodel' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `CofigurationModel`
+WHERE `config_key` = \'smtp_config\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `CofigurationModel`
+WHERE `config_key` = \'smtp_config\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `CofigurationModel`
+WHERE `config_key` = :config_key:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\CofigurationController.php(14): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CofigurationController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CofigurationController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-22 23:36:17 --> [Caused by] mysqli_sql_exception: Table 'scopecapital.cofigurationmodel' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `CofigurationModel`
+WHERE `config_key` = \'smtp_config\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `CofigurationModel`
+WHERE `config_key` = \'smtp_config\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `CofigurationModel`
+WHERE `config_key` = \'smtp_config\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `CofigurationModel`
+WHERE `config_key` = :config_key:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\CofigurationController.php(14): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CofigurationController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CofigurationController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-22 23:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:38:31 --> Datos enviados para actualizar SMTP: Array
+(
+    [config_key] => smtp_config
+    [config_value] => {"host":"smtp.gmail.com","username":"admin@admin.com","port":"8080","smtp_password":"SCOPECAPITAL2024*","security":"tls"}
+    [updated_at] => 2025-04-22 23:38:31
+)
+
+ERROR - 2025-04-22 23:38:31 --> Error al actualizar la configuración: Call to undefined method App\Models\ConfigurationModel::updateSMTPConfig
+INFO - 2025-04-22 23:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 23:44:21 --> Error: Class "App\Models\ConfigurationModel" not found
+[Method: GET, Route: admin/setting]
+in APPPATH\Controllers\CofigurationController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CofigurationController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CofigurationController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-22 23:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 23:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

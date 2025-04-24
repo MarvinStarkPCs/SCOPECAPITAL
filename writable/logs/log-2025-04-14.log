@@ -1,0 +1,784 @@
+INFO - 2025-04-14 13:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:21:57 --> Usuario autenticado con role_id: 
+INFO - 2025-04-14 13:21:59 --> El método authenticate fue llamado
+INFO - 2025-04-14 13:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:22:47 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-04-14 13:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:23:36 --> Iniciando búsqueda de usuario...
+INFO - 2025-04-14 13:23:36 --> Identificación recibida: 987654321
+INFO - 2025-04-14 13:23:36 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-03-14 15:04:58","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"22000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-04-14 13:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:23:38 --> Historial de transacciones: [
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-03-15 14:10:25"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "2000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-03-15 14:10:29"
+    }
+]
+INFO - 2025-04-14 13:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:24:52 --> Iniciando búsqueda de usuario...
+INFO - 2025-04-14 13:24:52 --> Identificación recibida: 987654321
+INFO - 2025-04-14 13:24:52 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-03-14 15:04:58","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"22000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-04-14 13:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:24:54 --> Historial de transacciones: [
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-03-15 14:10:25"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "2000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-03-15 14:10:29"
+    }
+]
+INFO - 2025-04-14 13:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:25:29 --> Iniciando búsqueda de usuario...
+INFO - 2025-04-14 13:25:29 --> Identificación recibida: 987654321
+INFO - 2025-04-14 13:25:29 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-03-14 15:04:58","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"22000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-04-14 13:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:25:34 --> Historial de transacciones: [
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-03-15 14:10:25"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "2000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-03-15 14:10:29"
+    }
+]
+INFO - 2025-04-14 13:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:27:56 --> Iniciando búsqueda de usuario...
+INFO - 2025-04-14 13:27:56 --> Identificación recibida: 987654321
+INFO - 2025-04-14 13:27:56 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-03-14 15:04:58","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"22000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-04-14 13:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:30:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:31:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:35:37 --> Usuario autenticado con role_id: 
+INFO - 2025-04-14 13:35:52 --> El método authenticate fue llamado
+INFO - 2025-04-14 13:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 13:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:02:25 --> Usuario autenticado con role_id: 
+INFO - 2025-04-14 14:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:03:46 --> Usuario autenticado con role_id: 
+INFO - 2025-04-14 14:04:00 --> El método authenticate fue llamado
+INFO - 2025-04-14 14:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:04:08 --> Usuario autenticado con role_id: 
+INFO - 2025-04-14 14:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:04:23 --> El método authenticate fue llamado
+INFO - 2025-04-14 14:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:04:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:04:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:04:37 --> Usuario autenticado con role_id: 
+INFO - 2025-04-14 14:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:12:35 --> Usuario autenticado con role_id: 
+INFO - 2025-04-14 14:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:12:36 --> Usuario autenticado con role_id: 
+INFO - 2025-04-14 14:12:43 --> El método authenticate fue llamado
+INFO - 2025-04-14 14:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:15:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:18:36 --> Iniciando búsqueda de usuario...
+INFO - 2025-04-14 14:18:36 --> Identificación recibida: 987654321
+INFO - 2025-04-14 14:18:36 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-03-14 15:04:58","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"22000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-04-14 14:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:19:48 --> Iniciando el método recharge()
+INFO - 2025-04-14 14:19:48 --> Identificación recibida: 2
+INFO - 2025-04-14 14:19:48 --> Identificación recibida: 987654321
+INFO - 2025-04-14 14:19:48 --> Monto recibido: 5000
+INFO - 2025-04-14 14:19:48 --> Modelo de usuarios cargado
+INFO - 2025-04-14 14:19:48 --> Consulta realizada para buscar usuario
+INFO - 2025-04-14 14:19:48 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-03-14 15:04:58","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"22000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-04-14 14:19:48 --> Nuevo balance calculado: 27000
+INFO - 2025-04-14 14:19:48 --> Saldo actualizado correctamente
+INFO - 2025-04-14 14:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:20:49 --> Iniciando búsqueda de usuario...
+INFO - 2025-04-14 14:20:49 --> Identificación recibida: 987654321
+INFO - 2025-04-14 14:20:49 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-03-14 15:04:58","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"27000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-04-14 14:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:20:58 --> Historial de transacciones: [
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-03-15 14:10:25"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "2000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-03-15 14:10:29"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "5000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-04-14 14:19:48"
+    }
+]
+INFO - 2025-04-14 14:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:20:58 --> Historial de transacciones: [
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-03-15 14:10:25"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "2000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-03-15 14:10:29"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "5000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-04-14 14:19:48"
+    }
+]
+INFO - 2025-04-14 14:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:30:30 --> Usuario autenticado con role_id: 
+INFO - 2025-04-14 14:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:30:31 --> Usuario autenticado con role_id: 
+INFO - 2025-04-14 14:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:54:00 --> Usuario autenticado con role_id: 
+INFO - 2025-04-14 14:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:54:00 --> Usuario autenticado con role_id: 
+INFO - 2025-04-14 14:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:54:24 --> Usuario autenticado con role_id: 
+INFO - 2025-04-14 14:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:54:24 --> Usuario autenticado con role_id: 
+INFO - 2025-04-14 14:54:30 --> El método authenticate fue llamado
+INFO - 2025-04-14 14:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:54:41 --> Usuario autenticado con role_id: 
+INFO - 2025-04-14 14:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:54:41 --> Usuario autenticado con role_id: 
+INFO - 2025-04-14 14:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 14:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:07:50 --> Usuario autenticado con role_id: 
+INFO - 2025-04-14 15:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:07:51 --> Usuario autenticado con role_id: 
+INFO - 2025-04-14 15:07:57 --> El método authenticate fue llamado
+INFO - 2025-04-14 15:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:18:26 --> Iniciando búsqueda de usuario...
+INFO - 2025-04-14 15:18:26 --> Identificación recibida: 987654321
+INFO - 2025-04-14 15:18:26 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-03-14 15:04:58","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"27000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-04-14 15:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:19:18 --> Iniciando el método recharge()
+INFO - 2025-04-14 15:19:18 --> Identificación recibida: 2
+INFO - 2025-04-14 15:19:18 --> Identificación recibida: 987654321
+INFO - 2025-04-14 15:19:18 --> Monto recibido: 15000
+INFO - 2025-04-14 15:19:18 --> Modelo de usuarios cargado
+INFO - 2025-04-14 15:19:18 --> Consulta realizada para buscar usuario
+INFO - 2025-04-14 15:19:18 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-03-14 15:04:58","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"27000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-04-14 15:19:18 --> Nuevo balance calculado: 42000
+INFO - 2025-04-14 15:19:18 --> Saldo actualizado correctamente
+INFO - 2025-04-14 15:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:19:51 --> Iniciando búsqueda de usuario...
+INFO - 2025-04-14 15:19:51 --> Identificación recibida: 987654321
+INFO - 2025-04-14 15:19:51 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-03-14 15:04:58","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"42000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-04-14 15:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:20:03 --> Historial de transacciones: [
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-03-15 14:10:25"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "2000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-03-15 14:10:29"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "5000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-04-14 14:19:48"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "15000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-04-14 15:19:18"
+    }
+]
+INFO - 2025-04-14 15:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:20:04 --> Historial de transacciones: [
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-03-15 14:10:25"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "2000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-03-15 14:10:29"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "5000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-04-14 14:19:48"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "15000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-04-14 15:19:18"
+    }
+]
+INFO - 2025-04-14 15:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:35:32 --> Iniciando búsqueda de usuario...
+INFO - 2025-04-14 15:35:32 --> Identificación recibida: ANA LÓPEZ
+ERROR - 2025-04-14 15:35:32 --> Usuario no encontrado con identificación: ANA LÓPEZ
+INFO - 2025-04-14 15:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 15:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 18:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 18:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 18:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 18:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 18:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 18:59:54 --> Usuario autenticado con role_id: 
+INFO - 2025-04-14 18:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 18:59:55 --> Usuario autenticado con role_id: 
+INFO - 2025-04-14 18:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 18:59:55 --> Usuario autenticado con role_id: 
+INFO - 2025-04-14 19:00:02 --> El método authenticate fue llamado
+INFO - 2025-04-14 19:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:00:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:00:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:00:55 --> Iniciando búsqueda de usuario...
+INFO - 2025-04-14 19:00:55 --> Identificación recibida: 987654321
+INFO - 2025-04-14 19:00:55 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-03-14 15:04:58","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"42000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-04-14 19:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:00:58 --> Historial de transacciones: [
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-03-15 14:10:25"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "2000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-03-15 14:10:29"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "5000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-04-14 14:19:48"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "15000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-04-14 15:19:18"
+    }
+]
+INFO - 2025-04-14 19:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:00:59 --> Historial de transacciones: [
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-03-15 14:10:25"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "2000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-03-15 14:10:29"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "5000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-04-14 14:19:48"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "15000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-04-14 15:19:18"
+    }
+]
+INFO - 2025-04-14 19:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:03:11 --> Iniciando búsqueda de usuario...
+INFO - 2025-04-14 19:03:11 --> Identificación recibida: 987654321
+INFO - 2025-04-14 19:03:11 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-03-14 15:04:58","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"42000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-04-14 19:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:03:17 --> Iniciando el método recharge()
+INFO - 2025-04-14 19:03:17 --> Identificación recibida: 2
+INFO - 2025-04-14 19:03:17 --> Identificación recibida: 987654321
+INFO - 2025-04-14 19:03:17 --> Monto recibido: 1000
+INFO - 2025-04-14 19:03:17 --> Modelo de usuarios cargado
+INFO - 2025-04-14 19:03:17 --> Consulta realizada para buscar usuario
+INFO - 2025-04-14 19:03:17 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-03-14 15:04:58","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"42000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-04-14 19:03:17 --> Nuevo balance calculado: 43000
+INFO - 2025-04-14 19:03:17 --> Saldo actualizado correctamente
+INFO - 2025-04-14 19:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:03:26 --> Iniciando búsqueda de usuario...
+INFO - 2025-04-14 19:03:26 --> Identificación recibida: 987654321
+INFO - 2025-04-14 19:03:26 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-03-14 15:04:58","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"43000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-04-14 19:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:03:29 --> Historial de transacciones: [
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-03-15 14:10:25"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "2000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-03-15 14:10:29"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "5000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-04-14 14:19:48"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "15000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-04-14 15:19:18"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "1000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-04-14 19:03:17"
+    }
+]
+INFO - 2025-04-14 19:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:03:29 --> Historial de transacciones: [
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-03-15 14:10:25"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "2000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-03-15 14:10:29"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "5000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-04-14 14:19:48"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "15000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-04-14 15:19:18"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "1000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-04-14 19:03:17"
+    }
+]
+INFO - 2025-04-14 19:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:09:53 --> Usuario autenticado con role_id: 
+INFO - 2025-04-14 19:10:04 --> El método authenticate fue llamado
+INFO - 2025-04-14 19:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:10:14 --> Iniciando búsqueda de usuario...
+INFO - 2025-04-14 19:10:14 --> Identificación recibida: 2354235423
+ERROR - 2025-04-14 19:10:14 --> Usuario no encontrado con identificación: 2354235423
+INFO - 2025-04-14 19:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:10:25 --> Iniciando búsqueda de usuario...
+INFO - 2025-04-14 19:10:25 --> Identificación recibida: 987654321	
+INFO - 2025-04-14 19:10:25 --> Usuario encontrado: {"name":"ANA","last_name":"L\u00d3PEZ","identification":"987654321","date_registration":"2025-03-14 15:04:58","email":"ana@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL\/XTwcUsDTFyMj6G","balance":"43000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"2"}
+INFO - 2025-04-14 19:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:10:28 --> Historial de transacciones: [
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "20000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-03-15 14:10:25"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "2000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-03-15 14:10:29"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "5000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-04-14 14:19:48"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "15000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-04-14 15:19:18"
+    },
+    {
+        "name": "ANA",
+        "last_name": "L\u00d3PEZ",
+        "email": "ana@example.com",
+        "phone": null,
+        "amount": "1000.00",
+        "transaction_type": "deposit",
+        "transaction_date": "2025-04-14 19:03:17"
+    }
+]
+INFO - 2025-04-14 19:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:17:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-14 19:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

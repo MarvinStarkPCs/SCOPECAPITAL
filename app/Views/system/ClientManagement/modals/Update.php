@@ -64,7 +64,21 @@
                             </div>
                         </div>
                     </div>
-               
+                    <div class="form-group">
+                        <label for="editRole-<?= $user['id_user'] ?>">Role</label>
+                        <select class="form-control <?= session('errors-edit.id_role') ? 'is-invalid errors-edit'  : '' ?>"
+                                id="editRole-<?= $user['id_user'] ?>" name="id_role">
+                            <option value="">Select a Role</option>
+                            <?php foreach ($roles as $role): ?>
+                                <option value="<?= esc($role['id_role']) ?>" <?= old('id_role', $user['role_id']) == $role['id_role'] ? 'selected' : '' ?>>
+                                    <?= esc($role['role_name']) ?>
+                                </option>
+                            <?php endforeach; ?>
+                        </select>
+                        <div class="invalid-feedback">
+                            <?= session('errors-edit.id_role') ?>
+                        </div>
+                    </div>
                     <div class="form-group">
                         <label for="selectStatus">Select Status</label>
                         <select class="form-control <?= session('errors-edit.status') ? 'is-invalid errors-edit' : '' ?>"

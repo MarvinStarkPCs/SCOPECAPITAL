@@ -2,7 +2,7 @@
 namespace App\Models;
 use CodeIgniter\Model;
 
-class UserManagementModel extends Model
+class ClientManagementModel extends Model
 {
     protected $table = 'users';
     protected $primaryKey = 'id_user';
@@ -18,8 +18,7 @@ class UserManagementModel extends Model
                                 users.last_login_attempt, users.role_id, users.date_registration, 
                                 roles.role_name')
             ->join('roles', 'roles.id_role = users.role_id')
-            ->where('roles.role_name=', 'ADMIN'); // Excluye usuarios
-
+            ->where('roles.role_name=', 'CLIENT'); // Excluye usuarios
 
         if ($id !== null) {
             $query->where('users.id_user', $id);

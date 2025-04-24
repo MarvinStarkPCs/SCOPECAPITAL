@@ -1,17 +1,17 @@
 <?php
 namespace App\Controllers;
 use App\Controllers\BaseController;
-use App\Models\SettingModel;
+use App\Models\ConfigurationModel;
 use CodeIgniter\Controller;
 
-class SettingController extends BaseController
+class ConfigurationController extends BaseController
 {
     public function index()
     {
-        $settingModel = new SettingModel();
+        $ConfigurationModel = new ConfigurationModel();
     
         // Obtener la configuración SMTP desde la base de datos
-        $stmp_config_data = $settingModel->where('config_key', 'smtp_config')->first();
+        $stmp_config_data = $ConfigurationModel->where('config_key', 'smtp_config')->first();
     
         // Decodificar el valor de config_value que es un JSON
         $stmp_config = isset($stmp_config_data['config_value']) && !empty($stmp_config_data['config_value']) 
@@ -23,18 +23,6 @@ class SettingController extends BaseController
     }
     
     
-    // public function saveSecuritySettings()
-    // {
-    //     $field = $this->request->getPost('field');
-    //     $value = $this->request->getPost('value');
-        
-    //     if ($settingsModel->saveSecuritySetting($field, $value)) {
-    //         return $this->response->setJSON(['status' => 'success']);
-    //     } else {
-    //         return $this->response->setJSON(['status' => 'error']);
-    //     }
-    // }
-
     // Guardar configuración SMTP
     public function saveSMTPConfig()
     {
@@ -66,13 +54,10 @@ class SettingController extends BaseController
         ];
         log_message('info', 'Datos enviados para actualizar SMTP: ' . print_r($data, true));
 
-
- 
-
         // Verificar si la configuración fue guardada exitosamente
         try {
-            $settingModel = new SettingModel();
-            $settingModel->updateSMTPConfig($data);
+            $ConfigurationModel = new ConfigurationModel();
+            $ConfigurationModel->updateSMTPConfig($data);
 
             // Log: Éxito al actualizar la configuración
             $this->logger->info('Configuración SMTP actualizada exitosamente.');

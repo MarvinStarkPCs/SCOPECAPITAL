@@ -72,22 +72,7 @@
 </div>
 
                     </div>
-                    <div class="form-group">
-                        <label for="selectRole">Seleted Rol</label>
-                        <select
-                            class="form-control <?= session('errors-insert.id_role') ? 'is-invalid errors-insert' : '' ?>"
-                            id="selectRole" name="id_role">
-                            <option value="">Selecione un Rol</option>
-                            <?php foreach ($roles as $rol): ?>
-                                <option value="<?= esc($rol['id_role']) ?>" <?= old('id_role') == $rol['id_role'] ? 'selected' : '' ?>>
-                                    <?= esc($rol['role_name']) ?>
-                                </option>
-                            <?php endforeach; ?>
-                        </select>
-                        <div class="invalid-feedback">
-                            <?= session('errors-insert.id_role') ?>
-                        </div>
-                    </div>
+                   
                     <div class="form-group">
                         <label for="selectStatus">Seleted Status</label>
                         <select class="form-control <?= session('errors-insert.status') ? 'is-invalid errors-insert' : '' ?>"
