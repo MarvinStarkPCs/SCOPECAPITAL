@@ -23,6 +23,6 @@ ADD COLUMN id_request INT AUTO_INCREMENT PRIMARY KEY;
 -- Asignar clave primaria a la tabla `change_history`
 ALTER TABLE change_history
 ADD COLUMN id_history INT AUTO_INCREMENT PRIMARY KEY;
---Asignar clave primaria a la tabla `transactions_history`
+-- Asignar clave primaria a la tabla `transactions_history`
 ALTER TABLE history_transactions
 ADD COLUMN id_transaction INT AUTO_INCREMENT PRIMARY KEY;

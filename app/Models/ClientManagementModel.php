@@ -6,7 +6,7 @@ class ClientManagementModel extends Model
 {
     protected $table = 'users';
     protected $primaryKey = 'id_user';
-    protected $allowedFields = ['name', 'last_name', 'identification', 'password_hash', 'role_id', 'email', 'phone', 'address', 'status', 'login_attempts', 'last_login_attempt', 'balance', 'date_registration','compoundingPeriods','rate','time', 'principal','bank_id', 'banker_id', 'company_id'];
+    protected $allowedFields = ['name', 'last_name', 'identification', 'password_hash', 'role_id', 'email', 'phone', 'address', 'status', 'login_attempts', 'last_login_attempt', 'balance', 'date_registration','compoundingPeriods','rate','time', 'principal', 'agreement', 'number', 'letter', 'date_from', 'date_to', 'policy', 'approved_by', 'approved_date', 'trust', 'email_del_trust', 'telephone_del_trust', 'bank', 'swift', 'aba', 'iban', 'account'];
     protected $returnType = 'array';
     protected $useTimestamps = false;
 

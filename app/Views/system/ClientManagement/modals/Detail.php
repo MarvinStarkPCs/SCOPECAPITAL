@@ -5,7 +5,7 @@
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="detailsModalLabel-<?= $user['id_user'] ?>">User Details</h5>
+          <h5 class="modal-title" id="detailsModalLabel-<?= $user['id_user'] ?>">Client Details</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -88,7 +88,7 @@
               <div class="row">
                 <?php
                   $finance_fields = [
-                    'Balance' => 'balance', 'Principal' => 'principal',
+                     'Principal' => 'principal','Balance' => 'balance',
                     'Interest Rate' => 'rate', 'Periods' => 'compoundingPeriods', 'Term (years)' => 'time'
                   ];
                   foreach ($finance_fields as $label => $key):

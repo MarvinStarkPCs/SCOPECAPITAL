@@ -23,10 +23,10 @@ VALUES
     ('RECHAZADA', 'SOLICITUD NO ACEPTADA O INVÁLIDA');
 
 -- Insertar usuarios
-INSERT INTO users (id_user, name, last_name, identification, email, password_hash, role_id)
+INSERT INTO users (id_user, name, last_name, identification, email, password_hash, role_id, principal,rate, compoundingPeriods, time)
 VALUES
-    (1, 'JUAN', 'PÉREZ', 123456789, 'admin@admin.com', '$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL/XTwcUsDTFyMj6G', 1),
-    (2, 'ANA', 'LÓPEZ', 987654321, 'ana@example.com', '$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL/XTwcUsDTFyMj6G', 2);
+    (1, 'JUAN', 'PÉREZ', 123456789, 'admin@admin.com', '$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL/XTwcUsDTFyMj6G', 1, 10000.00, 5.00, 4, 12),
+    (2, 'ANA', 'LÓPEZ', 987654321, 'ana@example.com', '$2y$10$xdHFXhYoOaUbqjip72qvj.3489G7unuXyD7gHL/XTwcUsDTFyMj6G', 2, 5000.00, 3.50, 2, 6);
 
 -- Insertar solicitudes (corrigiendo user_id)
 INSERT INTO requests (unique_code, user_id, type_id, status_id, description, attachment_url)

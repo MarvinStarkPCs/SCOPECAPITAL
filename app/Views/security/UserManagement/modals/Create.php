@@ -108,10 +108,9 @@ document.addEventListener('DOMContentLoaded', function () {
         // Verifica si hay un input con la clase específica dentro del formulario
         let form = document.getElementById('addUserForm');
         let input = form.querySelector('input.errors-insert, select.errors-insert, textarea.errors-insert');
-
-
         if (input) {
             document.getElementById('openModalButtonUser').click();
+            console.log('Modal opened due to validation errors.');
         }
         
       
