@@ -1,0 +1,222 @@
+INFO - 2025-05-14 22:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:11:03 --> Usuario autenticado con role_id: 
+INFO - 2025-05-14 22:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:11:04 --> Usuario autenticado con role_id: 
+INFO - 2025-05-14 22:11:06 --> El método authenticate fue llamado
+INFO - 2025-05-14 22:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:11:08 --> Usuario autenticado con role_id: 
+INFO - 2025-05-14 22:11:20 --> El método authenticate fue llamado
+INFO - 2025-05-14 22:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:11:20 --> El método authenticate fue llamado
+INFO - 2025-05-14 22:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-14 22:14:56 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`scopecapital`.`history_transactions`, CONSTRAINT `fk_transactions_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id_user`)) in C:\xampp\htdocs\SCOPECAPITAL\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\SCOPECAPITAL\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `us...', 0)
+#1 C:\xampp\htdocs\SCOPECAPITAL\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `us...')
+#2 C:\xampp\htdocs\SCOPECAPITAL\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `us...')
+#3 C:\xampp\htdocs\SCOPECAPITAL\system\Database\BaseBuilder.php(2835): CodeIgniter\Database\BaseConnection->query('DELETE FROM `us...', Array, false)
+#4 C:\xampp\htdocs\SCOPECAPITAL\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\SCOPECAPITAL\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\SCOPECAPITAL\app\Controllers\UserManagementController.php(205): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\SCOPECAPITAL\system\CodeIgniter.php(933): App\Controllers\UserManagementController->deleteUser('4')
+#8 C:\xampp\htdocs\SCOPECAPITAL\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#9 C:\xampp\htdocs\SCOPECAPITAL\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\SCOPECAPITAL\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\SCOPECAPITAL\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\SCOPECAPITAL\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-05-14 22:14:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`scopecapital`.`history_transactions`, CONSTRAINT `fk_transactions_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id_user`))
+[Method: GET, Route: admin/usermanagement/delete/4]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2835): CodeIgniter\Database\BaseConnection->query('DELETE FROM `users`
+WHERE `id_user` IN :id_user:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\UserManagementController.php(205): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagementController->deleteUser('4')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-14 22:14:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`scopecapital`.`history_transactions`, CONSTRAINT `fk_transactions_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id_user`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `users`
+WHERE `id_user` IN (\'4\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `users`
+WHERE `id_user` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2835): CodeIgniter\Database\BaseConnection->query('DELETE FROM `users`
+WHERE `id_user` IN :id_user:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\UserManagementController.php(205): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagementController->deleteUser('4')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-14 22:14:56 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`scopecapital`.`history_transactions`, CONSTRAINT `fk_transactions_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id_user`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `users`
+WHERE `id_user` IN (\'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `users`
+WHERE `id_user` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `users`
+WHERE `id_user` IN (\'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2835): CodeIgniter\Database\BaseConnection->query('DELETE FROM `users`
+WHERE `id_user` IN :id_user:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\UserManagementController.php(205): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagementController->deleteUser('4')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-14 22:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:15:55 --> Iniciando el método addUser()
+INFO - 2025-05-14 22:15:55 --> Reglas de validación definidas.
+INFO - 2025-05-14 22:15:55 --> Validación exitosa.
+INFO - 2025-05-14 22:15:55 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"1111111111","email":"marvin.s1antos@soy.sena.edu.co","role_id":"2","status":"active","password_hash":"$2y$10$3YsiTeCgJXSgU1XkJJ.7ieg9iAD0WOMZNJZirECLGqd8YY6J0bAJ2","balance":"50000000","rate":"0.5","compoundingPeriods":"1","time":"7"}
+INFO - 2025-05-14 22:15:55 --> Consulta ejecutada: INSERT INTO `users` (`name`, `last_name`, `identification`, `email`, `role_id`, `status`, `password_hash`, `balance`) VALUES ('MARVIN', 'PEREZ', '1111111111', 'marvin.s1antos@soy.sena.edu.co', '2', 'active', '$2y$10$3YsiTeCgJXSgU1XkJJ.7ieg9iAD0WOMZNJZirECLGqd8YY6J0bAJ2', '50000000')
+INFO - 2025-05-14 22:15:55 --> Usuario agregado correctamente en la base de datos.
+INFO - 2025-05-14 22:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:15:55 --> Iniciando el método addUser()
+INFO - 2025-05-14 22:15:55 --> Reglas de validación definidas.
+ERROR - 2025-05-14 22:15:55 --> Error en la validación de datos: {"identification":"The identification field must contain a unique value.","email":"The email field must contain a unique value."}
+INFO - 2025-05-14 22:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:16:23 --> Iniciando el método addUser()
+INFO - 2025-05-14 22:16:23 --> Reglas de validación definidas.
+INFO - 2025-05-14 22:16:23 --> Validación exitosa.
+INFO - 2025-05-14 22:16:23 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"11111111112","email":"marvin.s21antos@soy.sena.edu.co","role_id":"2","status":"active","password_hash":"$2y$10$Mj1MviyJUaTzS6TmBJC\/D.2JPCgEdvSqUANU2LsYtEqJbE53RmeeO","balance":"500000","rate":"0.5","compoundingPeriods":"1","time":"7"}
+INFO - 2025-05-14 22:16:23 --> Consulta ejecutada: INSERT INTO `users` (`name`, `last_name`, `identification`, `email`, `role_id`, `status`, `password_hash`, `balance`) VALUES ('MARVIN', 'PEREZ', '11111111112', 'marvin.s21antos@soy.sena.edu.co', '2', 'active', '$2y$10$Mj1MviyJUaTzS6TmBJC/D.2JPCgEdvSqUANU2LsYtEqJbE53RmeeO', '500000')
+INFO - 2025-05-14 22:16:23 --> Usuario agregado correctamente en la base de datos.
+INFO - 2025-05-14 22:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 22:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:32:28 --> Iniciando el método addUser()
+INFO - 2025-05-14 23:32:28 --> Reglas de validación definidas.
+ERROR - 2025-05-14 23:32:28 --> Error en la validación de datos: {"name":"El campo name es obligatorio.","last_name":"El campo last_name es obligatorio.","identification":"El campo identification es obligatorio.","email":"El campo email es obligatorio."}
+INFO - 2025-05-14 23:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:35:14 --> Iniciando el método addUser()
+INFO - 2025-05-14 23:35:14 --> Reglas de validación definidas.
+ERROR - 2025-05-14 23:35:14 --> Error en la validación de datos: {"name":"El campo name es obligatorio.","last_name":"El campo last_name es obligatorio.","identification":"El campo identification es obligatorio.","email":"El campo email es obligatorio."}
+INFO - 2025-05-14 23:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:46:54 --> Iniciando el método addUser()
+INFO - 2025-05-14 23:46:54 --> Reglas de validación definidas.
+ERROR - 2025-05-14 23:46:54 --> Error en la validación de datos: {"name":"El campo name es obligatorio.","last_name":"El campo last_name es obligatorio.","identification":"El campo identification es obligatorio.","email":"El campo email es obligatorio."}
+INFO - 2025-05-14 23:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:47:04 --> Iniciando el método addUser()
+INFO - 2025-05-14 23:47:04 --> Reglas de validación definidas.
+ERROR - 2025-05-14 23:47:04 --> Error en la validación de datos: {"name":"El campo name es obligatorio.","last_name":"El campo last_name es obligatorio.","identification":"El campo identification es obligatorio.","email":"El campo email es obligatorio."}
+INFO - 2025-05-14 23:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:48:57 --> Iniciando el método addUser()
+INFO - 2025-05-14 23:48:57 --> Reglas de validación definidas.
+ERROR - 2025-05-14 23:48:57 --> Error en la validación de datos: {"name":"El campo name es obligatorio.","last_name":"El campo last_name es obligatorio.","identification":"El campo identification es obligatorio.","email":"El campo email es obligatorio."}
+INFO - 2025-05-14 23:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:53:56 --> Iniciando el método addUser()
+INFO - 2025-05-14 23:53:56 --> Reglas de validación definidas.
+ERROR - 2025-05-14 23:53:56 --> Error en la validación de datos: {"name":"El campo name es obligatorio.","last_name":"El campo last_name es obligatorio.","identification":"El campo identification es obligatorio.","email":"El campo email es obligatorio."}
+INFO - 2025-05-14 23:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:54:59 --> Iniciando el método addUser()
+INFO - 2025-05-14 23:54:59 --> Reglas de validación definidas.
+INFO - 2025-05-14 23:54:59 --> Validación exitosa.
+INFO - 2025-05-14 23:54:59 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"111111111111","email":"marvi11n.santos@soy.sena.edu.co","role_id":"2","status":"active","password_hash":"$2y$10$Xu95qt0HY9Kx7MeKbF0Ab.xzms0tqZP7cIIDMXPFz.VpDDTrcHpFa","balance":"$500,000.00","rate":"0,05","compoundingPeriods":"7","time":"5"}
+INFO - 2025-05-14 23:54:59 --> Consulta ejecutada: INSERT INTO `users` (`name`, `last_name`, `identification`, `email`, `role_id`, `status`, `password_hash`, `balance`) VALUES ('MARVIN', 'PEREZ', '111111111111', 'marvi11n.santos@soy.sena.edu.co', '2', 'active', '$2y$10$Xu95qt0HY9Kx7MeKbF0Ab.xzms0tqZP7cIIDMXPFz.VpDDTrcHpFa', '$500,000.00')
+INFO - 2025-05-14 23:54:59 --> Usuario agregado correctamente en la base de datos.
+INFO - 2025-05-14 23:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:57:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-14 23:58:07 --> Iniciando el método addUser()
+INFO - 2025-05-14 23:58:07 --> Reglas de validación definidas.
+INFO - 2025-05-14 23:58:07 --> Validación exitosa.
+INFO - 2025-05-14 23:58:07 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"1111111","email":"marvin.santos@soy.sena.edu.co","role_id":"2","status":"active","password_hash":"$2y$10$Zfb\/oI\/hHbN00qhAipfANOnzTqm8QwpoJBOQ1MAXGFX4TRhexExEG","balance":"$500,000.00","rate":"0,05","compoundingPeriods":"7","time":"5"}
+INFO - 2025-05-14 23:58:07 --> Consulta ejecutada: INSERT INTO `users` (`name`, `last_name`, `identification`, `email`, `role_id`, `status`, `password_hash`, `balance`) VALUES ('MARVIN', 'PEREZ', '1111111', 'marvin.santos@soy.sena.edu.co', '2', 'active', '$2y$10$Zfb/oI/hHbN00qhAipfANOnzTqm8QwpoJBOQ1MAXGFX4TRhexExEG', '$500,000.00')
+INFO - 2025-05-14 23:58:07 --> Usuario agregado correctamente en la base de datos.
+INFO - 2025-05-14 23:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

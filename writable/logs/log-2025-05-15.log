@@ -1,0 +1,276 @@
+INFO - 2025-05-15 00:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 00:09:49 --> Iniciando el método addUser()
+INFO - 2025-05-15 00:09:49 --> Reglas de validación definidas.
+INFO - 2025-05-15 00:09:49 --> Validación exitosa.
+INFO - 2025-05-15 00:09:49 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"11111113","email":"marvin.santos@so3y.sena.edu.co","role_id":"2","status":"active","password_hash":"$2y$10$jqSuvjvD8i235j5Mxxsl1OCWI73wMAtMr4BD.W43\/\/4y.hCvXCFie","balance":null,"rate":null,"compoundingPeriods":null,"time":null}
+ERROR - 2025-05-15 00:09:49 --> mysqli_sql_exception: Column 'balance' cannot be null in C:\xampp\htdocs\SCOPECAPITAL\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\SCOPECAPITAL\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\SCOPECAPITAL\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\SCOPECAPITAL\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\SCOPECAPITAL\system\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\SCOPECAPITAL\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\SCOPECAPITAL\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\SCOPECAPITAL\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\SCOPECAPITAL\app\Controllers\ClientsManagementController.php(87): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\SCOPECAPITAL\system\CodeIgniter.php(933): App\Controllers\ClientsManagementController->addUser()
+#9 C:\xampp\htdocs\SCOPECAPITAL\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+#10 C:\xampp\htdocs\SCOPECAPITAL\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\SCOPECAPITAL\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\SCOPECAPITAL\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\SCOPECAPITAL\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-05-15 00:09:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'balance' cannot be null
+[Method: POST, Route: admin/clientmanagement/add]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `last_name`, `identification`, `email`, `role_id`, `status`, `password_hash`, `balance`) VALUES (:name:, :last_name:, :identification:, :email:, :role_id:, :status:, :password_hash:, :balance:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\ClientsManagementController.php(87): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientsManagementController->addUser()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-15 00:09:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'balance' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`name`, `last_name`, `identification`, `email`, `role_id`, `status`, `password_hash`, `balance`) VALUES (\'MARVIN\', \'PEREZ\', \'11111113\', \'marvin.santos@so3y.sena.edu.co\', \'2\', \'active\', \'$2y$10$jqSuvjvD8i235j5Mxxsl1OCWI73wMAtMr4BD.W43//4y.hCvXCFie\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`name`, `last_name`, `identification`, `email`, `role_id`, `status`, `password_hash`, `balance`) VALUES (\'MARVIN\', \'PEREZ\', \'11111113\', \'marvin.santos@so3y.sena.edu.co\', \'2\', \'active\', \'$2y$10$jqSuvjvD8i235j5Mxxsl1OCWI73wMAtMr4BD.W43//4y.hCvXCFie\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `last_name`, `identification`, `email`, `role_id`, `status`, `password_hash`, `balance`) VALUES (:name:, :last_name:, :identification:, :email:, :role_id:, :status:, :password_hash:, :balance:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\ClientsManagementController.php(87): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientsManagementController->addUser()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-15 00:09:49 --> [Caused by] mysqli_sql_exception: Column 'balance' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `users` (`name`, `last_name`, `identification`, `email`, `role_id`, `status`, `password_hash`, `balance`) VALUES (\'MARVIN\', \'PEREZ\', \'11111113\', \'marvin.santos@so3y.sena.edu.co\', \'2\', \'active\', \'$2y$10$jqSuvjvD8i235j5Mxxsl1OCWI73wMAtMr4BD.W43//4y.hCvXCFie\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`name`, `last_name`, `identification`, `email`, `role_id`, `status`, `password_hash`, `balance`) VALUES (\'MARVIN\', \'PEREZ\', \'11111113\', \'marvin.santos@so3y.sena.edu.co\', \'2\', \'active\', \'$2y$10$jqSuvjvD8i235j5Mxxsl1OCWI73wMAtMr4BD.W43//4y.hCvXCFie\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`name`, `last_name`, `identification`, `email`, `role_id`, `status`, `password_hash`, `balance`) VALUES (\'MARVIN\', \'PEREZ\', \'11111113\', \'marvin.santos@so3y.sena.edu.co\', \'2\', \'active\', \'$2y$10$jqSuvjvD8i235j5Mxxsl1OCWI73wMAtMr4BD.W43//4y.hCvXCFie\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `last_name`, `identification`, `email`, `role_id`, `status`, `password_hash`, `balance`) VALUES (:name:, :last_name:, :identification:, :email:, :role_id:, :status:, :password_hash:, :balance:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ClientsManagementController.php(87): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientsManagementController->addUser()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-15 00:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 00:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 00:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 00:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 00:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 00:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 00:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 00:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 00:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 00:56:00 --> Iniciando el método addUser()
+INFO - 2025-05-15 00:56:00 --> Reglas de validación definidas.
+INFO - 2025-05-15 00:56:00 --> Validación exitosa.
+INFO - 2025-05-15 00:56:00 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"1111111","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","email":"marvin.santos@soy.sena.edu.co","role_id":"1","status":"active","password_hash":"$2y$10$iEUnlI\/C3M9fVvb3Uu.NYuQd57l1f9n3001d6kGUTdT\/EKntiPI12"}
+INFO - 2025-05-15 00:56:00 --> Configuración SMTP obtenida: 
+INFO - 2025-05-15 00:56:00 --> Configuración SMTP obtenida en librari: Array
+(
+)
+
+ERROR - 2025-05-15 00:56:00 --> Faltan campos requeridos en la configuración SMTP.
+INFO - 2025-05-15 00:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 00:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 00:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 00:56:32 --> Iniciando el método addUser()
+INFO - 2025-05-15 00:56:32 --> Reglas de validación definidas.
+ERROR - 2025-05-15 00:56:32 --> Error en la validación de datos: {"identification":"The identification field must contain a unique value.","email":"The email field must contain a unique value."}
+INFO - 2025-05-15 00:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 00:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 00:56:43 --> Iniciando el método addUser()
+INFO - 2025-05-15 00:56:43 --> Reglas de validación definidas.
+INFO - 2025-05-15 00:56:43 --> Validación exitosa.
+INFO - 2025-05-15 00:56:43 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"11111111","email":"mar1vin.santos@soy.sena.edu.co","role_id":"2","status":"active","password_hash":"$2y$10$BflkuWnrAiZEWnaMCZ7BVuWIYbG7PaaCOJt5USVZNBeIitKVUaDCG","balance":"$5,000.00","rate":"0,05","compoundingPeriods":"1","time":"1"}
+INFO - 2025-05-15 00:56:43 --> Consulta ejecutada: INSERT INTO `users` (`name`, `last_name`, `identification`, `email`, `role_id`, `status`, `password_hash`, `balance`) VALUES ('MARVIN', 'PEREZ', '11111111', 'mar1vin.santos@soy.sena.edu.co', '2', 'active', '$2y$10$BflkuWnrAiZEWnaMCZ7BVuWIYbG7PaaCOJt5USVZNBeIitKVUaDCG', '$5,000.00')
+INFO - 2025-05-15 00:56:43 --> Usuario agregado correctamente en la base de datos.
+INFO - 2025-05-15 00:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 00:59:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 00:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 00:59:45 --> Iniciando el método addUser()
+INFO - 2025-05-15 00:59:45 --> Reglas de validación definidas.
+ERROR - 2025-05-15 00:59:45 --> Error en la validación de datos: {"email":"The email field must contain a unique value."}
+INFO - 2025-05-15 00:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 00:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 00:59:50 --> Iniciando el método addUser()
+INFO - 2025-05-15 00:59:50 --> Reglas de validación definidas.
+INFO - 2025-05-15 00:59:50 --> Validación exitosa.
+INFO - 2025-05-15 00:59:50 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"2354235423","email":"mar111vin.santos@soy.sena.edu.co","role_id":"2","status":"active","password_hash":"$2y$10$w2WOXchF1ftMC5ITFa4mEOPLIyj8hkO88hw7kFEgC9qcqenE7AMh2","balance":50000,"rate":0.05,"compoundingPeriods":1,"time":1}
+INFO - 2025-05-15 00:59:50 --> Consulta ejecutada: INSERT INTO `users` (`name`, `last_name`, `identification`, `email`, `role_id`, `status`, `password_hash`, `balance`) VALUES ('MARVIN', 'PEREZ', '2354235423', 'mar111vin.santos@soy.sena.edu.co', '2', 'active', '$2y$10$w2WOXchF1ftMC5ITFa4mEOPLIyj8hkO88hw7kFEgC9qcqenE7AMh2', 50000)
+INFO - 2025-05-15 00:59:50 --> Usuario agregado correctamente en la base de datos.
+INFO - 2025-05-15 00:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 00:59:50 --> Iniciando el método addUser()
+INFO - 2025-05-15 00:59:50 --> Reglas de validación definidas.
+ERROR - 2025-05-15 00:59:50 --> Error en la validación de datos: {"identification":"The identification field must contain a unique value.","email":"The email field must contain a unique value."}
+INFO - 2025-05-15 00:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 00:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 00:59:57 --> Iniciando el método addUser()
+INFO - 2025-05-15 00:59:57 --> Reglas de validación definidas.
+ERROR - 2025-05-15 00:59:57 --> Error en la validación de datos: {"identification":"The identification field must contain a unique value."}
+INFO - 2025-05-15 00:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:00:06 --> Iniciando el método addUser()
+INFO - 2025-05-15 01:00:06 --> Reglas de validación definidas.
+INFO - 2025-05-15 01:00:06 --> Validación exitosa.
+INFO - 2025-05-15 01:00:06 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"1111111111112341111","email":"m11111ar111vin.santos@soy.sena.edu.co","role_id":"2","status":"active","password_hash":"$2y$10$pHL.oJPFOZ9L6dWESwJVr.JnO6wb0TeNxYwBN3FhlTY5SeCt7hRsW","balance":50000,"rate":0.05,"compoundingPeriods":1,"time":1}
+INFO - 2025-05-15 01:00:06 --> Consulta ejecutada: INSERT INTO `users` (`name`, `last_name`, `identification`, `email`, `role_id`, `status`, `password_hash`, `balance`) VALUES ('MARVIN', 'PEREZ', '1111111111112341111', 'm11111ar111vin.santos@soy.sena.edu.co', '2', 'active', '$2y$10$pHL.oJPFOZ9L6dWESwJVr.JnO6wb0TeNxYwBN3FhlTY5SeCt7hRsW', 50000)
+INFO - 2025-05-15 01:00:06 --> Usuario agregado correctamente en la base de datos.
+INFO - 2025-05-15 01:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:04:19 --> Iniciando el método addUser()
+INFO - 2025-05-15 01:04:19 --> Reglas de validación definidas.
+ERROR - 2025-05-15 01:04:19 --> Error en la validación de datos: {"identification":"The identification field must contain a unique value.","email":"The email field must contain a unique value."}
+INFO - 2025-05-15 01:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:04:33 --> Iniciando el método addUser()
+INFO - 2025-05-15 01:04:33 --> Reglas de validación definidas.
+INFO - 2025-05-15 01:04:33 --> Validación exitosa.
+INFO - 2025-05-15 01:04:33 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"22222","email":"m222arvin.s2222antos@soy.sena.edu.co","role_id":"2","status":"active","password_hash":"$2y$10$IsXudHFeE3unZVdkBAC29uUhDzKpNJQSi.AF0EdqkYR6NR78ROp0C","balance":50000,"rate":0.05,"compoundingPeriods":1,"time":2}
+INFO - 2025-05-15 01:04:33 --> Consulta ejecutada: INSERT INTO `users` (`name`, `last_name`, `identification`, `email`, `role_id`, `status`, `password_hash`, `balance`, `rate`, `compoundingPeriods`, `time`) VALUES ('MARVIN', 'PEREZ', '22222', 'm222arvin.s2222antos@soy.sena.edu.co', '2', 'active', '$2y$10$IsXudHFeE3unZVdkBAC29uUhDzKpNJQSi.AF0EdqkYR6NR78ROp0C', 50000, 0.05, 1, 2)
+INFO - 2025-05-15 01:04:33 --> Usuario agregado correctamente en la base de datos.
+INFO - 2025-05-15 01:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 02:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 02:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 02:00:48 --> Iniciando búsqueda de usuario...
+INFO - 2025-05-15 02:00:48 --> Identificación recibida: 1111111111112341111
+INFO - 2025-05-15 02:00:48 --> Usuario encontrado: {"name":"MARVIN","last_name":"PEREZ","identification":"1111111111112341111","date_registration":"2025-05-14 20:00:06","email":"m11111ar111vin.santos@soy.sena.edu.co","phone":null,"address":null,"status":"active","password_hash":"$2y$10$pHL.oJPFOZ9L6dWESwJVr.JnO6wb0TeNxYwBN3FhlTY5SeCt7hRsW","balance":"50000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"7","principal":"0.00","rate":"0.00","compoundingPeriods":"0","time":"0"}
+INFO - 2025-05-15 02:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 02:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 02:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 02:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 02:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 02:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 02:24:15 --> Iniciando el método addUser()
+INFO - 2025-05-15 02:24:15 --> Reglas de validación definidas.
+INFO - 2025-05-15 02:24:15 --> Validación exitosa.
+INFO - 2025-05-15 02:24:15 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"1111111112222","email":"ma222rvin2222santos@soy.sena.edu.co","role_id":"2","status":"active","password_hash":"$2y$10$.Wg.1hfgtf.Lbv.FhCQ3xOtBezD3qUh6oIyLuus5hT2vpzCUTWB6e","balance":40000,"rate":0.05,"compoundingPeriods":1,"time":3,"principal":46305}
+INFO - 2025-05-15 02:24:15 --> Consulta ejecutada: INSERT INTO `users` (`name`, `last_name`, `identification`, `email`, `role_id`, `status`, `password_hash`, `balance`, `rate`, `compoundingPeriods`, `time`, `principal`) VALUES ('MARVIN', 'PEREZ', '1111111112222', 'ma222rvin2222santos@soy.sena.edu.co', '2', 'active', '$2y$10$.Wg.1hfgtf.Lbv.FhCQ3xOtBezD3qUh6oIyLuus5hT2vpzCUTWB6e', 40000, 0.05, 1, 3, 46305)
+INFO - 2025-05-15 02:24:15 --> Usuario agregado correctamente en la base de datos.
+INFO - 2025-05-15 02:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 02:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 02:25:34 --> Iniciando el método addUser()
+INFO - 2025-05-15 02:25:35 --> Reglas de validación definidas.
+ERROR - 2025-05-15 02:25:35 --> Error en la validación de datos: {"identification":"The identification field must contain a unique value.","email":"The email field must contain a unique value."}
+INFO - 2025-05-15 02:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 02:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 02:25:47 --> Iniciando el método addUser()
+INFO - 2025-05-15 02:25:47 --> Reglas de validación definidas.
+INFO - 2025-05-15 02:25:47 --> Validación exitosa.
+INFO - 2025-05-15 02:25:47 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"3333333333333","email":"marvi3n.santos@soy.sena.edu.co","role_id":"2","status":"active","password_hash":"$2y$10$Ob5U554CHZvsyRaYu5A8o.y3Vrf7TxzbFz3rCNbfRdCFERUfV8i0i","balance":5000,"rate":0.05,"compoundingPeriods":7,"time":1,"principal":5255.42}
+INFO - 2025-05-15 02:25:47 --> Consulta ejecutada: INSERT INTO `users` (`name`, `last_name`, `identification`, `email`, `role_id`, `status`, `password_hash`, `balance`, `rate`, `compoundingPeriods`, `time`, `principal`) VALUES ('MARVIN', 'PEREZ', '3333333333333', 'marvi3n.santos@soy.sena.edu.co', '2', 'active', '$2y$10$Ob5U554CHZvsyRaYu5A8o.y3Vrf7TxzbFz3rCNbfRdCFERUfV8i0i', 5000, 0.05, 7, 1, 5255.42)
+INFO - 2025-05-15 02:25:47 --> Usuario agregado correctamente en la base de datos.
+INFO - 2025-05-15 02:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 03:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 03:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 03:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 03:23:30 --> Iniciando búsqueda de usuario...
+INFO - 2025-05-15 03:23:30 --> Identificación recibida: 1111111
+INFO - 2025-05-15 03:23:30 --> Usuario encontrado: {"name":"MARVIN","last_name":"PEREZ","identification":"1111111","date_registration":"2025-05-14 19:56:00","email":"marvin.santos@soy.sena.edu.co","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"active","password_hash":"$2y$10$iEUnlI\/C3M9fVvb3Uu.NYuQd57l1f9n3001d6kGUTdT\/EKntiPI12","balance":"0.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"1","id_user":"4","principal":"0.00","rate":"0.00","compoundingPeriods":"0","time":"0"}
+INFO - 2025-05-15 03:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 03:23:35 --> Iniciando el método recharge()
+INFO - 2025-05-15 03:23:35 --> Identificación recibida: 4
+INFO - 2025-05-15 03:23:35 --> Identificación recibida: 1111111
+INFO - 2025-05-15 03:23:35 --> Monto recibido: 50000
+INFO - 2025-05-15 03:23:36 --> Modelo de usuarios cargado
+INFO - 2025-05-15 03:23:36 --> Consulta realizada para buscar usuario
+INFO - 2025-05-15 03:23:36 --> Usuario encontrado: {"name":"MARVIN","last_name":"PEREZ","identification":"1111111","date_registration":"2025-05-14 19:56:00","email":"marvin.santos@soy.sena.edu.co","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR\r\nBARRIO FUNDADORES","status":"active","password_hash":"$2y$10$iEUnlI\/C3M9fVvb3Uu.NYuQd57l1f9n3001d6kGUTdT\/EKntiPI12","balance":"0.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"1","id_user":"4","principal":"0.00","rate":"0.00","compoundingPeriods":"0","time":"0"}
+INFO - 2025-05-15 03:23:36 --> Nuevo balance calculado: 50000
+INFO - 2025-05-15 03:23:36 --> Saldo actualizado correctamente
+INFO - 2025-05-15 03:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 03:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 03:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 03:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 03:27:17 --> Usuario autenticado con role_id: 
+INFO - 2025-05-15 03:27:20 --> El método authenticate fue llamado
+INFO - 2025-05-15 03:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 03:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 03:27:21 --> Usuario autenticado con role_id: 
+INFO - 2025-05-15 03:28:01 --> El método authenticate fue llamado
+INFO - 2025-05-15 03:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 03:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 03:28:01 --> Usuario autenticado con role_id: 
+INFO - 2025-05-15 03:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 03:28:08 --> Usuario autenticado con role_id: 
+INFO - 2025-05-15 03:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 03:28:08 --> Usuario autenticado con role_id: 
+INFO - 2025-05-15 03:28:17 --> El método authenticate fue llamado
+INFO - 2025-05-15 03:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 03:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 03:28:17 --> Usuario autenticado con role_id: 
+INFO - 2025-05-15 14:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:09:17 --> Usuario autenticado con role_id: 
+INFO - 2025-05-15 14:13:56 --> El método authenticate fue llamado
+INFO - 2025-05-15 14:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:13:56 --> Usuario autenticado con role_id: 
+INFO - 2025-05-15 14:14:44 --> El método authenticate fue llamado
+INFO - 2025-05-15 14:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:14:44 --> Usuario autenticado con role_id: 
+INFO - 2025-05-15 14:14:52 --> El método authenticate fue llamado
+INFO - 2025-05-15 14:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:17:47 --> Iniciando el método addUser()
+INFO - 2025-05-15 14:17:47 --> Reglas de validación definidas.
+INFO - 2025-05-15 14:17:47 --> Validación exitosa.
+INFO - 2025-05-15 14:17:47 --> Datos recogidos del formulario: {"name":"JUAN","last_name":"BONET","identification":"1111111","email":"juan@example.com","role_id":"2","status":"active","password_hash":"$2y$10$ERv0pYTxN3ioSdPaqFJqwuxZ.IEV6RGOPiGKRsGOpBw1.i6lQIcAW","balance":5000,"rate":0.05,"compoundingPeriods":7,"time":1,"principal":5255.42}
+INFO - 2025-05-15 14:17:48 --> Consulta ejecutada: INSERT INTO `users` (`name`, `last_name`, `identification`, `email`, `role_id`, `status`, `password_hash`, `balance`, `rate`, `compoundingPeriods`, `time`, `principal`) VALUES ('JUAN', 'BONET', '1111111', 'juan@example.com', '2', 'active', '$2y$10$ERv0pYTxN3ioSdPaqFJqwuxZ.IEV6RGOPiGKRsGOpBw1.i6lQIcAW', 5000, 0.05, 7, 1, 5255.42)
+INFO - 2025-05-15 14:17:48 --> Usuario agregado correctamente en la base de datos.
+INFO - 2025-05-15 14:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:17:57 --> Iniciando búsqueda de usuario...
+INFO - 2025-05-15 14:17:57 --> Identificación recibida: 1111111
+INFO - 2025-05-15 14:17:57 --> Usuario encontrado: {"name":"JUAN","last_name":"BONET","identification":"1111111","date_registration":"2025-05-15 09:17:47","email":"juan@example.com","phone":null,"address":null,"status":"active","password_hash":"$2y$10$ERv0pYTxN3ioSdPaqFJqwuxZ.IEV6RGOPiGKRsGOpBw1.i6lQIcAW","balance":"5000.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"2","id_user":"3","principal":"5255.42","rate":"0.05","compoundingPeriods":"7","time":"1"}
+INFO - 2025-05-15 15:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 15:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 15:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 15:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 15:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 15:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 15:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 15:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 15:30:21 --> Iniciando el método addUser()
+INFO - 2025-05-15 15:30:21 --> Reglas de validación definidas.
+ERROR - 2025-05-15 15:30:21 --> Error en la validación de datos: {"identification":"The identification field must contain a unique value."}
+INFO - 2025-05-15 15:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 15:31:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 15:31:01 --> Iniciando el método addUser()
+INFO - 2025-05-15 15:31:01 --> Reglas de validación definidas.
+INFO - 2025-05-15 15:31:01 --> Validación exitosa.
+INFO - 2025-05-15 15:31:02 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"11111111111","email":"marvin.santos@soy.sena.edu.co","role_id":"2","status":"active","password_hash":"$2y$10$6azmNdlA1DnhHfTKINsFIuqyXF7Obo9ApAmc48XZkZ6xsiOqFt7Xq","balance":5000,"rate":0.05,"compoundingPeriods":7,"time":1,"principal":5255.42}
+INFO - 2025-05-15 15:31:02 --> Consulta ejecutada: INSERT INTO `users` (`name`, `last_name`, `identification`, `email`, `role_id`, `status`, `password_hash`, `balance`, `rate`, `compoundingPeriods`, `time`, `principal`) VALUES ('MARVIN', 'PEREZ', '11111111111', 'marvin.santos@soy.sena.edu.co', '2', 'active', '$2y$10$6azmNdlA1DnhHfTKINsFIuqyXF7Obo9ApAmc48XZkZ6xsiOqFt7Xq', 5000, 0.05, 7, 1, 5255.42)
+INFO - 2025-05-15 15:31:02 --> Usuario agregado correctamente en la base de datos.
+INFO - 2025-05-15 15:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

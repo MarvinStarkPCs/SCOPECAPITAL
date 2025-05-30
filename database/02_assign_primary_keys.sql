@@ -10,15 +10,7 @@ ADD COLUMN id_param INT AUTO_INCREMENT PRIMARY KEY;
 -- Asignar clave primaria a la tabla `users`
 ALTER TABLE users
 ADD COLUMN id_user INT AUTO_INCREMENT PRIMARY KEY;
--- Asignar clave primaria a la tabla `company`
-ALTER TABLE company
-ADD COLUMN id_company INT AUTO_INCREMENT PRIMARY KEY;
--- Asignar clave primaria a la tabla `bank`
-ALTER TABLE bank
-ADD COLUMN id_bank INT AUTO_INCREMENT PRIMARY KEY;
--- Asignar clave primaria a la tabla `banker`
-ALTER TABLE banker
-ADD COLUMN id_banker INT AUTO_INCREMENT PRIMARY KEY;
+
 -- Asignar clave primaria a la tabla `request_types`
 ALTER TABLE request_types
 ADD COLUMN id_type INT AUTO_INCREMENT PRIMARY KEY;

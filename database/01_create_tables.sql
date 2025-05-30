@@ -13,28 +13,52 @@ CREATE TABLE roles (
 
 -- Tabla users
 CREATE TABLE users (
+    -- 🧾 CATEGORÍA: ACUERDOS
+    agreement VARCHAR(20),
+    number INT,
+    letter CHAR(1),
+    date_from DATE,
+    date_to DATE,
+    policy VARCHAR(50),
+    approved_by VARCHAR(100),
+    approved_date DATE,
+
+    -- 👤 CATEGORÍA: CLIENTE
     name VARCHAR(70) NOT NULL,
     last_name VARCHAR(80) NOT NULL,
-    identification BIGINT NOT NULL UNIQUE,  -- Restricción UNIQUE
-    date_registration DATETIME DEFAULT CURRENT_TIMESTAMP,
-    email VARCHAR(100) UNIQUE,               -- Restricción UNIQUE
+    identification BIGINT NOT NULL UNIQUE,
+    email VARCHAR(100) UNIQUE,
     phone VARCHAR(15),
     address VARCHAR(255),
-    status ENUM('active', 'inactive') DEFAULT 'active',
+    trust VARCHAR(100),
+    email_del_trust VARCHAR(150),
+    telephone_del_trust VARCHAR(20),
+
+    -- 🏦 CATEGORÍA: BANCARIO
+    bank VARCHAR(50),
+    swift VARCHAR(20),
+    aba VARCHAR(20),
+    iban VARCHAR(34),
+    account VARCHAR(20),
+
+    -- 🔐 CATEGORÍA: SEGURIDAD Y ACCESO
     password_hash VARCHAR(255) NOT NULL,
-    balance DECIMAL(10, 2) NOT NULL DEFAULT 0.00,
-    swift_code VARCHAR(11),
-    routing VARCHAR(9),
-    checking VARCHAR(17),
-    account_number VARCHAR(17),
-    account_signatory VARCHAR(100),
+    date_registration DATETIME DEFAULT CURRENT_TIMESTAMP,
     login_attempts INT DEFAULT 0,
     last_login_attempt DATETIME,
-    id_company INT,                           -- Campo para clave foránea
-    id_bank INT,                              -- Campo para clave foránea
-    id_banker INT,                            -- Campo para clave foránea
-    role_id INT                             -- Campo para clave foránea
+    status ENUM('active', 'inactive') DEFAULT 'active',
+    role_id INT,
+
+    -- 💰 CATEGORÍA: FINANZAS / PRÉSTAMOS
+    balance DECIMAL(10, 2) NOT NULL DEFAULT 0.00,
+    principal DECIMAL(10, 2) NOT NULL,
+    rate DECIMAL(5, 2) NOT NULL,
+    compoundingPeriods INT NOT NULL,
+    time INT NOT NULL
 );
+
+
+
 
 CREATE TABLE history_transactions (
     user_id INT NOT NULL,                     -- Campo para clave foránea

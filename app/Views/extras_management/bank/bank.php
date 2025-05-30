@@ -12,7 +12,7 @@
         <div class="d-flex justify-content-end mb-2">
             <button type="button" id="openModalButtonbank" class="btn btn-primary" data-toggle="modal"
                 data-target="#addbankModal">
-                <i class="fas fa-bank-plus"></i> Add bank
+                <i class="fas fa-university"></i> Add bank
             </button>
         </div>
 

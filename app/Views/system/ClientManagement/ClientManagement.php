@@ -4,13 +4,13 @@
 <!-- DataTable -->
 <div class="card shadow mb-4">
     <div class="card-header py-3 bg-dark-blue">
-        <h6 class="m-0 font-weight-bold text-primary">List of Users</h6>
+        <h6 class="m-0 font-weight-bold text-primary">List of Client</h6>
     </div>
     <div class="card-body">
         <div class="d-flex justify-content-end mb-2">
             <button type="button" id="openModalButtonUser" class="btn btn-primary" data-toggle="modal"
                     data-target="#addUserModal">
-                <i class="fas fa-user-plus"></i> Add User
+                <i class="fas fa-user-plus"></i> Add Client
             </button>
         </div>
 

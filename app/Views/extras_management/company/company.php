@@ -13,7 +13,7 @@
         <div class="d-flex justify-content-end mb-2">
             <button type="button" id="openModalButtoncompany" class="btn btn-primary" data-toggle="modal"
                 data-target="#addcompanyModal">
-                <i class="fas fa-company-plus"></i> Add company
+                <i class="fas fa-building"></i> Add company
             </button>
         </div>
 

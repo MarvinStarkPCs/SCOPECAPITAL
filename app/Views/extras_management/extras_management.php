@@ -136,8 +136,8 @@
     <div class="container-box bg-dark-blue">
         <div class="row bg-dark-blue">
             <!-- Bank -->
-            <div class="col-12 col-md-4 mb-4">
-                <a href="<?= base_url('admin/extrasmanagement/bank'); ?>" class="card">
+            <!-- <div class="col-12 col-md-4 mb-4">
+                <a href="< ?= base_url('admin/extrasmanagement/bank'); ?>" class="card">
                     <div class="card-content">
                         <div class="card-text">
                             <h5 class="mb-0">Bank</h5>
@@ -147,11 +147,11 @@
                         </div>
                     </div>
                 </a>
-            </div>
+            </div> -->
 
             <!-- Banker -->
-            <div class="col-12 col-md-4 mb-4">
-                <a href="<?= base_url('admin/extrasmanagement/banker'); ?>" class="card">
+            <!-- <div class="col-12 col-md-4 mb-4">
+                <a href="< ?= base_url('admin/extrasmanagement/banker'); ?>" class="card">
                     <div class="card-content">
                         <div class="card-text">
                             <h5 class="mb-0">Banker</h5>
@@ -161,11 +161,11 @@
                         </div>
                     </div>
                 </a>
-            </div>
+            </div> -->
 
             <!-- Company -->
-            <div class="col-12 col-md-4 mb-4">
-                <a href="<?= base_url('admin/extrasmanagement/company'); ?>" class="card">
+            <!-- <div class="col-12 col-md-4 mb-4">
+                <a href="< ?= base_url('admin/extrasmanagement/company'); ?>" class="card">
                     <div class="card-content">
                         <div class="card-text">
                             <h5 class="mb-0">Company</h5>
@@ -175,21 +175,21 @@
                         </div>
                     </div>
                 </a>
-            </div>
+            </div> -->
 
-            <!-- Parameters -->
+            <!-- Parameters
             <div class="col-12 col-md-4 mb-4">
-                <a href="<?= base_url('admin/extrasmanagement/parameters'); ?>" class="card">
+                <a href="< ?= base_url('admin/extrasmanagement/parameters'); ?>" class="card">
                     <div class="card-content">
                         <div class="card-text">
                             <h5 class="mb-0">Parameters</h5>
                         </div>
                         <div class="card-image">
-                            <img src="<?= base_url('img/gestionextras/1.png'); ?>" alt="Parameters" class="icon-image">
+                            <img src="< ?= base_url('img/gestionextras/1.png'); ?>" alt="Parameters" class="icon-image">
                         </div>
                     </div>
                 </a>
-            </div>
+            </div> -->
 
             <!-- Request Statuses -->
             <div class="col-12 col-md-4 mb-4">

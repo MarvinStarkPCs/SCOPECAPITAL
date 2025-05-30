@@ -3,7 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\UserModel;
-
+$HOLA;
 class AuthController extends BaseController
 {
     public function index()

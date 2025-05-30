@@ -6,19 +6,65 @@ class ClientManagementModel extends Model
 {
     protected $table = 'users';
     protected $primaryKey = 'id_user';
-    protected $allowedFields = ['name', 'last_name', 'identification', 'password_hash', 'role_id', 'email', 'phone', 'address', 'status', 'login_attempts', 'last_login_attempt', 'balance', 'date_registration'];
+    protected $allowedFields = ['name', 'last_name', 'identification', 'password_hash', 'role_id', 'email', 'phone', 'address', 'status', 'login_attempts', 'last_login_attempt', 'balance', 'date_registration','compoundingPeriods','rate','time', 'principal','bank_id', 'banker_id', 'company_id'];
     protected $returnType = 'array';
     protected $useTimestamps = false;
 
     // Método para obtener usuarios sin la contraseña
     public function getUsers($id = null)
     {
-        $query = $this->select('users.id_user, users.name, users.last_name, users.identification, users.email, 
-                                users.phone, users.address, users.status, users.login_attempts, 
-                                users.last_login_attempt, users.role_id, users.date_registration, 
-                                roles.role_name')
-            ->join('roles', 'roles.id_role = users.role_id')
-            ->where('roles.role_name=', 'CLIENT'); // Excluye usuarios
+      $query = $this->select([
+    // 🧾 CATEGORÍA: ACUERDOS
+    'users.agreement',
+    'users.number',
+    'users.letter',
+    'users.date_from',
+    'users.date_to',
+    'users.policy',
+    'users.approved_by',
+    'users.approved_date',
+
+    // 👤 CATEGORÍA: CLIENTE
+    'users.id_user',
+    'users.name',
+    'users.last_name',
+    'users.identification',
+    'users.email',
+    'users.phone',
+    'users.address',
+    'users.trust',
+    'users.email_del_trust',
+    'users.telephone_del_trust',
+
+    // 🏦 CATEGORÍA: BANCARIO
+    'users.bank',
+    'users.swift',
+    'users.aba',
+    'users.iban',
+    'users.account',
+
+    // 🔐 CATEGORÍA: SEGURIDAD Y ACCESO
+    'users.password_hash',
+    'users.date_registration',
+    'users.login_attempts',
+    'users.last_login_attempt',
+    'users.status',
+    'users.role_id',
+
+    // 💰 CATEGORÍA: FINANZAS / PRÉSTAMOS
+    'users.balance',
+    'users.principal',
+    'users.rate',
+    'users.compoundingPeriods',
+    'users.time',
+
+    // Rol
+    'roles.role_name'
+])
+->join('roles', 'roles.id_role = users.role_id')
+->where('roles.role_name', 'CLIENT');
+
+
 
         if ($id !== null) {
             $query->where('users.id_user', $id);

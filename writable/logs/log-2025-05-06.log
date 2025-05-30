@@ -1,0 +1,19 @@
+INFO - 2025-05-06 00:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-06 00:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-06 00:29:15 --> Usuario autenticado con role_id: 
+INFO - 2025-05-06 00:29:17 --> El método authenticate fue llamado
+INFO - 2025-05-06 00:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-06 00:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-06 00:29:17 --> Usuario autenticado con role_id: 
+INFO - 2025-05-06 00:29:24 --> El método authenticate fue llamado
+INFO - 2025-05-06 00:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-06 00:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-06 00:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-06 00:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-06 00:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-06 00:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-06 00:29:38 --> Iniciando búsqueda de usuario...
+INFO - 2025-05-06 00:29:38 --> Identificación recibida: 123456
+INFO - 2025-05-06 00:29:38 --> Usuario encontrado: {"name":"JUAN","last_name":"BONET","identification":"123456","date_registration":"2025-04-23 14:27:26","email":"jsbonetc@gmail.com","phone":"3153918218","address":"CALLE 15 2322\r\nBARRIO SANTA CLARA","status":"active","password_hash":"$2y$10$Udh8JnlGydIuW2JgDF\/PnOjXr4gTd94.g4qeMHoF\/jeBzJ8WNQJuC","balance":"0.00","swift_code":null,"routing":null,"checking":null,"account_number":null,"account_signatory":null,"login_attempts":"0","last_login_attempt":null,"id_company":null,"id_bank":null,"id_banker":null,"role_id":"1","id_user":"26"}
+INFO - 2025-05-06 00:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-06 00:29:41 --> No se encontraron transacciones para el usuario ID: 26

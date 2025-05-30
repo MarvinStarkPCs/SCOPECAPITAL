@@ -34,6 +34,17 @@ $routes->group('admin', ['filter' => 'auth'], function ($routes) {
     $routes->post('extrasmanagement/company/add', 'CompanyController::create');
     $routes->post('extrasmanagement/company/update/(:num)', 'CompanyController::update/$1');
     $routes->get('extrasmanagement/company/delete/(:num)', 'CompanyController::delete/$1');
+    // request statuses
+    $routes->get('extrasmanagement/request-statuses', 'RequestStatusesController::index');
+    $routes->post('extrasmanagement/request-statuses/add', 'RequestStatusesController::create');
+    $routes->post('extrasmanagement/request-statuses/update/(:num)', 'RequestStatusesController::update/$1');
+    $routes->get('extrasmanagement/request-statuses/delete/(:num)', 'RequestStatusesController::delete/$1');
+    // request types
+     // request statuses
+     $routes->get('extrasmanagement/request-types', 'RequestTypesController::index');
+     $routes->post('extrasmanagement/request-types/add', 'RequestTypesController::create');
+     $routes->post('extrasmanagement/request-types/update/(:num)', 'RequestTypesController::update/$1');
+     $routes->get('extrasmanagement/request-types/delete/(:num)', 'RequestTypesController::delete/$1');
     // Rutas de autenticación (protegidas) para el aside
     ///setting
     $routes->get('setting', 'ConfigurationController::index');

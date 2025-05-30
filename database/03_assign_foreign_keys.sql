@@ -1,9 +1,6 @@
 -- Asignar clave foránea en la tabla `users` 
 ALTER TABLE users
-ADD CONSTRAINT FK_role_id FOREIGN KEY (role_id) REFERENCES roles (id_role),
-ADD CONSTRAINT FK_company_id FOREIGN KEY (id_company) REFERENCES company (id_company) ON DELETE SET NULL ON UPDATE CASCADE,
-ADD CONSTRAINT FK_bank_id FOREIGN KEY (id_bank) REFERENCES bank (id_bank) ON DELETE SET NULL ON UPDATE CASCADE,
-ADD CONSTRAINT FK_banker_id FOREIGN KEY (id_banker) REFERENCES banker (id_banker) ON DELETE SET NULL ON UPDATE CASCADE;
+ADD CONSTRAINT FK_role_id FOREIGN KEY (role_id) REFERENCES roles (id_role);
 
 -- Asignar clave foránea en la tabla `requests`
 ALTER TABLE requests

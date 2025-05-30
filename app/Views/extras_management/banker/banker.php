@@ -13,7 +13,7 @@
         <div class="d-flex justify-content-end mb-2">
             <button type="button" id="openModalButtonbanker" class="btn btn-primary" data-toggle="modal"
                 data-target="#addbankerModal">
-                <i class="fas fa-banker-plus"></i> Add banker
+                <i class="fas fa-user-tie"></i> Add banker
             </button>
         </div>
 
