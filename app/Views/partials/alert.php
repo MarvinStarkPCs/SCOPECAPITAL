@@ -5,6 +5,7 @@
 // Función para crear y mostrar una alerta
 // Función para crear y mostrar una alerta
 function mostrarAlerta(tipo, mensaje) {
+    console.log(`Mostrando alerta de tipo: ${tipo} con mensaje: ${mensaje}`);
     // Crear el contenedor de la alerta
     let alerta = document.createElement('div');
     alerta.classList.add('alert', `alert-${tipo}`);

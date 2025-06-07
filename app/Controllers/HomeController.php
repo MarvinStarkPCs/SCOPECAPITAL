@@ -1,5 +1,8 @@
 <?php
+
 namespace App\Controllers;
+use App\Models\ComboBoxModel;
+
 class HomeController extends BaseController
 {
     public function index()
@@ -8,11 +11,10 @@ class HomeController extends BaseController
         $role_id = $session->get('role_id');
     
         if ($role_id == 1) {
-            return view('extras_management/extras_management'); // Vista para administradores
+            // Vista para administradores
+            return view('extras_management/extras_management');
         } else {
-            return view(name: 'system/pqrsmanagementclient'); // Vista para otros usuarios
+            return redirect()->to('/client/pqrs-sent');
         }
     }
-    
-    
 }

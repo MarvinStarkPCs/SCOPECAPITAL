@@ -54,7 +54,11 @@ $routes->group('admin', ['filter' => 'auth'], function ($routes) {
     $routes->get('profile', 'ProfileController::index');
     // Rutas de autenticación (protegidas) para el modulo de sistema
     //pqrsmanagement
-    $routes->get('pqrsmanagement', 'PqrsController::index');
+    $routes->get('pqrsmanagement', 'PqrsManagementController::index');
+    $routes->post('pqrsmanagement/filter', 'PqrsManagementController::filterRequests');
+    $routes->get('pqrsmanagement/cancel-request/(:num)', 'PqrsManagementController::cancelrequest/$1');
+    $routes->post('pqrsmanagement/getDetails', 'PqrsManagementController::detailsRequest');
+
     ///transactions
     $routes->get('transactions', 'TransactionsController::index');
     $routes->post('transactions/search', 'TransactionsController::search');
@@ -91,4 +95,8 @@ $routes->group('client', ['filter' => 'auth'], function ($routes) {
     ///changepassword
     $routes->get('changepassword', 'ChangePasswordController::index');  // Cargar formulario
     $routes->post('changepassword/update', 'ChangePasswordController::updatePassword');  // Enviar formulario
+
+    // Rutas de autenticación (protegidas) para pqrs client
+    $routes->get('pqrs-sent', 'PqrsSentController::index');
+    $routes->post('pqrs-sent/save', 'PqrsSentController::save'); // Guardar PQRS
 });

@@ -123,7 +123,7 @@ class ClientsManagementController extends BaseController
 
             // Pestaña: Agreement
             'agreement' => $this->request->getPost('agreement'),
-            'number' => $this->request->getPost('agreement'),
+            'number' => $this->request->getPost('number'),
             'letter' => $this->request->getPost('letter'),
             'policy' => $this->request->getPost('policy'),
             'date_from' => $this->request->getPost('date_from'),
@@ -195,64 +195,99 @@ class ClientsManagementController extends BaseController
         }
     }
 
-    public function updateUser($id)
-    {
-        log_message('info', 'Starting updateUser() method for user ID: ' . $id);
+ public function updateUser($id)
+{
+    log_message('info', 'Starting updateUser() method for user ID: ' . $id);
+    $model = new ClientManagementModel();
 
-        $model = new ClientManagementModel();
+    // Reglas de validación
+    $rules = [
+        'name' => 'required|min_length[2]|max_length[70]',
+        'last_name' => 'required|min_length[2]|max_length[80]',
+        'identification' => "required|numeric|min_length[5]|max_length[20]|is_unique[users.identification,id_user,{$id}]",
+        'email' => "required|valid_email|max_length[100]|is_unique[users.email,id_user,{$id}]",
+        'phone' => 'required|numeric|min_length[8]|max_length[15]',
+        'address' => 'required|max_length[100]',
+        'status' => 'required|in_list[active,inactive]',
 
-        // Define validation rules
-        $rules = [
-            'name' => 'required|min_length[2]|max_length[70]',
-            'last_name' => 'required|min_length[2]|max_length[80]',
-            'identification' => "required|numeric|min_length[5]|max_length[20]|is_unique[users.identification,id_user,{$id}]",
-            'email' => "required|valid_email|max_length[100]|is_unique[users.email,id_user,{$id}]",
-            'phone' => 'required|numeric|min_length[8]|max_length[15]',
-            'address' => 'required|max_length[100]',
-            'id_role' => 'required|numeric',
-            'status' => 'required|in_list[active,inactive]',
-        ];
+        // Banking
+        'bank' => 'permit_empty|max_length[100]',
+        'swift' => 'permit_empty|max_length[50]',
+        'aba' => 'permit_empty|max_length[50]',
+        'iban' => 'permit_empty|max_length[50]',
+        'account' => 'permit_empty|max_length[100]',
 
-        log_message('info', 'Validation rules defined.');
+        // Trust
+        'trust' => 'permit_empty|max_length[100]',
+        'email_del_trust' => 'permit_empty|valid_email|max_length[100]',
 
-        // Validate data
-        if (!$this->validate($rules)) {
-            log_message('error', 'Validation failed: ' . json_encode(\Config\Services::validation()->getErrors()));
+        // Agreement
+        'agreement' => 'permit_empty|max_length[100]',
+        'number' => 'permit_empty|numeric',
+        'letter' => 'permit_empty|max_length[10]',
+        'policy' => 'permit_empty|max_length[100]',
+        'date_from' => 'permit_empty|valid_date',
+        'date_to' => 'permit_empty|valid_date',
+        'approved_by' => 'permit_empty|max_length[100]',
+        'approved_date' => 'permit_empty|valid_date',
+    ];
 
-            // Retain input and display validation errors
-            return redirect()->back()->withInput()->with('errors-edit', \Config\Services::validation()->getErrors());
-        }
+    log_message('info', 'Validation rules defined.');
 
-        log_message('info', 'Validation successful.');
-
-        // Collect form data
-        $data = [
-            'name' => $this->request->getPost('name'),
-            'last_name' => $this->request->getPost('last_name'),
-            'identification' => $this->request->getPost('identification'),
-            'phone' => $this->request->getPost('phone'),
-            'address' => $this->request->getPost('address'),
-            'email' => $this->request->getPost('email'),
-            'role_id' => $this->request->getPost('id_role'),
-            'status' => $this->request->getPost('status'),
-
-
-        ];
-
-        log_message('info', 'Collected form data: ' . json_encode($data));
-
-        try {
-            // Update user in the database
-            $model->update($id, $data);
-            log_message('info', 'Executed query: ' . $model->db->getLastQuery());
-
-            log_message('info', 'User successfully updated.');
-            return redirect()->to('/admin/clientmanagement')->with('success', 'User updated successfully.');
-        } catch (\Exception $e) {
-            log_message('error', 'Database error: ' . $e->getMessage());
-            return redirect()->back()->withInput()->with('errors-insert', ['db_error' => 'An error occurred while updating the user.']);
-        }
+    if (!$this->validate($rules)) {
+        log_message('error', 'Validation failed: ' . json_encode(\Config\Services::validation()->getErrors()));
+        return redirect()->back()->withInput()->with('errors-edit', \Config\Services::validation()->getErrors());
     }
+
+    log_message('info', 'Validation successful.');
+
+    // Recolectar datos del formulario
+    $data = [
+        'name' => $this->request->getPost('name'),
+        'last_name' => $this->request->getPost('last_name'),
+        'identification' => $this->request->getPost('identification'),
+        'email' => $this->request->getPost('email'),
+        'phone' => $this->request->getPost('phone'),
+        'address' => $this->request->getPost('address'),
+        'status' => $this->request->getPost('status'),
+
+        // Datos bancarios
+        'bank' => $this->request->getPost('bank'),
+        'swift' => $this->request->getPost('swift'),
+        'aba' => $this->request->getPost('aba'),
+        'iban' => $this->request->getPost('iban'),
+        'account' => $this->request->getPost('account'),
+
+        // Datos de confianza
+        'trust' => $this->request->getPost('trust'),
+        'email_del_trust' => $this->request->getPost('email_del_trust'),
+
+        // Datos de acuerdo
+        'agreement' => $this->request->getPost('agreement'),
+        'number' => $this->request->getPost('number'),
+        'letter' => $this->request->getPost('letter'),
+        'policy' => $this->request->getPost('policy'),
+        'date_from' => $this->request->getPost('date_from'),
+        'date_to' => $this->request->getPost('date_to'),
+        'approved_by' => $this->request->getPost('approved_by'),
+        'approved_date' => $this->request->getPost('approved_date'),
+    ];
+
+    // Solo actualiza la contraseña si fue ingresada
+    $password = $this->request->getPost('password');
+    if (!empty($password)) {
+        $data['password'] = password_hash($password, PASSWORD_DEFAULT);
+    }
+
+    try {
+        $model->update($id, $data);
+        log_message('info', 'Executed query: ' . $model->db->getLastQuery());
+        return redirect()->to('/admin/clientmanagement')->with('success', 'User updated successfully.');
+    } catch (\Exception $e) {
+        log_message('error', 'Database error: ' . $e->getMessage());
+        return redirect()->back()->withInput()->with('errors-edit', ['db_error' => 'Ocurrió un error al actualizar el usuario.']);
+    }
+}
 
 
 

@@ -1,0 +1,222 @@
+INFO - 2025-06-05 03:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:03:44 --> Usuario autenticado con role_id: 
+INFO - 2025-06-05 03:03:57 --> El método authenticate fue llamado
+INFO - 2025-06-05 03:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:03:58 --> Usuario autenticado con role_id: 
+INFO - 2025-06-05 03:04:04 --> El método authenticate fue llamado
+INFO - 2025-06-05 03:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:04:18 --> Configuración SMTP obtenida: Array
+(
+    [config_key] => smtp_config
+    [config_value] => {"host":"smtp.gmail.com","username":"mesp3127@gmail.com","port":"587","smtp_password":"tibw htiw uskt qrjs","security":"tls"}
+    [description] => 
+    [created_at] => 2025-05-30 17:53:32
+    [updated_at] => 2025-05-30 17:57:04
+    [id_config] => 8
+)
+
+INFO - 2025-06-05 03:04:18 --> Configuración SMTP obtenida en librari: Array
+(
+    [host] => smtp.gmail.com
+    [username] => mesp3127@gmail.com
+    [port] => 587
+    [smtp_password] => tibw htiw uskt qrjs
+    [security] => tls
+)
+
+ERROR - 2025-06-05 03:04:20 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-06-05 03:04:20 --> 220 smtp.gmail.com ESMTP 71dfb90a1353d-53074ad8bb1sm11921611e0c.13 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [181.55.22.205]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [181.55.22.205]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK 71dfb90a1353d-53074ad8bb1sm11921611e0c.13 - gsmtp
+
+to: 553-5.1.3 The recipient address <sss> is not a valid RFC 5321 address. For more
+553-5.1.3 information, go to
+553-5.1.3  https://support.google.com/a/answer/3221692 and review RFC 5321
+553 5.1.3 specifications. 71dfb90a1353d-53074ad8bb1sm11921611e0c.13 - gsmtp
+
+The following SMTP error was encountered: 553-5.1.3 The recipient address <sss> is not a valid RFC 5321 address. For more
+553-5.1.3 information, go to
+553-5.1.3  https://support.google.com/a/answer/3221692 and review RFC 5321
+553 5.1.3 specifications. 71dfb90a1353d-53074ad8bb1sm11921611e0c.13 - gsmtp
+
+quit: 221 2.0.0 closing connection 71dfb90a1353d-53074ad8bb1sm11921611e0c.13 - gsmtp
+
+ERROR - 2025-06-05 03:04:20 --> Error al enviar el correo: 220 smtp.gmail.com ESMTP 71dfb90a1353d-53074ad8bb1sm11921611e0c.13 - gsmtp
+<br><pre>hello: 250-smtp.gmail.com at your service, [181.55.22.205]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre><pre>starttls: 220 2.0.0 Ready to start TLS
+</pre><pre>hello: 250-smtp.gmail.com at your service, [181.55.22.205]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre><pre>from: 250 2.1.0 OK 71dfb90a1353d-53074ad8bb1sm11921611e0c.13 - gsmtp
+</pre><pre>to: 553-5.1.3 The recipient address <sss> is not a valid RFC 5321 address. For more
+553-5.1.3 information, go to
+553-5.1.3  https://support.google.com/a/answer/3221692 and review RFC 5321
+553 5.1.3 specifications. 71dfb90a1353d-53074ad8bb1sm11921611e0c.13 - gsmtp
+</pre>The following SMTP error was encountered: 553-5.1.3 The recipient address <sss> is not a valid RFC 5321 address. For more
+553-5.1.3 information, go to
+553-5.1.3  https://support.google.com/a/answer/3221692 and review RFC 5321
+553 5.1.3 specifications. 71dfb90a1353d-53074ad8bb1sm11921611e0c.13 - gsmtp
+<br><pre>quit: 221 2.0.0 closing connection 71dfb90a1353d-53074ad8bb1sm11921611e0c.13 - gsmtp
+</pre>Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Thu, 5 Jun 2025 03:04:18 +0000
+From: &quot;SCOPECAPITAL&quot; &lt;mesp3127@gmail.com&gt;
+Return-Path: &lt;mesp3127@gmail.com&gt;
+To: sss
+Subject: =?UTF-8?Q?Solicitud=20PQRS=20Rechazada?=
+Reply-To: &lt;mesp3127@gmail.com&gt;
+User-Agent: CodeIgniter
+X-Sender: mesp3127@gmail.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;6841093204f2f3.62168412@gmail.com&gt;
+Mime-Version: 1.0
+
+</pre>
+INFO - 2025-06-05 03:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-05 03:41:07 --> ErrorException: Undefined variable $request
+[Method: GET, Route: admin/pqrsmanagement]
+in APPPATH\Views\system\pqrsmanagement\pqrsmanagement.php on line 91.
+ 1 APPPATH\Views\system\pqrsmanagement\pqrsmanagement.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'C:\\xampp\\htdocs\\SCOPECAPITAL\\app\\Views\\system\\pqrsmanagement\\pqrsmanagement.php', 91)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SCOPECAPITAL\\app\\Views\\system\\pqrsmanagement\\pqrsmanagement.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagement/pqrsmanagement', [], true)
+ 5 APPPATH\Controllers\PqrsManagementController.php(20): view('system/pqrsmanagement/pqrsmanagement', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PqrsManagementController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PqrsManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-06-05 03:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-05 03:41:23 --> ErrorException: Undefined variable $request
+[Method: GET, Route: admin/pqrsmanagement]
+in APPPATH\Views\system\pqrsmanagement\pqrsmanagement.php on line 91.
+ 1 APPPATH\Views\system\pqrsmanagement\pqrsmanagement.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'C:\\xampp\\htdocs\\SCOPECAPITAL\\app\\Views\\system\\pqrsmanagement\\pqrsmanagement.php', 91)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SCOPECAPITAL\\app\\Views\\system\\pqrsmanagement\\pqrsmanagement.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagement/pqrsmanagement', [], true)
+ 5 APPPATH\Controllers\PqrsManagementController.php(20): view('system/pqrsmanagement/pqrsmanagement', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PqrsManagementController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PqrsManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-06-05 03:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-05 03:41:24 --> ErrorException: Undefined variable $request
+[Method: GET, Route: admin/pqrsmanagement]
+in APPPATH\Views\system\pqrsmanagement\pqrsmanagement.php on line 91.
+ 1 APPPATH\Views\system\pqrsmanagement\pqrsmanagement.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'C:\\xampp\\htdocs\\SCOPECAPITAL\\app\\Views\\system\\pqrsmanagement\\pqrsmanagement.php', 91)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SCOPECAPITAL\\app\\Views\\system\\pqrsmanagement\\pqrsmanagement.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagement/pqrsmanagement', [], true)
+ 5 APPPATH\Controllers\PqrsManagementController.php(20): view('system/pqrsmanagement/pqrsmanagement', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PqrsManagementController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PqrsManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-06-05 03:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-05 03:41:57 --> ParseError: syntax error, unexpected token "if"
+[Method: GET, Route: admin/pqrsmanagement]
+in APPPATH\Views\system\pqrsmanagement\pqrsmanagement.php on line 91.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('system/pqrsmanagement/pqrsmanagement', [], true)
+ 3 APPPATH\Controllers\PqrsManagementController.php(20): view('system/pqrsmanagement/pqrsmanagement', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PqrsManagementController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PqrsManagementController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-06-05 03:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:49:34 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"AGREEMENT","number":"1","letter":"1","date_from":"2025-06-01","date_to":"2025-06-03","policy":"POLICY","approved_by":"APPROVED BY","approved_date":"2025-06-04","id_user":"15","name":"MARVIN","last_name":"PEREZ","identification":"2354235423","email":"sss","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"TOMAS ANDRE","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"BANCOLOMBIA","swift":"SWIFT","aba":"ABA","iban":"IBAM","account":"ACCOUNT","password_hash":"$2y$10$GAs2sq6yCiCt4vBIcmtk2.DcdR5hd9S.PJK6o8aJb5.ZE6LLzTnbK","date_registration":"2025-06-02 19:17:03","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"5523.90","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"2","role_name":"CLIENT"},{"agreement":"AGREEMENT","number":"1","letter":"1","date_from":"2025-06-01","date_to":"2025-06-05","policy":"POLICY","approved_by":"APPROVED BY","approved_date":"2025-06-02","id_user":"16","name":"JUAN","last_name":"BONET","identification":"10225581111","email":"jsbonetc@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"BANK","swift":"SWIFT","aba":"ABA","iban":"IBAN","account":"ACCOUNT","password_hash":"$2y$10$3AjifnjftzFp4GkbRv3nGOf4s4I0DfLTv1cNk8rlDtqCAX7.RBJ2q","date_registration":"2025-06-04 20:52:47","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"8655.50","principal":"5000.00","rate":"0.05","compoundingPeriods":"11","time":"11","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-05-30 09:59:48","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-05-30 09:59:48","id_role":"2"}]}
+INFO - 2025-06-05 03:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:49:45 --> Starting updateUser() method for user ID: 15
+INFO - 2025-06-05 03:49:45 --> Validation rules defined.
+INFO - 2025-06-05 03:49:45 --> Validation successful.
+INFO - 2025-06-05 03:49:45 --> Executed query: UPDATE `users` SET `name` = 'MARVIN', `last_name` = 'PEREZ', `identification` = '2354235423', `email` = 'marvin.santos@soy.sena.edu.co', `phone` = '3132311084', `address` = 'KDX 286-300 AV CIRCUNVALAR', `status` = 'active', `bank` = 'BANCOLOMBIA', `swift` = 'SWIFT', `aba` = 'ABA', `iban` = 'IBAM', `account` = 'ACCOUNT', `trust` = 'TOMAS ANDRE', `email_del_trust` = 'marvin.santos@soy.sena.edu.co', `agreement` = 'AGREEMENT', `number` = '1', `letter` = '1', `policy` = 'POLICY', `date_from` = '2025-06-01', `date_to` = '2025-06-03', `approved_by` = 'APPROVED BY', `approved_date` = '2025-06-04'
+WHERE `users`.`id_user` IN ('15')
+INFO - 2025-06-05 03:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:49:45 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"AGREEMENT","number":"1","letter":"1","date_from":"2025-06-01","date_to":"2025-06-03","policy":"POLICY","approved_by":"APPROVED BY","approved_date":"2025-06-04","id_user":"15","name":"MARVIN","last_name":"PEREZ","identification":"2354235423","email":"marvin.santos@soy.sena.edu.co","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"TOMAS ANDRE","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"BANCOLOMBIA","swift":"SWIFT","aba":"ABA","iban":"IBAM","account":"ACCOUNT","password_hash":"$2y$10$GAs2sq6yCiCt4vBIcmtk2.DcdR5hd9S.PJK6o8aJb5.ZE6LLzTnbK","date_registration":"2025-06-02 19:17:03","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"5523.90","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"2","role_name":"CLIENT"},{"agreement":"AGREEMENT","number":"1","letter":"1","date_from":"2025-06-01","date_to":"2025-06-05","policy":"POLICY","approved_by":"APPROVED BY","approved_date":"2025-06-02","id_user":"16","name":"JUAN","last_name":"BONET","identification":"10225581111","email":"jsbonetc@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"BANK","swift":"SWIFT","aba":"ABA","iban":"IBAN","account":"ACCOUNT","password_hash":"$2y$10$3AjifnjftzFp4GkbRv3nGOf4s4I0DfLTv1cNk8rlDtqCAX7.RBJ2q","date_registration":"2025-06-04 20:52:47","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"8655.50","principal":"5000.00","rate":"0.05","compoundingPeriods":"11","time":"11","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-05-30 09:59:48","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-05-30 09:59:48","id_role":"2"}]}
+INFO - 2025-06-05 03:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:49:50 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"AGREEMENT","number":"1","letter":"1","date_from":"2025-06-01","date_to":"2025-06-03","policy":"POLICY","approved_by":"APPROVED BY","approved_date":"2025-06-04","id_user":"15","name":"MARVIN","last_name":"PEREZ","identification":"2354235423","email":"marvin.santos@soy.sena.edu.co","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"TOMAS ANDRE","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"BANCOLOMBIA","swift":"SWIFT","aba":"ABA","iban":"IBAM","account":"ACCOUNT","password_hash":"$2y$10$GAs2sq6yCiCt4vBIcmtk2.DcdR5hd9S.PJK6o8aJb5.ZE6LLzTnbK","date_registration":"2025-06-02 19:17:03","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"5523.90","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"2","role_name":"CLIENT"},{"agreement":"AGREEMENT","number":"1","letter":"1","date_from":"2025-06-01","date_to":"2025-06-05","policy":"POLICY","approved_by":"APPROVED BY","approved_date":"2025-06-02","id_user":"16","name":"JUAN","last_name":"BONET","identification":"10225581111","email":"jsbonetc@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"BANK","swift":"SWIFT","aba":"ABA","iban":"IBAN","account":"ACCOUNT","password_hash":"$2y$10$3AjifnjftzFp4GkbRv3nGOf4s4I0DfLTv1cNk8rlDtqCAX7.RBJ2q","date_registration":"2025-06-04 20:52:47","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"8655.50","principal":"5000.00","rate":"0.05","compoundingPeriods":"11","time":"11","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-05-30 09:59:48","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-05-30 09:59:48","id_role":"2"}]}
+INFO - 2025-06-05 03:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 03:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 04:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 06:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 06:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 06:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 16:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 16:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 16:17:49 --> Usuario autenticado con role_id: 
+INFO - 2025-06-05 16:17:59 --> El método authenticate fue llamado
+INFO - 2025-06-05 16:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 16:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 16:17:59 --> Usuario autenticado con role_id: 
+INFO - 2025-06-05 16:18:05 --> El método authenticate fue llamado
+INFO - 2025-06-05 16:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 16:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 16:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-05 16:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

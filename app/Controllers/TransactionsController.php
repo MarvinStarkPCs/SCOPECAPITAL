@@ -16,17 +16,13 @@ class TransactionsController extends BaseController
     {
         // Log para verificar que se recibe el dato correctamente
         log_message('info', 'Iniciando búsqueda de usuario...');
-
         $usuario = $this->request->getPost('identification');
         log_message('info', 'Identificación recibida: ' . $usuario);
-
         $model = new UserManagementModel();
         $user = $model->getUserByIdentification($usuario);
-
         if ($user) {
             // Log de éxito al encontrar al usuario
             log_message('info', 'Usuario encontrado: ' . json_encode($user));
-
             return $this->response->setJSON([
                 'status' => 'success',
                 'data' => $user
@@ -34,7 +30,6 @@ class TransactionsController extends BaseController
         } else {
             // Log de error si no se encuentra el usuario
             log_message('error', 'Usuario no encontrado con identificación: ' . $usuario);
-
             return $this->response->setJSON([
                 'status' => 'error',
                 'message' => 'Usuario no encontrado'
