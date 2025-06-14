@@ -1,16 +1,15 @@
-<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="detailModalLabel" >
+<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="detailModalLabel">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="detailModalLabel">detailar Usuario</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"
                     onclick="location.reload();">
-                    <span >&times;</span>
+                    <span>&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                <form action="<?= base_url('./admin/clientmanagement/update/') ?>" id="editForm" method="post"
-                    class="detail-form">
+                <form id="editForm" method="post" class="detail-form">
                     <?= csrf_field() ?>
 
                     <!-- Tabs Navigation -->
@@ -46,57 +45,57 @@
                                 <div class="form-group col-md-4">
                                     <label>Name</label>
                                     <input type="text" name="name"
-                                        class="form-control <?= session('errors-detail.name') ? 'is-invalid errors-detail' : '' ?>"
+                                        class="form-control <?= session('errors-edit.name') ? 'is-invalid errors-edit' : '' ?>"
                                         value="<?= old('name') ?>">
-                                    <div class="invalid-feedback"><?= session('errors-detail.name') ?></div>
+                                    <div class="invalid-feedback"><?= session('errors-edit.name') ?></div>
                                 </div>
                                 <div class="form-group col-md-4">
                                     <label>Last Name</label>
                                     <input type="text" name="last_name"
-                                        class="form-control <?= session('errors-detail.last_name') ? 'is-invalid errors-detail' : '' ?>"
+                                        class="form-control <?= session('errors-edit.last_name') ? 'is-invalid errors-edit' : '' ?>"
                                         value="<?= old('last_name') ?>">
-                                    <div class="invalid-feedback"><?= session('errors-detail.last_name') ?></div>
+                                    <div class="invalid-feedback"><?= session('errors-edit.last_name') ?></div>
                                 </div>
                                 <div class="form-group col-md-4">
                                     <label>identification</label>
                                     <input type="text" name="identification"
-                                        class="form-control <?= session('errors-detail.identification') ? 'is-invalid errors-detail' : '' ?>"
+                                        class="form-control <?= session('errors-edit.identification') ? 'is-invalid errors-edit' : '' ?>"
                                         value="<?= old('identification') ?>">
-                                    <div class="invalid-feedback"><?= session('errors-detail.identification') ?></div>
+                                    <div class="invalid-feedback"><?= session('errors-edit.identification') ?></div>
                                 </div>
                                 <div class="form-group col-md-4">
                                     <label>Email</label>
                                     <input type="email" name="email"
-                                        class="form-control <?= session('errors-detail.email') ? 'is-invalid errors-detail' : '' ?>"
+                                        class="form-control <?= session('errors-edit.email') ? 'is-invalid errors-edit' : '' ?>"
                                         value="<?= old('email') ?>">
-                                    <div class="invalid-feedback"><?= session('errors-detail.email') ?></div>
+                                    <div class="invalid-feedback"><?= session('errors-edit.email') ?></div>
                                 </div>
                                 <div class="form-group col-md-4">
                                     <label>Phone</label>
                                     <input type="tel" name="phone"
-                                        class="form-control <?= session('errors-detail.phone') ? 'is-invalid errors-detail' : '' ?>"
+                                        class="form-control <?= session('errors-edit.phone') ? 'is-invalid errors-edit' : '' ?>"
                                         value="<?= old('phone') ?>">
-                                    <div class="invalid-feedback"><?= session('errors-detail.phone') ?></div>
+                                    <div class="invalid-feedback"><?= session('errors-edit.phone') ?></div>
                                 </div>
                                 <div class="form-group col-md-4">
                                     <label>Address</label>
                                     <textarea name="address"
-                                        class="form-control <?= session('errors-detail.address') ? 'is-invalid errors-detail' : '' ?>"><?= old('address') ?></textarea>
-                                    <div class="invalid-feedback"><?= session('errors-detail.address') ?></div>
+                                        class="form-control <?= session('errors-edit.address') ? 'is-invalid errors-edit' : '' ?>"><?= old('address') ?></textarea>
+                                    <div class="invalid-feedback"><?= session('errors-edit.address') ?></div>
                                 </div>
                                 <div class="form-group col-md-4">
                                     <label>Trust</label>
                                     <input type="text" name="trust"
-                                        class="form-control <?= session('errors-detail.phone') ? 'is-invalid errors-detail' : '' ?>"
+                                        class="form-control <?= session('errors-edit.phone') ? 'is-invalid errors-edit' : '' ?>"
                                         value="<?= old('trust') ?>">
-                                    <div class="invalid-feedback"><?= session('errors-detail.trust') ?></div>
+                                    <div class="invalid-feedback"><?= session('errors-edit.trust') ?></div>
                                 </div>
                                 <div class="form-group col-md-4">
                                     <label>Email Trust</label>
                                     <input type="email_del_trust" name="email_del_trust"
-                                        class="form-control <?= session('errors-detail.email_del_trust') ? 'is-invalid errors-detail' : '' ?>"
+                                        class="form-control <?= session('errors-edit.email_del_trust') ? 'is-invalid errors-edit' : '' ?>"
                                         value="<?= old('email_del_trust') ?>">
-                                    <div class="invalid-feedback"><?= session('errors-detail.email_del_trust') ?></div>
+                                    <div class="invalid-feedback"><?= session('errors-edit.email_del_trust') ?></div>
                                 </div>
                             </div>
                             <div class="d-flex justify-content-between">
@@ -111,37 +110,37 @@
                                 <div class="form-group col-md-4">
                                     <label>Bank</label>
                                     <input type="text" name="bank"
-                                        class="form-control <?= session('errors-detail.bank') ? 'is-invalid errors-detail' : '' ?>"
+                                        class="form-control <?= session('errors-edit.bank') ? 'is-invalid errors-edit' : '' ?>"
                                         value="<?= old('bank') ?>">
-                                    <div class="invalid-feedback"><?= session('errors-detail.bank') ?></div>
+                                    <div class="invalid-feedback"><?= session('errors-edit.bank') ?></div>
                                 </div>
                                 <div class="form-group col-md-4">
                                     <label>SWIFT</label>
                                     <input type="text" name="swift"
-                                        class="form-control <?= session('errors-detail.swift') ? 'is-invalid errors-detail' : '' ?>"
+                                        class="form-control <?= session('errors-edit.swift') ? 'is-invalid errors-edit' : '' ?>"
                                         value="<?= old('swift') ?>">
-                                    <div class="invalid-feedback"><?= session('errors-detail.swift') ?></div>
+                                    <div class="invalid-feedback"><?= session('errors-edit.swift') ?></div>
                                 </div>
                                 <div class="form-group col-md-4">
                                     <label>ABA</label>
                                     <input type="text" name="aba"
-                                        class="form-control <?= session('errors-detail.aba') ? 'is-invalid errors-detail' : '' ?>"
+                                        class="form-control <?= session('errors-edit.aba') ? 'is-invalid errors-edit' : '' ?>"
                                         value="<?= old('aba') ?>">
-                                    <div class="invalid-feedback"><?= session('errors-detail.aba') ?></div>
+                                    <div class="invalid-feedback"><?= session('errors-edit.aba') ?></div>
                                 </div>
                                 <div class="form-group col-md-4">
                                     <label>IBAN</label>
                                     <input type="text" name="iban"
-                                        class="form-control <?= session('errors-detail.iban') ? 'is-invalid errors-detail' : '' ?>"
+                                        class="form-control <?= session('errors-edit.iban') ? 'is-invalid errors-edit' : '' ?>"
                                         value="<?= old('iban') ?>">
-                                    <div class="invalid-feedback"><?= session('errors-detail.iban') ?></div>
+                                    <div class="invalid-feedback"><?= session('errors-edit.iban') ?></div>
                                 </div>
                                 <div class="form-group col-md-4">
                                     <label>Account</label>
                                     <input type="text" name="account"
-                                        class="form-control <?= session('errors-detail.account') ? 'is-invalid errors-detail' : '' ?>"
+                                        class="form-control <?= session('errors-edit.account') ? 'is-invalid errors-edit' : '' ?>"
                                         value="<?= old('account') ?>">
-                                    <div class="invalid-feedback"><?= session('errors-detail.account') ?></div>
+                                    <div class="invalid-feedback"><?= session('errors-edit.account') ?></div>
                                 </div>
                             </div>
                             <div class="d-flex justify-content-between">
@@ -156,43 +155,39 @@
                                 <div class="form-group col-md-3">
                                     <label for="Principal">Principal</label>
                                     <input type="text"
-                                        class="form-control <?= session('errors-detail.Principal') ? 'is-invalid errors-detail' : '' ?>"
-                                      name="Principal" placeholder="Principal"
-                                        value="<?= old('Principal') ?>">
-                                    <div class="invalid-feedback"><?= session('errors-detail.Principal') ?></div>
+                                        class="form-control <?= session('errors-edit.Principal') ? 'is-invalid errors-edit financial' : '' ?>"
+                                        name="Principal" placeholder="Principal" value="<?= old('Principal') ?>">
+                                    <div class="invalid-feedback"><?= session('errors-edit.Principal') ?></div>
                                 </div>
 
                                 <div class="form-group col-md-3">
                                     <label for="inputRate">Interest Rate</label>
                                     <input type="text"
-                                        class="form-control <?= session('errors-detail.rate') ? 'is-invalid errors-detail' : '' ?>"
-                                       name="rate" placeholder="Interest Rate"
-                                        value="<?= old('rate') ?>">
-                                    <div class="invalid-feedback"><?= session('errors-detail.rate') ?></div>
+                                        class="form-control <?= session('errors-edit.rate') ? 'is-invalid errors-edit financial' : '' ?>"
+                                        name="rate" placeholder="Interest Rate" value="<?= old('rate') ?>">
+                                    <div class="invalid-feedback"><?= session('errors-edit.rate') ?></div>
                                 </div>
                                 <div class="form-group col-md-3">
                                     <label for="inputCompoundingPeriods">Periods</label>
                                     <input type="text"
-                                        class="form-control <?= session('errors-detail.compoundingPeriods') ? 'is-invalid errors-detail' : '' ?>"
-                                      name="compoundingPeriods"
-                                        placeholder="Compounding Periods" value="<?= old('compoundingPeriods') ?>">
-                                    <div class="invalid-feedback"><?= session('errors-detail.compoundingPeriods') ?></div>
+                                        class="form-control <?= session('errors-edit.compoundingPeriods') ? 'is-invalid errors-edit financial' : '' ?>"
+                                        name="compoundingPeriods" placeholder="Compounding Periods"
+                                        value="<?= old('compoundingPeriods') ?>">
+                                    <div class="invalid-feedback"><?= session('errors-edit.compoundingPeriods') ?></div>
                                 </div>
                                 <div class="form-group col-md-3">
                                     <label for="inputTime">Time (Years)</label>
                                     <input type="text"
-                                        class="form-control <?= session('errors-detail.time') ? 'is-invalid errors-detail' : '' ?>"
-                                        name="time" placeholder="Time in Years"
-                                        value="<?= old('time') ?>">
-                                    <div class="invalid-feedback"><?= session('errors-detail.time') ?></div>
+                                        class="form-control <?= session('errors-edit.time') ? 'is-invalid errors-edit financial' : '' ?>"
+                                        name="time" placeholder="Time in Years" value="<?= old('time') ?>">
+                                    <div class="invalid-feedback"><?= session('errors-edit.time') ?></div>
                                 </div>
                                 <div class="form-group col-md-3">
                                     <label for="inputBalance">Formula</label>
                                     <input type="text"
-                                        class="form-control <?= session('errors-detail.balance') ? 'is-invalid errors-detail' : '' ?>"
-                                        name="balance" placeholder="Balance"
-                                        value="<?= old('balance') ?>" readonly>
-                                    <div class="invalid-feedback"><?= session('errors-detail.balance') ?></div>
+                                        class="form-control <?= session('errors-edit.balance') ? 'is-invalid errors-edit' : '' ?>"
+                                        name="balance" placeholder="Balance" value="<?= old('balance') ?>" readonly>
+                                    <div class="invalid-feedback"><?= session('errors-edit.balance') ?></div>
                                 </div>
                             </div>
                             <div class="d-flex justify-content-between">
@@ -205,18 +200,18 @@
                         <div class="tab-pane fade" id="detail-system" role="tabpanel">
                             <h5 class="text-primary">System Access</h5>
                             <div class="form-row">
-                               
+
                                 <div class="form-group col-md-4">
                                     <label>Estado</label>
                                     <select name="status"
-                                        class="form-control <?= session('errors-detail.status') ? 'is-invalid errors-detail' : '' ?>">
+                                        class="form-control <?= session('errors-edit.status') ? 'is-invalid errors-edit' : '' ?>">
                                         <option value="">Selecciona estado</option>
                                         <option value="active" <?= old('status') == 'active' ? 'selected' : '' ?>>Activo
                                         </option>
                                         <option value="inactive" <?= old('status') == 'inactive' ? 'selected' : '' ?>>
                                             Inactivo</option>
                                     </select>
-                                    <div class="invalid-feedback"><?= session('errors-detail.status') ?></div>
+                                    <div class="invalid-feedback"><?= session('errors-edit.status') ?></div>
                                 </div>
                             </div>
                             <div class="d-flex justify-content-between">
@@ -231,64 +226,59 @@
                                 <div class="form-group col-md-4">
                                     <label for="inputAgreement">Agreement</label>
                                     <input type="text"
-                                        class="form-control <?= session('errors-detail.agreement') ? 'is-invalid errors-detail' : '' ?>"
-                                        name="agreement" placeholder="Agreement"
-                                        value="<?= old('agreement') ?>">
-                                    <div class="invalid-feedback"><?= session('errors-detail.agreement') ?></div>
+                                        class="form-control <?= session('errors-edit.agreement') ? 'is-invalid errors-edit' : '' ?>"
+                                        name="agreement" placeholder="Agreement" value="<?= old('agreement') ?>">
+                                    <div class="invalid-feedback"><?= session('errors-edit.agreement') ?></div>
                                 </div>
                                 <div class="form-group col-md-2">
                                     <label for="inputNumber">Number</label>
                                     <input type="number"
-                                        class="form-control <?= session('errors-detail.number') ? 'is-invalid errors-detail' : '' ?>"
-                                        name="number" placeholder="Number"
-                                        value="<?= old('number') ?>">
-                                    <div class="invalid-feedback"><?= session('errors-detail.number') ?></div>
+                                        class="form-control <?= session('errors-edit.number') ? 'is-invalid errors-edit' : '' ?>"
+                                        name="number" placeholder="Number" value="<?= old('number') ?>">
+                                    <div class="invalid-feedback"><?= session('errors-edit.number') ?></div>
                                 </div>
 
                                 <div class="form-group col-md-2">
                                     <label for="inputLetter">Letter</label>
                                     <input type="text"
-                                        class="form-control <?= session('errors-detail.letter') ? 'is-invalid errors-detail' : '' ?>"
-                                         name="letter" placeholder="Letter"
-                                        value="<?= old('letter') ?>">
-                                    <div class="invalid-feedback"><?= session('errors-detail.letter') ?></div>
+                                        class="form-control <?= session('errors-edit.letter') ? 'is-invalid errors-edit' : '' ?>"
+                                        name="letter" placeholder="Letter" value="<?= old('letter') ?>">
+                                    <div class="invalid-feedback"><?= session('errors-edit.letter') ?></div>
                                 </div>
                                 <div class="form-group col-md-4">
                                     <label for="inputPolicy">Policy</label>
                                     <input type="text"
-                                        class="form-control <?= session('errors-detail.policy') ? 'is-invalid errors-detail' : '' ?>"
-                                         name="policy" placeholder="Policy"
-                                        value="<?= old('policy') ?>">
-                                    <div class="invalid-feedback"><?= session('errors-detail.policy') ?></div>
+                                        class="form-control <?= session('errors-edit.policy') ? 'is-invalid errors-edit' : '' ?>"
+                                        name="policy" placeholder="Policy" value="<?= old('policy') ?>">
+                                    <div class="invalid-feedback"><?= session('errors-edit.policy') ?></div>
                                 </div>
                                 <div class="form-group col-md-4">
                                     <label for="inputDateFrom">From</label>
                                     <input type="date"
-                                        class="form-control <?= session('errors-detail.date_from') ? 'is-invalid errors-detail' : '' ?>"
-                                       name="date_from" value="<?= old('date_from') ?>">
-                                    <div class="invalid-feedback"><?= session('errors-detail.date_from') ?></div>
+                                        class="form-control <?= session('errors-edit.date_from') ? 'is-invalid errors-edit' : '' ?>"
+                                        name="date_from" value="<?= old('date_from') ?>">
+                                    <div class="invalid-feedback"><?= session('errors-edit.date_from') ?></div>
                                 </div>
                                 <div class="form-group col-md-4">
                                     <label for="inputDateTo">To</label>
                                     <input type="date"
-                                        class="form-control <?= session('errors-detail.date_to') ? 'is-invalid errors-detail' : '' ?>"
-                                     name="date_to" value="<?= old('date_to') ?>">
-                                    <div class="invalid-feedback"><?= session('errors-detail.date_to') ?></div>
+                                        class="form-control <?= session('errors-edit.date_to') ? 'is-invalid errors-edit' : '' ?>"
+                                        name="date_to" value="<?= old('date_to') ?>">
+                                    <div class="invalid-feedback"><?= session('errors-edit.date_to') ?></div>
                                 </div>
                                 <div class="form-group col-md-4">
                                     <label for="inputApprovedBy">Approved By</label>
                                     <input type="text"
-                                        class="form-control <?= session('errors-detail.approved_by') ? 'is-invalid errors-detail' : '' ?>"
-                                        name="approved_by" placeholder="Approved By"
-                                        value="<?= old('approved_by') ?>">
-                                    <div class="invalid-feedback"><?= session('errors-detail.approved_by') ?></div>
+                                        class="form-control <?= session('errors-edit.approved_by') ? 'is-invalid errors-edit' : '' ?>"
+                                        name="approved_by" placeholder="Approved By" value="<?= old('approved_by') ?>">
+                                    <div class="invalid-feedback"><?= session('errors-edit.approved_by') ?></div>
                                 </div>
                                 <div class="form-group col-md-4">
                                     <label for="inputApprovedDate">Approved Date</label>
                                     <input type="date"
-                                        class="form-control <?= session('errors-detail.approved_date') ? 'is-invalid errors-detail' : '' ?>"
+                                        class="form-control <?= session('errors-edit.approved_date') ? 'is-invalid errors-edit' : '' ?>"
                                         name="approved_date" value="<?= old('approved_date') ?>">
-                                    <div class="invalid-feedback"><?= session('errors-detail.approved_date') ?></div>
+                                    <div class="invalid-feedback"><?= session('errors-edit.approved_date') ?></div>
                                 </div>
                             </div>
                             <div class="d-flex justify-content-between">
@@ -306,59 +296,127 @@
     </div>
 </div>
 <script>
+
     $(document).ready(function () {
-    $(document).on('click', '.btn-edit', function (e) {
-        e.preventDefault();
-        const id_client = $(this).data('id');
-        console.log(id_client);
-        const url = '<?= base_url('admin/clientmanagement/getClient/') ?>' + id_client;
-        $.ajax({
-            url: url,
-            type: 'POST',
-            dataType: 'json',
-            success: function (data) {
-                console.log(data);
-                if (data) {
-                    // Populate the form fields with the user data
-                    $('#editForm').find('input[name="name"]').val(data.name);
-                    $('#editForm').find('input[name="last_name"]').val(data.last_name);
-                    $('#editForm').find('input[name="identification"]').val(data.identification);
-                    $('#editForm').find('input[name="email"]').val(data.email);
-                    $('#editForm').find('input[name="phone"]').val(data.phone);
-                    $('#editForm').find('textarea[name="address"]').val(data.address);
-                    $('#editForm').find('input[name="trust"]').val(data.trust);
-                    $('#editForm').find('input[name="email_del_trust"]').val(data.email_del_trust);
-                    $('#editForm').find('input[name="bank"]').val(data.bank);
-                    $('#editForm').find('input[name="swift"]').val(data.swift);
-                    $('#editForm').find('input[name="aba"]').val(data.aba);
-                    $('#editForm').find('input[name="iban"]').val(data.iban);
-                    $('#editForm').find('input[name="account"]').val(data.account);
-                    $('#editForm').find('input[name="Principal"]').val(data.Principal);
-                    $('#editForm').find('input[name="rate"]').val(data.rate);
-                    $('#editForm').find('input[name="compoundingPeriods"]').val(data.compoundingPeriods);
-                    $('#editForm').find('input[name="time"]').val(data.time);
-                    $('#editForm').find('input[name="balance"]').val(data.balance);
-                    $('#editForm').find('select[name="status"]').val(data.status);
-                    $('#editForm').find('input[name="agreement"]').val(data.agreement);
-                    $('#editForm').find('input[name="number"]').val(data.number);
-                    $('#editForm').find('input[name="letter"]').val(data.letter);
-                    $('#editForm').find('input[name="policy"]').val(data.policy);
-                    $('#editForm').find('input[name="date_from"]').val(data.date_from);
-                    $('#editForm').find('input[name="date_to"]').val(data.date_to);
-                    $('#editForm').find('input[name="approved_by"]').val(data.approved_by);
-                    $('#editForm').find('input[name="approved_date"]').val(data.approved_date);
-                    // Add more fields as necessary
-                    // For example, if you have a field for the user's role:
-                    // Continue for other fields...
-                } else {
-                    alert('Error loading user data');
+        function fillOutTheForm(id_client) {
+
+            console.log(id_client);
+            const url = '<?= base_url('admin/clientmanagement/getClient/') ?>' + id_client;
+            $.ajax({
+                url: url,
+                type: 'POST',
+                dataType: 'json',
+                success: function (data) {
+                    console.log(data);
+                    if (data) {
+                        // Populate the form fields with the user data
+                        $('#editForm').find('input[name="name"]').val(data.name);
+                        $('#editForm').find('input[name="last_name"]').val(data.last_name);
+                        $('#editForm').find('input[name="identification"]').val(data.identification);
+                        $('#editForm').find('input[name="email"]').val(data.email);
+                        $('#editForm').find('input[name="phone"]').val(data.phone);
+                        $('#editForm').find('textarea[name="address"]').val(data.address);
+                        $('#editForm').find('input[name="trust"]').val(data.trust);
+                        $('#editForm').find('input[name="email_del_trust"]').val(data.email_del_trust);
+                        $('#editForm').find('input[name="bank"]').val(data.bank);
+                        $('#editForm').find('input[name="swift"]').val(data.swift);
+                        $('#editForm').find('input[name="aba"]').val(data.aba);
+                        $('#editForm').find('input[name="iban"]').val(data.iban);
+                        $('#editForm').find('input[name="account"]').val(data.account);
+                        $('#editForm').find('input[name="Principal"]').val(data.Principal);
+                        $('#editForm').find('input[name="rate"]').val(data.rate);
+                        $('#editForm').find('input[name="compoundingPeriods"]').val(data.compoundingPeriods);
+                        $('#editForm').find('input[name="time"]').val(data.time);
+                        $('#editForm').find('input[name="balance"]').val(data.balance);
+                        $('#editForm').find('select[name="status"]').val(data.status);
+                        $('#editForm').find('input[name="agreement"]').val(data.agreement);
+                        $('#editForm').find('input[name="number"]').val(data.number);
+                        $('#editForm').find('input[name="letter"]').val(data.letter);
+                        $('#editForm').find('input[name="policy"]').val(data.policy);
+                        $('#editForm').find('input[name="date_from"]').val(data.date_from);
+                        $('#editForm').find('input[name="date_to"]').val(data.date_to);
+                        $('#editForm').find('input[name="approved_by"]').val(data.approved_by);
+                        $('#editForm').find('input[name="approved_date"]').val(data.approved_date);
+                        $('#editForm').attr('action', '<?= base_url('admin/clientmanagement/update/') ?>' + data.id_user);
+
+                    } else {
+                        alert('Error loading user data');
+                    }
+                },
+                error: function () {
+                    alert('Error connecting to server');
                 }
-            },
-            error: function () {
-                alert('Error connecting to server');
-            }
-        });
-    });
+            });
+
+        }
+        // Selecciona todos los formularios con la clase 'edit-form'
+let forms = $('.edit-form');
+console.log(forms);
+
+// Recorre cada formulario para buscar inputs con errores
+forms.each(function () {
+    let inputWithError = $(this).find('input.errors-edit, select.errors-edit, textarea.errors-edit');
+    let financialError = $(this).find('input.financial');
+
+    console.log(inputWithError);
+    console.log('dentro del foreach');
+
+    if (inputWithError.length > 0) {
+        console.log('dentro del if');
+        $('#editModalClient').click();
+    } else if (financialError.length > 0) {
+        console.log('dentro del else if');
+        $('#editModalClient').click();
+        $('#detail-financial').click();
+    } else {
+        console.log('No hay errores en el formulario');
+    }
 });
+
+
+
+// Al hacer clic en el botón de editar
+$(document).on('click', '.btn-edit', function (e) {
+    e.preventDefault();
+    const id_client = $(this).data('id');
+    localStorage.setItem(id_client, 'id_client');
+    fillOutTheForm(id_client);
+});
+
+
+
+
+
+
+
+// Al hacer clic en "Next"
+$('.next-tab').on('click', function () {
+    let tabPane = $(this).closest('.tab-pane');
+    if (tabPane.length === 0) return;
+
+    let nextTabPane = tabPane.nextAll('.tab-pane').first();
+
+    if (nextTabPane.length > 0) {
+        let nextTabId = "#" + nextTabPane.attr('id');
+        $(`a[href="${nextTabId}"]`).click();
+    }
+});
+
+// Al hacer clic en "Previous"
+$('.prev-tab').on('click', function () {
+    let tabPane = $(this).closest('.tab-pane');
+    if (tabPane.length === 0) return;
+
+    let prevTabPane = tabPane.prevAll('.tab-pane').first();
+
+    if (prevTabPane.length > 0) {
+        let prevTabId = "#" + prevTabPane.attr('id');
+        $(`a[href="${prevTabId}"]`).click();
+    }
+});
+
+    });
+
+
 
 </script>
