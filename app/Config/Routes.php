@@ -58,6 +58,7 @@ $routes->group('admin', ['filter' => 'auth'], function ($routes) {
     $routes->post('pqrsmanagement/filter', 'PqrsManagementController::filterRequests');
     $routes->get('pqrsmanagement/cancel-request/(:num)', 'PqrsManagementController::cancelrequest/$1');
     $routes->post('pqrsmanagement/getDetails', 'PqrsManagementController::detailsRequest');
+    $routes->post('pqrsmanagement/resolved-request', 'PqrsManagementController::solveRequest');
 
     ///transactions
     $routes->get('transactions', 'TransactionsController::index');
@@ -69,6 +70,7 @@ $routes->group('admin', ['filter' => 'auth'], function ($routes) {
     $routes->get('clientmanagement/show/(:num)', 'ClientsManagementController::show/$1'); // Obtener un usuario específico
     $routes->post('clientmanagement/add', 'ClientsManagementController::addUser'); // Crear usuario
     $routes->post('clientmanagement/update/(:num)', 'ClientsManagementController::updateUser/$1'); // Actualizar usuario
+    $routes->post('clientmanagement/getClient/(:num)', 'ClientsManagementController::getUserById/$1'); // Actualizar usuario
     $routes->get('clientmanagement/delete/(:num)', 'ClientsManagementController::deleteUser/$1'); // Eliminar usuario
     // Rutas de autenticación (protegidas) para el modulo de historial
     ///historytransactions

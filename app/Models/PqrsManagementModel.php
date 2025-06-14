@@ -13,7 +13,7 @@ class PqrsManagementModel extends Model
         'type_id',
         'status_id',
         'description',
-        'answer',
+        'response',
         'attachment_url',
         'created_at',
         'updated_at'
@@ -33,6 +33,7 @@ public function getDetailedRequests(int $requestId = null)
             rs.name as status,
             r.attachment_url,
             r.description,
+            r.response,
             r.created_at,
             r.updated_at
         ')

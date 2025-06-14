@@ -48,12 +48,15 @@
                         </td>
 
                         <td class="text-center">
-                            <button class="btn btn-icon btn-secondary btn-sm" data-toggle="modal"
-                                    data-target="#detailsModal-<?= $user['id_user'] ?>" title="View Details">
+                            <button class="btn btn-icon btn-detail btn-secondary btn-sm" data-toggle="modal"
+                                    data-target="#detailsModal" 
+                                     data-id="<?= $user['id_user']?>"
+                                    title="View Details">
                                 <i class="fas fa-info-circle"></i>
                             </button>
-                            <button class="btn btn-icon btn-info btn-sm" data-toggle="modal" id="editButton"
-                                    data-target="#editModal-<?= $user['id_user'] ?>" title="Edit User">
+                            <button class="btn btn-icon btn-edit btn-info btn-sm" data-toggle="modal" id="editModalClient"
+                             data-target="#editModal"
+                                   data-id="<?= $user['id_user']?>" title="Edit User">
                                 <i class="fas fa-edit"></i>
                             </button>
                             <button class="btn btn-icon btn-danger btn-sm" data-toggle="modal"

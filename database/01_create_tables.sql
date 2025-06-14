@@ -127,7 +127,7 @@ CREATE TABLE requests (
     type_id INT NOT NULL,                       -- Campo para clave foránea
     status_id INT NOT NULL,                     -- Campo para clave foránea
     description TEXT,
-    answer TEXT,
+    response TEXT,
     attachment_url VARCHAR(255),
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
     updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP

@@ -87,61 +87,44 @@
                 </thead>
                 <tbody id="tablaResultados">
 
-                 <?php if (!empty($requests)): ?>
-    <?php foreach ($requests as $row): ?>
-        <tr>
-            <td><?= esc($row->unique_code) ?></td>
-            <td><?= esc($row->email) ?></td>
-            <td><?= esc($row->type) ?></td>
-            <td><?= esc($row->status) ?></td>
-            <td><?= esc($row->created_at) ?></td>
-            <td>
-               <!-- Resolve Button -->
-<a 
-    href="#" 
-    data-id="<?= esc($row->id_request) ?>" 
-    class="btn btn-sm btn-success open-request-modal" 
-    title="Resolve"
+                    <?php if (!empty($requests)): ?>
+                        <?php foreach ($requests as $row): ?>
+                            <tr>
+                                <td><?= esc($row->unique_code) ?></td>
+                                <td><?= esc($row->email) ?></td>
+                                <td><?= esc($row->type) ?></td>
+                                <td><?= esc($row->status) ?></td>
+                                <td><?= esc($row->created_at) ?></td>
+                                <td>
+                                    <?php if ($row->id_status != 2 && $row->id_status != 3): ?>
+                                        <!-- Resolve Button -->
+                                        <a href="#" class="btn btn-sm btn-success open-request-modal" title="Resolve"
+                                            data-toggle="modal" data-target="#solverequest" data-id="<?= esc($row->id_request) ?>"
+                                            data-code="<?= esc($row->unique_code) ?>">
+                                            <i class="fas fa-check-circle"></i>
+                                        </a>
+                                         <a href="#" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#cancelrequest"
+                                            title="Reject" data-id="<?= esc($row->id_request) ?>"
+                                            data-code="<?= esc($row->unique_code) ?>">
+                                            <i class="fas fa-times-circle"></i>
+                                        </a>
 
-     data-toggle="modal" 
-        data-target="solverequest"
->
-    <i class="fas fa-check-circle"></i>
-</a>
+                                    <?php endif; ?>
 
+                                   
+                                    
 
-
-<!-- Reject Button (only show if id_status is not 4) -->
-<?php if ($row->id_status != 4): ?>
-    <a 
-        href="#" 
-        class="btn btn-sm btn-danger" 
-        data-toggle="modal" 
-        data-target="#cancelrequest"
-        title="Reject" 
-        data-id="<?= esc($row->id_request) ?>"
-        data-code="<?= esc($row->unique_code) ?>"
-    >
-        <i class="fas fa-times-circle"></i>
-    </a>
-<?php endif; ?>
-
-<!-- Details Button -->
-<a href="#" 
-   class="btn btn-sm btn-info" 
-   title="Details"
-   data-id="<?= esc($row->id_request) ?>">
-   <i class="fas fa-eye"></i>
-</a>
-
-
-
-            </td>
-        </tr>
-    <?php endforeach; ?>
-<?php else: ?>
-    <!-- Puedes mostrar un mensaje si no hay solicitudes -->
-<?php endif; ?>
+                                    <!-- Details Button -->
+                                    <a href="#" class="btn btn-sm btn-info" title="Details"
+                                        data-id="<?= esc($row->id_request) ?>">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        <?php endforeach; ?>
+                    <?php else: ?>
+                        <!-- Puedes mostrar un mensaje si no hay solicitudes -->
+                    <?php endif; ?>
 
                 </tbody>
             </table>
@@ -210,55 +193,70 @@
 <!-- Scripts -->
 <script>
     $(document).ready(function () {
-        function renderTable(data) {
-            console.log('Renderizando tabla con datos:', data);
-            const tbody = $('#tablaResultados');
-            tbody.empty();
-            if (data.length === 0) {
-                const filaVacia = $('<tr>').append(
-                    $('<td>').attr('colspan', 6).addClass('text-center').text('Lista vacía')
-                );
-                tbody.append(filaVacia);
-                return;
-            }
-            console.log('Datos recibidos:', data);
-$.each(data, function (index, item) {
-    console.log('Procesando item:', item);
-    var fila = $("<tr>");
-    fila.append($("<td>").text(item.unique_code));
-    fila.append($("<td>").text(item.email));
-    fila.append($("<td>").text(item.type));
-    fila.append($("<td>").text(item.status));
-    fila.append($("<td>").text(item.created_at));
+  function renderTable(data) {
+    console.log('Renderizando tabla con datos:', data);
+    const tbody = $('#tablaResultados');
+    tbody.empty();
 
-    // Construir el contenido del último <td> dinámicamente
-    var acciones = `
-        <a href="#" class="btn btn-sm btn-success" title="Resolver">
-            <i class="fas fa-check-circle"></i>
-        </a>
-    `;
-
-    // Agregar botón de rechazar solo si id_status no es 4
-    if (item.status_id != 4) {
-        acciones += `
-        <a href="#" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#cancelrequest"
-           title="Reject" data-id="${item.id_request}" data-code="${item.unique_code}">
-            <i class="fas fa-times-circle"></i>
-        </a>
-        `;
+    if (data.length === 0) {
+        const filaVacia = $('<tr>').append(
+            $('<td>').attr('colspan', 6).addClass('text-center').text('Lista vacía')
+        );
+        tbody.append(filaVacia);
+        return;
     }
 
-    // Agregar botón de detalles (siempre)
-    acciones += `
-        <a href="#" class="btn btn-sm btn-info" title="Detalles">
-            <i class="fas fa-eye"></i>
-        </a>
-    `;
+    console.log('Datos recibidos:', data);
+    $.each(data, function (index, item) {
+        console.log('Procesando item:', item);
+        let fila = $("<tr>");
+        fila.append($("<td>").text(item.unique_code));
+        fila.append($("<td>").text(item.email));
+        fila.append($("<td>").text(item.type));
+        fila.append($("<td>").text(item.status));
+        fila.append($("<td>").text(item.created_at));
 
-    fila.append($("<td>").html(acciones));
-    tbody.append(fila);
-});
+        // Declarar la variable antes de usarla
+        let acciones = '';
+
+        // Botón de aprobar si status_id no es 4 ni 3
+        if (item.status_id != 2 && item.status_id != 3) {
+            acciones += `
+                <a class="btn btn-sm btn-success open-request-modal" 
+                    title="Resolver"
+                    data-toggle="modal" 
+                    data-target="#solverequest" 
+                    data-id="${item.id_request}" 
+                    data-code="${item.unique_code}">
+                    <i class="fas fa-check-circle"></i>
+                </a>
+            `;
+
+            acciones += `
+                <a href="#" class="btn btn-sm btn-danger" 
+                    data-toggle="modal" 
+                    data-target="#cancelrequest"
+                    title="Rechazar" 
+                    data-id="${item.id_request}" 
+                    data-code="${item.unique_code}">
+                    <i class="fas fa-times-circle"></i>
+                </a>
+            `;
         }
+
+        // Botón de ver detalles (siempre)
+        acciones += `
+            <a href="#" class="btn btn-sm btn-info" title="Detalles">
+                <i class="fas fa-eye"></i>
+            </a>
+        `;
+
+        fila.append($("<td>").html(acciones));
+        tbody.append(fila);
+    });
+}
+
+
         // BOTÓN FILTRAR
         $('#btnFiltrar').on('click', function () {
             const data = {
@@ -346,9 +344,11 @@ $.each(data, function (index, item) {
         } else {
             console.warn('Select2 no cargado.');
         }
+
+
     });
 
-    
+
 </script>
 <?= view('system/pqrsmanagement/modals/cancelrequest') ?>
 <?= view('system/pqrsmanagement/modals/detailrequest') ?>

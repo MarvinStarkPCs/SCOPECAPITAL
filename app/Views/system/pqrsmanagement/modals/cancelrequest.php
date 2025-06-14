@@ -40,15 +40,15 @@
 </div>
 <script>
   $('#cancelrequest').on('show.bs.modal', function (event) {
-    var button = $(event.relatedTarget);
-    var id = button.data('id');
-    var code = button.data('code');
+    let button = $(event.relatedTarget);
+    let id = button.data('id');
+    let code = button.data('code');
 
     // Mostrar el código único en el texto del modal
     $('#unique-code-display').text(code);
 
     // Actualizar el enlace de confirmación (GET)
-    var href = "<?= base_url('admin/pqrsmanagement/cancel-request') ?>/" + id ;
+    let href = "<?= base_url('admin/pqrsmanagement/cancel-request') ?>/" + id ;
     $('#confirm-cancel-link').attr('href', href);
 
     // Si usas formulario (POST), también setea los valores ocultos

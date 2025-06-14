@@ -13,7 +13,8 @@ class AuthFilter implements FilterInterface
 
         // Si el usuario no está autenticado, redirigir a login
         if (!$session->has('login')) {
-            return redirect()->to('/login');
+            return redirect()->to('/login')->with('error', 'Sección Caducada.');; // Si intenta acceder a admin y no es admin, redirige a cliente
+;
         }
 
         // Obtener el rol del usuario

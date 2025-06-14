@@ -175,10 +175,7 @@
             <div class="tab-pane fade" id="system" role="tabpanel">
               <h5 class="text-primary">System Access</h5>
               <div class="row">
-                <div class="form-group col-md-4">
-                  <label for="inputPassword">Password</label>
-                  <input type="password" class="form-control" id="inputPassword" name="password" placeholder="Password">
-                </div>
+                
                 <div class="form-group col-md-4">
                   <label for="selectStatus">Status</label>
                   <select class="form-control" id="selectStatus" name="status">

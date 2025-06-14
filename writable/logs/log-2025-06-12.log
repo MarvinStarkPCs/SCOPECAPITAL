@@ -1,0 +1,261 @@
+INFO - 2025-06-12 15:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 15:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 15:09:55 --> Usuario autenticado con role_id: 
+INFO - 2025-06-12 15:09:57 --> El método authenticate fue llamado
+INFO - 2025-06-12 15:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 15:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 15:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 15:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 15:10:13 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"AGREEMENT","number":"12","letter":"1","date_from":"2025-06-01","date_to":"2025-06-08","policy":"POLICY","approved_by":"APPROVED BY","approved_date":"2025-06-01","id_user":"4","name":"MARVIN","last_name":"PEREZ","identification":"2354235423","email":"jsbonetc@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"BANK","swift":"SWIFT","aba":"ABA","iban":"IBAN","account":"ACCOUNT","password_hash":"$2y$10$oDx5Wkozx2dm.EeT9t5eruj9p\/mnwHO0YtDDVhCaj55i0S\/7aH0De","date_registration":"2025-06-07 14:06:13","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"5255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","role_name":"CLIENT"},{"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","id_user":"5","name":"MARVIN","last_name":"PEREZ","identification":"235422222235423","email":"admi33333n@admin.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"QWERFQWEF","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$Fp8PcV.psLavz8oYHnfoOezFcZ466TUl9ZWzdH9cCrMWShpjBNQLa","date_registration":"2025-06-10 15:46:46","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"14991.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"14","time":"22","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-07 08:10:30","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-07 08:10:30","id_role":"2"}]}
+INFO - 2025-06-12 15:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 15:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 15:18:22 --> ID recibido en detailsRequest: 1
+INFO - 2025-06-12 15:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 15:18:25 --> ID recibido en detailsRequest: 3
+INFO - 2025-06-12 15:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 15:18:32 --> ID recibido en detailsRequest: 5
+INFO - 2025-06-12 15:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 15:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 15:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 15:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 15:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 15:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 15:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 15:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 15:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 15:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 15:43:32 --> ID recibido en detailsRequest: 5
+INFO - 2025-06-12 15:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 15:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 15:44:17 --> ID recibido en detailsRequest: 5
+INFO - 2025-06-12 15:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:14:19 --> ID recibido en solveRequest: 1
+INFO - 2025-06-12 16:14:19 --> Respuesta recibida: AEWRGTAERTGAER Q EWTRYAERT AWRETARWE AWRT W5YHSFGH AEWTRHYAAERTHYA AETRYWRT54 AWRETGAWRET AERTASRFG  AWRETAWERT WRTW 
+CRITICAL - 2025-06-12 16:14:19 --> ErrorException: Undefined property: stdClass::$respuesta
+[Method: POST, Route: admin/pqrsmanagement/resolved-request]
+in APPPATH\Controllers\PqrsManagementController.php on line 137.
+ 1 APPPATH\Controllers\PqrsManagementController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$respuesta', 'C:\\laragon\\www\\SCOPECAPITAL\\app\\Controllers\\PqrsManagementController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PqrsManagementController->solveRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PqrsManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-06-12 16:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:15:04 --> ID recibido en solveRequest: 1
+INFO - 2025-06-12 16:15:04 --> Respuesta recibida: AEWRGTAERTGAER Q EWTRYAERT AWRETARWE AWRT W5YHSFGH AEWTRHYAAERTHYA AETRYWRT54 AWRETGAWRET AERTASRFG  AWRETAWERT WRTW 
+INFO - 2025-06-12 16:15:04 --> Configuración SMTP obtenida: Array
+(
+    [config_key] => smtp_config
+    [config_value] => {"host":"smtp.gmail.com","username":"letrasylyrics48@gmail.com","port":"587","smtp_password":"tafi ljrp cmpz wbem","security":"tls"}
+    [description] => 
+    [created_at] => 2025-06-07 14:04:50
+    [updated_at] => 2025-06-07 14:04:50
+    [id_config] => 8
+)
+
+INFO - 2025-06-12 16:15:04 --> Configuración SMTP obtenida en librari: Array
+(
+    [host] => smtp.gmail.com
+    [username] => letrasylyrics48@gmail.com
+    [port] => 587
+    [smtp_password] => tafi ljrp cmpz wbem
+    [security] => tls
+)
+
+INFO - 2025-06-12 16:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:16:59 --> ID recibido en solveRequest: 1
+INFO - 2025-06-12 16:16:59 --> Respuesta recibida: AEWRGTAERTGAER Q EWTRYAERT AWRETARWE AWRT W5YHSFGH AEWTRHYAAERTHYA AETRYWRT54 AWRETGAWRET AERTASRFG  AWRETAWERT WRTW 
+INFO - 2025-06-12 16:16:59 --> Configuración SMTP obtenida: Array
+(
+    [config_key] => smtp_config
+    [config_value] => {"host":"smtp.gmail.com","username":"letrasylyrics48@gmail.com","port":"587","smtp_password":"tafi ljrp cmpz wbem","security":"tls"}
+    [description] => 
+    [created_at] => 2025-06-07 14:04:50
+    [updated_at] => 2025-06-07 14:04:50
+    [id_config] => 8
+)
+
+INFO - 2025-06-12 16:16:59 --> Configuración SMTP obtenida en librari: Array
+(
+    [host] => smtp.gmail.com
+    [username] => letrasylyrics48@gmail.com
+    [port] => 587
+    [smtp_password] => tafi ljrp cmpz wbem
+    [security] => tls
+)
+
+INFO - 2025-06-12 16:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:17:17 --> ID recibido en solveRequest: 5
+INFO - 2025-06-12 16:17:17 --> Respuesta recibida: AEWRGTAERTGAER Q EWTRYAERT AWRETARWE AWRT W5YHSFGH AEWTRHYAAERTHYA AETRYWRT54 AWRETGAWRET AERTASRFG  AWRETAWERT WRTW 
+INFO - 2025-06-12 16:17:17 --> Configuración SMTP obtenida: Array
+(
+    [config_key] => smtp_config
+    [config_value] => {"host":"smtp.gmail.com","username":"letrasylyrics48@gmail.com","port":"587","smtp_password":"tafi ljrp cmpz wbem","security":"tls"}
+    [description] => 
+    [created_at] => 2025-06-07 14:04:50
+    [updated_at] => 2025-06-07 14:04:50
+    [id_config] => 8
+)
+
+INFO - 2025-06-12 16:17:17 --> Configuración SMTP obtenida en librari: Array
+(
+    [host] => smtp.gmail.com
+    [username] => letrasylyrics48@gmail.com
+    [port] => 587
+    [smtp_password] => tafi ljrp cmpz wbem
+    [security] => tls
+)
+
+INFO - 2025-06-12 16:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:17:42 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"AGREEMENT","number":"12","letter":"1","date_from":"2025-06-01","date_to":"2025-06-08","policy":"POLICY","approved_by":"APPROVED BY","approved_date":"2025-06-01","id_user":"4","name":"MARVIN","last_name":"PEREZ","identification":"2354235423","email":"jsbonetc@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"BANK","swift":"SWIFT","aba":"ABA","iban":"IBAN","account":"ACCOUNT","password_hash":"$2y$10$oDx5Wkozx2dm.EeT9t5eruj9p\/mnwHO0YtDDVhCaj55i0S\/7aH0De","date_registration":"2025-06-07 14:06:13","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"5255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","role_name":"CLIENT"},{"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","id_user":"5","name":"MARVIN","last_name":"PEREZ","identification":"235422222235423","email":"admi33333n@admin.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"QWERFQWEF","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$Fp8PcV.psLavz8oYHnfoOezFcZ466TUl9ZWzdH9cCrMWShpjBNQLa","date_registration":"2025-06-10 15:46:46","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"14991.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"14","time":"22","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-07 08:10:30","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-07 08:10:30","id_role":"2"}]}
+INFO - 2025-06-12 16:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:18:16 --> Iniciando el método addUser()
+INFO - 2025-06-12 16:18:16 --> Reglas de validación definidas.
+INFO - 2025-06-12 16:18:16 --> Validación exitosa.
+INFO - 2025-06-12 16:18:16 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"987654321","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","role_id":"2","status":"active","password_hash":"$2y$10$Z3Q9YghWR8HsXXLIAf15t.4wvgWvjljZvY17uweUaNzHsuNvpo2RC","balance":6077.5,"rate":0.05,"compoundingPeriods":1,"time":4,"principal":5000,"agreement":"AGREEMENT","number":"","letter":"","policy":"","date_from":"","date_to":"","approved_by":"","approved_date":"","date_registration":"2025-06-12 16:18:16"}
+INFO - 2025-06-12 16:18:16 --> Configuración SMTP obtenida: Array
+(
+    [config_key] => smtp_config
+    [config_value] => {"host":"smtp.gmail.com","username":"letrasylyrics48@gmail.com","port":"587","smtp_password":"tafi ljrp cmpz wbem","security":"tls"}
+    [description] => 
+    [created_at] => 2025-06-07 14:04:50
+    [updated_at] => 2025-06-07 14:04:50
+    [id_config] => 8
+)
+
+INFO - 2025-06-12 16:18:16 --> Configuración SMTP obtenida en librari: Array
+(
+    [host] => smtp.gmail.com
+    [username] => letrasylyrics48@gmail.com
+    [port] => 587
+    [smtp_password] => tafi ljrp cmpz wbem
+    [security] => tls
+)
+
+INFO - 2025-06-12 16:18:18 --> Consulta ejecutada: SELECT *
+FROM `configuration`
+WHERE `config_key` = 'smtp_config'
+ LIMIT 1
+INFO - 2025-06-12 16:18:18 --> Usuario agregado correctamente en la base de datos.
+INFO - 2025-06-12 16:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:18:18 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"AGREEMENT","number":"12","letter":"1","date_from":"2025-06-01","date_to":"2025-06-08","policy":"POLICY","approved_by":"APPROVED BY","approved_date":"2025-06-01","id_user":"4","name":"MARVIN","last_name":"PEREZ","identification":"2354235423","email":"jsbonetc@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"BANK","swift":"SWIFT","aba":"ABA","iban":"IBAN","account":"ACCOUNT","password_hash":"$2y$10$oDx5Wkozx2dm.EeT9t5eruj9p\/mnwHO0YtDDVhCaj55i0S\/7aH0De","date_registration":"2025-06-07 14:06:13","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"5255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","role_name":"CLIENT"},{"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","id_user":"5","name":"MARVIN","last_name":"PEREZ","identification":"235422222235423","email":"admi33333n@admin.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"QWERFQWEF","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$Fp8PcV.psLavz8oYHnfoOezFcZ466TUl9ZWzdH9cCrMWShpjBNQLa","date_registration":"2025-06-10 15:46:46","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"14991.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"14","time":"22","role_name":"CLIENT"},{"agreement":"AGREEMENT","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","id_user":"6","name":"MARVIN","last_name":"PEREZ","identification":"987654321","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$Z3Q9YghWR8HsXXLIAf15t.4wvgWvjljZvY17uweUaNzHsuNvpo2RC","date_registration":"2025-06-12 16:18:16","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"6077.50","principal":"5000.00","rate":"0.05","compoundingPeriods":"1","time":"4","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-07 08:10:30","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-07 08:10:30","id_role":"2"}]}
+INFO - 2025-06-12 16:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:22:33 --> Usuario autenticado con role_id: 
+INFO - 2025-06-12 16:22:36 --> El método authenticate fue llamado
+INFO - 2025-06-12 16:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:23:03 --> Usuario autenticado con role_id: 
+INFO - 2025-06-12 16:23:18 --> El método authenticate fue llamado
+INFO - 2025-06-12 16:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:23:39 --> Archivo subido: 1749745419_b64b1d787aa032a1b5ad.png
+INFO - 2025-06-12 16:23:39 --> Configuración SMTP obtenida: Array
+(
+    [config_key] => smtp_config
+    [config_value] => {"host":"smtp.gmail.com","username":"letrasylyrics48@gmail.com","port":"587","smtp_password":"tafi ljrp cmpz wbem","security":"tls"}
+    [description] => 
+    [created_at] => 2025-06-07 14:04:50
+    [updated_at] => 2025-06-07 14:04:50
+    [id_config] => 8
+)
+
+INFO - 2025-06-12 16:23:39 --> Configuración SMTP obtenida en librari: Array
+(
+    [host] => smtp.gmail.com
+    [username] => letrasylyrics48@gmail.com
+    [port] => 587
+    [smtp_password] => tafi ljrp cmpz wbem
+    [security] => tls
+)
+
+INFO - 2025-06-12 16:23:41 --> Consulta INSERT ejecutada: SELECT *
+FROM `configuration`
+WHERE `config_key` = 'smtp_config'
+ LIMIT 1
+INFO - 2025-06-12 16:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:24:04 --> Configuración SMTP obtenida: Array
+(
+    [config_key] => smtp_config
+    [config_value] => {"host":"smtp.gmail.com","username":"letrasylyrics48@gmail.com","port":"587","smtp_password":"tafi ljrp cmpz wbem","security":"tls"}
+    [description] => 
+    [created_at] => 2025-06-07 14:04:50
+    [updated_at] => 2025-06-07 14:04:50
+    [id_config] => 8
+)
+
+INFO - 2025-06-12 16:24:04 --> Configuración SMTP obtenida en librari: Array
+(
+    [host] => smtp.gmail.com
+    [username] => letrasylyrics48@gmail.com
+    [port] => 587
+    [smtp_password] => tafi ljrp cmpz wbem
+    [security] => tls
+)
+
+INFO - 2025-06-12 16:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:24:37 --> ID recibido en solveRequest: 6
+INFO - 2025-06-12 16:24:37 --> Respuesta recibida: HOLK  ME NO DAN BOJB SEF QWPOQEWDQWDBQEI DOPQIEBNFDI QDQWDQWDQWDQ
+INFO - 2025-06-12 16:24:37 --> Configuración SMTP obtenida: Array
+(
+    [config_key] => smtp_config
+    [config_value] => {"host":"smtp.gmail.com","username":"letrasylyrics48@gmail.com","port":"587","smtp_password":"tafi ljrp cmpz wbem","security":"tls"}
+    [description] => 
+    [created_at] => 2025-06-07 14:04:50
+    [updated_at] => 2025-06-07 14:04:50
+    [id_config] => 8
+)
+
+INFO - 2025-06-12 16:24:37 --> Configuración SMTP obtenida en librari: Array
+(
+    [host] => smtp.gmail.com
+    [username] => letrasylyrics48@gmail.com
+    [port] => 587
+    [smtp_password] => tafi ljrp cmpz wbem
+    [security] => tls
+)
+
+INFO - 2025-06-12 16:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:37:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 16:38:18 --> ID recibido en solveRequest: 5
+INFO - 2025-06-12 16:38:18 --> Respuesta recibida: MAN ESTA ES LA SOLUCIUON A SUI INCIVENNIETE F2ERFWE WRFWERFTWER WERRWQERQE WQER 
+INFO - 2025-06-12 16:38:18 --> Configuración SMTP obtenida: Array
+(
+    [config_key] => smtp_config
+    [config_value] => {"host":"smtp.gmail.com","username":"letrasylyrics48@gmail.com","port":"587","smtp_password":"tafi ljrp cmpz wbem","security":"tls"}
+    [description] => 
+    [created_at] => 2025-06-07 14:04:50
+    [updated_at] => 2025-06-07 14:04:50
+    [id_config] => 8
+)
+
+INFO - 2025-06-12 16:38:18 --> Configuración SMTP obtenida en librari: Array
+(
+    [host] => smtp.gmail.com
+    [username] => letrasylyrics48@gmail.com
+    [port] => 587
+    [smtp_password] => tafi ljrp cmpz wbem
+    [security] => tls
+)
+
+INFO - 2025-06-12 16:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

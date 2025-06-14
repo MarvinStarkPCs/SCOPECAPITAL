@@ -39,6 +39,10 @@
               <label for="detailsDescription">Descripción</label>
               <textarea class="form-control" id="detailsDescription" rows="3" readonly></textarea>
             </div>
+            <div class="form-group col-12">
+              <label for="detailsRespuesta">Respuesta</label>
+              <textarea class="form-control" id="detailsRespuesta" rows="3" readonly></textarea>
+            </div>
             <div class="form-group col-md-6">
               <label for="detailsCreated">Fecha de Creación</label>
               <input type="text" class="form-control" id="detailsCreated" readonly>
@@ -82,8 +86,9 @@
           $('#detailsType').val(d.type || '');
           $('#detailsStatus').val(d.status || '');
           $('#detailsDescription').val(d.description || '');
+          $('#detailsRespuesta').val(d.response || '');
           $('#detailsCreated').val(d.created_at || '');
-          $('#detailsUpdated').text(d.updated_at || '');
+          $('#detailsUpdated').val(d.updated_at || '');
 
           // Archivo adjunto: si existe, mostrar link, sino ocultar
          const baseUrl = '<?= base_url() ?>'; // asegúrate de tener esto arriba
