@@ -37,74 +37,79 @@ class TransactionsController extends BaseController
         }
     }
 
-    public function recharge()
-    {
-        log_message('info', 'Iniciando el método recharge()');
+public function pay()
+{
+    log_message('info', 'Iniciando el método recharge()');
 
-        $identification = $this->request->getPost('identification');
-        $amount = floatval($this->request->getPost('amount'));
-        $id_user = $this->request->getPost('id_user');
-        log_message('info', "Identificación recibida: {$id_user}");
+    $identification = $this->request->getPost('identification');
+    $amount = floatval($this->request->getPost('amount'));
+    $id_user = $this->request->getPost('id_user');
+    log_message('info', "Identificación recibida: {$id_user}");
 
-        log_message('info', "Identificación recibida: {$identification}");
-        log_message('info', "Monto recibido: {$amount}");
+    log_message('info', "Identificación recibida: {$identification}");
+    log_message('info', "Monto recibido: {$amount}");
 
-        // Validación de datos
-        if ($amount <= 0) {
-            log_message('error', 'El monto es inválido (menor o igual a 0)');
-
-            return $this->response->setJSON([
-                'status' => 'error',
-                'message' => 'El monto debe ser mayor a 0'
-            ]);
-        }
-
-        // Cargar el modelo
-        $userModel = new UserManagementModel();
-        log_message('info', 'Modelo de usuarios cargado');
-
-        // Buscar usuario
-        $user = $userModel->getUserByIdentification($identification);
-        log_message('info', 'Consulta realizada para buscar usuario');
-
-        if ($user) {
-            log_message('info', 'Usuario encontrado: ' . json_encode($user));
-
-            $newBalance = $user['balance'] + $amount;
-            log_message('info', "Nuevo balance calculado: {$newBalance}");
-
-            // Actualizar saldo del usuario
-            if ($userModel->updateUserBalance($identification, $newBalance)) {
-                log_message('info', 'Saldo actualizado correctamente');
-                $history = new HistoryTransactionModel();
-                $history->create([
-                    'user_id' => $id_user,
-                    'amount' => $amount,
-                    'transaction_type' => 'deposit',
-                    'transaction_date' => date('Y-m-d H:i:s')
-                ]);
-                return $this->response->setJSON([
-                    'status' => 'success',
-                    'newBalance' => $newBalance
-                ]);
-
-            } else {
-                log_message('error', 'Error al actualizar el saldo');
-
-                return $this->response->setJSON([
-                    'status' => 'error',
-                    'message' => 'Error al actualizar el saldo'
-                ]);
-            }
-        } else {
-            log_message('error', 'Usuario no encontrado con la identificación: ' . $identification);
-
-            return $this->response->setJSON([
-                'status' => 'error',
-                'message' => 'Usuario no encontrado'
-            ]);
-        }
+    // Validación de datos
+    if ($amount <= 0) {
+        log_message('error', 'El monto es inválido (menor o igual a 0)');
+        return $this->response->setJSON([
+            'status' => 'error',
+            'message' => 'El monto debe ser mayor a 0'
+        ]);
     }
+
+    // Cargar el modelo
+    $userModel = new UserManagementModel();
+    log_message('info', 'Modelo de usuarios cargado');
+
+    // Buscar usuario
+    $user = $userModel->getUserByIdentification($identification);
+    log_message('info', 'Consulta realizada para buscar usuario');
+
+    if ($user) {
+        log_message('info', 'Usuario encontrado: ' . json_encode($user));
+
+        // Validar que el usuario tenga saldo suficiente
+        if ($user['balance'] < $amount) {
+            log_message('error', 'Saldo insuficiente para realizar el pago');
+            return $this->response->setJSON([
+                'status' => 'error',
+                'message' => 'Saldo insuficiente para realizar el pago'
+            ]);
+        }
+
+        $newBalance = $user['balance'] - $amount;
+        log_message('info', "Nuevo balance calculado: {$newBalance}");
+
+        // Actualizar saldo del usuario
+        if ($userModel->updateUserBalance($identification, $newBalance)) {
+            log_message('info', 'Saldo actualizado correctamente');
+            $history = new HistoryTransactionModel();
+            $history->create([
+                'user_id' => $id_user,
+                'amount' => $amount,
+                'transaction_type' => 'pay',
+                'transaction_date' => date('Y-m-d H:i:s')
+            ]);
+            return $this->response->setJSON([
+                'status' => 'success',
+                'newBalance' => $newBalance
+            ]);
+        } else {
+            log_message('error', 'Error al actualizar el saldo');
+            return $this->response->setJSON([
+                'status' => 'error',
+                'message' => 'Error al actualizar el saldo'
+            ]);
+        }
+    } else {
+        log_message('error', 'Usuario no encontrado con la identificación: ' . $identification);
+        return $this->response->setJSON([
+            'status' => 'error',
+            'message' => 'Usuario no encontrado'
+        ]);
+    }
+}
 
 
 

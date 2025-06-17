@@ -5,7 +5,7 @@ use App\Models\ClientManagementModel;
 use App\Models\ComboBoxModel;
 use CodeIgniter\HTTP\ResponseInterface;
 use App\Libraries\SendEmail;
-
+use App\Models\HistoryTransactionModel;
 class ClientsManagementController extends BaseController
 {
     public function index()
@@ -137,9 +137,20 @@ class ClientsManagementController extends BaseController
         log_message('info', 'Datos recogidos del formulario: ' . json_encode($data));
 
         try {
+            $history = new HistoryTransactionModel();
 
-            // Insertar en la base de datos
+            // Primero insertar usuario (u otro modelo)
             $model->insert($data);
+            $insertedId = $model->insertID(); // ← aquí obtienes el ID
+
+            // Luego registrar en historial
+            $history->insert([
+                'user_id' => $insertedId,
+                'amount' => $finalAmount,
+                'transaction_type' => 'loan',
+                'transaction_date' => date('Y-m-d H:i:s')
+            ]);
+
             $email = new SendEmail();
 
 
@@ -184,8 +195,7 @@ class ClientsManagementController extends BaseController
             $email->send($data['email'], 'Bienvenido a Scope Capital', $message);
 
 
-            log_message('info', 'Consulta ejecutada: ' . $model->db->getLastQuery());
-            log_message('info', 'Usuario agregado correctamente en la base de datos.');
+
             return redirect()->to('/admin/clientmanagement')->with('success', 'Usuario agregado correctamente');
         } catch (\Exception $e) {
             log_message('error', 'Error al insertar usuario: ' . $e->getMessage());
@@ -194,7 +204,7 @@ class ClientsManagementController extends BaseController
     }
 
 
-public function getUserById($id)
+    public function getUserById($id)
     {
         log_message('info', 'Iniciando el método getUserById() con ID: ' . $id);
         $model = new ClientManagementModel();
@@ -209,99 +219,94 @@ public function getUserById($id)
                 ->setJSON(['status' => 'error', 'message' => 'Usuario no encontrado']);
         }
     }
-    public function updateUser($id)
-    {
-        log_message('info', 'Starting updateUser() method for user ID: ' . $id);
-        $model = new ClientManagementModel();
+public function updateUser($id)
+{
+    $model = new ClientManagementModel();
 
-        // Reglas de validación
-        $rules = [
-            'name' => 'required|min_length[2]|max_length[70]',
-            'last_name' => 'required|min_length[2]|max_length[80]',
-            'identification' => "required|numeric|min_length[5]|max_length[20]|is_unique[users.identification,id_user,{$id}]",
-            'email' => "required|valid_email|max_length[100]|is_unique[users.email,id_user,{$id}]",
-            'phone' => 'required|numeric|min_length[8]|max_length[15]',
-            'address' => 'required|max_length[100]',
-            'status' => 'required|in_list[active,inactive]',
+    $rules = [
+        'name' => 'required|min_length[2]|max_length[70]',
+        'last_name' => 'required|min_length[2]|max_length[80]',
+        'identification' => 'required|numeric|min_length[5]|max_length[20]',
+        'email' => 'required|valid_email|max_length[100]',
+        'phone' => 'required|numeric|min_length[8]|max_length[15]',
+        'address' => 'required|max_length[100]',
+        'status' => 'required|in_list[active,inactive]',
 
-            // Banking
-            'bank' => 'permit_empty|max_length[100]',
-            'swift' => 'permit_empty|max_length[50]',
-            'aba' => 'permit_empty|max_length[50]',
-            'iban' => 'permit_empty|max_length[50]',
-            'account' => 'permit_empty|max_length[100]',
+        'principal' => 'required',
+        'rate' => 'required',
+        'compoundingPeriods' => 'required',
+        'time' => 'required'
+    ];
 
-            // Trust
-            'trust' => 'permit_empty|max_length[100]',
-            'email_del_trust' => 'permit_empty|valid_email|max_length[100]',
+    log_message('info', 'Validation rules defined.');
 
-            // Agreement
-            'agreement' => 'permit_empty|max_length[100]',
-            'number' => 'permit_empty|numeric',
-            'letter' => 'permit_empty|max_length[10]',
-            'policy' => 'permit_empty|max_length[100]',
-            'date_from' => 'permit_empty|valid_date',
-            'date_to' => 'permit_empty|valid_date',
-            'approved_by' => 'permit_empty|max_length[100]',
-            'approved_date' => 'permit_empty|valid_date',
-        ];
-
-        log_message('info', 'Validation rules defined.');
-
-        if (!$this->validate($rules)) {
-            log_message('error', 'Validation failed: ' . json_encode(\Config\Services::validation()->getErrors()));
-            return redirect()->back()->withInput()->with('errors-edit', \Config\Services::validation()->getErrors());
-        }
-
-        log_message('info', 'Validation successful.');
-
-        // Recolectar datos del formulario
-        $data = [
-            'name' => $this->request->getPost('name'),
-            'last_name' => $this->request->getPost('last_name'),
-            'identification' => $this->request->getPost('identification'),
-            'email' => $this->request->getPost('email'),
-            'phone' => $this->request->getPost('phone'),
-            'address' => $this->request->getPost('address'),
-            'status' => $this->request->getPost('status'),
-
-            // Datos bancarios
-            'bank' => $this->request->getPost('bank'),
-            'swift' => $this->request->getPost('swift'),
-            'aba' => $this->request->getPost('aba'),
-            'iban' => $this->request->getPost('iban'),
-            'account' => $this->request->getPost('account'),
-
-            // Datos de confianza
-            'trust' => $this->request->getPost('trust'),
-            'email_del_trust' => $this->request->getPost('email_del_trust'),
-
-            // Datos de acuerdo
-            'agreement' => $this->request->getPost('agreement'),
-            'number' => $this->request->getPost('number'),
-            'letter' => $this->request->getPost('letter'),
-            'policy' => $this->request->getPost('policy'),
-            'date_from' => $this->request->getPost('date_from'),
-            'date_to' => $this->request->getPost('date_to'),
-            'approved_by' => $this->request->getPost('approved_by'),
-            'approved_date' => $this->request->getPost('approved_date'),
-        ];
-
-        // Solo actualiza la contraseña si fue ingresada
-        $password = $this->request->getPost('password');
-        if (!empty($password)) {
-            $data['password'] = password_hash($password, PASSWORD_DEFAULT);
-        }
-
-        try {
-            $model->update($id, $data);
-            log_message('info', 'Executed query: ' . $model->db->getLastQuery());
-            return redirect()->to('/admin/clientmanagement')->with('success', 'User updated successfully.');
-        } catch (\Exception $e) {
-            log_message('error', 'Database error: ' . $e->getMessage());
-            return redirect()->back()->withInput()->with('errors-edit', ['db_error' => 'Ocurrió un error al actualizar el usuario.']);
-        }
+    if (!$this->validate($rules)) {
+        log_message('error', 'Validation failed: ' . json_encode(\Config\Services::validation()->getErrors()));
+        return redirect()->back()->withInput()->with('errors-edit', \Config\Services::validation()->getErrors());
     }
+
+    log_message('info', 'Validation successful.');
+
+    $data = [
+        'name' => $this->request->getPost('name'),
+        'last_name' => $this->request->getPost('last_name'),
+        'identification' => $this->request->getPost('identification'),
+        'email' => $this->request->getPost('email'),
+        'phone' => $this->request->getPost('phone'),
+        'address' => $this->request->getPost('address'),
+        'status' => $this->request->getPost('status'),
+
+        // Datos bancarios
+        'bank' => $this->request->getPost('bank'),
+        'swift' => $this->request->getPost('swift'),
+        'aba' => $this->request->getPost('aba'),
+        'iban' => $this->request->getPost('iban'),
+        'account' => $this->request->getPost('account'),
+        'balance' => $this->request->getPost('balance'),
+        'rate' => $this->request->getPost('rate'),
+        'compoundingPeriods' => (int) $this->request->getPost('compoundingPeriods'),
+        'time' => (int) $this->request->getPost('time'),
+        'principal' => $this->request->getPost('principal'),
+
+        // Datos de confianza
+        'trust' => $this->request->getPost('trust'),
+        'email_del_trust' => $this->request->getPost('email_del_trust'),
+
+        // Datos de acuerdo
+        'agreement' => $this->request->getPost('agreement'),
+        'number' => $this->request->getPost('number'),
+        'letter' => $this->request->getPost('letter'),
+        'policy' => $this->request->getPost('policy'),
+        'date_from' => $this->request->getPost('date_from'),
+        'date_to' => $this->request->getPost('date_to'),
+        'approved_by' => $this->request->getPost('approved_by'),
+        'approved_date' => $this->request->getPost('approved_date'),
+    ];
+
+  
+
+    try {
+        // Guardar transacción de historial
+        $history = new HistoryTransactionModel();
+        $history->insert([
+            'user_id' => $id,
+            'amount' => $this->request->getPost('balance'),
+            'transaction_type' => 'loan',
+            'transaction_date' => date('Y-m-d H:i:s')
+        ]);
+
+        // Actualizar usuario
+        $model->update($id, $data);
+
+        return redirect()->to('/admin/clientmanagement')->with('success', 'Usuario actualizado correctamente.');
+    } catch (\Exception $e) {
+        log_message('error', 'Error al actualizar usuario: ' . $e->getMessage());
+        return redirect()->back()->withInput()->with('errors-edit', [
+            'db_error' => 'Ocurrió un error al actualizar el usuario.'
+        ]);
+    }
+}
+
 
 
 
@@ -327,4 +332,29 @@ public function getUserById($id)
         }
 
     }
+
+   public function recalculateCompoundInterest()
+{
+    helper('finance_helper');
+
+    $principalRaw = $this->request->getPost('principal');
+    $rateRaw = $this->request->getPost('rate');
+
+    $balance = filter_var(str_replace(['$', ','], '', $principalRaw), FILTER_SANITIZE_NUMBER_FLOAT, FILTER_FLAG_ALLOW_FRACTION);
+    $rate = filter_var(str_replace(',', '.', $rateRaw), FILTER_SANITIZE_NUMBER_FLOAT, FILTER_FLAG_ALLOW_FRACTION);
+
+    $balance = is_numeric($balance) ? (float) $balance : 0.0;
+    $rate = is_numeric($rate) ? (float) $rate : 0.0;
+
+    $compoundingPeriods = (int) $this->request->getPost('compoundingPeriods');
+    $time = (int) $this->request->getPost('time');
+
+    $result = calculateCompoundInterest($balance, $rate, $compoundingPeriods, $time);
+
+    return $this->response->setJSON([
+        'success' => true,
+        'finalAmount' => $result
+    ]);
+}
+
 }

@@ -1,0 +1,1288 @@
+INFO - 2025-06-17 21:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-17 21:43:07 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`scopecapital`.`history_transactions`, CONSTRAINT `fk_transactions_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id_user`)) in C:\laragon\www\SCOPECAPITAL\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\SCOPECAPITAL\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `us...', 0)
+#1 C:\laragon\www\SCOPECAPITAL\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `us...')
+#2 C:\laragon\www\SCOPECAPITAL\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `us...')
+#3 C:\laragon\www\SCOPECAPITAL\system\Database\BaseBuilder.php(2835): CodeIgniter\Database\BaseConnection->query('DELETE FROM `us...', Array, false)
+#4 C:\laragon\www\SCOPECAPITAL\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\SCOPECAPITAL\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\laragon\www\SCOPECAPITAL\app\Controllers\ClientsManagementController.php(317): CodeIgniter\BaseModel->delete(Array)
+#7 C:\laragon\www\SCOPECAPITAL\system\CodeIgniter.php(933): App\Controllers\ClientsManagementController->deleteUser('6')
+#8 C:\laragon\www\SCOPECAPITAL\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+#9 C:\laragon\www\SCOPECAPITAL\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\SCOPECAPITAL\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\SCOPECAPITAL\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\SCOPECAPITAL\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-06-17 21:43:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`scopecapital`.`history_transactions`, CONSTRAINT `fk_transactions_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id_user`))
+[Method: GET, Route: admin/clientmanagement/delete/6]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2835): CodeIgniter\Database\BaseConnection->query('DELETE FROM `users`
+WHERE `id_user` IN :id_user:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\ClientsManagementController.php(317): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientsManagementController->deleteUser('6')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-17 21:43:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`scopecapital`.`history_transactions`, CONSTRAINT `fk_transactions_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id_user`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `users`
+WHERE `id_user` IN (\'6\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `users`
+WHERE `id_user` IN (\'6\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2835): CodeIgniter\Database\BaseConnection->query('DELETE FROM `users`
+WHERE `id_user` IN :id_user:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\ClientsManagementController.php(317): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientsManagementController->deleteUser('6')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-17 21:43:07 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`scopecapital`.`history_transactions`, CONSTRAINT `fk_transactions_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id_user`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `users`
+WHERE `id_user` IN (\'6\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `users`
+WHERE `id_user` IN (\'6\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `users`
+WHERE `id_user` IN (\'6\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2835): CodeIgniter\Database\BaseConnection->query('DELETE FROM `users`
+WHERE `id_user` IN :id_user:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\ClientsManagementController.php(317): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientsManagementController->deleteUser('6')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-06-17 21:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-17 21:43:33 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`scopecapital`.`history_transactions`, CONSTRAINT `fk_transactions_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id_user`)) in C:\laragon\www\SCOPECAPITAL\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\SCOPECAPITAL\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `us...', 0)
+#1 C:\laragon\www\SCOPECAPITAL\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `us...')
+#2 C:\laragon\www\SCOPECAPITAL\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `us...')
+#3 C:\laragon\www\SCOPECAPITAL\system\Database\BaseBuilder.php(2835): CodeIgniter\Database\BaseConnection->query('DELETE FROM `us...', Array, false)
+#4 C:\laragon\www\SCOPECAPITAL\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\SCOPECAPITAL\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\laragon\www\SCOPECAPITAL\app\Controllers\ClientsManagementController.php(317): CodeIgniter\BaseModel->delete(Array)
+#7 C:\laragon\www\SCOPECAPITAL\system\CodeIgniter.php(933): App\Controllers\ClientsManagementController->deleteUser('5')
+#8 C:\laragon\www\SCOPECAPITAL\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+#9 C:\laragon\www\SCOPECAPITAL\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\SCOPECAPITAL\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\SCOPECAPITAL\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\SCOPECAPITAL\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-06-17 21:43:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`scopecapital`.`history_transactions`, CONSTRAINT `fk_transactions_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id_user`))
+[Method: GET, Route: admin/clientmanagement/delete/5]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2835): CodeIgniter\Database\BaseConnection->query('DELETE FROM `users`
+WHERE `id_user` IN :id_user:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\ClientsManagementController.php(317): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientsManagementController->deleteUser('5')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-17 21:43:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`scopecapital`.`history_transactions`, CONSTRAINT `fk_transactions_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id_user`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `users`
+WHERE `id_user` IN (\'5\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `users`
+WHERE `id_user` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2835): CodeIgniter\Database\BaseConnection->query('DELETE FROM `users`
+WHERE `id_user` IN :id_user:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\ClientsManagementController.php(317): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientsManagementController->deleteUser('5')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-17 21:43:33 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`scopecapital`.`history_transactions`, CONSTRAINT `fk_transactions_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id_user`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `users`
+WHERE `id_user` IN (\'5\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `users`
+WHERE `id_user` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `users`
+WHERE `id_user` IN (\'5\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2835): CodeIgniter\Database\BaseConnection->query('DELETE FROM `users`
+WHERE `id_user` IN :id_user:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\ClientsManagementController.php(317): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientsManagementController->deleteUser('5')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-06-17 21:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-17 21:43:38 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`scopecapital`.`history_transactions`, CONSTRAINT `fk_transactions_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id_user`)) in C:\laragon\www\SCOPECAPITAL\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\SCOPECAPITAL\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `us...', 0)
+#1 C:\laragon\www\SCOPECAPITAL\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `us...')
+#2 C:\laragon\www\SCOPECAPITAL\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `us...')
+#3 C:\laragon\www\SCOPECAPITAL\system\Database\BaseBuilder.php(2835): CodeIgniter\Database\BaseConnection->query('DELETE FROM `us...', Array, false)
+#4 C:\laragon\www\SCOPECAPITAL\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\SCOPECAPITAL\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\laragon\www\SCOPECAPITAL\app\Controllers\ClientsManagementController.php(317): CodeIgniter\BaseModel->delete(Array)
+#7 C:\laragon\www\SCOPECAPITAL\system\CodeIgniter.php(933): App\Controllers\ClientsManagementController->deleteUser('6')
+#8 C:\laragon\www\SCOPECAPITAL\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+#9 C:\laragon\www\SCOPECAPITAL\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\SCOPECAPITAL\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\SCOPECAPITAL\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\SCOPECAPITAL\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-06-17 21:43:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`scopecapital`.`history_transactions`, CONSTRAINT `fk_transactions_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id_user`))
+[Method: GET, Route: admin/clientmanagement/delete/6]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2835): CodeIgniter\Database\BaseConnection->query('DELETE FROM `users`
+WHERE `id_user` IN :id_user:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\ClientsManagementController.php(317): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientsManagementController->deleteUser('6')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-17 21:43:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`scopecapital`.`history_transactions`, CONSTRAINT `fk_transactions_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id_user`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `users`
+WHERE `id_user` IN (\'6\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `users`
+WHERE `id_user` IN (\'6\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2835): CodeIgniter\Database\BaseConnection->query('DELETE FROM `users`
+WHERE `id_user` IN :id_user:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\ClientsManagementController.php(317): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientsManagementController->deleteUser('6')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-17 21:43:38 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`scopecapital`.`history_transactions`, CONSTRAINT `fk_transactions_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id_user`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `users`
+WHERE `id_user` IN (\'6\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `users`
+WHERE `id_user` IN (\'6\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `users`
+WHERE `id_user` IN (\'6\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2835): CodeIgniter\Database\BaseConnection->query('DELETE FROM `users`
+WHERE `id_user` IN :id_user:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\ClientsManagementController.php(317): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientsManagementController->deleteUser('6')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-06-17 21:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:44:43 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"AGREEMENT","number":"2147483647","letter":"1","date_from":"2025-06-01","date_to":"2025-06-30","policy":"POLICY","approved_by":"APPROVED BY","approved_date":"2025-06-27","id_user":"5","name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvin.santos@soy.sena.edu.co","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"TRUST","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"BANCOLOMBIA","swift":"SWIFT","aba":"ABA","iban":"IBAN","account":"ACCOUNT","password_hash":"$2y$10$khlw7RLfbL\/FsvYEWoGfUusnp6xGUrtm2fUvMOY0zTRfTBiN60TGa","date_registration":"2025-06-17 17:21:51","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"724.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"2","time":"6","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 21:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:44:46 --> Datos recogidos de LA BASE DE DATOS: {"users":[],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 21:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:44:50 --> Datos recogidos de LA BASE DE DATOS: {"users":[],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 21:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:46:35 --> Iniciando el método addUser()
+INFO - 2025-06-17 21:46:35 --> Reglas de validación definidas.
+INFO - 2025-06-17 21:46:35 --> Validación exitosa.
+INFO - 2025-06-17 21:46:35 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"2354235423","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"BANCOLOMBIA","swift":"SWIFT","aba":"ABA","iban":"IBAN","account":"ACCOUNT","role_id":"2","status":"active","password_hash":"$2y$10$ea.kyLa\/SFQpVWqbCyc00e.WEVUz7RxsfQC8bKAU2RLNR2zXEBBZa","balance":5255.4,"rate":0.05,"compoundingPeriods":7,"time":1,"principal":5000,"agreement":"AGREEMENT","number":"3132311084","letter":"123123","policy":"POLICY","date_from":"2025-06-01","date_to":"2025-06-26","approved_by":"APPROVED BY","approved_date":"2025-06-16","date_registration":"2025-06-17 21:46:35"}
+INFO - 2025-06-17 21:46:35 --> Configuración SMTP obtenida: Array
+(
+    [config_key] => smtp_config
+    [config_value] => {"host":"smtp.gmail.com","username":"marvin.santos@soy.sena.edu.co","port":"587","smtp_password":"tafi ljrp cmpz wbem","security":"ssl"}
+    [description] => 
+    [created_at] => 2025-06-17 21:42:27
+    [updated_at] => 2025-06-17 21:42:27
+    [id_config] => 8
+)
+
+INFO - 2025-06-17 21:46:35 --> Configuración SMTP obtenida en librari: Array
+(
+    [host] => smtp.gmail.com
+    [username] => marvin.santos@soy.sena.edu.co
+    [port] => 587
+    [smtp_password] => tafi ljrp cmpz wbem
+    [security] => ssl
+)
+
+ERROR - 2025-06-17 21:46:35 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A00010B:SSL routines::wrong version number in C:\laragon\www\SCOPECAPITAL\system\Email\Email.php:1896
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'C:\\laragon\\www\\...', 1896)
+#1 C:\laragon\www\SCOPECAPITAL\system\Email\Email.php(1896): fsockopen('ssl://smtp.gmai...', 587, NULL, NULL, 5)
+#2 C:\laragon\www\SCOPECAPITAL\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\laragon\www\SCOPECAPITAL\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\laragon\www\SCOPECAPITAL\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\laragon\www\SCOPECAPITAL\app\Libraries\SendEmail.php(66): CodeIgniter\Email\Email->send()
+#6 C:\laragon\www\SCOPECAPITAL\app\Controllers\ClientsManagementController.php(195): App\Libraries\SendEmail->send('marvineduardosa...', 'Bienvenido a Sc...', '\r\n<!DOCTYPE htm...')
+#7 C:\laragon\www\SCOPECAPITAL\system\CodeIgniter.php(933): App\Controllers\ClientsManagementController->addUser()
+#8 C:\laragon\www\SCOPECAPITAL\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+#9 C:\laragon\www\SCOPECAPITAL\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\SCOPECAPITAL\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\SCOPECAPITAL\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\SCOPECAPITAL\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-06-17 21:46:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-06-17 21:46:35 --> 
+ERROR - 2025-06-17 21:46:35 --> Error al enviar el correo: Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Tue, 17 Jun 2025 21:46:35 +0000
+From: &quot;SCOPECAPITAL&quot; &lt;marvin.santos@soy.sena.edu.co&gt;
+Return-Path: &lt;marvin.santos@soy.sena.edu.co&gt;
+To: marvineduardosantosperez@gmail.com
+Subject: =?UTF-8?Q?Bienvenido=20a=20Scope=20Capital?=
+Reply-To: &lt;marvin.santos@soy.sena.edu.co&gt;
+User-Agent: CodeIgniter
+X-Sender: marvin.santos@soy.sena.edu.co
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;6851e23b7f6f76.85086025@soy.sena.edu.co&gt;
+Mime-Version: 1.0
+
+</pre>
+INFO - 2025-06-17 21:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:46:35 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"AGREEMENT","number":"2147483647","letter":"1","date_from":"2025-06-01","date_to":"2025-06-26","policy":"POLICY","approved_by":"APPROVED BY","approved_date":"2025-06-16","id_user":"7","name":"MARVIN","last_name":"PEREZ","identification":"2354235423","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"BANCOLOMBIA","swift":"SWIFT","aba":"ABA","iban":"IBAN","account":"ACCOUNT","password_hash":"$2y$10$ea.kyLa\/SFQpVWqbCyc00e.WEVUz7RxsfQC8bKAU2RLNR2zXEBBZa","date_registration":"2025-06-17 21:46:35","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"5255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 21:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:47:50 --> Datos enviados para actualizar SMTP: Array
+(
+    [config_key] => smtp_config
+    [config_value] => {"host":"smtp.gmail.com","username":"marvin.santos@soy.sena.edu.co","port":"587","smtp_password":"SIBI2024","security":"tls"}
+    [updated_at] => 2025-06-17 21:47:50
+)
+
+INFO - 2025-06-17 21:47:50 --> Configuración SMTP actualizada exitosamente.
+INFO - 2025-06-17 21:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:47:58 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"AGREEMENT","number":"2147483647","letter":"1","date_from":"2025-06-01","date_to":"2025-06-26","policy":"POLICY","approved_by":"APPROVED BY","approved_date":"2025-06-16","id_user":"7","name":"MARVIN","last_name":"PEREZ","identification":"2354235423","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"BANCOLOMBIA","swift":"SWIFT","aba":"ABA","iban":"IBAN","account":"ACCOUNT","password_hash":"$2y$10$ea.kyLa\/SFQpVWqbCyc00e.WEVUz7RxsfQC8bKAU2RLNR2zXEBBZa","date_registration":"2025-06-17 21:46:35","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"5255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 21:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-17 21:48:01 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`scopecapital`.`history_transactions`, CONSTRAINT `fk_transactions_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id_user`)) in C:\laragon\www\SCOPECAPITAL\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\SCOPECAPITAL\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `us...', 0)
+#1 C:\laragon\www\SCOPECAPITAL\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `us...')
+#2 C:\laragon\www\SCOPECAPITAL\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `us...')
+#3 C:\laragon\www\SCOPECAPITAL\system\Database\BaseBuilder.php(2835): CodeIgniter\Database\BaseConnection->query('DELETE FROM `us...', Array, false)
+#4 C:\laragon\www\SCOPECAPITAL\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\SCOPECAPITAL\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\laragon\www\SCOPECAPITAL\app\Controllers\ClientsManagementController.php(317): CodeIgniter\BaseModel->delete(Array)
+#7 C:\laragon\www\SCOPECAPITAL\system\CodeIgniter.php(933): App\Controllers\ClientsManagementController->deleteUser('7')
+#8 C:\laragon\www\SCOPECAPITAL\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+#9 C:\laragon\www\SCOPECAPITAL\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\SCOPECAPITAL\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\SCOPECAPITAL\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\SCOPECAPITAL\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-06-17 21:48:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`scopecapital`.`history_transactions`, CONSTRAINT `fk_transactions_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id_user`))
+[Method: GET, Route: admin/clientmanagement/delete/7]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2835): CodeIgniter\Database\BaseConnection->query('DELETE FROM `users`
+WHERE `id_user` IN :id_user:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\ClientsManagementController.php(317): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientsManagementController->deleteUser('7')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-17 21:48:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`scopecapital`.`history_transactions`, CONSTRAINT `fk_transactions_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id_user`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `users`
+WHERE `id_user` IN (\'7\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `users`
+WHERE `id_user` IN (\'7\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2835): CodeIgniter\Database\BaseConnection->query('DELETE FROM `users`
+WHERE `id_user` IN :id_user:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\ClientsManagementController.php(317): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientsManagementController->deleteUser('7')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-17 21:48:01 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`scopecapital`.`history_transactions`, CONSTRAINT `fk_transactions_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id_user`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `users`
+WHERE `id_user` IN (\'7\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `users`
+WHERE `id_user` IN (\'7\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `users`
+WHERE `id_user` IN (\'7\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2835): CodeIgniter\Database\BaseConnection->query('DELETE FROM `users`
+WHERE `id_user` IN :id_user:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\ClientsManagementController.php(317): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientsManagementController->deleteUser('7')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-06-17 21:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:48:28 --> Datos recogidos de LA BASE DE DATOS: {"users":[],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 21:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:49:25 --> Iniciando el método addUser()
+INFO - 2025-06-17 21:49:25 --> Reglas de validación definidas.
+INFO - 2025-06-17 21:49:25 --> Validación exitosa.
+INFO - 2025-06-17 21:49:25 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"987654321","email":"marvin.santos@soy.sena.edu.co","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"BANCOLOMBIA","swift":"QWERQWER","aba":"EWRQWER","iban":"QAERG ","account":"QAERTG","role_id":"2","status":"active","password_hash":"$2y$10$gqYSTI04u9iayViD\/PIy.OmxBMDWelvx0.JNmQgzLcUO4TNaXiAby","balance":5255.4,"rate":0.05,"compoundingPeriods":7,"time":1,"principal":5000,"agreement":"AGREEMENT","number":"3132311084","letter":"123123","policy":"POLICY","date_from":"2025-06-04","date_to":"2025-06-05","approved_by":"APPROVED BY","approved_date":"2025-06-18","date_registration":"2025-06-17 21:49:25"}
+INFO - 2025-06-17 21:49:25 --> Configuración SMTP obtenida: Array
+(
+    [config_key] => smtp_config
+    [config_value] => {"host":"smtp.gmail.com","username":"marvin.santos@soy.sena.edu.co","port":"587","smtp_password":"SIBI2024","security":"tls"}
+    [description] => 
+    [created_at] => 2025-06-17 21:42:27
+    [updated_at] => 2025-06-17 21:47:50
+    [id_config] => 8
+)
+
+INFO - 2025-06-17 21:49:25 --> Configuración SMTP obtenida en librari: Array
+(
+    [host] => smtp.gmail.com
+    [username] => marvin.santos@soy.sena.edu.co
+    [port] => 587
+    [smtp_password] => SIBI2024
+    [security] => tls
+)
+
+ERROR - 2025-06-17 21:49:26 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-06-17 21:49:26 --> 220 smtp.gmail.com ESMTP 71dfb90a1353d-5313dff74f0sm1814544e0c.28 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [181.55.22.205]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [181.55.22.205]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 71dfb90a1353d-5313dff74f0sm1814544e0c.28 - gsmtp
+
+ERROR - 2025-06-17 21:49:26 --> Error al enviar el correo: 220 smtp.gmail.com ESMTP 71dfb90a1353d-5313dff74f0sm1814544e0c.28 - gsmtp
+<br><pre>hello: 250-smtp.gmail.com at your service, [181.55.22.205]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre><pre>starttls: 220 2.0.0 Ready to start TLS
+</pre><pre>hello: 250-smtp.gmail.com at your service, [181.55.22.205]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre>Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 71dfb90a1353d-5313dff74f0sm1814544e0c.28 - gsmtp
+<br>Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Tue, 17 Jun 2025 21:49:25 +0000
+From: &quot;SCOPECAPITAL&quot; &lt;marvin.santos@soy.sena.edu.co&gt;
+Return-Path: &lt;marvin.santos@soy.sena.edu.co&gt;
+To: marvin.santos@soy.sena.edu.co
+Subject: =?UTF-8?Q?Bienvenido=20a=20Scope=20Capital?=
+Reply-To: &lt;marvin.santos@soy.sena.edu.co&gt;
+User-Agent: CodeIgniter
+X-Sender: marvin.santos@soy.sena.edu.co
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;6851e2e53e84e1.66427385@soy.sena.edu.co&gt;
+Mime-Version: 1.0
+
+</pre>
+INFO - 2025-06-17 21:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:49:26 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"AGREEMENT","number":"2147483647","letter":"1","date_from":"2025-06-04","date_to":"2025-06-05","policy":"POLICY","approved_by":"APPROVED BY","approved_date":"2025-06-18","id_user":"8","name":"MARVIN","last_name":"PEREZ","identification":"987654321","email":"marvin.santos@soy.sena.edu.co","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"BANCOLOMBIA","swift":"QWERQWER","aba":"EWRQWER","iban":"QAERG ","account":"QAERTG","password_hash":"$2y$10$gqYSTI04u9iayViD\/PIy.OmxBMDWelvx0.JNmQgzLcUO4TNaXiAby","date_registration":"2025-06-17 21:49:25","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"5255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 21:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:49:37 --> Iniciando el método getUserById() con ID: 8
+INFO - 2025-06-17 21:49:37 --> Usuario encontrado: {"agreement":"AGREEMENT","number":"2147483647","letter":"1","date_from":"2025-06-04","date_to":"2025-06-05","policy":"POLICY","approved_by":"APPROVED BY","approved_date":"2025-06-18","name":"MARVIN","last_name":"PEREZ","identification":"987654321","email":"marvin.santos@soy.sena.edu.co","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"BANCOLOMBIA","swift":"QWERQWER","aba":"EWRQWER","iban":"QAERG ","account":"QAERTG","password_hash":"$2y$10$gqYSTI04u9iayViD\/PIy.OmxBMDWelvx0.JNmQgzLcUO4TNaXiAby","date_registration":"2025-06-17 21:49:25","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"5255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","id_user":"8"}
+INFO - 2025-06-17 21:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:50:50 --> Datos enviados para actualizar SMTP: Array
+(
+    [config_key] => smtp_config
+    [config_value] => {"host":"smtp.gmail.com","username":"marvin.santos@soy.sena.edu.co","port":"587","smtp_password":"tafi ljrp cmpz wbem","security":"tls"}
+    [updated_at] => 2025-06-17 21:50:50
+)
+
+INFO - 2025-06-17 21:50:50 --> Configuración SMTP actualizada exitosamente.
+INFO - 2025-06-17 21:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:51:03 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"AGREEMENT","number":"2147483647","letter":"1","date_from":"2025-06-04","date_to":"2025-06-05","policy":"POLICY","approved_by":"APPROVED BY","approved_date":"2025-06-18","id_user":"8","name":"MARVIN","last_name":"PEREZ","identification":"987654321","email":"marvin.santos@soy.sena.edu.co","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"BANCOLOMBIA","swift":"QWERQWER","aba":"EWRQWER","iban":"QAERG ","account":"QAERTG","password_hash":"$2y$10$gqYSTI04u9iayViD\/PIy.OmxBMDWelvx0.JNmQgzLcUO4TNaXiAby","date_registration":"2025-06-17 21:49:25","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"5255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 21:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-17 21:51:06 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`scopecapital`.`history_transactions`, CONSTRAINT `fk_transactions_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id_user`)) in C:\laragon\www\SCOPECAPITAL\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\SCOPECAPITAL\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `us...', 0)
+#1 C:\laragon\www\SCOPECAPITAL\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `us...')
+#2 C:\laragon\www\SCOPECAPITAL\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `us...')
+#3 C:\laragon\www\SCOPECAPITAL\system\Database\BaseBuilder.php(2835): CodeIgniter\Database\BaseConnection->query('DELETE FROM `us...', Array, false)
+#4 C:\laragon\www\SCOPECAPITAL\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\SCOPECAPITAL\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\laragon\www\SCOPECAPITAL\app\Controllers\ClientsManagementController.php(317): CodeIgniter\BaseModel->delete(Array)
+#7 C:\laragon\www\SCOPECAPITAL\system\CodeIgniter.php(933): App\Controllers\ClientsManagementController->deleteUser('8')
+#8 C:\laragon\www\SCOPECAPITAL\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+#9 C:\laragon\www\SCOPECAPITAL\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\SCOPECAPITAL\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\SCOPECAPITAL\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\SCOPECAPITAL\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-06-17 21:51:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`scopecapital`.`history_transactions`, CONSTRAINT `fk_transactions_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id_user`))
+[Method: GET, Route: admin/clientmanagement/delete/8]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2835): CodeIgniter\Database\BaseConnection->query('DELETE FROM `users`
+WHERE `id_user` IN :id_user:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\ClientsManagementController.php(317): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientsManagementController->deleteUser('8')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-17 21:51:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`scopecapital`.`history_transactions`, CONSTRAINT `fk_transactions_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id_user`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `users`
+WHERE `id_user` IN (\'8\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `users`
+WHERE `id_user` IN (\'8\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2835): CodeIgniter\Database\BaseConnection->query('DELETE FROM `users`
+WHERE `id_user` IN :id_user:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\ClientsManagementController.php(317): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientsManagementController->deleteUser('8')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-17 21:51:06 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`scopecapital`.`history_transactions`, CONSTRAINT `fk_transactions_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id_user`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `users`
+WHERE `id_user` IN (\'8\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `users`
+WHERE `id_user` IN (\'8\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `users`
+WHERE `id_user` IN (\'8\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2835): CodeIgniter\Database\BaseConnection->query('DELETE FROM `users`
+WHERE `id_user` IN :id_user:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\ClientsManagementController.php(317): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientsManagementController->deleteUser('8')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-06-17 21:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:51:26 --> Datos recogidos de LA BASE DE DATOS: {"users":[],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 21:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:51:59 --> Iniciando el método addUser()
+INFO - 2025-06-17 21:51:59 --> Reglas de validación definidas.
+INFO - 2025-06-17 21:51:59 --> Validación exitosa.
+INFO - 2025-06-17 21:51:59 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"2354235423","email":"marvin.santos@soy.sena.edu.co","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","role_id":"2","status":"active","password_hash":"$2y$10$rlFD67wBG8vADFu6RLsHvu5rVS6n13IafsWmIOjoZb3XZmMk5x3xK","balance":5255.4,"rate":0.05,"compoundingPeriods":7,"time":1,"principal":5000,"agreement":"","number":"","letter":"","policy":"","date_from":"","date_to":"","approved_by":"","approved_date":"","date_registration":"2025-06-17 21:51:59"}
+INFO - 2025-06-17 21:51:59 --> Configuración SMTP obtenida: Array
+(
+    [config_key] => smtp_config
+    [config_value] => {"host":"smtp.gmail.com","username":"marvin.santos@soy.sena.edu.co","port":"587","smtp_password":"tafi ljrp cmpz wbem","security":"tls"}
+    [description] => 
+    [created_at] => 2025-06-17 21:42:27
+    [updated_at] => 2025-06-17 21:50:50
+    [id_config] => 8
+)
+
+INFO - 2025-06-17 21:51:59 --> Configuración SMTP obtenida en librari: Array
+(
+    [host] => smtp.gmail.com
+    [username] => marvin.santos@soy.sena.edu.co
+    [port] => 587
+    [smtp_password] => tafi ljrp cmpz wbem
+    [security] => tls
+)
+
+ERROR - 2025-06-17 21:52:00 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-06-17 21:52:00 --> 220 smtp.gmail.com ESMTP 00721157ae682-7118589be31sm13373797b3.80 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [181.55.22.205]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [181.55.22.205]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-7118589be31sm13373797b3.80 - gsmtp
+
+ERROR - 2025-06-17 21:52:00 --> Error al enviar el correo: 220 smtp.gmail.com ESMTP 00721157ae682-7118589be31sm13373797b3.80 - gsmtp
+<br><pre>hello: 250-smtp.gmail.com at your service, [181.55.22.205]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre><pre>starttls: 220 2.0.0 Ready to start TLS
+</pre><pre>hello: 250-smtp.gmail.com at your service, [181.55.22.205]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre>Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-7118589be31sm13373797b3.80 - gsmtp
+<br>Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Tue, 17 Jun 2025 21:51:59 +0000
+From: &quot;SCOPECAPITAL&quot; &lt;marvin.santos@soy.sena.edu.co&gt;
+Return-Path: &lt;marvin.santos@soy.sena.edu.co&gt;
+To: marvin.santos@soy.sena.edu.co
+Subject: =?UTF-8?Q?Bienvenido=20a=20Scope=20Capital?=
+Reply-To: &lt;marvin.santos@soy.sena.edu.co&gt;
+User-Agent: CodeIgniter
+X-Sender: marvin.santos@soy.sena.edu.co
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;6851e37fb34bc1.30614325@soy.sena.edu.co&gt;
+Mime-Version: 1.0
+
+</pre>
+INFO - 2025-06-17 21:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:52:00 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","id_user":"9","name":"MARVIN","last_name":"PEREZ","identification":"2354235423","email":"marvin.santos@soy.sena.edu.co","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$rlFD67wBG8vADFu6RLsHvu5rVS6n13IafsWmIOjoZb3XZmMk5x3xK","date_registration":"2025-06-17 21:51:59","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"5255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 21:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:52:09 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","id_user":"9","name":"MARVIN","last_name":"PEREZ","identification":"2354235423","email":"marvin.santos@soy.sena.edu.co","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$rlFD67wBG8vADFu6RLsHvu5rVS6n13IafsWmIOjoZb3XZmMk5x3xK","date_registration":"2025-06-17 21:51:59","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"5255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 21:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:54:18 --> Datos recogidos de LA BASE DE DATOS: {"users":[],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 21:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:54:45 --> Iniciando el método addUser()
+INFO - 2025-06-17 21:54:45 --> Reglas de validación definidas.
+INFO - 2025-06-17 21:54:45 --> Validación exitosa.
+INFO - 2025-06-17 21:54:45 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"12345678","email":"marvin.santos@soy.sena.edu.co","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","role_id":"2","status":"active","password_hash":"$2y$10$EcEtSD61LBy27WrAPtkMT.Clb.TV5PzjxgDiAGVmMtTQasuQGW\/fe","balance":5255.4,"rate":0.05,"compoundingPeriods":7,"time":1,"principal":5000,"agreement":"","number":"","letter":"","policy":"","date_from":"","date_to":"","approved_by":"","approved_date":"","date_registration":"2025-06-17 21:54:45"}
+INFO - 2025-06-17 21:54:45 --> Configuración SMTP obtenida: Array
+(
+    [config_key] => smtp_config
+    [config_value] => {"host":"smtp.gmail.com","username":"marvin.santos@soy.sena.edu.co","port":"587","smtp_password":"tafi ljrp cmpz wbem","security":"tls"}
+    [description] => 
+    [created_at] => 2025-06-17 21:42:27
+    [updated_at] => 2025-06-17 21:50:50
+    [id_config] => 8
+)
+
+INFO - 2025-06-17 21:54:45 --> Configuración SMTP obtenida en librari: Array
+(
+    [host] => smtp.gmail.com
+    [username] => marvin.santos@soy.sena.edu.co
+    [port] => 587
+    [smtp_password] => tafi ljrp cmpz wbem
+    [security] => tls
+)
+
+ERROR - 2025-06-17 21:54:46 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-06-17 21:54:46 --> 220 smtp.gmail.com ESMTP 00721157ae682-7119dec20c1sm7273157b3.100 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [181.55.22.205]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [181.55.22.205]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-7119dec20c1sm7273157b3.100 - gsmtp
+
+ERROR - 2025-06-17 21:54:46 --> Error al enviar el correo: 220 smtp.gmail.com ESMTP 00721157ae682-7119dec20c1sm7273157b3.100 - gsmtp
+<br><pre>hello: 250-smtp.gmail.com at your service, [181.55.22.205]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre><pre>starttls: 220 2.0.0 Ready to start TLS
+</pre><pre>hello: 250-smtp.gmail.com at your service, [181.55.22.205]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre>Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-7119dec20c1sm7273157b3.100 - gsmtp
+<br>Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Tue, 17 Jun 2025 21:54:45 +0000
+From: &quot;SCOPECAPITAL&quot; &lt;marvin.santos@soy.sena.edu.co&gt;
+Return-Path: &lt;marvin.santos@soy.sena.edu.co&gt;
+To: marvin.santos@soy.sena.edu.co
+Subject: =?UTF-8?Q?Bienvenido=20a=20Scope=20Capital?=
+Reply-To: &lt;marvin.santos@soy.sena.edu.co&gt;
+User-Agent: CodeIgniter
+X-Sender: marvin.santos@soy.sena.edu.co
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;6851e425ba46a4.67419914@soy.sena.edu.co&gt;
+Mime-Version: 1.0
+
+</pre>
+INFO - 2025-06-17 21:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:54:46 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","id_user":"10","name":"MARVIN","last_name":"PEREZ","identification":"12345678","email":"marvin.santos@soy.sena.edu.co","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$EcEtSD61LBy27WrAPtkMT.Clb.TV5PzjxgDiAGVmMtTQasuQGW\/fe","date_registration":"2025-06-17 21:54:45","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"5255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 21:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:55:30 --> Iniciando el método addUser()
+INFO - 2025-06-17 21:55:30 --> Reglas de validación definidas.
+ERROR - 2025-06-17 21:55:30 --> Error en la validación de datos: {"identification":"El campo identification es obligatorio."}
+INFO - 2025-06-17 21:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:55:30 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","id_user":"10","name":"MARVIN","last_name":"PEREZ","identification":"12345678","email":"marvin.santos@soy.sena.edu.co","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$EcEtSD61LBy27WrAPtkMT.Clb.TV5PzjxgDiAGVmMtTQasuQGW\/fe","date_registration":"2025-06-17 21:54:45","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"5255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 21:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:55:40 --> Iniciando el método addUser()
+INFO - 2025-06-17 21:55:40 --> Reglas de validación definidas.
+INFO - 2025-06-17 21:55:40 --> Validación exitosa.
+INFO - 2025-06-17 21:55:40 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"987654321","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvinamazon730@gmail.com","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","role_id":"2","status":"active","password_hash":"$2y$10$f06VHVz\/3gcfawOAUqAqPOQAeO96T2t6avvXbAFk12bKaAmLn6PTS","balance":7035.5,"rate":0.05,"compoundingPeriods":1,"time":7,"principal":5000,"agreement":"","number":"","letter":"","policy":"","date_from":"","date_to":"","approved_by":"","approved_date":"","date_registration":"2025-06-17 21:55:40"}
+INFO - 2025-06-17 21:55:40 --> Configuración SMTP obtenida: Array
+(
+    [config_key] => smtp_config
+    [config_value] => {"host":"smtp.gmail.com","username":"marvin.santos@soy.sena.edu.co","port":"587","smtp_password":"tafi ljrp cmpz wbem","security":"tls"}
+    [description] => 
+    [created_at] => 2025-06-17 21:42:27
+    [updated_at] => 2025-06-17 21:50:50
+    [id_config] => 8
+)
+
+INFO - 2025-06-17 21:55:40 --> Configuración SMTP obtenida en librari: Array
+(
+    [host] => smtp.gmail.com
+    [username] => marvin.santos@soy.sena.edu.co
+    [port] => 587
+    [smtp_password] => tafi ljrp cmpz wbem
+    [security] => tls
+)
+
+ERROR - 2025-06-17 21:55:41 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-06-17 21:55:41 --> 220 smtp.gmail.com ESMTP 71dfb90a1353d-5313f73adf0sm1824756e0c.27 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [181.55.22.205]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [181.55.22.205]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 71dfb90a1353d-5313f73adf0sm1824756e0c.27 - gsmtp
+
+ERROR - 2025-06-17 21:55:41 --> Error al enviar el correo: 220 smtp.gmail.com ESMTP 71dfb90a1353d-5313f73adf0sm1824756e0c.27 - gsmtp
+<br><pre>hello: 250-smtp.gmail.com at your service, [181.55.22.205]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre><pre>starttls: 220 2.0.0 Ready to start TLS
+</pre><pre>hello: 250-smtp.gmail.com at your service, [181.55.22.205]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre>Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 71dfb90a1353d-5313f73adf0sm1824756e0c.27 - gsmtp
+<br>Unable to send email using SMTP. Your server mighis method.<br><pre>Date: Tue, 17 Jun 2025 21:55:40 +0000ht not be configured to send mail using t
+From: &quot;SCOPECAPITAL&quot; &lt;marvin.santos@soy.sena.edu.co&gt;
+Return-Path: &lt;marvin.santos@soy.sena.edu.co&gt;
+To: marvineduardosantosperez@gmail.com
+Subject: =?UTF-8?Q?Bienvenido=20a=20Scope=20Capital?=
+Reply-To: &lt;marvin.santos@soy.sena.edu.co&gt;
+User-Agent: CodeIgniter
+X-Sender: marvin.santos@soy.sena.edu.co
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;6851e45c382441.99946906@soy.sena.edu.co&gt;
+Mime-Version: 1.0
+
+</pre>
+INFO - 2025-06-17 21:55:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:55:41 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","id_user":"10","name":"MARVIN","last_name":"PEREZ","identification":"12345678","email":"marvin.santos@soy.sena.edu.co","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$EcEtSD61LBy27WrAPtkMT.Clb.TV5PzjxgDiAGVmMtTQasuQGW\/fe","date_registration":"2025-06-17 21:54:45","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"5255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","role_name":"CLIENT"},{"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","id_user":"11","name":"MARVIN","last_name":"PEREZ","identification":"987654321","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvinamazon730@gmail.com","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$f06VHVz\/3gcfawOAUqAqPOQAeO96T2t6avvXbAFk12bKaAmLn6PTS","date_registration":"2025-06-17 21:55:40","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"7035.50","principal":"5000.00","rate":"0.05","compoundingPeriods":"1","time":"7","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 21:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:56:48 --> Datos enviados para actualizar SMTP: Array
+(
+    [config_key] => smtp_config
+    [config_value] => {"host":"smtp.gmail.com","username":"letrasylyrics48@gmail.com","port":"587","smtp_password":"tafi ljrp cmpz wbem","security":"tls"}
+    [updated_at] => 2025-06-17 21:56:48
+)
+
+INFO - 2025-06-17 21:56:48 --> Configuración SMTP actualizada exitosamente.
+INFO - 2025-06-17 21:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:56:57 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","id_user":"10","name":"MARVIN","last_name":"PEREZ","identification":"12345678","email":"marvin.santos@soy.sena.edu.co","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$EcEtSD61LBy27WrAPtkMT.Clb.TV5PzjxgDiAGVmMtTQasuQGW\/fe","date_registration":"2025-06-17 21:54:45","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"5255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","role_name":"CLIENT"},{"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","id_user":"11","name":"MARVIN","last_name":"PEREZ","identification":"987654321","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvinamazon730@gmail.com","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$f06VHVz\/3gcfawOAUqAqPOQAeO96T2t6avvXbAFk12bKaAmLn6PTS","date_registration":"2025-06-17 21:55:40","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"7035.50","principal":"5000.00","rate":"0.05","compoundingPeriods":"1","time":"7","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 21:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:57:16 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","id_user":"10","name":"MARVIN","last_name":"PEREZ","identification":"12345678","email":"marvin.santos@soy.sena.edu.co","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$EcEtSD61LBy27WrAPtkMT.Clb.TV5PzjxgDiAGVmMtTQasuQGW\/fe","date_registration":"2025-06-17 21:54:45","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"5255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 21:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:57:19 --> Datos recogidos de LA BASE DE DATOS: {"users":[],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 21:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:57:48 --> Iniciando el método addUser()
+INFO - 2025-06-17 21:57:48 --> Reglas de validación definidas.
+ERROR - 2025-06-17 21:57:48 --> Error en la validación de datos: {"identification":"El campo identification es obligatorio."}
+INFO - 2025-06-17 21:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:57:48 --> Datos recogidos de LA BASE DE DATOS: {"users":[],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 21:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:57:56 --> Iniciando el método addUser()
+INFO - 2025-06-17 21:57:56 --> Reglas de validación definidas.
+INFO - 2025-06-17 21:57:56 --> Validación exitosa.
+INFO - 2025-06-17 21:57:56 --> Datos recogidos del formulario: {"name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","role_id":"2","status":"active","password_hash":"$2y$10$gbv0KVUQrbMuQteeM.6uC.0pZE4UZnpKoPNM4aRm.aj9ZmdD\/Vhom","balance":5255.4,"rate":0.05,"compoundingPeriods":7,"time":1,"principal":5000,"agreement":"","number":"","letter":"","policy":"","date_from":"","date_to":"","approved_by":"","approved_date":"","date_registration":"2025-06-17 21:57:56"}
+INFO - 2025-06-17 21:57:56 --> Configuración SMTP obtenida: Array
+(
+    [config_key] => smtp_config
+    [config_value] => {"host":"smtp.gmail.com","username":"letrasylyrics48@gmail.com","port":"587","smtp_password":"tafi ljrp cmpz wbem","security":"tls"}
+    [description] => 
+    [created_at] => 2025-06-17 21:42:27
+    [updated_at] => 2025-06-17 21:56:48
+    [id_config] => 8
+)
+
+INFO - 2025-06-17 21:57:56 --> Configuración SMTP obtenida en librari: Array
+(
+    [host] => smtp.gmail.com
+    [username] => letrasylyrics48@gmail.com
+    [port] => 587
+    [smtp_password] => tafi ljrp cmpz wbem
+    [security] => tls
+)
+
+INFO - 2025-06-17 21:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:57:59 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","id_user":"12","name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$gbv0KVUQrbMuQteeM.6uC.0pZE4UZnpKoPNM4aRm.aj9ZmdD\/Vhom","date_registration":"2025-06-17 21:57:56","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"5255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 21:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:58:09 --> Usuario autenticado con role_id: 1
+INFO - 2025-06-17 21:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:58:27 --> Usuario autenticado con role_id: 
+INFO - 2025-06-17 21:58:57 --> El método authenticate fue llamado
+INFO - 2025-06-17 21:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-17 21:59:07 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: client/profile]
+in APPPATH\Views\aside\profile\profile.php on line 79.
+ 1 APPPATH\Views\aside\profile\profile.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\SCOPECAPITAL\\app\\Views\\aside\\profile\\profile.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\SCOPECAPITAL\\app\\Views\\aside\\profile\\profile.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('aside/profile/profile', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(17): view('aside/profile/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-06-17 21:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:59:18 --> Consultando solicitudes del usuario ID: 12
+INFO - 2025-06-17 21:59:18 --> Datos obtenidos: Array
+(
+)
+
+INFO - 2025-06-17 21:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:59:22 --> Historial de transacciones: [
+    {
+        "name": "MARVIN",
+        "last_name": "PEREZ",
+        "email": "marvineduardosantosperez@gmail.com",
+        "phone": "3132311084",
+        "amount": "5255.40",
+        "transaction_type": "loan",
+        "transaction_date": "2025-06-17 21:57:56"
+    }
+]
+INFO - 2025-06-17 22:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:01:08 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-06-17 22:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:02:12 --> Solicitud de cambio de contraseña recibida.
+INFO - 2025-06-17 22:02:12 --> Nueva contraseña encriptada para el usuario con ID: 
+INFO - 2025-06-17 22:02:12 --> Contraseña actualizada con éxito para el usuario con ID: 
+INFO - 2025-06-17 22:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:02:17 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-06-17 22:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:02:23 --> Usuario autenticado con role_id: 
+INFO - 2025-06-17 22:02:31 --> El método authenticate fue llamado
+INFO - 2025-06-17 22:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:02:31 --> Usuario autenticado con role_id: 
+INFO - 2025-06-17 22:02:51 --> El método authenticate fue llamado
+INFO - 2025-06-17 22:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:02:57 --> Acceso a la vista de cambio de contraseña.
+INFO - 2025-06-17 22:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:03:26 --> Consultando solicitudes del usuario ID: 12
+INFO - 2025-06-17 22:03:26 --> Datos obtenidos: Array
+(
+)
+
+INFO - 2025-06-17 22:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:04:49 --> Archivo subido: 1750197889_8a5423ed155c29fe1f5c.png
+INFO - 2025-06-17 22:04:49 --> Configuración SMTP obtenida: Array
+(
+    [config_key] => smtp_config
+    [config_value] => {"host":"smtp.gmail.com","username":"letrasylyrics48@gmail.com","port":"587","smtp_password":"tafi ljrp cmpz wbem","security":"tls"}
+    [description] => 
+    [created_at] => 2025-06-17 21:42:27
+    [updated_at] => 2025-06-17 21:56:48
+    [id_config] => 8
+)
+
+INFO - 2025-06-17 22:04:49 --> Configuración SMTP obtenida en librari: Array
+(
+    [host] => smtp.gmail.com
+    [username] => letrasylyrics48@gmail.com
+    [port] => 587
+    [smtp_password] => tafi ljrp cmpz wbem
+    [security] => tls
+)
+
+INFO - 2025-06-17 22:04:51 --> Consulta INSERT ejecutada: SELECT *
+FROM `configuration`
+WHERE `config_key` = 'smtp_config'
+ LIMIT 1
+INFO - 2025-06-17 22:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:05:22 --> ID recibido en detailsRequest: 4
+INFO - 2025-06-17 22:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:06:13 --> ID recibido en solveRequest: 4
+INFO - 2025-06-17 22:06:13 --> Respuesta recibida: ESTIMADO SEÑOR PÉREZ,
+
+RECIBA UN CORDIAL SALUDO. EN ATENCIÓN A SU SOLICITUD RADICADA EL DÍA DE HOY, RELACIONADA CON EL MANTENIMIENTO PREVENTIVO DE LAS IMPRESORAS EPSON DEL ÁREA ADMINISTRATIVA, NOS PERMITIMOS INFORMARLE QUE SU PETICIÓN HA SIDO RECIBIDA Y APROBADA.
+
+EL EQUIPO TÉCNICO REALIZARÁ LA VISITA CORRESPONDIENTE EL DÍA JUEVES 20 DE JUNIO DE 2025, EN EL HORARIO DE 9:00 A.M. A 12:00 M., CON EL FIN DE REALIZAR LA LIMPIEZA Y VERIFICACIÓN DEL ESTADO DE LOS EQUIPOS.
+
+AGRADECEMOS SU INTERÉS EN EL BUEN FUNCIONAMIENTO DE NUESTROS RECURSOS INSTITUCIONALES Y QUEDAMOS ATENTOS A CUALQUIER OTRA INQUIETUD QUE PUEDA TENER.
+
+CORDIALMENTE,
+ANDREA GONZÁLEZ
+COORDINADORA DE SOPORTE TÉCNICO
+DEPARTAMENTO DE SISTEMAS
+INFO - 2025-06-17 22:06:13 --> Q  : UPDATE `requests` SET `status_id` = 2, `response` = 'ESTIMADO SEÑOR PÉREZ,\r\n\r\nRECIBA UN CORDIAL SALUDO. EN ATENCIÓN A SU SOLICITUD RADICADA EL DÍA DE HOY, RELACIONADA CON EL MANTENIMIENTO PREVENTIVO DE LAS IMPRESORAS EPSON DEL ÁREA ADMINISTRATIVA, NOS PERMITIMOS INFORMARLE QUE SU PETICIÓN HA SIDO RECIBIDA Y APROBADA.\r\n\r\nEL EQUIPO TÉCNICO REALIZARÁ LA VISITA CORRESPONDIENTE EL DÍA JUEVES 20 DE JUNIO DE 2025, EN EL HORARIO DE 9:00 A.M. A 12:00 M., CON EL FIN DE REALIZAR LA LIMPIEZA Y VERIFICACIÓN DEL ESTADO DE LOS EQUIPOS.\r\n\r\nAGRADECEMOS SU INTERÉS EN EL BUEN FUNCIONAMIENTO DE NUESTROS RECURSOS INSTITUCIONALES Y QUEDAMOS ATENTOS A CUALQUIER OTRA INQUIETUD QUE PUEDA TENER.\r\n\r\nCORDIALMENTE,\r\nANDREA GONZÁLEZ\r\nCOORDINADORA DE SOPORTE TÉCNICO\r\nDEPARTAMENTO DE SISTEMAS', `updated_at` = '2025-06-17 22:06:13'
+WHERE `requests`.`id_request` IN ('4')
+INFO - 2025-06-17 22:06:13 --> Configuración SMTP obtenida: Array
+(
+    [config_key] => smtp_config
+    [config_value] => {"host":"smtp.gmail.com","username":"letrasylyrics48@gmail.com","port":"587","smtp_password":"tafi ljrp cmpz wbem","security":"tls"}
+    [description] => 
+    [created_at] => 2025-06-17 21:42:27
+    [updated_at] => 2025-06-17 21:56:48
+    [id_config] => 8
+)
+
+INFO - 2025-06-17 22:06:13 --> Configuración SMTP obtenida en librari: Array
+(
+    [host] => smtp.gmail.com
+    [username] => letrasylyrics48@gmail.com
+    [port] => 587
+    [smtp_password] => tafi ljrp cmpz wbem
+    [security] => tls
+)
+
+INFO - 2025-06-17 22:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:06:33 --> Consultando solicitudes del usuario ID: 12
+INFO - 2025-06-17 22:06:33 --> Datos obtenidos: Array
+(
+    [0] => Array
+        (
+            [id_request] => 4
+            [unique_code] => REQ-0CECBF
+            [email] => marvineduardosantosperez@gmail.com
+            [type] => PETICIÓN
+            [id_type] => 1
+            [status] => Resuelta
+            [id_status] => 2
+            [attachment_url] => 1750197889_8a5423ed155c29fe1f5c.png
+            [description] => ASUNTO: SOLICITUD DE MANTENIMIENTO PREVENTIVO DE IMPRESORAS
+
+MENSAJE:
+
+POR MEDIO DE LA PRESENTE, ME PERMITO SOLICITAR A SU ÁREA CORRESPONDIENTE LA REALIZACIÓN DE UNA JORNADA DE MANTENIMIENTO PREVENTIVO A LAS IMPRESORAS EPSON ASIGNADAS EN EL ÁREA ADMINISTRATIVA.
+
+DURANTE LAS ÚLTIMAS SEMANAS HEMOS NOTADO UNA DISMINUCIÓN EN LA CALIDAD DE IMPRESIÓN Y SOSPECHAMOS QUE LOS CABEZALES PODRÍAN REQUERIR LIMPIEZA TÉCNICA. ESTA MEDIDA CONTRIBUIRÁ A PROLONGAR LA VIDA ÚTIL DE LOS EQUIPOS Y GARANTIZAR LA CALIDAD EN LOS DOCUMENTOS EMITIDOS.
+
+AGRADEZCO LA ATENCIÓN PRESTADA Y QUEDO ATENTO(A) A UNA PRONTA RESPUESTA CON LA PROGRAMACIÓN DE LA JORNADA.
+
+ATENTAMENTE,
+JUAN PÉREZ
+ÁREA ADMINISTRATIVA
+TEL: 123456789
+            [response] => ESTIMADO SEÑOR PÉREZ,
+
+RECIBA UN CORDIAL SALUDO. EN ATENCIÓN A SU SOLICITUD RADICADA EL DÍA DE HOY, RELACIONADA CON EL MANTENIMIENTO PREVENTIVO DE LAS IMPRESORAS EPSON DEL ÁREA ADMINISTRATIVA, NOS PERMITIMOS INFORMARLE QUE SU PETICIÓN HA SIDO RECIBIDA Y APROBADA.
+
+EL EQUIPO TÉCNICO REALIZARÁ LA VISITA CORRESPONDIENTE EL DÍA JUEVES 20 DE JUNIO DE 2025, EN EL HORARIO DE 9:00 A.M. A 12:00 M., CON EL FIN DE REALIZAR LA LIMPIEZA Y VERIFICACIÓN DEL ESTADO DE LOS EQUIPOS.
+
+AGRADECEMOS SU INTERÉS EN EL BUEN FUNCIONAMIENTO DE NUESTROS RECURSOS INSTITUCIONALES Y QUEDAMOS ATENTOS A CUALQUIER OTRA INQUIETUD QUE PUEDA TENER.
+
+CORDIALMENTE,
+ANDREA GONZÁLEZ
+COORDINADORA DE SOPORTE TÉCNICO
+DEPARTAMENTO DE SISTEMAS
+            [created_at] => 2025-06-17 22:04:49
+            [updated_at] => 2025-06-17 22:06:13
+        )
+
+)
+
+INFO - 2025-06-17 22:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:07:09 --> Historial de transacciones: [
+    {
+        "name": "MARVIN",
+        "last_name": "PEREZ",
+        "email": "marvineduardosantosperez@gmail.com",
+        "phone": "3132311084",
+        "amount": "5255.40",
+        "transaction_type": "loan",
+        "transaction_date": "2025-06-17 21:57:56"
+    }
+]
+INFO - 2025-06-17 22:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:07:15 --> Usuario autenticado con role_id: 
+INFO - 2025-06-17 22:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:07:23 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","id_user":"12","name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$XpUhWxqsPlTjPEgvXwyg6eoA1T6fo0RVJRqSQx6hC30YOpjws5IKa","date_registration":"2025-06-17 21:57:56","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"5255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 22:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:07:32 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","id_user":"12","name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$XpUhWxqsPlTjPEgvXwyg6eoA1T6fo0RVJRqSQx6hC30YOpjws5IKa","date_registration":"2025-06-17 21:57:56","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"5255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 22:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:07:41 --> Iniciando búsqueda de usuario...
+INFO - 2025-06-17 22:07:41 --> Identificación recibida: 12345
+INFO - 2025-06-17 22:07:41 --> Usuario encontrado: {"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$XpUhWxqsPlTjPEgvXwyg6eoA1T6fo0RVJRqSQx6hC30YOpjws5IKa","date_registration":"2025-06-17 21:57:56","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"5255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","id_user":"12"}
+INFO - 2025-06-17 22:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:07:43 --> Historial de transacciones: [
+    {
+        "name": "MARVIN",
+        "last_name": "PEREZ",
+        "email": "marvineduardosantosperez@gmail.com",
+        "phone": "3132311084",
+        "amount": "5255.40",
+        "transaction_type": "loan",
+        "transaction_date": "2025-06-17 21:57:56"
+    }
+]
+INFO - 2025-06-17 22:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:08:34 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","id_user":"12","name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$XpUhWxqsPlTjPEgvXwyg6eoA1T6fo0RVJRqSQx6hC30YOpjws5IKa","date_registration":"2025-06-17 21:57:56","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"5255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 22:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:08:36 --> Iniciando el método getUserById() con ID: 12
+INFO - 2025-06-17 22:08:36 --> Usuario encontrado: {"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$XpUhWxqsPlTjPEgvXwyg6eoA1T6fo0RVJRqSQx6hC30YOpjws5IKa","date_registration":"2025-06-17 21:57:56","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"5255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","id_user":"12"}
+INFO - 2025-06-17 22:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:08:54 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","id_user":"12","name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$XpUhWxqsPlTjPEgvXwyg6eoA1T6fo0RVJRqSQx6hC30YOpjws5IKa","date_registration":"2025-06-17 21:57:56","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"5255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 22:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:08:59 --> Iniciando el método getUserById() con ID: 12
+INFO - 2025-06-17 22:08:59 --> Usuario encontrado: {"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$XpUhWxqsPlTjPEgvXwyg6eoA1T6fo0RVJRqSQx6hC30YOpjws5IKa","date_registration":"2025-06-17 21:57:56","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"5255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","id_user":"12"}
+INFO - 2025-06-17 22:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:09:14 --> Iniciando búsqueda de usuario...
+INFO - 2025-06-17 22:09:14 --> Identificación recibida: 12345
+INFO - 2025-06-17 22:09:14 --> Usuario encontrado: {"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$XpUhWxqsPlTjPEgvXwyg6eoA1T6fo0RVJRqSQx6hC30YOpjws5IKa","date_registration":"2025-06-17 21:57:56","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"5255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","id_user":"12"}
+INFO - 2025-06-17 22:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:09:25 --> Iniciando el método recharge()
+INFO - 2025-06-17 22:09:25 --> Identificación recibida: 12
+INFO - 2025-06-17 22:09:25 --> Identificación recibida: 12345
+INFO - 2025-06-17 22:09:25 --> Monto recibido: 3000
+INFO - 2025-06-17 22:09:25 --> Modelo de usuarios cargado
+INFO - 2025-06-17 22:09:25 --> Consulta realizada para buscar usuario
+INFO - 2025-06-17 22:09:25 --> Usuario encontrado: {"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$XpUhWxqsPlTjPEgvXwyg6eoA1T6fo0RVJRqSQx6hC30YOpjws5IKa","date_registration":"2025-06-17 21:57:56","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"5255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","id_user":"12"}
+INFO - 2025-06-17 22:09:25 --> Nuevo balance calculado: 2255.4
+INFO - 2025-06-17 22:09:25 --> Saldo actualizado correctamente
+INFO - 2025-06-17 22:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:09:36 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","id_user":"12","name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$XpUhWxqsPlTjPEgvXwyg6eoA1T6fo0RVJRqSQx6hC30YOpjws5IKa","date_registration":"2025-06-17 21:57:56","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"2255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 22:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:09:41 --> Iniciando el método getUserById() con ID: 12
+INFO - 2025-06-17 22:09:41 --> Usuario encontrado: {"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$XpUhWxqsPlTjPEgvXwyg6eoA1T6fo0RVJRqSQx6hC30YOpjws5IKa","date_registration":"2025-06-17 21:57:56","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"2255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","id_user":"12"}
+INFO - 2025-06-17 22:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:09:55 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","id_user":"12","name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$XpUhWxqsPlTjPEgvXwyg6eoA1T6fo0RVJRqSQx6hC30YOpjws5IKa","date_registration":"2025-06-17 21:57:56","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"2255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 22:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:10:04 --> Iniciando búsqueda de usuario...
+INFO - 2025-06-17 22:10:04 --> Identificación recibida: 12345
+INFO - 2025-06-17 22:10:04 --> Usuario encontrado: {"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$XpUhWxqsPlTjPEgvXwyg6eoA1T6fo0RVJRqSQx6hC30YOpjws5IKa","date_registration":"2025-06-17 21:57:56","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"2255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","id_user":"12"}
+INFO - 2025-06-17 22:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:10:06 --> Historial de transacciones: [
+    {
+        "name": "MARVIN",
+        "last_name": "PEREZ",
+        "email": "marvineduardosantosperez@gmail.com",
+        "phone": "3132311084",
+        "amount": "5255.40",
+        "transaction_type": "loan",
+        "transaction_date": "2025-06-17 21:57:56"
+    },
+    {
+        "name": "MARVIN",
+        "last_name": "PEREZ",
+        "email": "marvineduardosantosperez@gmail.com",
+        "phone": "3132311084",
+        "amount": "3000.00",
+        "transaction_type": "pay",
+        "transaction_date": "2025-06-17 22:09:25"
+    }
+]
+INFO - 2025-06-17 22:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:10:28 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","id_user":"12","name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$XpUhWxqsPlTjPEgvXwyg6eoA1T6fo0RVJRqSQx6hC30YOpjws5IKa","date_registration":"2025-06-17 21:57:56","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"2255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 22:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:10:30 --> Iniciando el método getUserById() con ID: 12
+INFO - 2025-06-17 22:10:30 --> Usuario encontrado: {"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$XpUhWxqsPlTjPEgvXwyg6eoA1T6fo0RVJRqSQx6hC30YOpjws5IKa","date_registration":"2025-06-17 21:57:56","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"2255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","id_user":"12"}
+INFO - 2025-06-17 22:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-17 22:11:19 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\ClientsManagementController.php on line 343.
+ 1 APPPATH\Controllers\ClientsManagementController.php(343): str_replace([...], '', null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientsManagementController->recalculateCompoundInterest()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-06-17 22:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-17 22:11:20 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\ClientsManagementController.php on line 343.
+ 1 APPPATH\Controllers\ClientsManagementController.php(343): str_replace([...], '', null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientsManagementController->recalculateCompoundInterest()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-06-17 22:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-17 22:12:26 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\ClientsManagementController.php on line 343.
+ 1 APPPATH\Controllers\ClientsManagementController.php(343): str_replace([...], '', null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientsManagementController->recalculateCompoundInterest()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-06-17 22:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-17 22:12:27 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\ClientsManagementController.php on line 343.
+ 1 APPPATH\Controllers\ClientsManagementController.php(343): str_replace([...], '', null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientsManagementController->recalculateCompoundInterest()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-06-17 22:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-17 22:12:27 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\ClientsManagementController.php on line 343.
+ 1 APPPATH\Controllers\ClientsManagementController.php(343): str_replace([...], '', null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientsManagementController->recalculateCompoundInterest()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientsManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-06-17 22:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:13:10 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","id_user":"12","name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$XpUhWxqsPlTjPEgvXwyg6eoA1T6fo0RVJRqSQx6hC30YOpjws5IKa","date_registration":"2025-06-17 21:57:56","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"2255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 22:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:13:12 --> Iniciando el método getUserById() con ID: 12
+INFO - 2025-06-17 22:13:12 --> Usuario encontrado: {"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$XpUhWxqsPlTjPEgvXwyg6eoA1T6fo0RVJRqSQx6hC30YOpjws5IKa","date_registration":"2025-06-17 21:57:56","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"2255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","id_user":"12"}
+INFO - 2025-06-17 22:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:13:28 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","id_user":"12","name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$XpUhWxqsPlTjPEgvXwyg6eoA1T6fo0RVJRqSQx6hC30YOpjws5IKa","date_registration":"2025-06-17 21:57:56","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"2255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 22:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:13:29 --> Iniciando el método getUserById() con ID: 12
+INFO - 2025-06-17 22:13:29 --> Usuario encontrado: {"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$XpUhWxqsPlTjPEgvXwyg6eoA1T6fo0RVJRqSQx6hC30YOpjws5IKa","date_registration":"2025-06-17 21:57:56","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"2255.40","principal":"5000.00","rate":"0.05","compoundingPeriods":"7","time":"1","id_user":"12"}
+INFO - 2025-06-17 22:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:14:19 --> Validation rules defined.
+INFO - 2025-06-17 22:14:19 --> Validation successful.
+INFO - 2025-06-17 22:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:14:19 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","id_user":"12","name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$XpUhWxqsPlTjPEgvXwyg6eoA1T6fo0RVJRqSQx6hC30YOpjws5IKa","date_registration":"2025-06-17 21:57:56","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"2209.70","principal":"2000.00","rate":"0.05","compoundingPeriods":"8","time":"2","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 22:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:14:26 --> Iniciando búsqueda de usuario...
+INFO - 2025-06-17 22:14:26 --> Identificación recibida: 12345
+INFO - 2025-06-17 22:14:26 --> Usuario encontrado: {"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$XpUhWxqsPlTjPEgvXwyg6eoA1T6fo0RVJRqSQx6hC30YOpjws5IKa","date_registration":"2025-06-17 21:57:56","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"2209.70","principal":"2000.00","rate":"0.05","compoundingPeriods":"8","time":"2","id_user":"12"}
+INFO - 2025-06-17 22:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:14:30 --> Historial de transacciones: [
+    {
+        "name": "MARVIN",
+        "last_name": "PEREZ",
+        "email": "marvineduardosantosperez@gmail.com",
+        "phone": "3132311084",
+        "amount": "5255.40",
+        "transaction_type": "loan",
+        "transaction_date": "2025-06-17 21:57:56"
+    },
+    {
+        "name": "MARVIN",
+        "last_name": "PEREZ",
+        "email": "marvineduardosantosperez@gmail.com",
+        "phone": "3132311084",
+        "amount": "3000.00",
+        "transaction_type": "pay",
+        "transaction_date": "2025-06-17 22:09:25"
+    },
+    {
+        "name": "MARVIN",
+        "last_name": "PEREZ",
+        "email": "marvineduardosantosperez@gmail.com",
+        "phone": "3132311084",
+        "amount": "2209.70",
+        "transaction_type": "loan",
+        "transaction_date": "2025-06-17 22:14:19"
+    }
+]
+INFO - 2025-06-17 22:15:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:15:18 --> Iniciando búsqueda de usuario...
+INFO - 2025-06-17 22:15:18 --> Identificación recibida: 12345
+INFO - 2025-06-17 22:15:18 --> Usuario encontrado: {"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$XpUhWxqsPlTjPEgvXwyg6eoA1T6fo0RVJRqSQx6hC30YOpjws5IKa","date_registration":"2025-06-17 21:57:56","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"2209.70","principal":"2000.00","rate":"0.05","compoundingPeriods":"8","time":"2","id_user":"12"}
+INFO - 2025-06-17 22:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:15:20 --> Historial de transacciones: [
+    {
+        "name": "MARVIN",
+        "last_name": "PEREZ",
+        "email": "marvineduardosantosperez@gmail.com",
+        "phone": "3132311084",
+        "amount": "5255.40",
+        "transaction_type": "loan",
+        "transaction_date": "2025-06-17 21:57:56"
+    },
+    {
+        "name": "MARVIN",
+        "last_name": "PEREZ",
+        "email": "marvineduardosantosperez@gmail.com",
+        "phone": "3132311084",
+        "amount": "3000.00",
+        "transaction_type": "pay",
+        "transaction_date": "2025-06-17 22:09:25"
+    },
+    {
+        "name": "MARVIN",
+        "last_name": "PEREZ",
+        "email": "marvineduardosantosperez@gmail.com",
+        "phone": "3132311084",
+        "amount": "2209.70",
+        "transaction_type": "loan",
+        "transaction_date": "2025-06-17 22:14:19"
+    }
+]
+INFO - 2025-06-17 22:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:16:24 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","id_user":"12","name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$XpUhWxqsPlTjPEgvXwyg6eoA1T6fo0RVJRqSQx6hC30YOpjws5IKa","date_registration":"2025-06-17 21:57:56","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"2209.70","principal":"2000.00","rate":"0.05","compoundingPeriods":"8","time":"2","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 22:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:16:34 --> Iniciando el método getUserById() con ID: 12
+INFO - 2025-06-17 22:16:34 --> Usuario encontrado: {"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$XpUhWxqsPlTjPEgvXwyg6eoA1T6fo0RVJRqSQx6hC30YOpjws5IKa","date_registration":"2025-06-17 21:57:56","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"2209.70","principal":"2000.00","rate":"0.05","compoundingPeriods":"8","time":"2","id_user":"12"}
+INFO - 2025-06-17 22:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:17:58 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","id_user":"12","name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$XpUhWxqsPlTjPEgvXwyg6eoA1T6fo0RVJRqSQx6hC30YOpjws5IKa","date_registration":"2025-06-17 21:57:56","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"2209.70","principal":"2000.00","rate":"0.05","compoundingPeriods":"8","time":"2","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 22:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:18:12 --> Iniciando el método getUserById() con ID: 12
+INFO - 2025-06-17 22:18:12 --> Usuario encontrado: {"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$XpUhWxqsPlTjPEgvXwyg6eoA1T6fo0RVJRqSQx6hC30YOpjws5IKa","date_registration":"2025-06-17 21:57:56","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"2209.70","principal":"2000.00","rate":"0.05","compoundingPeriods":"8","time":"2","id_user":"12"}
+INFO - 2025-06-17 22:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:19:33 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","id_user":"12","name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$XpUhWxqsPlTjPEgvXwyg6eoA1T6fo0RVJRqSQx6hC30YOpjws5IKa","date_registration":"2025-06-17 21:57:56","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"2209.70","principal":"2000.00","rate":"0.05","compoundingPeriods":"8","time":"2","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 22:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:20:07 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","id_user":"12","name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$XpUhWxqsPlTjPEgvXwyg6eoA1T6fo0RVJRqSQx6hC30YOpjws5IKa","date_registration":"2025-06-17 21:57:56","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"2209.70","principal":"2000.00","rate":"0.05","compoundingPeriods":"8","time":"2","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 22:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:20:43 --> Datos recogidos de LA BASE DE DATOS: {"users":[{"agreement":"","number":"0","letter":"","date_from":"0000-00-00","date_to":"0000-00-00","policy":"","approved_by":"","approved_date":"0000-00-00","id_user":"12","name":"MARVIN","last_name":"PEREZ","identification":"12345","email":"marvineduardosantosperez@gmail.com","phone":"3132311084","address":"KDX 286-300 AV CIRCUNVALAR","trust":"MARVIN EDUARDO SANTOS","email_del_trust":"marvin.santos@soy.sena.edu.co","telephone_del_trust":"3132311084","bank":"","swift":"","aba":"","iban":"","account":"","password_hash":"$2y$10$XpUhWxqsPlTjPEgvXwyg6eoA1T6fo0RVJRqSQx6hC30YOpjws5IKa","date_registration":"2025-06-17 21:57:56","login_attempts":"0","last_login_attempt":null,"status":"active","role_id":"2","balance":"2209.70","principal":"2000.00","rate":"0.05","compoundingPeriods":"8","time":"2","role_name":"CLIENT"}],"roles":[{"role_name":"ADMIN","role_description":"ADMINISTRADOR CON ACCESO COMPLETO","created_at":"2025-06-17 12:10:35","id_role":"1"},{"role_name":"CLIENT","role_description":"USUARIO CON PERMISOS DE EDICI\u00d3N","created_at":"2025-06-17 12:10:35","id_role":"2"}]}
+INFO - 2025-06-17 22:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 22:20:56 --> ID recibido en detailsRequest: 1

@@ -59,10 +59,10 @@
                                    data-id="<?= $user['id_user']?>" title="Edit User">
                                 <i class="fas fa-edit"></i>
                             </button>
-                            <button class="btn btn-icon btn-danger btn-sm" data-toggle="modal"
-                                    data-target="#deleteModal-<?= $user['id_user'] ?>" title="Delete User">
+                            <!-- <button class="btn btn-icon btn-danger btn-sm" data-toggle="modal"
+                                    data-target="#deleteModal-< ?= $user['id_user'] ?>" title="Delete User">
                                 <i class="fas fa-trash-alt"></i>
-                            </button>
+                            </button> -->
                         </td>
                     </tr>
                 <?php endforeach; ?>

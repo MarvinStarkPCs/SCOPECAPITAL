@@ -97,6 +97,14 @@
                                         value="<?= old('email_del_trust') ?>">
                                     <div class="invalid-feedback"><?= session('errors-edit.email_del_trust') ?></div>
                                 </div>
+                                <div class="form-group col-md-4">
+                                    <label>phone del trust</label>
+                                    <input type="tel" name="telephone_del_trust"
+                                        class="form-control <?= session('errors-edit.telephone_del_trust') ? 'is-invalid errors-edit' : '' ?>"
+                                        value="<?= old('telephone_del_trust') ?>">
+                                    <div class="invalid-feedback"><?= session('errors-edit.telephone_del_trust') ?>
+                                    </div>
+                                </div>
                             </div>
                             <div class="d-flex justify-content-between">
                                 <button type="button" class="btn btn-secondary prev-tab">Previous</button>
@@ -153,11 +161,11 @@
                             <h5 class="text-primary">Financial</h5>
                             <div class="form-row">
                                 <div class="form-group col-md-3">
-                                    <label for="Principal">Principal</label>
+                                    <label for="principal">Principal</label>
                                     <input type="text"
-                                        class="form-control <?= session('errors-edit.Principal') ? 'is-invalid errors-edit financial' : '' ?>"
-                                        name="Principal" placeholder="Principal" value="<?= old('Principal') ?>">
-                                    <div class="invalid-feedback"><?= session('errors-edit.Principal') ?></div>
+                                        class="form-control <?= session('errors-edit.principal') ? 'is-invalid errors-edit financial' : '' ?>"
+                                        name="principal" placeholder="principal" value="<?= old('principal') ?>">
+                                    <div class="invalid-feedback"><?= session('errors-edit.principal') ?></div>
                                 </div>
 
                                 <div class="form-group col-md-3">
@@ -167,6 +175,7 @@
                                         name="rate" placeholder="Interest Rate" value="<?= old('rate') ?>">
                                     <div class="invalid-feedback"><?= session('errors-edit.rate') ?></div>
                                 </div>
+
                                 <div class="form-group col-md-3">
                                     <label for="inputCompoundingPeriods">Periods</label>
                                     <input type="text"
@@ -175,6 +184,7 @@
                                         value="<?= old('compoundingPeriods') ?>">
                                     <div class="invalid-feedback"><?= session('errors-edit.compoundingPeriods') ?></div>
                                 </div>
+
                                 <div class="form-group col-md-3">
                                     <label for="inputTime">Time (Years)</label>
                                     <input type="text"
@@ -182,19 +192,33 @@
                                         name="time" placeholder="Time in Years" value="<?= old('time') ?>">
                                     <div class="invalid-feedback"><?= session('errors-edit.time') ?></div>
                                 </div>
-                                <div class="form-group col-md-3">
-                                    <label for="inputBalance">Formula</label>
-                                    <input type="text"
-                                        class="form-control <?= session('errors-edit.balance') ? 'is-invalid errors-edit' : '' ?>"
-                                        name="balance" placeholder="Balance" value="<?= old('balance') ?>" readonly>
-                                    <div class="invalid-feedback"><?= session('errors-edit.balance') ?></div>
+
+                                <!-- Fila para Formula + Botón Recalcular -->
+                                <div class="form-row">
+                                    <!-- Campo Fórmula -->
+                                    <div class="form-group col-md-4">
+                                        <label for="inputBalance">Fórmula</label>
+                                        <input type="text"
+                                            class="form-control <?= session('errors-edit.balance') ? 'is-invalid errors-edit' : '' ?>"
+                                            name="balance" placeholder="Balance" value="<?= old('balance') ?>" readonly>
+                                        <div class="invalid-feedback"><?= session('errors-edit.balance') ?></div>
+                                    </div>
+
+                                    <!-- Botón Recalcular perfectamente alineado -->
+                                    <div class="form-group col-md-2 d-flex align-items-end">
+                                        <button type="button" id="calculateInterestBtn"
+                                            class="btn btn-warning">Recalcular</button>
+                                    </div>
                                 </div>
+
                             </div>
-                            <div class="d-flex justify-content-between">
+
+                            <div class="d-flex justify-content-between mt-3">
                                 <button type="button" class="btn btn-secondary prev-tab">Previous</button>
                                 <button type="button" class="btn btn-primary next-tab">Next</button>
                             </div>
                         </div>
+
 
                         <!-- Tab 4: System-->
                         <div class="tab-pane fade" id="detail-system" role="tabpanel">
@@ -298,32 +322,35 @@
 <script>
 
     $(document).ready(function () {
+
+
         function fillOutTheForm(id_client) {
 
-            console.log(id_client);
             const url = '<?= base_url('admin/clientmanagement/getClient/') ?>' + id_client;
             $.ajax({
                 url: url,
                 type: 'POST',
                 dataType: 'json',
                 success: function (data) {
-                    console.log(data);
                     if (data) {
+                        console.log('User data:', data);
                         // Populate the form fields with the user data
                         $('#editForm').find('input[name="name"]').val(data.name);
                         $('#editForm').find('input[name="last_name"]').val(data.last_name);
+                        $('#editForm').find('input[name="id_role"]').val(data.id_role);
                         $('#editForm').find('input[name="identification"]').val(data.identification);
                         $('#editForm').find('input[name="email"]').val(data.email);
                         $('#editForm').find('input[name="phone"]').val(data.phone);
                         $('#editForm').find('textarea[name="address"]').val(data.address);
                         $('#editForm').find('input[name="trust"]').val(data.trust);
                         $('#editForm').find('input[name="email_del_trust"]').val(data.email_del_trust);
+                        $('#editForm').find('input[name="telephone_del_trust"]').val(data.telephone_del_trust);
                         $('#editForm').find('input[name="bank"]').val(data.bank);
                         $('#editForm').find('input[name="swift"]').val(data.swift);
                         $('#editForm').find('input[name="aba"]').val(data.aba);
                         $('#editForm').find('input[name="iban"]').val(data.iban);
                         $('#editForm').find('input[name="account"]').val(data.account);
-                        $('#editForm').find('input[name="Principal"]').val(data.Principal);
+                        $('#editForm').find('input[name="principal"]').val(data.principal);
                         $('#editForm').find('input[name="rate"]').val(data.rate);
                         $('#editForm').find('input[name="compoundingPeriods"]').val(data.compoundingPeriods);
                         $('#editForm').find('input[name="time"]').val(data.time);
@@ -338,7 +365,12 @@
                         $('#editForm').find('input[name="approved_by"]').val(data.approved_by);
                         $('#editForm').find('input[name="approved_date"]').val(data.approved_date);
                         $('#editForm').attr('action', '<?= base_url('admin/clientmanagement/update/') ?>' + data.id_user);
-
+                        // Show the modal
+                        $('#editModal').modal('show');
+                        // Scroll to the top of the modal
+                        $('#editModal').on('shown.bs.modal', function () {
+                            $(this).scrollTop(0);
+                        });
                     } else {
                         alert('Error loading user data');
                     }
@@ -350,38 +382,69 @@
 
         }
         // Selecciona todos los formularios con la clase 'edit-form'
-let forms = $('.edit-form');
-console.log(forms);
+        let forms = $('.edit-form');
 
-// Recorre cada formulario para buscar inputs con errores
-forms.each(function () {
-    let inputWithError = $(this).find('input.errors-edit, select.errors-edit, textarea.errors-edit');
-    let financialError = $(this).find('input.financial');
-
-    console.log(inputWithError);
-    console.log('dentro del foreach');
-
-    if (inputWithError.length > 0) {
-        console.log('dentro del if');
-        $('#editModalClient').click();
-    } else if (financialError.length > 0) {
-        console.log('dentro del else if');
-        $('#editModalClient').click();
-        $('#detail-financial').click();
-    } else {
-        console.log('No hay errores en el formulario');
-    }
-});
+        // Recorre cada formulario para buscar inputs con errores
+        forms.each(function () {
+            let inputWithError = $(this).find('input.errors-edit, select.errors-edit, textarea.errors-edit');
+            let financialError = $(this).find('input.financial');
 
 
 
-// Al hacer clic en el botón de editar
-$(document).on('click', '.btn-edit', function (e) {
-    e.preventDefault();
-    const id_client = $(this).data('id');
-    localStorage.setItem(id_client, 'id_client');
-    fillOutTheForm(id_client);
-});
+            if (inputWithError.length > 0) {
+                $('#editModalClient').click();
+            } else if (financialError.length > 0) {
+                $('#editModalClient').click();
+                $('#detail-financial').click();
+            }
+        });
+        $('#calculateInterestBtn').on('click', function () {
+            // Obtener datos del formulario por name
+            const principal = $('#editForm').find('input[name="principal"]').val();
+            const rate = $('#editForm').find('input[name="rate"]').val();
+            const compoundingPeriods = $('#editForm').find('input[name="compoundingPeriods"]').val();
+            const time = $('#editForm').find('input[name="time"]').val();
+
+
+            // Mostrar los datos antes de enviarlos (solo para depuración)
+            const payload = {
+                principal: principal,
+                rate: rate,
+                compoundingPeriods: compoundingPeriods,
+                time: time
+            };
+            console.log('Datos del formulario:', payload);
+            // Imprimir JSON en pantalla
+
+            // Enviar datos al servidor
+            $.ajax({
+                url: '<?= base_url('/admin/clientmanagement/recalculateCompoundInterest') ?>',
+                method: 'POST',
+                data: payload,
+                dataType: 'json',
+                success: function (response) {
+                    if (response.success) {
+                        // Actualizar el campo "balance" con el resultado
+                        $('input[name="balance"]').val(response.finalAmount);
+                    } else {
+                        alert('Error en el cálculo');
+                    }
+                },
+                error: function () {
+                    alert('Error al conectar con el servidor.');
+                }
+            });
+        });
+
+
+
+        // Al hacer clic en el botón de editar
+        $(document).on('click', '.btn-edit', function (e) {
+            e.preventDefault();
+            const id_client = $(this).data('id');
+            localStorage.setItem(id_client, 'id_client');
+            fillOutTheForm(id_client);
+        });
 
 
 
@@ -389,31 +452,31 @@ $(document).on('click', '.btn-edit', function (e) {
 
 
 
-// Al hacer clic en "Next"
-$('.next-tab').on('click', function () {
-    let tabPane = $(this).closest('.tab-pane');
-    if (tabPane.length === 0) return;
+        // Al hacer clic en "Next"
+        $('.next-tab').on('click', function () {
+            let tabPane = $(this).closest('.tab-pane');
+            if (tabPane.length === 0) return;
 
-    let nextTabPane = tabPane.nextAll('.tab-pane').first();
+            let nextTabPane = tabPane.nextAll('.tab-pane').first();
 
-    if (nextTabPane.length > 0) {
-        let nextTabId = "#" + nextTabPane.attr('id');
-        $(`a[href="${nextTabId}"]`).click();
-    }
-});
+            if (nextTabPane.length > 0) {
+                let nextTabId = "#" + nextTabPane.attr('id');
+                $(`a[href="${nextTabId}"]`).click();
+            }
+        });
 
-// Al hacer clic en "Previous"
-$('.prev-tab').on('click', function () {
-    let tabPane = $(this).closest('.tab-pane');
-    if (tabPane.length === 0) return;
+        // Al hacer clic en "Previous"
+        $('.prev-tab').on('click', function () {
+            let tabPane = $(this).closest('.tab-pane');
+            if (tabPane.length === 0) return;
 
-    let prevTabPane = tabPane.prevAll('.tab-pane').first();
+            let prevTabPane = tabPane.prevAll('.tab-pane').first();
 
-    if (prevTabPane.length > 0) {
-        let prevTabId = "#" + prevTabPane.attr('id');
-        $(`a[href="${prevTabId}"]`).click();
-    }
-});
+            if (prevTabPane.length > 0) {
+                let prevTabId = "#" + prevTabPane.attr('id');
+                $(`a[href="${prevTabId}"]`).click();
+            }
+        });
 
     });
 

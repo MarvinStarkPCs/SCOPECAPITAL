@@ -41,9 +41,7 @@
     let button = $(event.relatedTarget);
     let id = button.data('id');
     let code = button.data('code');
-console.log("ID de solicitud:", id);
-    console.log("Código único:", code); 
-    console.log("entre al modal de resolver solicitud");
+
     // Mostrar el código único
     $('#unique-code-display-resolve').text(code);
     // Setear el ID en el input hidden

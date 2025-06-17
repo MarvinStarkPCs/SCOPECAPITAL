@@ -66,7 +66,6 @@
     e.preventDefault();
 
     const id = $(this).data('id');
-    console.log('ID para detalles:', id);
 
     $.ajax({
       url: '<?= base_url('admin/pqrsmanagement/getDetails') ?>', // ajusta esta URL si no usas PHP
@@ -74,11 +73,9 @@
       data: { id: id },
       dataType: 'json',
       success: function (response) {
-        console.log('Respuesta:', response);
         if (response && response.data) {
           const d = response.data[0];
           
-          console.log('Detalles de la solicitud:', d);
 
           $('#detailsId').val(d.id_request || '');
           $('#detailsCode').val(d.unique_code || '');

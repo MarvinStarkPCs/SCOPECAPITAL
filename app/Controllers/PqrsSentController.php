@@ -5,6 +5,7 @@ use App\Models\ComboBoxModel;
 use App\Models\PqrsSentModel;
 use CodeIgniter\Controller;
 use App\Libraries\SendEmail;
+use App\Models\PqrsManagementModel;
 
 class PqrsSentController extends Controller
 {
@@ -116,4 +117,30 @@ HTML;
             ->to('/client/pqrs-sent')
             ->with('success', 'PQRS enviada correctamente Revisa tu correo.');
     }
+
+public function view()
+{
+    $session = session();
+
+    // Verificar si hay un role_id en la sesión
+    $id_user = $session->get('id_user');
+ 
+
+    $pqrsModel = new PqrsManagementModel();
+
+    // Asumiendo que PqrsManagementModel es un método del modelo
+    $pqrs = $pqrsModel->getRequestsByUser($id_user);
+log_message('info', 'Datos obtenidos: ' . print_r($pqrs, true));
+    // Validación si no hay resultados
+    if (empty($pqrs)) {
+        return redirect()->to('/client/pqrs-sent')->with('error', 'No tienes PQRS registradas.');
+    }
+
+    // Cargar la vista con los datos
+    return view('system/pqrsclient/pqrsclientview', ['pqrs' => $pqrs]);
+}
+
+
+
+    
 }

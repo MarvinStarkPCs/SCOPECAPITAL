@@ -3,44 +3,46 @@
 <?= $this->section('content') ?>
 <style>
     #searchUserForm .input-group .btn {
-        margin-left: 15px; /* Evita separación entre el botón y el input */
+        margin-left: 15px;
     }
 </style>
-<!-- Filtro de búsqueda y gestión de transacciones -->
+
+<!-- Search filter and payment management -->
 <div class="card shadow mb-4">
 
     <div class="card-header py-3 bg-dark-blue">
-        <h6 class="m-0 font-weight-bold text-primary">Gestión de Transacciones</h6>
+        <h6 class="m-0 font-weight-bold text-primary">Payment Management</h6>
     </div>
     
     <div class="card-body">
-        <!-- Formulario de búsqueda de identification -->
+        <!-- User search form -->
         <form id="searchUserForm" class="row g-3 justify-content-center align-items-center">
-        <?= csrf_field() ?>
+            <?= csrf_field() ?>
             <div class="col-md-6">
-                <label for="identification" class="form-label">Buscar Usuario</label>
+                <label for="identification" class="form-label">Search User</label>
                 <div class="input-group">
-                    <input type="text" class="form-control" id="identification" placeholder="ID o Nombre del Usuario" required>
+                    <input type="number" class="form-control" id="identification" placeholder="Identification Number" required>
                     <button type="button" class="btn btn-primary" id="searchUserBtn">
-                        <i class="fas fa-search"></i> Buscar
+                        <i class="fas fa-search"></i> Search
                     </button>
                 </div>
             </div>
         </form>
-        <!-- Información del identification encontrado -->
+
+        <!-- Found user information -->
         <div id="userInfo" class="mt-4" style="display: none;">
             <div class="row justify-content-center">
                 <div class="col-md-6">
                     <h5 id="userName"></h5>
-                    <p><i class="fas fa-wallet"></i> Saldo Actual: <span id="currentBalance">0.00</span> USD</p>
+                    <p><i class="fas fa-wallet"></i> Current Balance: <span id="currentBalance">0.00</span> USD</p>
                     <form id="rechargeForm">
                         <div class="mb-3">
-                            <label for="amount" class="form-label">Monto a Recargar</label>
-                            <input type="number" class="form-control" id="amount" placeholder="Monto" required>
+                            <label for="amount" class="form-label">Payment Amount</label>
+                            <input type="number" class="form-control" id="amount" placeholder="Amount" required>
                             <input type="text" name="id_user" id="id_user" hidden>
                         </div>
                         <button type="submit" class="btn btn-success w-100">
-                            <i class="fas fa-money-bill-wave"></i> Recargar Saldo
+                            <i class="fas fa-money-bill-wave"></i> Make Payment
                         </button>
                     </form>
                 </div>
@@ -48,7 +50,8 @@
         </div>
     </div>
 </div>
-<!-- Estilos -->
+
+<!-- Additional styles -->
 <style>
     .form-label {
         font-weight: bold;
@@ -66,7 +69,7 @@
 <!-- Scripts -->
 <script>
 $(document).ready(function() {
-    // Función para buscar identification
+    // Search user
     $('#searchUserBtn').click(function() {
         const identification = $('#identification').val();
         if (identification) {
@@ -78,44 +81,39 @@ $(document).ready(function() {
                 success: function(response) {
                     if (response.status === 'success') {
                         const user = response.data;
-                        console.log(user);
-                        $('#userName').text(user.name+' '+user.last_name);
+                        $('#userName').text(user.name + ' ' + user.last_name);
                         $('#id_user').val(user.id_user);
                         $('#currentBalance').text(parseFloat(user.balance).toFixed(2));
                         $('#userInfo').show();
                         $('#rechargeForm').data('identification', user.identification, user.id_user);   
-                        mostrarAlerta('success', 'Usuario encontrado con éxito.');
+                        mostrarAlerta('success', 'User found successfully.');
                     } else {
                         mostrarAlerta('danger', response.message);
                     }
                 },
                 error: function() {
-                    mostrarAlerta('danger', 'Error en la búsqueda del identification.');
+                    mostrarAlerta('danger', 'Error searching for the user.');
                 }
             });
         } else {
-            mostrarAlerta('warning', 'Por favor ingresa el nombre o ID del identification.');
+            mostrarAlerta('warning', 'Please enter the user name or ID.');
         }
     });
 
-    // Función para recargar saldo
+    // Make payment
     $('#rechargeForm').submit(function(e) {
         e.preventDefault();
         const amount = parseFloat($('#amount').val());
-       
         const id_user = $('#id_user').val(); 
-
         const identification = $(this).data('identification');
-console.log(amount);
-console.log(identification);
-console.log(id_user);
+
         if (isNaN(amount) || amount <= 0) {
-            mostrarAlerta('warning', 'Por favor ingresa un monto válido.');
+            mostrarAlerta('warning', 'Please enter a valid amount.');
             return;
         }
 
         $.ajax({
-            url: './transactions/recharge',
+            url: './transactions/pay',
             type: 'POST',
             data: {
                 id_user: id_user,
@@ -125,7 +123,7 @@ console.log(id_user);
             dataType: 'json',
             success: function(response) {
                 if (response.status === 'success') {
-                    mostrarAlerta('success', `Saldo recargado exitosamente. Nuevo saldo: ${response.newBalance.toFixed(2)} USD.`);
+                    mostrarAlerta('success', `Payment completed successfully. New balance: ${response.newBalance.toFixed(2)} USD.`);
                     $('#currentBalance').text(response.newBalance.toFixed(2));
                     $('#amount').val('');
                 } else {
@@ -133,12 +131,11 @@ console.log(id_user);
                 }
             },
             error: function() {
-                mostrarAlerta('danger', 'Error en la recarga de saldo.');
+                mostrarAlerta('danger', 'Error processing the payment.');
             }
         });
     });
 });
-
 </script>
 
 <?= $this->endSection() ?>

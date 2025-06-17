@@ -63,7 +63,7 @@ CREATE TABLE users (
 CREATE TABLE history_transactions (
     user_id INT NOT NULL,                     -- Campo para clave foránea
     amount DECIMAL(10, 2) NOT NULL,
-    transaction_type ENUM('deposit', 'withdrawal','discount') NOT NULL,
+    transaction_type ENUM('loan', 'pay') NOT NULL,
     transaction_date DATETIME DEFAULT CURRENT_TIMESTAMP
     
 );

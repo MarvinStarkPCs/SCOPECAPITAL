@@ -38,7 +38,8 @@
                         <i class="fas fa-fw fa-cog"></i> PQRS Management
                     </a>
                     <a class="collapse-item" href="<?= base_url('admin/transactions'); ?>">
-                        <i class="fas fa-exchange-alt"></i> Transactions
+                        
+                        <i class="fas fa-university"></i> Pay
                     </a>
                     <a class="collapse-item" href="<?= base_url('admin/clientmanagement'); ?>">
                         <i class="fas fa-users"></i> clients
@@ -108,7 +109,7 @@
          <!-- Items para Administrador -->
          <div class="sidebar-heading">Interfaces</div>
 
-<!-- <li class="nav-item">
+<li class="nav-item">
     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseSystem" aria-expanded="true"
         aria-controls="collapseSystem">
         <i class="fas fa-fw fa-cog"></i>
@@ -117,15 +118,16 @@
     <div id="collapseSystem" class="collapse" aria-labelledby="headingSystem" data-parent="#accordionSidebar">
         <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">SYSTEM MANAGEMENT</h6>
-            <a class="collapse-item" href="< ? = base_url('pqrs'); ?>">
+            <a class="collapse-item" href="<?= base_url('client/pqrs-sent/view'); ?>">
                 <i class="fas fa-fw fa-cog"></i> PQRS
             </a>
-            <a class="collapse-item" href="< ?= base_url('transactions'); ?>">
-                <i class="fas fa-exchange-alt"></i> Transactions
-            </a>
+            <a class="collapse-item" href="<?= base_url('client/historytransactions/detail/' . session('id_user')); ?>">
+    <i class="fas fa-exchange-alt"></i> Transactions
+</a>
+
         </div>
     </div>
-</li> -->
+</li>
 
 <li class="nav-item">
     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseSecurity"

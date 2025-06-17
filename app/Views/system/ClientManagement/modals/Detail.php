@@ -98,6 +98,13 @@
                                         value="<?= old('email_del_trust') ?>"readonly>
                                     <div class="invalid-feedback"><?= session('errors-edit.email_del_trust') ?></div>
                                 </div>
+                                  <div class="form-group col-md-4">
+                                    <label>phone del trust</label>
+                                    <input type="tel" name="telephone_del_trust"
+                                        class="form-control <?= session('errors-edit.telephone_del_trust') ? 'is-invalid errors-edit' : '' ?>"
+                                        value="<?= old('telephone_del_trust') ?>"readonly>
+                                    <div class="invalid-feedback"><?= session('errors-edit.telephone_del_trust') ?></div>
+                                </div>
                             </div>
                             <div class="d-flex justify-content-between">
                                 <button type="button" class="btn btn-secondary prev-tab">Previous</button>
@@ -194,6 +201,7 @@
                                         value="<?= old('balance') ?>" readonly>
                                     <div class="invalid-feedback"><?= session('errors-edit.balance') ?></div>
                                 </div>
+                              
                             </div>
                             <div class="d-flex justify-content-between">
                                 <button type="button" class="btn btn-secondary prev-tab">Previous</button>
@@ -309,14 +317,13 @@
    $(document).on('click', '.btn-detail', function (e) {
         e.preventDefault();
         const id_client = $(this).data('id');
-        console.log(id_client);
+     
         const url = '<?= base_url('admin/clientmanagement/getClient/') ?>' + id_client;
         $.ajax({
             url: url,
             type: 'POST',
             dataType: 'json',
             success: function (data) {
-                console.log(data);
                 if (data) {
                     // Populate the form fields with the user data
                     $('#detailForm').find('input[name="name"]').val(data.name);
@@ -327,12 +334,13 @@
                     $('#detailForm').find('textarea[name="address"]').val(data.address);
                     $('#detailForm').find('input[name="trust"]').val(data.trust);
                     $('#detailForm').find('input[name="email_del_trust"]').val(data.email_del_trust);
+                    $('#detailForm').find('input[name="telephone_del_trust"]').val(data.telephone_del_trust);
                     $('#detailForm').find('input[name="bank"]').val(data.bank);
                     $('#detailForm').find('input[name="swift"]').val(data.swift);
                     $('#detailForm').find('input[name="aba"]').val(data.aba);
                     $('#detailForm').find('input[name="iban"]').val(data.iban);
                     $('#detailForm').find('input[name="account"]').val(data.account);
-                    $('#detailForm').find('input[name="Principal"]').val(data.Principal);
+                    $('#detailForm').find('input[name="Principal"]').val(data.principal);
                     $('#detailForm').find('input[name="rate"]').val(data.rate);
                     $('#detailForm').find('input[name="compoundingPeriods"]').val(data.compoundingPeriods);
                     $('#detailForm').find('input[name="time"]').val(data.time);

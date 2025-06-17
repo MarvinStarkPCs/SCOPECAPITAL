@@ -63,7 +63,7 @@ $routes->group('admin', ['filter' => 'auth'], function ($routes) {
     ///transactions
     $routes->get('transactions', 'TransactionsController::index');
     $routes->post('transactions/search', 'TransactionsController::search');
-    $routes->post('transactions/recharge', 'TransactionsController::recharge');
+    $routes->post('transactions/pay', 'TransactionsController::pay');
 // Rutas de autenticación (protegidas) para el modulo de seguridad
     ///clientmanagemen
     $routes->get('clientmanagement', 'ClientsManagementController::index'); // Listar usuarios
@@ -72,6 +72,8 @@ $routes->group('admin', ['filter' => 'auth'], function ($routes) {
     $routes->post('clientmanagement/update/(:num)', 'ClientsManagementController::updateUser/$1'); // Actualizar usuario
     $routes->post('clientmanagement/getClient/(:num)', 'ClientsManagementController::getUserById/$1'); // Actualizar usuario
     $routes->get('clientmanagement/delete/(:num)', 'ClientsManagementController::deleteUser/$1'); // Eliminar usuario
+    $routes->post('clientmanagement/recalculateCompoundInterest', 'ClientsManagementController::recalculateCompoundInterest');
+
     // Rutas de autenticación (protegidas) para el modulo de historial
     ///historytransactions
     $routes->get('historytransactions', 'HistoryTransactionsController::index');
@@ -101,4 +103,8 @@ $routes->group('client', ['filter' => 'auth'], function ($routes) {
     // Rutas de autenticación (protegidas) para pqrs client
     $routes->get('pqrs-sent', 'PqrsSentController::index');
     $routes->post('pqrs-sent/save', 'PqrsSentController::save'); // Guardar PQRS
+    $routes->get('historytransactions/detail/(:num)', 'HistoryTransactionsController::renderViewHistoryTransaction/$1');
+
+    //PQRS VIEW
+    $routes->get('pqrs-sent/view', 'PqrsSentController::view'); // Ver detalles de una PQRS
 });

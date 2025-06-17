@@ -47,6 +47,33 @@ public function getDetailedRequests(int $requestId = null)
 
     return $builder->get()->getResult();
 }
+public function getRequestsByUser(int $userId)
+{
+    $builder = $this->db->table('requests r')
+        ->select('
+            r.id_request,
+            r.unique_code,
+            u.email,
+            rt.name as type,
+            rt.id_type,
+            rs.name as status,
+            rs.id_status,
+            r.attachment_url,
+            r.description,
+            r.response,
+            r.created_at,
+            r.updated_at
+        ')
+        ->join('request_statuses rs', 'r.status_id = rs.id_status')
+        ->join('request_types rt', 'r.type_id = rt.id_type')
+        ->join('users u', 'r.user_id = u.id_user')
+        ->where('r.user_id', $userId)
+        ->orderBy('r.created_at', 'DESC');
+
+    log_message('info', 'Consultando solicitudes del usuario ID: ' . $userId);
+
+    return $builder->get()->getResultArray();
+}
 
 public function getFilteredRequests($start_date = null, $end_date = null, $status_id = null, $type_id = null)
 {
