@@ -3,7 +3,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Detalles de la Solicitud</h5>
+        <h5 class="modal-title">Details from request</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -12,50 +12,50 @@
         <form>
           <div class="form-row">
             <div class="form-group col-md-6">
-              <label for="detailsId">ID Solicitud</label>
+              <label for="detailsId">ID request</label>
               <input type="text" class="form-control" id="detailsId" readonly>
             </div>
             <div class="form-group col-md-6">
-              <label for="detailsCode">Código Único</label>
+              <label for="detailsCode">Unique code</label>
               <input type="text" class="form-control" id="detailsCode" readonly>
             </div>
             <div class="form-group col-md-6">
-              <label for="detailsEmail">Correo del Usuario</label>
+              <label for="detailsEmail">Email from client</label>
               <input type="email" class="form-control" id="detailsEmail" readonly>
             </div>
             <div class="form-group col-md-6">
-              <label for="detailsType">Tipo de Solicitud</label>
+              <label for="detailsType">Request Type</label>
               <input type="text" class="form-control" id="detailsType" readonly>
             </div>
             <div class="form-group col-md-6">
-              <label for="detailsStatus">Estado</label>
+              <label for="detailsStatus">Status</label>
               <input type="text" class="form-control" id="detailsStatus" readonly>
             </div>
             <div class="form-group col-md-6">
-              <label>Archivo Adjunto</label><br>
-              <a id="detailsAttachmentLink" href="#" target="_blank" style="display:none;">Ver archivo</a>
+              <label>Attached File</label><br>
+              <a id="detailsAttachmentLink" href="#" target="_blank" style="display:none;">View file</a>
             </div>
             <div class="form-group col-12">
-              <label for="detailsDescription">Descripción</label>
+              <label for="detailsDescription">Description</label>
               <textarea class="form-control" id="detailsDescription" rows="3" readonly></textarea>
             </div>
             <div class="form-group col-12">
-              <label for="detailsRespuesta">Respuesta</label>
+              <label for="detailsRespuesta">Response</label>
               <textarea class="form-control" id="detailsRespuesta" rows="3" readonly></textarea>
             </div>
             <div class="form-group col-md-6">
-              <label for="detailsCreated">Fecha de Creación</label>
+              <label for="detailsCreated">Creation date</label>
               <input type="text" class="form-control" id="detailsCreated" readonly>
             </div>
             <div class="form-group col-md-6">
-              <label for="detailsUpdated">Última Actualización</label>
+              <label for="detailsUpdated">Last update</label>
               <input type="text" class="form-control" id="detailsUpdated" readonly>
             </div>
           </div>
         </form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>

@@ -26,7 +26,7 @@
                                 </div>
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="editLastname-<?= $banker['id_banker'] ?>">telephone</label>
+                                <label for="editLastname-<?= $banker['id_banker'] ?>">Phone</label>
                                 <input type="text"
                                     class="form-control <?= session('errors-update.telephone') ? 'is-invalid errors-update' : '' ?>"
                                     id="editLastname-<?= $banker['id_banker'] ?>" name="telephone"

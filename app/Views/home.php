@@ -5,7 +5,7 @@
 <div class="container text-center mt-5">
     <div class="card shadow-lg animated-card">
         <div class="card-header bg-dark-blue text-white">
-            <h2><i class="fas fa-building"></i> ¡Bienvenido a <span class="text-warning">SCOPE CAPITAL</span>!</h2>
+            <h2><i class="fas fa-building"></i> ¡Welcome to <span class="text-warning">Scope Capital</span>!</h2>
         </div>
         <div class="card-body">
             <img src="<?= base_url('img/logo_small.png') ?>" alt="Scope Capital" class="img-fluid mb-4 logo-animated">

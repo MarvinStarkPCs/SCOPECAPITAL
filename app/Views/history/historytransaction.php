@@ -11,10 +11,10 @@
             <!-- Campo Identificación con icono -->
             <div class="col-md-3">
                 <label for="identification" class="form-label">
-                    <i class="fas fa-id-card"></i> Identificación
+                    <i class="fas fa-id-card"></i> Identification (ID)
                 </label>
                 <div class="input-group">
-                    <input type="text" class="form-control" id="identification" placeholder="Ingrese la identificación">
+                    <input type="text" class="form-control" id="identification" placeholder="Enter ID">
                 </div>
             </div>
         </form>
@@ -23,7 +23,7 @@
         <div class="row justify-content-center mt-3">
             <div class="col-md-3 d-flex justify-content-center">
                 <button type="button" id="searchUserBtn" class="btn btn-warning">
-                    <i class="fas fa-search"></i> Buscar
+                    <i class="fas fa-search"></i> Search
                 </button>
             </div>
         </div>
@@ -33,17 +33,17 @@
             <table class="table table-bordered text-center">
                 <thead class="bg-primary text-white">
                     <tr>
-                        <th>Identificación</th>
-                        <th>Nombre Usuario</th>
+                        <th>Identification</th>
+                        <th>User name</th>
                         <th>Email</th>
-                        <th>Teléfono</th>
-                        <th>Estado</th>
-                        <th>Acciones</th>
+                        <th>Phone</th>
+                        <th>Status</th>
+                        <th>Actions</th>
                     </tr>
                 </thead>
                 <tbody id="userTableBody">
                     <tr>
-                        <td colspan="6" class="text-center">LISTA VACÍA</td>
+                        <td colspan="6" class="text-center">Nothing to show</td>
                     </tr>
                 </tbody>
             </table>
@@ -104,15 +104,15 @@ $(document).ready(function() {
                         $('#userTableBody').append(newRow);
                     } else {
                         mostrarAlerta('danger', response.message);
-                        $('#userTableBody').html('<tr><td colspan="6" class="text-center">No se encontraron datos</td></tr>');
+                        $('#userTableBody').html('<tr><td colspan="6" class="text-center">No results found</td></tr>');
                     }
                 },
                 error: function() {
-                    mostrarAlerta('danger', 'Error en la búsqueda del usuario.');
+                    mostrarAlerta('danger', 'Error finding user.');
                 }
             });
         } else {
-            mostrarAlerta('warning', 'Por favor ingrese un número de identificación.');
+            mostrarAlerta('warning', 'ID number is required');
         }
     });
 });

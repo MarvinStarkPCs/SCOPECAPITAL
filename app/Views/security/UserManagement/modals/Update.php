@@ -66,7 +66,7 @@
                     </div>
                
                     <div class="form-group">
-                        <label for="selectStatus">Select Status</label>
+                        <label for="selectStatus">Status</label>
                         <select class="form-control <?= session('errors-edit.status') ? 'is-invalid errors-edit' : '' ?>"
                                 id="selectStatus" name="status">
                             <option value="">Select a Status</option>

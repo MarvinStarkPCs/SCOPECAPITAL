@@ -8,7 +8,7 @@
 
 
         <button class="btn btn-sm btn-outline-light" type="button" id="toggleFiltros">
-            <i class="fas fa-sliders-h me-1"></i> Mostrar Filtros
+            <i class="fas fa-sliders-h me-1"></i> Show filters
         </button>
 
     </div>
@@ -16,7 +16,7 @@
     <div class="card-body" id="filtroCollapse" style="display: none;">
         <form class="row g-3 justify-content-center">
             <div class="col-md-3">
-                <label for="tipoPQRS" class="form-label">Tipo PQRS</label>
+                <label for="tipoPQRS" class="form-label">PQRS type</label>
                 <select class="form-control select2" id="tipoPQRS" name="tipoPQRS">
                     <option value="">-- Seleccione --</option>
                     <?php foreach ($requestTypes as $type): ?>
@@ -28,7 +28,7 @@
             </div>
 
             <div class="col-md-3">
-                <label for="estadoPQRS" class="form-label">Estado PQRS</label>
+                <label for="estadoPQRS" class="form-label">PQRS status</label>
                 <select class="form-control select2" id="estadoPQRS" name="estadoPQRS">
                     <option value="">-- Seleccione --</option>
                     <?php foreach ($requestStatuses as $status): ?>
@@ -40,12 +40,12 @@
             </div>
 
             <div class="col-md-3">
-                <label for="fechaInicio" class="form-label">Fecha Inicio</label>
+                <label for="fechaInicio" class="form-label">Start date</label>
                 <input type="date" class="form-control custom-date-input" id="fechaInicio">
             </div>
 
             <div class="col-md-3">
-                <label for="fechaFin" class="form-label">Fecha Fin</label>
+                <label for="fechaFin" class="form-label">End date</label>
                 <input type="date" class="form-control custom-date-input" id="fechaFin">
             </div>
         </form>
@@ -55,7 +55,7 @@
             <div class="col-md-2 text-center">
                 <!-- Botón Buscar -->
                 <button type="button" id="btnFiltrar" class="btn btn-warning w-100">
-                    <i class="fas fa-search me-1"></i> Búsqueda
+                    <i class="fas fa-search me-1"></i> Search
                 </button>
 
 
@@ -64,7 +64,7 @@
             <div class="col-md-2 text-center">
                 <!-- Botón Limpiar -->
                 <button type="button" id="btnLimpiar" class="btn btn-secondary w-100">
-                    <i class="fas fa-broom me-1"></i> Limpiar
+                    <i class="fas fa-broom me-1"></i> Clean
                 </button>
             </div>
         </div>
@@ -77,12 +77,12 @@
             <table class="table table-bordered" id="dataTable" width="100%">
                 <thead class="bg-primary text-white">
                     <tr>
-                        <th>codigo unico</th>
-                        <th>Nombre Usuario</th>
-                        <th>Tipo</th>
-                        <th>Estado</th>
-                        <th>Fecha Apertura</th>
-                        <th>Acciones</th>
+                        <th>Unique Code</th>
+                        <th>User Name</th>
+                        <th>Type</th>
+                        <th>Status</th>
+                        <th>Opening Date</th>
+                        <th>Actions</th>
                     </tr>
                 </thead>
                 <tbody id="tablaResultados">
@@ -269,11 +269,11 @@
                 const inicio = new Date(data.fechaInicio);
                 const fin = new Date(data.fechaFin);
                 if (inicio < fin) {
-                    mostrarAlerta('info', 'La fecha de inicio no puede ser MENOR que la fecha de fin.');
+                    mostrarAlerta('info', 'Please ensure the start date is before the end date.');
                     return; // Detiene la ejecución si la validación falla
                 }
             } else if (data.fechaInicio || data.fechaFin) {
-                mostrarAlerta('info', 'Debe ingresar ambas fechas o ninguna.');
+                mostrarAlerta('info', '	Please complete both date fields or clear them.');
                 return; // Detiene la ejecución si solo una fecha está presente
             }
 
@@ -290,11 +290,11 @@
                     toggleLoader(true, 1000);
                     const tableResult = response.data;
                     renderTable(tableResult);
-                    mostrarAlerta('success', 'Filtros enviados correctamente.');
+                    mostrarAlerta('success', 'Filters applied successfully.');
                 },
                 error: function (xhr) {
                     console.error('Error en el envío:', xhr.responseText);
-                    mostrarAlerta('danger', 'Error al enviar los filtros.');
+                    mostrarAlerta('danger', 'Filter submission failed.');
                 }
             });
         });
@@ -316,11 +316,11 @@
                     toggleLoader(true, 1000);
 
                     renderTable(response.data);
-                    mostrarAlerta('info', 'Filtros limpiados.');
+                    mostrarAlerta('info', 'All filters removed.');
                 },
                 error: function (xhr) {
                     console.error('Error al limpiar filtros:', xhr.responseText);
-                    mostrarAlerta('danger', 'Error al limpiar los filtros.');
+                    mostrarAlerta('danger', 'Clear filters failed.');
                 }
             });
         });
@@ -333,8 +333,8 @@
             filtros.style.display = isVisible ? "none" : "block";
 
             btnToggle.innerHTML = isVisible
-                ? '<i class="fas fa-sliders-h me-1"></i> Mostrar Filtros'
-                : '<i class="fas fa-sliders-h me-1"></i> Ocultar Filtros';
+                ? '<i class="fas fa-sliders-h me-1"></i> Show filters'
+                : '<i class="fas fa-sliders-h me-1"></i> Hide filters';
         });
         // INICIALIZAR SELECT2
         if (typeof $ !== 'undefined' && $.fn.select2) {

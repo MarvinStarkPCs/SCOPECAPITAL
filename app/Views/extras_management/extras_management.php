@@ -130,7 +130,7 @@
     </a> -->
 
     <div class="header mb-4">
-        <h1 class="h3 color-text">Gestión de Extras</h1>
+        <h1 class="h3 color-text">Extras Management</h1>
     </div>
 
     <div class="container-box bg-dark-blue">

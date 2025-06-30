@@ -6,7 +6,7 @@
         <div class="col-md-8 mb-5">
             <div class="card shadow-lg">
                 <div class="card-header bg-primary text-white text-center">
-                    <h3><i class="fas fa-file-alt"></i> Formulario de PQRS</h3>
+                    <h3><i class="fas fa-file-alt"></i> Feedback Form</h3>
                 </div>
                 <div class="card-body">
 
@@ -16,7 +16,7 @@
 
                         <!-- Tipo de solicitud -->
                         <div class="form-group">
-                            <label><i class="fas fa-list-alt"></i> Tipo de solicitud</label>
+                            <label><i class="fas fa-list-alt"></i> Type of PQRS</label>
                             <select class="form-control" id="type_id" name="type_id" required>
                                 <option value="">Seleccione un tipo</option>
                                 <?php foreach ($request_types as $type): ?>
@@ -29,7 +29,7 @@
 
                         <!-- Descripción -->
                         <div class="form-group">
-                            <label><i class="fas fa-comment-dots"></i> Descripción</label>
+                            <label><i class="fas fa-comment-dots"></i> Description</label>
                             <textarea class="form-control" id="description" name="description" rows="4" required minlength="10"><?= old('description') ?></textarea>
                         </div>
 
@@ -41,16 +41,16 @@
                                        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
                                        transition: all 0.3s ease-in-out;
                                        cursor: pointer;">
-                                <i class="fas fa-paperclip"></i> Seleccionar archivo
+                                <i class="fas fa-paperclip"></i> Upload file
                             </label>
                             <input type="file" class="form-control-file d-none" id="attachment" name="attachment" accept=".pdf,.jpg,.jpeg,.png,.doc,.docx" required>
-                            <p id="file-name" class="mt-2 text-muted">Ningún archivo seleccionado</p>
+                            <p id="file-name" class="mt-2 text-muted">No file selected.</p>
                         </div>
 
                         <!-- Botón de enviar -->
                         <div class="text-center">
                             <button type="submit" class="btn btn-success btn-lg">
-                                <i class="fas fa-paper-plane"></i> Enviar PQRS
+                                <i class="fas fa-paper-plane"></i> Send PQRS
                             </button>
                         </div>
 

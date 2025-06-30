@@ -48,8 +48,8 @@
                 
 
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                        <button type="submit" class="btn btn-primary" id="savebankerButton">Guardar banker</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary" id="savebankerButton">Save banker</button>
                     </div>
                 </form>
             </div>

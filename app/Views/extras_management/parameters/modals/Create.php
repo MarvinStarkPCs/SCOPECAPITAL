@@ -33,7 +33,7 @@
                             </div>
                         </div>
                         <div class="form-group col-md-6">
-                            <label for="inputIdentity">identification(C.C)</label>
+                            <label for="inputIdentity">identification(ID)</label>
                             <input type="number"
                                 class="form-control <?= session('errors-insert.identification') ? 'is-invalid errors-insert' : '' ?>"
                                 id="inputIdentity" name="identification" placeholder="Identification"
@@ -73,11 +73,11 @@
 
                     </div>
                     <div class="form-group">
-                        <label for="selectRole">Seleted Rol</label>
+                        <label for="selectRole">Role</label>
                         <select
                             class="form-control <?= session('errors-insert.id_role') ? 'is-invalid errors-insert' : '' ?>"
                             id="selectRole" name="id_role">
-                            <option value="">Selecione un Rol</option>
+                            <option value="">Select a Role</option>
                             <?php foreach ($roles as $rol): ?>
                                 <option value="<?= esc($rol['id_role']) ?>" <?= old('id_role') == $rol['id_role'] ? 'selected' : '' ?>>
                                     <?= esc($rol['role_name']) ?>
@@ -89,13 +89,13 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="selectStatus">Seleted Status</label>
+                        <label for="selectStatus">Status</label>
                         <select class="form-control <?= session('errors-insert.status') ? 'is-invalid errors-insert' : '' ?>"
                             id="selectStatus" name="status">
-                            <option value="">Seleccione un status</option>
-                            <option value="active" <?= old('status', 'active') == 'active' ? 'selected' : '' ?>>Activo
+                            <option value="">Select a status</option>
+                            <option value="active" <?= old('status', 'active') == 'active' ? 'selected' : '' ?>>Active
                             </option>
-                            <option value="inactive" <?= old('status') == 'inactive' ? 'selected' : '' ?>>Inactivo</option>
+                            <option value="inactive" <?= old('status') == 'inactive' ? 'selected' : '' ?>>Inactive</option>
                         </select>
                         <div class="invalid-feedback">
                             <?= session('errors-insert.status') ?>
@@ -110,8 +110,8 @@
 
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                        <button type="submit" class="btn btn-primary" id="saveUserButton">Guardar user</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary" id="saveUserButton">Save user</button>
                     </div>
                 </form>
             </div>

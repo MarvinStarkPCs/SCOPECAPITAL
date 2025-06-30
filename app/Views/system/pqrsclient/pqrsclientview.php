@@ -3,20 +3,20 @@
 
 <div class="card shadow mb-4">
     <div class="card-header py-3 bg-dark-blue">
-        <h6 class="m-0 font-weight-bold text-white">Mis Solicitudes PQRS</h6>
+        <h6 class="m-0 font-weight-bold text-white">My PQRS Requests</h6>
     </div>
     <div class="card-body">
         <div class="table-responsive">
             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                 <thead>
                     <tr>
-                        <th>Código</th>
+                        <th>Code</th>
                         <th>Email</th>
-                        <th>Tipo</th>
-                        <th>Estado</th>
-                        <th>Fecha</th>
-                        <th>Adjunto</th>
-                        <th>Acciones</th>
+                        <th>Type</th>
+                        <th>Status</th>
+                        <th>Date</th>
+                        <th>Attachment</th>
+                        <th>Actions</th>
                     </tr>
                 </thead>
                 <tbody>

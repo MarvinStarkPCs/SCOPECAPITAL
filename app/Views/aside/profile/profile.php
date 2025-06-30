@@ -81,17 +81,17 @@
                 </div>
                 <div class="profile-details">
                     <ul>
-                        <li><strong>Identificación:</strong> <?= esc($user['identification'] ?? 'No disponible') ?></li>
-                        <li><strong>Correo:</strong> <?= esc($user['email'] ?? 'No disponible') ?></li>
-                        <li><strong>Teléfono:</strong> <?= esc($user['phone'] ?? 'No registrado') ?></li>
+                        <li><strong>Identification:</strong> <?= esc($user['identification'] ?? 'No disponible') ?></li>
+                        <li><strong>Email:</strong> <?= esc($user['email'] ?? 'No disponible') ?></li>
+                        <li><strong>Phone:</strong> <?= esc($user['phone'] ?? 'No registrado') ?></li>
                         
-                        <li><strong>Fecha de Registro:</strong> <?= esc($user['date_registration'] ?? 'No disponible') ?></li>
-                        <li><strong>Dirección:</strong> <?= esc($user['address'] ?? 'No proporcionada') ?></li>
+                        <li><strong>Registration Date:</strong> <?= esc($user['date_registration'] ?? 'No disponible') ?></li>
+                        <li><strong>Address:</strong> <?= esc($user['address'] ?? 'No proporcionada') ?></li>
 
                     </ul>
 
                     <div class="text-center">
-                        <button class="edit-btn mt-3">Editar Perfil</button>
+                        <button class="edit-btn mt-3">Edit profile</button>
                     </div>
                 </div>
             </div>

@@ -18,7 +18,7 @@
     style="font-size: 1.2rem;">
   </span>
   <br><br>
-  This action cannot be undone.
+  This action can't be undone.
 </div>
 
 

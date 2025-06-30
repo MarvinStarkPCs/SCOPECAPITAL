@@ -5,7 +5,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="detailsModalLabel-<?= $user['id_user'] ?>">Detalles del Usuario</h5>
+                    <h5 class="modal-title" id="detailsModalLabel-<?= $user['id_user'] ?>">Details from user</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -14,52 +14,52 @@
                     <form>
                         <div class="form-row">
                             <div class="form-group col-md-6">
-                                <label for="detailsName">Nombres</label>
+                                <label for="detailsName">Name</label>
                                 <input type="text" class="form-control" id="detailsName"
                                        value="<?= esc($user['name']) ?> <?= esc($user['last_name']) ?>" readonly>
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="detailsIdentity">Identificación (C.C)</label>
+                                <label for="detailsIdentity">Identification (ID)</label>
                                 <input type="text" class="form-control" id="detailsIdentity"
                                        value="<?= esc($user['identification']) ?>" readonly>
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="detailsEmail">Correo Electrónico</label>
+                                <label for="detailsEmail">Email</label>
                                 <input type="email" class="form-control" id="detailsEmail"
                                        value="<?= esc($user['email']) ?>" readonly>
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="detailsPhone">Teléfono</label>
+                                <label for="detailsPhone">Phone</label>
                                 <input type="text" class="form-control" id="detailsPhone"
                                        value="<?= esc($user['phone']) ?>" readonly>
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="detailsAddress">Dirección</label>
+                                <label for="detailsAddress">Address</label>
                                 <input type="text" class="form-control" id="detailsAddress"
                                        value="<?= esc($user['address']) ?>" readonly>
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="detailsStatus">Estado</label>
+                                <label for="detailsStatus">Status</label>
                                 <input type="text" class="form-control" id="detailsStatus"
                                        value="<?= esc($user['status']) ?>" readonly>
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="detailsLoginAttempts">Intentos de Inicio de Sesión</label>
+                                <label for="detailsLoginAttempts">Login Attempts</label>
                                 <input type="text" class="form-control" id="detailsLoginAttempts"
                                        value="<?= esc($user['login_attempts']) ?>" readonly>
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="detailsLastLogin">Último Intento de Inicio</label>
+                                <label for="detailsLastLogin">Last Login Attempt</label>
                                 <input type="text" class="form-control" id="detailsLastLogin"
                                        value="<?= esc($user['last_login_attempt']) ?>" readonly>
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="detailsRole">Rol</label>
+                                <label for="detailsRole">Role</label>
                                 <input type="text" class="form-control" id="detailsRole"
                                        value="<?= esc($user['role_name']) ?>" readonly>
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="detailsRegistrationDate">Fecha de Registro</label>
+                                <label for="detailsRegistrationDate">Registration Date</label>
                                 <input type="text" class="form-control" id="detailsRegistrationDate"
                                        value="<?= esc($user['date_registration']) ?>" readonly>
                             </div>

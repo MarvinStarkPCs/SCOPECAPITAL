@@ -25,7 +25,7 @@
 
                         <th>Name</th>
                         <th>Address</th>
-                        <th>Telephone</th>
+                        <th>Phone</th>
                         <th>Email</th>
                         <th>Representative</th>
                         <th>Actions</th>

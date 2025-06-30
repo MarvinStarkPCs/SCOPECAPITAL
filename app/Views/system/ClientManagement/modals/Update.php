@@ -2,7 +2,7 @@
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="detailModalLabel">detailar Usuario</h5>
+                <h5 class="modal-title" id="detailModalLabel">Detail from user</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"
                     onclick="location.reload();">
                     <span>&times;</span>
@@ -197,7 +197,7 @@
                                 <div class="form-row">
                                     <!-- Campo Fórmula -->
                                     <div class="form-group col-md-4">
-                                        <label for="inputBalance">Fórmula</label>
+                                        <label for="inputBalance">Formula</label>
                                         <input type="text"
                                             class="form-control <?= session('errors-edit.balance') ? 'is-invalid errors-edit' : '' ?>"
                                             name="balance" placeholder="Balance" value="<?= old('balance') ?>" readonly>
@@ -226,14 +226,14 @@
                             <div class="form-row">
 
                                 <div class="form-group col-md-4">
-                                    <label>Estado</label>
+                                    <label>Status</label>
                                     <select name="status"
                                         class="form-control <?= session('errors-edit.status') ? 'is-invalid errors-edit' : '' ?>">
                                         <option value="">Selecciona estado</option>
-                                        <option value="active" <?= old('status') == 'active' ? 'selected' : '' ?>>Activo
+                                        <option value="active" <?= old('status') == 'active' ? 'selected' : '' ?>>Active
                                         </option>
                                         <option value="inactive" <?= old('status') == 'inactive' ? 'selected' : '' ?>>
-                                            Inactivo</option>
+                                            Inactive</option>
                                     </select>
                                     <div class="invalid-feedback"><?= session('errors-edit.status') ?></div>
                                 </div>
@@ -309,7 +309,7 @@
                                 <button type="button" class="btn btn-secondary prev-tab">Previous</button>
                                 <div>
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+                                    <button type="submit" class="btn btn-primary">Save changes</button>
                                 </div>
                             </div>
                         </div>

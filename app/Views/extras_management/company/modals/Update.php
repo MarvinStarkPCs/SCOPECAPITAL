@@ -36,7 +36,7 @@
                                 </div>
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="editIdentity-<?= $company['id_company'] ?>">telephone</label>
+                                <label for="editIdentity-<?= $company['id_company'] ?>">Phone</label>
                                 <input type="text"
                                     class="form-control <?= session('errors-update.telephone') ? 'is-invalid errors-update' : '' ?>"
                                     id="editIdentity-<?= $company['id_company'] ?>" name="telephone"

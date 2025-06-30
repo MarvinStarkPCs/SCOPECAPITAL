@@ -10,7 +10,7 @@
     <meta name="csrf-token" content="<?= csrf_hash() ?>">
 
 
-    <title>SCOOPECAPITAL - Dashboard</title>
+    <title>SCOPE CAPITAL - Dashboard</title>
 
     <!-- Custom fonts for this template -->
     <link href="<?= base_url('assets/fontawesome-free/css/all.min.css') ?>" rel="stylesheet" type="text/css">

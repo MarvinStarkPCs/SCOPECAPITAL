@@ -2,7 +2,7 @@
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="editModalLabel">Editar Usuario</h5>
+                <h5 class="modal-title" id="editModalLabel">Edit user</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"
                   >
                     <span aria-hidden="true">&times;</span>
@@ -215,14 +215,14 @@
                             <div class="form-row">
                              
                                 <div class="form-group col-md-4">
-                                    <label>Estado</label>
+                                    <label>Status</label>
                                     <select disabled name="status"
                                         class="form-control <?= session('errors-edit.status') ? 'is-invalid errors-edit' : '' ?>">
                                         <option value="">Selecciona estado</option>
-                                        <option value="active" <?= old('status') == 'active' ? 'selected' : '' ?>>Activo
+                                        <option value="active" <?= old('status') == 'active' ? 'selected' : '' ?>>Active
                                         </option>
                                         <option value="inactive" <?= old('status') == 'inactive' ? 'selected' : '' ?>>
-                                            Inactivo</option>
+                                            Inactive</option>
                                     </select >
                                     <div class="invalid-feedback"><?= session('errors-edit.status') ?></div>
                                 </div>
