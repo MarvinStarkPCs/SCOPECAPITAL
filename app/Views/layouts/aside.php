@@ -1,6 +1,6 @@
 <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion toggled" id="accordionSidebar">
     <!-- Sidebar - Brand -->
-    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?= base_url('dashboard'); ?>">
+    <a class="sidebar-brand d-flex align-items-center justify-content-center">
         <div class="sidebar-brand-icon">
             <img src="<?= base_url('img/logo.ico'); ?>" alt="">
         </div>
@@ -15,7 +15,7 @@
 
 <!-- Nav Item - Dashboard -->
 <li class="nav-item active">
-    <a class="nav-link" href="<?= base_url('admin/dashboard'); ?>">
+    <a class="nav-link" href="<?= base_url(); ?>">
         <i class="fas fa-fw fa-tachometer-alt"></i>
         <span>Home</span></a>
 </li>
@@ -98,8 +98,8 @@
         <hr class="sidebar-divider my-0">
 
 <!-- Nav Item - Dashboard -->
-<li class="nav-item active">
-    <a class="nav-link" href="<?= base_url('client/dashboard'); ?>">
+<li class="nav-item inc">
+    <a class="nav-link" href="<?= base_url('client/pqrs-sent'); ?>">
         <i class="fas fa-fw fa-tachometer-alt"></i>
         <span>Home</span></a>
 </li>

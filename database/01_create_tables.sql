@@ -33,6 +33,7 @@ CREATE TABLE users (
     trust VARCHAR(100),
     email_del_trust VARCHAR(150),
     telephone_del_trust VARCHAR(20),
+    profile_image VARCHAR(255),
 
     -- 🏦 CATEGORÍA: BANCARIO
     bank VARCHAR(50),
@@ -48,7 +49,8 @@ CREATE TABLE users (
     last_login_attempt DATETIME,
     status ENUM('active', 'inactive') DEFAULT 'active',
     role_id INT,
-
+    reset_token VARCHAR(64) DEFAULT NULL,
+    reset_token_expiration DATETIME DEFAULT NULL,
     -- 💰 CATEGORÍA: FINANZAS / PRÉSTAMOS
     balance DECIMAL(10, 2) NOT NULL DEFAULT 0.00,
     principal DECIMAL(10, 2) NOT NULL,

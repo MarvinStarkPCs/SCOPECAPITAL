@@ -12,6 +12,10 @@ $routes->get('/', 'IndexController::index');
 $routes->get('login', 'AuthController::index');
 $routes->post('authenticate', 'AuthController::authenticate');
 $routes->get('logout', 'AuthController::logout');
+$routes->get('recover', 'AuthController::recover');
+$routes->post('recover/send-link', 'AuthController::sendRecoveryLink');
+$routes->get('reset-password/(:segment)', 'AuthController::resetPassword/$1');
+$routes->post('reset-password/confirm', 'AuthController::resetPasswordConfirm');
 
 // Rutas protegidas (requieren autenticación)
 $routes->group('admin', ['filter' => 'auth'], function ($routes) {
@@ -52,6 +56,8 @@ $routes->group('admin', ['filter' => 'auth'], function ($routes) {
     $routes->post('setting/save_smtp', 'ConfigurationController::saveSMTPConfig');
     ///profile
     $routes->get('profile', 'ProfileController::index');
+    $routes->post('profile/update', 'ProfileController::update'); // Actualizar perfil
+
     // Rutas de autenticación (protegidas) para el modulo de sistema
     //pqrsmanagement
     $routes->get('pqrsmanagement', 'PqrsManagementController::index');
@@ -94,11 +100,12 @@ $routes->group('admin', ['filter' => 'auth'], function ($routes) {
 
 $routes->group('client', ['filter' => 'auth'], function ($routes) {
     $routes->get('dashboard', 'HomeController::index');
-    $routes->get('profile', 'ProfileController::index');
-    $routes->post('profile/update', 'ProfileController::updateProfile');
+
+    $routes->get('profile', 'ProfileController::index_client');
+    $routes->post('profile/update', 'ProfileController::updateClient');
     ///changepassword
     $routes->get('changepassword', 'ChangePasswordController::index');  // Cargar formulario
-    $routes->post('changepassword/update', 'ChangePasswordController::updatePassword');  // Enviar formulario
+    $routes->post('changepassword/update', 'ChangePasswordController::update');  // Enviar formulario
 
     // Rutas de autenticación (protegidas) para pqrs client
     $routes->get('pqrs-sent', 'PqrsSentController::index');

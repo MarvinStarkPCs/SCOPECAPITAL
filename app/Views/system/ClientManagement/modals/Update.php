@@ -23,7 +23,7 @@
                                 role="tab">Banking</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="tab-financial" data-toggle="tab" href="#detail-financial"
+                            <a class="nav-link detailTabFinancial" id="tab-financial" data-toggle="tab" href="#detail-financial"
                                 role="tab">Financial</a>
                         </li>
                         <li class="nav-item">
@@ -199,7 +199,7 @@
                                     <div class="form-group col-md-4">
                                         <label for="inputBalance">Formula</label>
                                         <input type="text"
-                                            class="form-control <?= session('errors-edit.balance') ? 'is-invalid errors-edit' : '' ?>"
+                                            class="form-control <?= session('errors-edit.balance') ? 'is-invalid errors-edit financial' : '' ?>"
                                             name="balance" placeholder="Balance" value="<?= old('balance') ?>" readonly>
                                         <div class="invalid-feedback"><?= session('errors-edit.balance') ?></div>
                                     </div>
@@ -389,15 +389,21 @@
             let inputWithError = $(this).find('input.errors-edit, select.errors-edit, textarea.errors-edit');
             let financialError = $(this).find('input.financial');
 
+if (inputWithError.length > 0 || financialError.length > 0) {
+    $('#editModalClient').modal('show'); // Usa modal('show') si usas Bootstrap
+
+    if (financialError.length > 0) {
+        console.log('Financial error found');
+
+        // Activa directamente la pestaña financiera
+        $('a[href="#tabFinanciera"]').tab('show');
+    }
+}
 
 
-            if (inputWithError.length > 0) {
-                $('#editModalClient').click();
-            } else if (financialError.length > 0) {
-                $('#editModalClient').click();
-                $('#detail-financial').click();
-            }
+         
         });
+        
         $('#calculateInterestBtn').on('click', function () {
             // Obtener datos del formulario por name
             const principal = $('#editForm').find('input[name="principal"]').val();

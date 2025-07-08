@@ -171,7 +171,7 @@
           <input type="checkbox" id="remember">
           <label for="remember">Remember me</label>
         </div>
-        <a href="#">Forgot password?</a>
+        <a href="recover">Forgot password?</a>
       </div>
       <button type="submit">Sign in</button>
     </form>

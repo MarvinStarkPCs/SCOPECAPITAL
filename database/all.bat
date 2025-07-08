@@ -3,7 +3,7 @@
 REM Configuración de las variables
 set DB_HOST=localhost
 set DB_USER=root
-set DB_PASSWORD=
+set DB_PASSWORD=12345
 set DB_NAME=scopecapital
 
 REM Archivos SQL a ejecutar

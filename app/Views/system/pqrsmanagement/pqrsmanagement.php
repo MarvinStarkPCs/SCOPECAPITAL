@@ -1,24 +1,23 @@
 <?= $this->extend('layouts/main') ?>
-
 <?= $this->section('content') ?>
+
 <!-- Filtros de búsqueda -->
 <div class="card shadow mb-4">
     <div class="card-header py-3 bg-dark-blue d-flex justify-content-between align-items-center">
         <h6 class="m-0 font-weight-bold text-primary">PQRS</h6>
 
-
         <button class="btn btn-sm btn-outline-light" type="button" id="toggleFiltros">
-            <i class="fas fa-sliders-h me-1"></i> Show filters
+            <i class="fas fa-sliders-h me-1"></i> Hide filters
         </button>
-
     </div>
-    <!-- Filtros ocultos por defecto -->
-    <div class="card-body" id="filtroCollapse" style="display: none;">
+
+    <!-- Filtros desplegados por defecto -->
+    <div class="card-body" id="filtroCollapse" style="display: block;">
         <form class="row g-3 justify-content-center">
             <div class="col-md-3">
                 <label for="tipoPQRS" class="form-label">PQRS type</label>
                 <select class="form-control select2" id="tipoPQRS" name="tipoPQRS">
-                    <option value="">-- Seleccione --</option>
+                    <option value="" disabled selected>-- Seleccione --</option>
                     <?php foreach ($requestTypes as $type): ?>
                         <option value="<?= htmlspecialchars($type['id_type']) ?>">
                             <?= htmlspecialchars($type['name']) ?>
@@ -30,7 +29,7 @@
             <div class="col-md-3">
                 <label for="estadoPQRS" class="form-label">PQRS status</label>
                 <select class="form-control select2" id="estadoPQRS" name="estadoPQRS">
-                    <option value="">-- Seleccione --</option>
+                    <option value="" disabled selected>-- Seleccione --</option>
                     <?php foreach ($requestStatuses as $status): ?>
                         <option value="<?= htmlspecialchars($status['id_status']) ?>">
                             <?= htmlspecialchars($status['name']) ?>
@@ -50,25 +49,18 @@
             </div>
         </form>
 
-
         <div class="row justify-content-center mt-3">
             <div class="col-md-2 text-center">
-                <!-- Botón Buscar -->
                 <button type="button" id="btnFiltrar" class="btn btn-warning w-100">
                     <i class="fas fa-search me-1"></i> Search
                 </button>
-
-
-
             </div>
             <div class="col-md-2 text-center">
-                <!-- Botón Limpiar -->
                 <button type="button" id="btnLimpiar" class="btn btn-secondary w-100">
                     <i class="fas fa-broom me-1"></i> Clean
                 </button>
             </div>
         </div>
-
     </div>
 
     <!-- Tabla de resultados -->
@@ -86,7 +78,6 @@
                     </tr>
                 </thead>
                 <tbody id="tablaResultados">
-
                     <?php if (!empty($requests)): ?>
                         <?php foreach ($requests as $row): ?>
                             <tr>
@@ -97,35 +88,26 @@
                                 <td><?= esc($row->created_at) ?></td>
                                 <td>
                                     <?php if ($row->id_status != 2 && $row->id_status != 3): ?>
-                                        <!-- Resolve Button -->
-                                        <a href="#" class="btn btn-sm btn-success open-request-modal" title="Resolve"
-                                            data-toggle="modal" data-target="#solverequest" data-id="<?= esc($row->id_request) ?>"
-                                            data-code="<?= esc($row->unique_code) ?>">
+                                        <a href="#" class="btn btn-sm btn-success open-request-modal"
+                                           title="Resolve" data-toggle="modal" data-target="#solverequest"
+                                           data-id="<?= esc($row->id_request) ?>" data-code="<?= esc($row->unique_code) ?>">
                                             <i class="fas fa-check-circle"></i>
                                         </a>
-                                         <a href="#" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#cancelrequest"
-                                            title="Reject" data-id="<?= esc($row->id_request) ?>"
-                                            data-code="<?= esc($row->unique_code) ?>">
+                                        <a href="#" class="btn btn-sm btn-danger"
+                                           data-toggle="modal" data-target="#cancelrequest"
+                                           title="Reject" data-id="<?= esc($row->id_request) ?>" data-code="<?= esc($row->unique_code) ?>">
                                             <i class="fas fa-times-circle"></i>
                                         </a>
-
                                     <?php endif; ?>
 
-                                   
-                                    
-
-                                    <!-- Details Button -->
                                     <a href="#" class="btn btn-sm btn-info" title="Details"
-                                        data-id="<?= esc($row->id_request) ?>">
+                                       data-id="<?= esc($row->id_request) ?>">
                                         <i class="fas fa-eye"></i>
                                     </a>
                                 </td>
                             </tr>
                         <?php endforeach; ?>
-                    <?php else: ?>
-                        <!-- Puedes mostrar un mensaje si no hay solicitudes -->
                     <?php endif; ?>
-
                 </tbody>
             </table>
         </div>
@@ -157,15 +139,6 @@
         color: #ccc;
     }
 
-    .form-select,
-    .form-control {
-        margin-bottom: 15px;
-    }
-
-    .row.g-3 .col-md-3 {
-        margin-bottom: 15px;
-    }
-
     .select2-container--default .select2-selection--single {
         border-radius: 8px;
         height: 38px;
@@ -173,14 +146,6 @@
         background-color: #fff;
         color: #000;
         border: 1px solid #ced4da;
-    }
-
-    .select2-container--default .select2-selection--single .select2-selection__rendered {
-        line-height: 26px;
-    }
-
-    .select2-container--default .select2-selection--single .select2-selection__arrow {
-        height: 36px;
     }
 
     body.bg-dark,
@@ -193,71 +158,57 @@
 <!-- Scripts -->
 <script>
     $(document).ready(function () {
-  function renderTable(data) {
-    console.log('Renderizando tabla con datos:', data);
-    const tbody = $('#tablaResultados');
-    tbody.empty();
+        function renderTable(data) {
+            const tbody = $('#tablaResultados');
+            tbody.empty();
 
-    if (data.length === 0) {
-        const filaVacia = $('<tr>').append(
-            $('<td>').attr('colspan', 6).addClass('text-center').text('Lista vacía')
-        );
-        tbody.append(filaVacia);
-        return;
-    }
+            if (data.length === 0) {
+                const filaVacia = $('<tr>').append(
+                    $('<td colspan="6" class="text-center text-muted py-3">').html('<i class="fas fa-info-circle me-1"></i> No results found.')
+                );
+                tbody.append(filaVacia);
+                return;
+            }
 
-    console.log('Datos recibidos:', data);
-    $.each(data, function (index, item) {
-        console.log('Procesando item:', item);
-        let fila = $("<tr>");
-        fila.append($("<td>").text(item.unique_code));
-        fila.append($("<td>").text(item.email));
-        fila.append($("<td>").text(item.type));
-        fila.append($("<td>").text(item.status));
-        fila.append($("<td>").text(item.created_at));
+            $.each(data, function (index, item) {
+                let fila = $("<tr>");
+                fila.append($("<td>").text(item.unique_code));
+                fila.append($("<td>").text(item.email));
+                fila.append($("<td>").text(item.type));
+                fila.append($("<td>").text(item.status));
+                fila.append($("<td>").text(item.created_at));
 
-        // Declarar la variable antes de usarla
-        let acciones = '';
-
-        // Botón de aprobar si status_id no es 4 ni 3
-        if (item.status_id != 2 && item.status_id != 3) {
-            acciones += `
-                <a class="btn btn-sm btn-success open-request-modal" 
-                    title="Resolver"
-                    data-toggle="modal" 
-                    data-target="#solverequest" 
-                    data-id="${item.id_request}" 
-                    data-code="${item.unique_code}">
-                    <i class="fas fa-check-circle"></i>
-                </a>
-            `;
-
-            acciones += `
-                <a href="#" class="btn btn-sm btn-danger" 
-                    data-toggle="modal" 
-                    data-target="#cancelrequest"
-                    title="Rechazar" 
-                    data-id="${item.id_request}" 
-                    data-code="${item.unique_code}">
-                    <i class="fas fa-times-circle"></i>
-                </a>
-            `;
+                let acciones = '';
+                if (item.status_id != 2 && item.status_id != 3) {
+                    acciones += `
+                        <a class="btn btn-sm btn-success open-request-modal" 
+                            title="Resolve"
+                            data-toggle="modal" 
+                            data-target="#solverequest" 
+                            data-id="${item.id_request}" 
+                            data-code="${item.unique_code}">
+                            <i class="fas fa-check-circle"></i>
+                        </a>
+                        <a href="#" class="btn btn-sm btn-danger" 
+                            data-toggle="modal" 
+                            data-target="#cancelrequest"
+                            title="Reject" 
+                            data-id="${item.id_request}" 
+                            data-code="${item.unique_code}">
+                            <i class="fas fa-times-circle"></i>
+                        </a>
+                    `;
+                }
+                acciones += `
+                    <a href="#" class="btn btn-sm btn-info" title="Details">
+                        <i class="fas fa-eye"></i>
+                    </a>
+                `;
+                fila.append($("<td>").html(acciones));
+                tbody.append(fila);
+            });
         }
 
-        // Botón de ver detalles (siempre)
-        acciones += `
-            <a href="#" class="btn btn-sm btn-info" title="Detalles">
-                <i class="fas fa-eye"></i>
-            </a>
-        `;
-
-        fila.append($("<td>").html(acciones));
-        tbody.append(fila);
-    });
-}
-
-
-        // BOTÓN FILTRAR
         $('#btnFiltrar').on('click', function () {
             const data = {
                 tipoPQRS: $('#tipoPQRS').val(),
@@ -265,91 +216,80 @@
                 fechaInicio: $('#fechaInicio').val(),
                 fechaFin: $('#fechaFin').val()
             };
+
             if (data.fechaInicio && data.fechaFin) {
                 const inicio = new Date(data.fechaInicio);
                 const fin = new Date(data.fechaFin);
-                if (inicio < fin) {
+                if (inicio > fin) {
                     mostrarAlerta('info', 'Please ensure the start date is before the end date.');
-                    return; // Detiene la ejecución si la validación falla
+                    return;
                 }
             } else if (data.fechaInicio || data.fechaFin) {
-                mostrarAlerta('info', '	Please complete both date fields or clear them.');
-                return; // Detiene la ejecución si solo una fecha está presente
+                mostrarAlerta('info', 'Please complete both date fields or clear them.');
+                return;
             }
 
-            console.log('Datos a enviar:', data);
             $.ajax({
                 url: '<?= base_url('admin/pqrsmanagement/filter') ?>',
                 type: 'POST',
                 data: data,
                 dataType: 'json',
                 beforeSend: function () {
-                    console.log('Enviando filtros...');
+                    console.log('Sending filters...');
                 },
                 success: function (response) {
                     toggleLoader(true, 1000);
-                    const tableResult = response.data;
-                    renderTable(tableResult);
+                    renderTable(response.data);
                     mostrarAlerta('success', 'Filters applied successfully.');
                 },
                 error: function (xhr) {
-                    console.error('Error en el envío:', xhr.responseText);
+                    console.error('Filter error:', xhr.responseText);
                     mostrarAlerta('danger', 'Filter submission failed.');
                 }
             });
         });
 
-        // BOTÓN LIMPIAR
         $('#btnLimpiar').on('click', function () {
             $('#tipoPQRS').val('').trigger('change');
             $('#estadoPQRS').val('').trigger('change');
             $('#fechaInicio').val('');
             $('#fechaFin').val('');
 
-            // Opcional: recargar tabla sin filtros
             $.ajax({
                 url: '<?= base_url('admin/pqrsmanagement/filter') ?>',
                 type: 'POST',
-                data: {}, // sin filtros
+                data: {},
                 dataType: 'json',
                 success: function (response) {
                     toggleLoader(true, 1000);
-
                     renderTable(response.data);
                     mostrarAlerta('info', 'All filters removed.');
                 },
                 error: function (xhr) {
-                    console.error('Error al limpiar filtros:', xhr.responseText);
+                    console.error('Clear filter error:', xhr.responseText);
                     mostrarAlerta('danger', 'Clear filters failed.');
                 }
             });
         });
-        // TOGGLE FILTROS
+
         const btnToggle = document.getElementById("toggleFiltros");
         const filtros = document.getElementById("filtroCollapse");
 
         btnToggle.addEventListener("click", function () {
-            const isVisible = filtros.style.display !== "none";
-            filtros.style.display = isVisible ? "none" : "block";
-
-            btnToggle.innerHTML = isVisible
-                ? '<i class="fas fa-sliders-h me-1"></i> Show filters'
-                : '<i class="fas fa-sliders-h me-1"></i> Hide filters';
-        });
-        // INICIALIZAR SELECT2
-        if (typeof $ !== 'undefined' && $.fn.select2) {
-            $('.select2').select2({
-                width: '100%'
+            $(filtros).slideToggle(200, function () {
+                const isVisible = $(this).is(':visible');
+                btnToggle.innerHTML = isVisible
+                    ? '<i class="fas fa-sliders-h me-1"></i> Hide filters'
+                    : '<i class="fas fa-sliders-h me-1"></i> Show filters';
             });
-        } else {
-            console.warn('Select2 no cargado.');
+        });
+
+        if (typeof $ !== 'undefined' && $.fn.select2) {
+            $('.select2').select2({ width: '100%', placeholder: '-- Seleccione --', allowClear: true });
         }
-
-
     });
-
-
 </script>
+
 <?= view('system/pqrsmanagement/modals/cancelrequest') ?>
 <?= view('system/pqrsmanagement/modals/detailrequest') ?>
 <?= view('system/pqrsmanagement/modals/solverequest') ?>

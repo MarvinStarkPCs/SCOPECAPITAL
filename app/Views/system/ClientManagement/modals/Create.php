@@ -25,7 +25,7 @@
               <a class="nav-link" id="system-tab" data-toggle="tab" href="#system" role="tab">System</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="financial-tab" data-toggle="tab" href="#financial" role="tab">Financial</a>
+              <a class="nav-link financial-tab-financial" id="financial-tab" data-toggle="tab" href="#financial" role="tab">Financial</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" id="agreement-tab" data-toggle="tab" href="#agreement" role="tab">Agreement</a>
@@ -334,7 +334,7 @@
       // Si hay errores en el tab financiero, abrir el modal
       document.getElementById('openModalButtonUser').click();
       // Cambiar a la pestaña financiera
-      const financialTab = document.querySelector('#financial-tab');
+      const financialTab = document.querySelector('.financial-tab-financial');
       if (financialTab) {
         financialTab.click();
       }

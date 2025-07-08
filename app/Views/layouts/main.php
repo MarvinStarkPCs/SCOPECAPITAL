@@ -30,6 +30,22 @@
 
 <!-- jQuery -->
 <script src="<?= base_url('assets/jquery/jquery.min.js') ?>"></script>
+<script>
+      $(document).ready(function () {
+    // Aplica a todos los formularios del sitio
+    $('form').on('submit', function (e) {
+      // Previene doble envío
+      if ($(this).data('submitted') === true) {
+        e.preventDefault();
+      } else {
+        $(this).data('submitted', true);
+          $('.modal.show').modal('hide');
+
+        toggleLoader(true,2500); // Muestra el loader
+      }
+    });
+  });
+</script>
 
     <style>
         .table thead th {

@@ -30,7 +30,7 @@ class AuthFilter implements FilterInterface
         }
 
         if ($segmento === 'client' && $rol_id != 2) {
-            return redirect()->to('/admin/dashboard')->with('error', 'No tienes permiso para acceder a esta sección.');
+            return redirect()->to('/admin/pqrsmanagement')->with('error', 'No tienes permiso para acceder a esta sección.');
         }
     }
 

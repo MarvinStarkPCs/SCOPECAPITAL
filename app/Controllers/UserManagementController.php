@@ -5,6 +5,7 @@ use App\Models\UserManagementModel;
 use App\Models\ComboBoxModel;
 use CodeIgniter\HTTP\ResponseInterface;
 use App\Libraries\SendEmail;
+use CodeIgniter\Database\Exceptions\DatabaseException;
 
 class UserManagementController extends BaseController
 {

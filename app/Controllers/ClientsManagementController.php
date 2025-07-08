@@ -6,6 +6,7 @@ use App\Models\ComboBoxModel;
 use CodeIgniter\HTTP\ResponseInterface;
 use App\Libraries\SendEmail;
 use App\Models\HistoryTransactionModel;
+use CodeIgniter\Database\Exceptions\DatabaseException;
 class ClientsManagementController extends BaseController
 {
     public function index()
@@ -231,21 +232,32 @@ public function updateUser($id)
         'phone' => 'required|numeric|min_length[8]|max_length[15]',
         'address' => 'required|max_length[100]',
         'status' => 'required|in_list[active,inactive]',
-
-        'principal' => 'required',
-        'rate' => 'required',
-        'compoundingPeriods' => 'required',
-        'time' => 'required'
+        'principal' => 'required|numeric',
+        'rate' => 'required|numeric',
+        'compoundingPeriods' => 'required|integer',
+        'time' => 'required|integer',
+        'balance' => 'permit_empty|decimal',
+        'bank' => 'permit_empty|max_length[100]',
+        'swift' => 'permit_empty|alpha_numeric|max_length[20]',
+        'aba' => 'permit_empty|numeric|max_length[15]',
+        'iban' => 'permit_empty|alpha_numeric|max_length[34]',
+        'account' => 'permit_empty|max_length[30]',
+        'trust' => 'permit_empty|max_length[100]',
+        'email_del_trust' => 'permit_empty|valid_email',
+        'telephone_del_trust' => 'permit_empty|numeric|max_length[20]',
+        'agreement' => 'permit_empty|max_length[100]',
+        'number' => 'permit_empty|max_length[20]',
+        'letter' => 'permit_empty|max_length[5]',
+        'policy' => 'permit_empty|max_length[50]',
+        'date_from' => 'permit_empty|valid_date',
+        'date_to' => 'permit_empty|valid_date',
+        'approved_by' => 'permit_empty|max_length[100]',
+        'approved_date' => 'permit_empty|valid_date'
     ];
 
-    log_message('info', 'Validation rules defined.');
-
     if (!$this->validate($rules)) {
-        log_message('error', 'Validation failed: ' . json_encode(\Config\Services::validation()->getErrors()));
         return redirect()->back()->withInput()->with('errors-edit', \Config\Services::validation()->getErrors());
     }
-
-    log_message('info', 'Validation successful.');
 
     $data = [
         'name' => $this->request->getPost('name'),
@@ -256,23 +268,22 @@ public function updateUser($id)
         'address' => $this->request->getPost('address'),
         'status' => $this->request->getPost('status'),
 
-        // Datos bancarios
+        // Financieros
         'bank' => $this->request->getPost('bank'),
         'swift' => $this->request->getPost('swift'),
         'aba' => $this->request->getPost('aba'),
         'iban' => $this->request->getPost('iban'),
         'account' => $this->request->getPost('account'),
-        'balance' => $this->request->getPost('balance'),
-        'rate' => $this->request->getPost('rate'),
+        'balance' => (float) $this->request->getPost('balance'),
+        'rate' => (float) $this->request->getPost('rate'),
         'compoundingPeriods' => (int) $this->request->getPost('compoundingPeriods'),
         'time' => (int) $this->request->getPost('time'),
-        'principal' => $this->request->getPost('principal'),
+        'principal' => (float) $this->request->getPost('principal'),
 
-        // Datos de confianza
+        // Confianza y acuerdo
         'trust' => $this->request->getPost('trust'),
         'email_del_trust' => $this->request->getPost('email_del_trust'),
-
-        // Datos de acuerdo
+        'telephone_del_trust' => $this->request->getPost('telephone_del_trust'),
         'agreement' => $this->request->getPost('agreement'),
         'number' => $this->request->getPost('number'),
         'letter' => $this->request->getPost('letter'),
@@ -283,24 +294,50 @@ public function updateUser($id)
         'approved_date' => $this->request->getPost('approved_date'),
     ];
 
-  
-
     try {
-        // Guardar transacción de historial
-        $history = new HistoryTransactionModel();
-        $history->insert([
-            'user_id' => $id,
-            'amount' => $this->request->getPost('balance'),
-            'transaction_type' => 'loan',
-            'transaction_date' => date('Y-m-d H:i:s')
-        ]);
+        $currentData = $model->find($id);
 
-        // Actualizar usuario
+        // Campos para recalcular balance
+        $recalculationFields = ['rate', 'principal', 'compoundingPeriods', 'time'];
+        $recalculationChanged = false;
+
+        foreach ($recalculationFields as $field) {
+            $new = round((float) $data[$field], 4);
+            $old = round((float) ($currentData[$field] ?? 0), 4);
+
+            if ($new !== $old) {
+                $recalculationChanged = true;
+                break;
+            }
+        }
+
+        $balanceNew = round((float) $data['balance'], 4);
+        $balanceOld = round((float) ($currentData['balance'] ?? 0), 4);
+
+        if ($recalculationChanged && $balanceNew === $balanceOld) {
+            log_message('error', 'Intento de actualización sin recalcular balance.');
+            return redirect()->back()->withInput()->with('errors-edit', [
+                'recalc' => 'Debes recalcular el balance antes de guardar.'
+            ]);
+        }
+
+        // Registrar historial si cambió balance
+        if ($balanceNew !== $balanceOld) {
+            $history = new HistoryTransactionModel();
+            $history->insert([
+                'user_id' => $id,
+                'amount' => $balanceNew,
+                'transaction_type' => 'loan',
+                'transaction_date' => date('Y-m-d H:i:s')
+            ]);
+        }
+
+        // Actualizar
         $model->update($id, $data);
 
         return redirect()->to('/admin/clientmanagement')->with('success', 'Usuario actualizado correctamente.');
     } catch (\Exception $e) {
-        log_message('error', 'Error al actualizar usuario: ' . $e->getMessage());
+        log_message('error', "Error al actualizar usuario ID $id: " . $e->getMessage());
         return redirect()->back()->withInput()->with('errors-edit', [
             'db_error' => 'Ocurrió un error al actualizar el usuario.'
         ]);
