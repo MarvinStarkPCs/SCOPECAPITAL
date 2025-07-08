@@ -1,0 +1,54 @@
+INFO - 2025-07-08 18:32:22 --> El método authenticate fue llamado
+ERROR - 2025-07-08 18:32:22 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'progr108_scopecapital'@'localhost' (using password: YES) in C:\laragon\www\SCOPECAPITAL\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\laragon\www\SCOPECAPITAL\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'progr108_scopec...', Object(SensitiveParameterValue), 'progr108_scopec...', 3306, '', 0)
+#1 C:\laragon\www\SCOPECAPITAL\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\SCOPECAPITAL\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\SCOPECAPITAL\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\SCOPECAPITAL\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\SCOPECAPITAL\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 C:\laragon\www\SCOPECAPITAL\app\Models\UserModel.php(18): CodeIgniter\BaseModel->first()
+#7 C:\laragon\www\SCOPECAPITAL\app\Controllers\AuthController.php(59): App\Models\UserModel->login('admin@admin.com', 'SIBI2024')
+#8 C:\laragon\www\SCOPECAPITAL\system\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+#9 C:\laragon\www\SCOPECAPITAL\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#10 C:\laragon\www\SCOPECAPITAL\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\SCOPECAPITAL\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\SCOPECAPITAL\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\SCOPECAPITAL\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\laragon\www\SCOPECAPITAL\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\laragon\www\SCOPECAPITAL\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\SCOPECAPITAL\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\SCOPECAPITAL\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\SCOPECAPITAL\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\SCOPECAPITAL\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 C:\laragon\www\SCOPECAPITAL\app\Models\UserModel.php(18): CodeIgniter\BaseModel->first()
+#6 C:\laragon\www\SCOPECAPITAL\app\Controllers\AuthController.php(59): App\Models\UserModel->login('admin@admin.com', 'SIBI2024')
+#7 C:\laragon\www\SCOPECAPITAL\system\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+#8 C:\laragon\www\SCOPECAPITAL\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\laragon\www\SCOPECAPITAL\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\SCOPECAPITAL\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\SCOPECAPITAL\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\SCOPECAPITAL\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-07-08 18:32:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\UserModel.php(18): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\AuthController.php(59): App\Models\UserModel->login('admin@admin.com', 'SIBI2024')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

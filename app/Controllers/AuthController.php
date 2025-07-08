@@ -91,7 +91,19 @@ class AuthController extends BaseController
 
     public function recover()
     {
+
+
+         $session = session();
+        $roleId = $session->get('role_id');
+        log_message('info', "Usuario autenticado con role_id: {$roleId}");
+        // Verifica si el usuario está autenticado
+        if (!$session->has('login')) {
         return view('auth/forgot_password');
+        }
+        // Redirige según el rol del usuario
+        return ($session->get('role_id') == 1)
+            ? redirect()->to('/admin/pqrsmanagement')
+            : redirect()->to('/client/dashboard');
     }
     public function logout()
     {
@@ -195,7 +207,20 @@ public function resetPassword($token)
         return redirect()->to('recover')->with('error', 'El enlace de recuperación es inválido o ha expirado.');
     }
 
+
+     $session = session();
+        $roleId = $session->get('role_id');
+        log_message('info', "Usuario autenticado con role_id: {$roleId}");
+        // Verifica si el usuario está autenticado
+        if (!$session->has('login')) {
+
     return view('auth/reset_password', ['token' => $token]);
+        }
+        // Redirige según el rol del usuario
+        return ($session->get('role_id') == 1)
+            ? redirect()->to('/admin/pqrsmanagement')
+            : redirect()->to('/client/dashboard');
+
 }
 public function resetPasswordConfirm()
 {
