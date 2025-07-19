@@ -40,6 +40,8 @@
             <label for="end-date">Fecha Fin:</label>
             <input type="date" id="end-date" class="form-control">
         </div>
+        <!-- Input oculto para ID desde URL -->
+        <input type="hidden" id="user-id" name="user_id" value="">
         <div class="col-md-3">
             <button class="btn btn-primary w-100" onclick="filterByDate()">Filtrar</button>
         </div>
@@ -58,27 +60,19 @@
 
         <!-- Tabla de transacciones -->
         <div class="col-md-10">
-         <!-- Exportar y selector de cantidad -->
-<div class="d-flex align-items-center justify-content-end mb-3" style="gap: 15px;">
-    
-   <!-- Botón Exportar a Excel dinámico -->
-<button id="btnExportarExcel" class="btn btn-excel btn-sm">
-    <i class="fas fa-file-excel"></i> Exportar a Excel
-</button>
-
-    <!-- Selector Mostrar -->
-    <div class="d-flex align-items-center">
-        <label for="itemsPerPage" class="me-2 mb-0 text-white">Mostrar:</label>
-        <select id="itemsPerPage" class="form-select custom-select-sm">
-            <option value="10">10</option>
-            <option value="20">20</option>
-            <option value="100">100</option>
-        </select>
-    </div>
-
-</div>
-
-
+            <div class="d-flex align-items-center justify-content-end mb-3" style="gap: 15px;">
+                <button id="btnExportarExcel" class="btn btn-excel btn-sm">
+                    <i class="fas fa-file-excel"></i> Exportar a Excel
+                </button>
+                <div class="d-flex align-items-center">
+                    <label for="itemsPerPage" class="me-2 mb-0 text-white">Mostrar:</label>
+                    <select id="itemsPerPage" class="form-select custom-select-sm">
+                        <option value="10">10</option>
+                        <option value="20">20</option>
+                        <option value="100">100</option>
+                    </select>
+                </div>
+            </div>
 
             <table class="table table-striped">
                 <thead>
@@ -101,7 +95,6 @@
                 </tbody>
             </table>
 
-            <!-- Controles de paginación -->
             <div style="gap: 30px;" class="d-flex justify-content-center mt-3" id="pagination-controls"></div>
         </div>
     </div>
@@ -109,28 +102,17 @@
 
 <!-- ESTILOS -->
 <style>
-.btn-excel i {
-    margin-right: 6px;
-}
-
-    /* Botón Excel */
+.btn-excel i { margin-right: 6px; }
 .btn-excel {
     background-color: #00c292 !important;
     color: white !important;
     font-weight: bold;
     border: none;
     padding: 6px 12px;
-    transition: background-color 0.3s ease;
     display: flex;
     align-items: center;
 }
-
-.btn-excel:hover {
-    background-color: #00a982 !important;
-    color: white;
-}
-
-/* Select estilo limpio */
+.btn-excel:hover { background-color: #00a982 !important; }
 .form-select.custom-select-sm {
     background-color: #ffffff;
     color: #000;
@@ -139,9 +121,7 @@
     padding: 4px 10px;
     font-weight: 500;
     height: auto;
-    box-shadow: none;
 }
-
 .form-select.custom-select-sm:focus {
     outline: none;
     box-shadow: 0 0 0 2px #f4b400;
@@ -149,16 +129,16 @@
 .timeline {
     position: relative;
     width: 30px;
-    margin-left: 20px;
-    margin-top: 20px;
-}
+ 
 
+        margin-left: 112px;
+    margin-top: 79px;
+}
 .timeline ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-
 .timeline ul li {
     position: relative;
     width: 20px;
@@ -167,7 +147,6 @@
     border-radius: 50%;
     margin-bottom: 29px;
 }
-
 .timeline ul li::before {
     content: "";
     position: absolute;
@@ -178,11 +157,9 @@
     transform: translateX(-50%);
     top: 20px;
 }
-
 .timeline ul li:last-child::before {
     display: none;
 }
-
 </style>
 
 <!-- SCRIPTS -->
@@ -193,6 +170,11 @@ $(document).ready(function () {
     generateTimeline();
     paginateTable();
 
+    // Capturar ID desde URL
+    const urlParts = window.location.pathname.split('/');
+    const userId = urlParts[urlParts.length - 1] || urlParts[urlParts.length - 2];
+    $('#user-id').val(userId);
+
     $('#itemsPerPage').on('change', function () {
         currentPage = 1;
         paginateTable();
@@ -202,14 +184,14 @@ $(document).ready(function () {
 function filterByDate() {
     const startDate = $('#start-date').val();
     const endDate = $('#end-date').val();
+    const userId = $('#user-id').val();
 
     if (!startDate || !endDate) {
-        mostrarAlerta('warning', 'Por favor, selecciona ambas fechas (inicio y fin).');
+        mostrarAlerta('warning', 'Por favor, selecciona ambas fechas.');
         return;
     }
-
     if (new Date(startDate) > new Date(endDate)) {
-        mostrarAlerta('danger', 'La fecha de inicio no puede ser mayor que la fecha final.');
+        mostrarAlerta('danger', 'La fecha de inicio no puede ser mayor que la final.');
         return;
     }
 
@@ -218,34 +200,33 @@ function filterByDate() {
     $.ajax({
         url: './filter',
         method: 'POST',
-        data: { startDate: startDate, endDate: endDate },
+        data: {
+            startDate: startDate,
+            endDate: endDate,
+            user_id: userId
+        },
         dataType: 'json',
         success: function (data) {
-            const $tbody = $('#transactions');
-            $tbody.empty();
-
+            const $tbody = $('#transactions').empty();
             if (data.length === 0) {
                 $tbody.append('<tr><td colspan="4">No se encontraron transacciones.</td></tr>');
             } else {
                 $.each(data, function (index, row) {
-                    const tr = `
+                    $tbody.append(`
                         <tr>
                             <td>${row.amount} USD</td>
                             <td>${row.amount} USD</td>
                             <td>${capitalize(row.transaction_type)}</td>
                             <td>${row.transaction_date}</td>
-                        </tr>`;
-                    $tbody.append(tr);
+                        </tr>`);
                 });
             }
-
             currentPage = 1;
             generateTimeline();
             paginateTable();
         },
-        error: function (xhr, status, error) {
-            console.error("Error al filtrar por fecha:", status, error);
-            alert("Ocurrió un error al obtener las transacciones.");
+        error: function () {
+            alert("Error al obtener las transacciones.");
         }
     });
 }
@@ -257,58 +238,38 @@ function resetFilter() {
 }
 
 function generateTimeline() {
-    const $rows = $("#transactions tr");
-    const $timelineList = $("#timeline-list");
-    $timelineList.empty();
-
-    $rows.each(function () {
-        if ($(this).is(":visible")) {
-            $timelineList.append("<li></li>");
-        }
-    });
+    const $rows = $("#transactions tr:visible");
+    const $timelineList = $("#timeline-list").empty();
+    $rows.each(() => $timelineList.append("<li></li>"));
 }
 
 function paginateTable() {
     const itemsPerPage = parseInt($('#itemsPerPage').val());
     const $rows = $('#transactions tr');
-    const totalItems = $rows.length;
-    const totalPages = Math.ceil(totalItems / itemsPerPage);
+    const totalPages = Math.ceil($rows.length / itemsPerPage);
 
-    $rows.hide();
-    const start = (currentPage - 1) * itemsPerPage;
-    const end = start + itemsPerPage;
-
-    $rows.slice(start, end).show();
+    $rows.hide().slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage).show();
 
     generateTimeline();
     renderPaginationControls(totalPages);
 }
 
 function renderPaginationControls(totalPages) {
-    const $pagination = $('#pagination-controls');
-    $pagination.empty();
-
+    const $pagination = $('#pagination-controls').empty();
     if (totalPages <= 1) return;
 
-    const prevDisabled = currentPage === 1 ? 'disabled' : '';
-    const nextDisabled = currentPage === totalPages ? 'disabled' : '';
-
-    let html = `
-        <button  class="btn btn-sm btn-outline-primary me-2" style="background-color: white;" onclick="changePage(-1)" ${prevDisabled}>Anterior</button>
+    $pagination.html(`
+        <button style="background-color: white" class="btn btn-sm btn-outline-primary me-2" onclick="changePage(-1)" ${currentPage === 1 ? 'disabled' : ''}>Anterior</button>
         <span class="align-self-center me-2">Página ${currentPage} de ${totalPages}</span>
-        <button style="background-color: white;" class="btn btn-sm btn-outline-primary" onclick="changePage(1)" ${nextDisabled}>Siguiente</button>
-    `;
-    $pagination.html(html);
+        <button style="background-color: white"class="btn btn-sm btn-outline-primary" onclick="changePage(1)" ${currentPage === totalPages ? 'disabled' : ''}>Siguiente</button>
+    `);
 }
 
 function changePage(direction) {
-    const itemsPerPage = parseInt($('#itemsPerPage').val());
     const totalItems = $('#transactions tr').length;
+    const itemsPerPage = parseInt($('#itemsPerPage').val());
     const totalPages = Math.ceil(totalItems / itemsPerPage);
-
-    currentPage += direction;
-    currentPage = Math.max(1, Math.min(currentPage, totalPages));
-
+    currentPage = Math.max(1, Math.min(currentPage + direction, totalPages));
     paginateTable();
 }
 
@@ -319,7 +280,7 @@ function capitalize(str) {
 document.getElementById("btnExportarExcel").addEventListener("click", function () {
     const tabla = document.querySelector("#transactions");
     const filas = Array.from(tabla.querySelectorAll("tr"));
-    
+
     if (!filas.length) {
         mostrarAlerta('info', 'No hay datos para exportar.');
         return;
@@ -336,33 +297,20 @@ document.getElementById("btnExportarExcel").addEventListener("click", function (
     });
 
     const hoja = XLSX.utils.aoa_to_sheet(data);
-
-    // Aplicar estilos al encabezado (solo color de fondo aquí)
     const headerStyle = {
-        fill: {
-            fgColor: { rgb: "F6C058" } // Color fondo encabezado
-        },
-        font: {
-            bold: true,
-            color: { rgb: "000000" }
-        }
+        fill: { fgColor: { rgb: "F6C058" } },
+        font: { bold: true, color: { rgb: "000000" } }
     };
 
-    // Aplica estilos al encabezado (A1, B1, C1, D1...)
-    const columnCount = encabezado.length;
-    for (let i = 0; i < columnCount; i++) {
+    for (let i = 0; i < encabezado.length; i++) {
         const cellRef = XLSX.utils.encode_cell({ r: 0, c: i });
-        if (!hoja[cellRef]) continue;
-        hoja[cellRef].s = headerStyle;
+        if (hoja[cellRef]) hoja[cellRef].s = headerStyle;
     }
 
     const libro = XLSX.utils.book_new();
     XLSX.utils.book_append_sheet(libro, hoja, "Transacciones");
-
-    // Exporta el archivo
     XLSX.writeFile(libro, "transacciones.xlsx");
 });
-
 </script>
 
 <?= $this->endSection() ?>

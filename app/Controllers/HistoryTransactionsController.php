@@ -41,8 +41,8 @@ class HistoryTransactionsController extends BaseController
     // Obtén datos como POST tradicional
     $start = $this->request->getPost('startDate');
     $end   = $this->request->getPost('endDate');
-
-    $resultados = $model->filtrarPorFecha($start, $end);
+$user_id = $this->request->getPost('user_id');
+    $resultados = $model->filtrarPorFecha($start, $end, $user_id);
 
     return $this->response->setJSON($resultados);
 }
