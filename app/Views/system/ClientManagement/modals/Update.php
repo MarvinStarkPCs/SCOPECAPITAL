@@ -4,7 +4,7 @@
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="detailModalLabel">Detail from user</h5>
+                <h5 class="modal-title" id="detailModalLabel">Edit from user</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"
                     onclick="location.reload();">
                     <span>&times;</span>
@@ -198,11 +198,11 @@
                                 <!-- Fila para Formula + Botón Recalcular -->
                                 <div class="form-row">
                                     <!-- Campo Fórmula -->
-                                    <div class="form-group col-md-4">
+                                    <div class="form-group col-md-6">
                                         <label for="inputBalance">Formula</label>
                                         <input type="text"
                                             class="form-control <?= session('errors-edit.balance') ? 'is-invalid errors-edit financial' : '' ?>"
-                                            name="balance" placeholder="Balance" value="<?= old('balance') ?>" readonly>
+                                            name="balance" placeholder="Balance" value="<?= old('balance') ?>" >
                                         <div class="invalid-feedback"><?= session('errors-edit.balance') ?></div>
                                     </div>
 
