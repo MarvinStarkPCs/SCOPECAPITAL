@@ -17,7 +17,7 @@ class App extends BaseConfig
      * E.g., http://example.com/
      */
     
-    public string $baseURL = 'http://localhost/SCOPECAPITAL/';
+    public string $baseURL = 'https://www.scopecapital.companystark.com/';
 
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.
@@ -134,7 +134,7 @@ class App extends BaseConfig
      * @see https://www.php.net/manual/en/timezones.php for list of timezones
      *      supported by PHP.
      */
-    public string $appTimezone = 'America/Bogota';
+    public string $appTimezone = 'UTC';
 
     /**
      * --------------------------------------------------------------------------
