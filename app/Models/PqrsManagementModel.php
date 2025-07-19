@@ -79,16 +79,18 @@ public function getFilteredRequests($start_date = null, $end_date = null, $statu
 {
     $builder = $this->db->table('requests r');
     $builder->select('
-        r.id_request,
-        r.unique_code,
-        u.email,
-        r.type_id,
-        rt.name as type,
-        r.status_id,
-        rs.name as status,
-        r.attachment_url,
-        r.description,
-        r.created_at
+       r.id_request,
+            r.unique_code,
+            u.email,
+            rt.name as type,
+            rt.id_type,
+            rs.name as status,
+            rs.id_status,
+            r.attachment_url,
+            r.description,
+            r.response,
+            r.created_at,
+            r.updated_at
     ');
     $builder->join('request_statuses rs', 'r.status_id = rs.id_status');
     $builder->join('request_types rt', 'r.type_id = rt.id_type');

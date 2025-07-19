@@ -34,6 +34,18 @@ class HistoryTransactionsController extends BaseController
         ]);
     }
     
-      
+  public function filtrarPorFecha()
+{
+    $model = new HistoryTransactionModel();
+
+    // Obtén datos como POST tradicional
+    $start = $this->request->getPost('startDate');
+    $end   = $this->request->getPost('endDate');
+
+    $resultados = $model->filtrarPorFecha($start, $end);
+
+    return $this->response->setJSON($resultados);
+}
+ 
 
 }

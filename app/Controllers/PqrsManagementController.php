@@ -1,9 +1,15 @@
 <?php
+
 namespace App\Controllers;
+
 use App\Models\PqrsManagementModel;
 use App\Models\ComboBoxModel;
 use CodeIgniter\Controller;
 use App\Libraries\SendEmail;
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
+use PhpOffice\PhpSpreadsheet\Style\Alignment;
+use PhpOffice\PhpSpreadsheet\Style\Fill;
 
 class PqrsManagementController extends Controller
 {
@@ -106,46 +112,46 @@ HTML;
             'data' => $requestDetails
         ]);
     }
-public function solveRequest()
-{
-    $id = $this->request->getPost('id_request');
-    $response = $this->request->getPost('response');
+    public function solveRequest()
+    {
+        $id = $this->request->getPost('id_request');
+        $response = $this->request->getPost('response');
 
-    log_message('info', 'ID recibido en solveRequest: ' . $id);
-    log_message('info', 'Respuesta recibida: ' . $response);
+        log_message('info', 'ID recibido en solveRequest: ' . $id);
+        log_message('info', 'Respuesta recibida: ' . $response);
 
-    $pqrsModel = new PqrsManagementModel();
+        $pqrsModel = new PqrsManagementModel();
 
-    // Validar si existe la solicitud antes de actualizar
-    $info = $pqrsModel->getEmailAndCodeByRequestId($id);
-    if (!$info) {
-        return redirect()->back()->with('error', 'No se encontró la solicitud.');
-    }
+        // Validar si existe la solicitud antes de actualizar
+        $info = $pqrsModel->getEmailAndCodeByRequestId($id);
+        if (!$info) {
+            return redirect()->back()->with('error', 'No se encontró la solicitud.');
+        }
 
-    // Actualizar estado y guardar respuesta
-    $updated = $pqrsModel->update($id, [
-        'status_id' => 2, // Estado "Resuelto"
-        'response' => $response,
-        'updated_at' => date('Y-m-d H:i:s')
-    ]);
-// Obtener instancia de la base de datos
-$db = \Config\Database::connect();
+        // Actualizar estado y guardar respuesta
+        $updated = $pqrsModel->update($id, [
+            'status_id' => 2, // Estado "Resuelto"
+            'response' => $response,
+            'updated_at' => date('Y-m-d H:i:s')
+        ]);
+        // Obtener instancia de la base de datos
+        $db = \Config\Database::connect();
 
-// Registrar la consulta en el log
-log_message('info', 'Q  : ' . $db->getLastQuery());
-    if (!$updated) {
-        return redirect()->back()->with('error', 'No se pudo actualizar la solicitud.');
-    }
+        // Registrar la consulta en el log
+        log_message('info', 'Q  : ' . $db->getLastQuery());
+        if (!$updated) {
+            return redirect()->back()->with('error', 'No se pudo actualizar la solicitud.');
+        }
 
-    // Datos para el correo
-    $emailUsuario = $info->email;
-    $codigo = $info->unique_code;
-    $nombre = $info->name;
-    $apellido = $info->last_name;
-    $mensajeRespuesta = nl2br(htmlspecialchars($response)); // Sanitiza el contenido
-    $year = date('Y');
+        // Datos para el correo
+        $emailUsuario = $info->email;
+        $codigo = $info->unique_code;
+        $nombre = $info->name;
+        $apellido = $info->last_name;
+        $mensajeRespuesta = nl2br(htmlspecialchars($response)); // Sanitiza el contenido
+        $year = date('Y');
 
-    $message = <<<HTML
+        $message = <<<HTML
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -180,18 +186,93 @@ log_message('info', 'Q  : ' . $db->getLastQuery());
 </html>
 HTML;
 
-    // Enviar correo
-    $email = new SendEmail();
-    $enviado = $email->send($emailUsuario, 'Solicitud PQRS Resuelta', $message);
+        // Enviar correo
+        $email = new SendEmail();
+        $enviado = $email->send($emailUsuario, 'Solicitud PQRS Resuelta', $message);
 
-    if (!$enviado) {
-        return redirect()->back()->with('error', 'La solicitud fue resuelta, pero no se pudo enviar el correo.');
+        if (!$enviado) {
+            return redirect()->back()->with('error', 'La solicitud fue resuelta, pero no se pudo enviar el correo.');
+        }
+
+        return redirect()->back()->with('success', 'La solicitud fue resuelta y el correo enviado exitosamente.');
+    }
+  public function exportToExcel()
+{
+    $pqrsModels = new PqrsManagementModel();
+    $pqrsData = $pqrsModels->getDetailedRequests() ?? [];
+
+    $spreadsheet = new Spreadsheet();
+    $sheet = $spreadsheet->getActiveSheet();
+
+    // Encabezados
+    $headers = [
+        'Código Único',
+        'Email',
+        'Tipo de Solicitud',
+        'Estado',
+        'Adjunto',
+        'Descripción',
+        'Respuesta',
+        'Fecha de Creación',
+        'Última Actualización'
+    ];
+    $sheet->fromArray($headers, null, 'A1');
+
+    // Estilos para el encabezado
+    $headerStyle = [
+        'font' => [
+            'bold' => true,
+            'color' => ['rgb' => '000000'],
+            'size' => 12
+        ],
+        'fill' => [
+            'fillType' => Fill::FILL_SOLID,
+            'startColor' => ['rgb' => 'f1c40f']
+        ],
+        'alignment' => [
+            'horizontal' => Alignment::HORIZONTAL_CENTER,
+            'vertical' => Alignment::VERTICAL_CENTER
+        ]
+    ];
+    $sheet->getStyle('A1:I1')->applyFromArray($headerStyle);
+    $sheet->getRowDimension(1)->setRowHeight(25);
+
+    // Agregar filas de datos
+    $row = 2;
+    foreach ($pqrsData as $item) {
+        $sheet->setCellValue('A' . $row, $item->unique_code);
+        $sheet->setCellValue('B' . $row, $item->email);
+        $sheet->setCellValue('C' . $row, $item->type);
+        $sheet->setCellValue('D' . $row, $item->status);
+        $sheet->setCellValue('E' . $row, $item->attachment_url ?? 'Sin adjunto');
+        $sheet->setCellValue('F' . $row, $item->description);
+        $sheet->setCellValue('G' . $row, $item->response ?? 'Sin respuesta');
+        $sheet->setCellValue('H' . $row, $item->created_at);
+        $sheet->setCellValue('I' . $row, $item->updated_at);
+        $row++;
     }
 
-    return redirect()->back()->with('success', 'La solicitud fue resuelta y el correo enviado exitosamente.');
+    // Ajustar ancho de columnas automáticamente
+    foreach (range('A', 'I') as $col) {
+        $sheet->getColumnDimension($col)->setAutoSize(true);
+    }
+
+    // Generar y descargar archivo
+    $writer = new Xlsx($spreadsheet);
+    $filename = 'pqrs_export_' . date('Ymd_His') . '.xlsx';
+
+    return $this->response
+        ->setHeader('Content-Type', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
+        ->setHeader('Content-Disposition', 'attachment;filename="' . $filename . '"')
+        ->setHeader('Cache-Control', 'max-age=0')
+        ->setBody($this->getSpreadsheetContent($writer));
 }
 
 
-
-
+      private function getSpreadsheetContent($writer)
+    {
+        ob_start();
+        $writer->save('php://output');
+        return ob_get_clean();
+    }
 }

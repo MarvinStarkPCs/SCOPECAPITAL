@@ -1,3 +1,5 @@
+
+
 <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="detailModalLabel">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
@@ -320,8 +322,8 @@
     </div>
 </div>
 <script>
+    $(document).ready(function() {
 
-    $(document).ready(function () {
 
 
         function fillOutTheForm(id_client) {
@@ -331,7 +333,7 @@
                 url: url,
                 type: 'POST',
                 dataType: 'json',
-                success: function (data) {
+                success: function(data) {
                     if (data) {
                         console.log('User data:', data);
                         // Populate the form fields with the user data
@@ -368,43 +370,43 @@
                         // Show the modal
                         $('#editModal').modal('show');
                         // Scroll to the top of the modal
-                        $('#editModal').on('shown.bs.modal', function () {
+                        $('#editModal').on('shown.bs.modal', function() {
                             $(this).scrollTop(0);
                         });
                     } else {
                         alert('Error loading user data');
                     }
                 },
-                error: function () {
+                error: function() {
                     alert('Error connecting to server');
                 }
             });
 
         }
         // Selecciona todos los formularios con la clase 'edit-form'
-        let forms = $('.edit-form');
+        let forms = $('#editForm');
 
         // Recorre cada formulario para buscar inputs con errores
-        forms.each(function () {
+        forms.each(function() {
             let inputWithError = $(this).find('input.errors-edit, select.errors-edit, textarea.errors-edit');
             let financialError = $(this).find('input.financial');
 
-if (inputWithError.length > 0 || financialError.length > 0) {
-    $('#editModalClient').modal('show'); // Usa modal('show') si usas Bootstrap
+            if (inputWithError.length > 0 || financialError.length > 0) {
+                $('#editModal').modal('show'); // Usa modal('show') si usas Bootstrap
 
-    if (financialError.length > 0) {
-        console.log('Financial error found');
+                if (financialError.length > 0) {
+                    console.log('Financial error found');
 
-        // Activa directamente la pestaña financiera
-        $('a[href="#tabFinanciera"]').tab('show');
-    }
-}
+                    // Activa directamente la pestaña financiera
+                    $('a[href="#detail-financial"]').tab('show');
+                }
+            }
 
 
-         
+
         });
-        
-        $('#calculateInterestBtn').on('click', function () {
+
+        $('#calculateInterestBtn').on('click', function() {
             // Obtener datos del formulario por name
             const principal = $('#editForm').find('input[name="principal"]').val();
             const rate = $('#editForm').find('input[name="rate"]').val();
@@ -428,7 +430,7 @@ if (inputWithError.length > 0 || financialError.length > 0) {
                 method: 'POST',
                 data: payload,
                 dataType: 'json',
-                success: function (response) {
+                success: function(response) {
                     if (response.success) {
                         // Actualizar el campo "balance" con el resultado
                         $('input[name="balance"]').val(response.finalAmount);
@@ -436,7 +438,7 @@ if (inputWithError.length > 0 || financialError.length > 0) {
                         alert('Error en el cálculo');
                     }
                 },
-                error: function () {
+                error: function() {
                     alert('Error al conectar con el servidor.');
                 }
             });
@@ -445,21 +447,15 @@ if (inputWithError.length > 0 || financialError.length > 0) {
 
 
         // Al hacer clic en el botón de editar
-        $(document).on('click', '.btn-edit', function (e) {
+        $(document).on('click', '.btn-edit', function(e) {
             e.preventDefault();
             const id_client = $(this).data('id');
             localStorage.setItem(id_client, 'id_client');
             fillOutTheForm(id_client);
         });
 
-
-
-
-
-
-
         // Al hacer clic en "Next"
-        $('.next-tab').on('click', function () {
+        $('.next-tab').on('click', function() {
             let tabPane = $(this).closest('.tab-pane');
             if (tabPane.length === 0) return;
 
@@ -472,7 +468,7 @@ if (inputWithError.length > 0 || financialError.length > 0) {
         });
 
         // Al hacer clic en "Previous"
-        $('.prev-tab').on('click', function () {
+        $('.prev-tab').on('click', function() {
             let tabPane = $(this).closest('.tab-pane');
             if (tabPane.length === 0) return;
 
@@ -484,8 +480,36 @@ if (inputWithError.length > 0 || financialError.length > 0) {
             }
         });
 
-    });
 
+
+        
+        <?php if (session('errors-edit.recalc')): ?>
+     
+            mostrarAlerta('warning', '<?= esc(session('errors-edit.recalc')) ?>');
+           
+            // Mostrar el modal
+            $('#editModal').modal('show');
+
+            // Activar la pestaña financiera
+            $('a[href="#detail-financial"]').tab('show');
+
+            // Esperar a que se muestre el contenido antes de hacer scroll
+            setTimeout(function () {
+                // Enfocar el campo de balance si existe
+                const balanceInput = $('#balance');
+                if (balanceInput.length) {
+                    balanceInput.focus();
+
+                    // Hacer scroll dentro del modal (opcional)
+                    $('#editModal .modal-body').animate({
+                        scrollTop: balanceInput.offset().top - 200
+                    }, 500);
+                }
+            }, 500);
+      
+    <?php endif; ?>
+
+    });
 
 
 </script>

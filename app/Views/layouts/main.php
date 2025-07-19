@@ -27,6 +27,7 @@
     <link href="<?= base_url(relativePath: 'css/partials/loader.css') ?>" rel="stylesheet">
     <link href="<?= base_url(relativePath: 'css/partials/alert.css') ?>" rel="stylesheet">
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 
 <!-- jQuery -->
 <script src="<?= base_url('assets/jquery/jquery.min.js') ?>"></script>

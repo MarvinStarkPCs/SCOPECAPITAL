@@ -66,4 +66,16 @@ class HistoryTransactionModel extends Model
     {
         return $this->delete($id);
     }
+
+     public function filtrarPorFecha($start, $end)
+    {
+        $builder = $this->builder();
+
+        if ($start && $end) {
+            $builder->where('transaction_date >=', $start);
+            $builder->where('transaction_date <=', $end);
+        }
+
+        return $builder->get()->getResult();
+    }
 }

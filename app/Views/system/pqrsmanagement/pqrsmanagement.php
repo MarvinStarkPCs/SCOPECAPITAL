@@ -1,14 +1,25 @@
 <?= $this->extend('layouts/main') ?>
 <?= $this->section('content') ?>
 
+<script src="https://cdn.jsdelivr.net/npm/xlsx-style@0.8.13/dist/xlsx.full.min.js"></script>
+
+
 <!-- Filtros de búsqueda -->
 <div class="card shadow mb-4">
     <div class="card-header py-3 bg-dark-blue d-flex justify-content-between align-items-center">
         <h6 class="m-0 font-weight-bold text-primary">PQRS</h6>
 
-        <button class="btn btn-sm btn-outline-light" type="button" id="toggleFiltros">
-            <i class="fas fa-sliders-h me-1"></i> Hide filters
-        </button>
+        <div>
+            <button id="btnExportarDetalles" class="btn btn-success btn-sm">
+                <i class="fas fa-file-excel"></i> Exportar con detalles
+            </button>
+
+
+
+            <button class="btn btn-sm btn-outline-light" type="button" id="toggleFiltros">
+                <i class="fas fa-sliders-h me-1"></i> Hide filters
+            </button>
+        </div>
     </div>
 
     <!-- Filtros desplegados por defecto -->
@@ -66,6 +77,9 @@
     <!-- Tabla de resultados -->
     <div class="card-body">
         <div class="table-responsive mt-4">
+            <?php
+
+            ?>
             <table class="table table-bordered" id="dataTable" width="100%">
                 <thead class="bg-primary text-white">
                     <tr>
@@ -77,7 +91,9 @@
                         <th>Actions</th>
                     </tr>
                 </thead>
+
                 <tbody id="tablaResultados">
+
                     <?php if (!empty($requests)): ?>
                         <?php foreach ($requests as $row): ?>
                             <tr>
@@ -89,19 +105,19 @@
                                 <td>
                                     <?php if ($row->id_status != 2 && $row->id_status != 3): ?>
                                         <a href="#" class="btn btn-sm btn-success open-request-modal"
-                                           title="Resolve" data-toggle="modal" data-target="#solverequest"
-                                           data-id="<?= esc($row->id_request) ?>" data-code="<?= esc($row->unique_code) ?>">
+                                            title="Resolve" data-toggle="modal" data-target="#solverequest"
+                                            data-id="<?= esc($row->id_request) ?>" data-code="<?= esc($row->unique_code) ?>">
                                             <i class="fas fa-check-circle"></i>
                                         </a>
                                         <a href="#" class="btn btn-sm btn-danger"
-                                           data-toggle="modal" data-target="#cancelrequest"
-                                           title="Reject" data-id="<?= esc($row->id_request) ?>" data-code="<?= esc($row->unique_code) ?>">
+                                            data-toggle="modal" data-target="#cancelrequest"
+                                            title="Reject" data-id="<?= esc($row->id_request) ?>" data-code="<?= esc($row->unique_code) ?>">
                                             <i class="fas fa-times-circle"></i>
                                         </a>
                                     <?php endif; ?>
 
                                     <a href="#" class="btn btn-sm btn-info" title="Details"
-                                       data-id="<?= esc($row->id_request) ?>">
+                                        data-id="<?= esc($row->id_request) ?>">
                                         <i class="fas fa-eye"></i>
                                     </a>
                                 </td>
@@ -113,6 +129,7 @@
         </div>
     </div>
 </div>
+
 
 <!-- Estilos -->
 <style>
@@ -156,8 +173,12 @@
 </style>
 
 <!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+
 <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
+       let datosFiltrados = <?= json_encode($requests) ?>;
+
         function renderTable(data) {
             const tbody = $('#tablaResultados');
             tbody.empty();
@@ -170,7 +191,7 @@
                 return;
             }
 
-            $.each(data, function (index, item) {
+            $.each(data, function(index, item) {
                 let fila = $("<tr>");
                 fila.append($("<td>").text(item.unique_code));
                 fila.append($("<td>").text(item.email));
@@ -209,7 +230,7 @@
             });
         }
 
-        $('#btnFiltrar').on('click', function () {
+        $('#btnFiltrar').on('click', function() {
             const data = {
                 tipoPQRS: $('#tipoPQRS').val(),
                 estadoPQRS: $('#estadoPQRS').val(),
@@ -234,22 +255,24 @@
                 type: 'POST',
                 data: data,
                 dataType: 'json',
-                beforeSend: function () {
+                beforeSend: function() {
                     console.log('Sending filters...');
                 },
-                success: function (response) {
+                success: function(response) {
                     toggleLoader(true, 1000);
+                    console.log('Filter response:', response);
+                    datosFiltrados = response.data;
                     renderTable(response.data);
                     mostrarAlerta('success', 'Filters applied successfully.');
                 },
-                error: function (xhr) {
+                error: function(xhr) {
                     console.error('Filter error:', xhr.responseText);
                     mostrarAlerta('danger', 'Filter submission failed.');
                 }
             });
         });
 
-        $('#btnLimpiar').on('click', function () {
+        $('#btnLimpiar').on('click', function() {
             $('#tipoPQRS').val('').trigger('change');
             $('#estadoPQRS').val('').trigger('change');
             $('#fechaInicio').val('');
@@ -260,35 +283,102 @@
                 type: 'POST',
                 data: {},
                 dataType: 'json',
-                success: function (response) {
+                success: function(response) {
                     toggleLoader(true, 1000);
+                    datosFiltrados = response.data;
                     renderTable(response.data);
                     mostrarAlerta('info', 'All filters removed.');
                 },
-                error: function (xhr) {
+                error: function(xhr) {
                     console.error('Clear filter error:', xhr.responseText);
                     mostrarAlerta('danger', 'Clear filters failed.');
                 }
             });
         });
 
+        // Exportar a Excel con detalles
+    $('#btnExportarDetalles').on('click', function () {
+    if (!Array.isArray(datosFiltrados) || datosFiltrados.length === 0) {
+        mostrarAlerta('info', 'No hay datos para exportar.');
+        return;
+    }
+
+    const encabezado = [
+        "Código",
+        "Usuario",
+        "Tipo",
+        "Estado",
+        "Descripción",
+        "Respuesta",
+        "Fecha de creación",
+        "Fecha de actualización",
+        "Adjunto"
+    ];
+
+    const filas = datosFiltrados.map(item => [
+        item.unique_code,
+        item.email,
+        item.type,
+        item.status,
+        item.description || "Sin descripción",
+        item.response || "Sin respuesta",
+        item.created_at,
+        item.updated_at || "No disponible",
+        item.attachment_url || "No disponible"
+    ]);
+
+    const hoja = XLSX.utils.aoa_to_sheet([encabezado, ...filas]);
+
+    // ✅ Aplicar estilo al encabezado
+    encabezado.forEach((col, index) => {
+        const cellRef = XLSX.utils.encode_cell({ r: 0, c: index });
+        hoja[cellRef].s = {
+            fill: {
+                fgColor: { rgb: "F6C058" }  // Color de fondo #F6C058
+            },
+            font: {
+                bold: true,
+                color: { rgb: "000000" }
+            },
+            alignment: {
+                horizontal: "center",
+                vertical: "center"
+            }
+        };
+    });
+
+    const libro = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(libro, hoja, "PQRS Detallado");
+
+    XLSX.writeFile(libro, "pqrs.xlsx");
+});
+
+
+        // Toggle filtros
         const btnToggle = document.getElementById("toggleFiltros");
         const filtros = document.getElementById("filtroCollapse");
 
-        btnToggle.addEventListener("click", function () {
-            $(filtros).slideToggle(200, function () {
+        btnToggle.addEventListener("click", function() {
+            $(filtros).slideToggle(200, function() {
                 const isVisible = $(this).is(':visible');
-                btnToggle.innerHTML = isVisible
-                    ? '<i class="fas fa-sliders-h me-1"></i> Hide filters'
-                    : '<i class="fas fa-sliders-h me-1"></i> Show filters';
+                btnToggle.innerHTML = isVisible ?
+                    '<i class="fas fa-sliders-h me-1"></i> Hide filters' :
+                    '<i class="fas fa-sliders-h me-1"></i> Show filters';
             });
         });
 
+        // Select2
         if (typeof $ !== 'undefined' && $.fn.select2) {
-            $('.select2').select2({ width: '100%', placeholder: '-- Seleccione --', allowClear: true });
+            $('.select2').select2({
+                width: '100%',
+                placeholder: '-- Seleccione --',
+                allowClear: true
+            });
         }
     });
 </script>
+
+
 
 <?= view('system/pqrsmanagement/modals/cancelrequest') ?>
 <?= view('system/pqrsmanagement/modals/detailrequest') ?>

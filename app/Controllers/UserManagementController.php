@@ -6,7 +6,10 @@ use App\Models\ComboBoxModel;
 use CodeIgniter\HTTP\ResponseInterface;
 use App\Libraries\SendEmail;
 use CodeIgniter\Database\Exceptions\DatabaseException;
-
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
+use PhpOffice\PhpSpreadsheet\Style\Alignment;
+use PhpOffice\PhpSpreadsheet\Style\Fill;
 class UserManagementController extends BaseController
 {
     public function index()
@@ -36,6 +39,79 @@ class UserManagementController extends BaseController
         }
     }
 
+
+
+    
+public function exportToExcel()
+{
+    $userModel = new UserManagementModel();
+    $users = $userModel->getUsers() ?? [];
+
+    $spreadsheet = new Spreadsheet();
+    $sheet = $spreadsheet->getActiveSheet();
+
+ $headers = [
+        'Full Name', 'Identification', 'Email', 'Phone', 'Address',
+        'Date Registration', 'Status', 'Role',
+    ];    $sheet->fromArray($headers, null, 'A1');
+
+    // Estilo del encabezado (solo color de fondo amarillo)
+    $headerStyle = [
+        'font' => [
+            'bold' => true,
+            'color' => ['rgb' => '000000'],
+            'size' => 12
+        ],
+        'fill' => [
+            'fillType' => Fill::FILL_SOLID,
+            'startColor' => ['rgb' => 'f1c40f']
+        ],
+        'alignment' => [
+            'horizontal' => Alignment::HORIZONTAL_CENTER,
+            'vertical' => Alignment::VERTICAL_CENTER
+        ]
+    ];
+    $sheet->getStyle('A1:H1')->applyFromArray($headerStyle);
+    $sheet->getRowDimension(1)->setRowHeight(25);
+
+    // Llenar filas de datos (sin estilo especial)
+    $row = 2;
+    foreach ($users as $user) {
+   $sheet->setCellValue('A' . $row, $user['name'] . ' ' . $user['last_name']);
+        $sheet->setCellValue('B' . $row, $user['identification']);
+        $sheet->setCellValue('C' . $row, $user['email']);
+        $sheet->setCellValue('D' . $row, $user['phone']);
+        $sheet->setCellValue('E' . $row, $user['address']);
+        $sheet->setCellValue('F' . $row, $user['date_registration']);
+        $sheet->setCellValue('G' . $row, $user['status']);
+        $sheet->setCellValue('H' . $row, $user['role_name']);
+     
+
+        $row++;
+    }
+
+    // Autoajustar columnas
+    foreach (range('A', 'H') as $col) {
+        $sheet->getColumnDimension($col)->setAutoSize(true);
+    }
+
+    // Descargar archivo
+    $writer = new Xlsx($spreadsheet);
+    $filename = 'users_export_' . date('Ymd_His') . '.xlsx';
+
+    return $this->response
+        ->setHeader('Content-Type', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
+        ->setHeader('Content-Disposition', 'attachment;filename="' . $filename . '"')
+        ->setHeader('Cache-Control', 'max-age=0')
+        ->setBody($this->getSpreadsheetContent($writer));
+}
+
+    private function getSpreadsheetContent($writer)
+    {
+        ob_start();
+        $writer->save('php://output');
+        return ob_get_clean();
+    }
     public function addUser()
     {
         log_message('info', 'Iniciando el método addUser()');

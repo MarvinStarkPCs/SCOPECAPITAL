@@ -7,12 +7,15 @@
         <h6 class="m-0 font-weight-bold text-primary">List of Users</h6>
     </div>
     <div class="card-body">
-        <div class="d-flex justify-content-end mb-2">
-            <button type="button" id="openModalButtonUser" class="btn btn-primary" data-toggle="modal"
-                    data-target="#addUserModal">
-                <i class="fas fa-user-plus"></i> Add User
-            </button>
-        </div>
+        <div class="d-flex justify-content-end mb-3 gap-2">
+    <a href="<?= base_url('admin/usermanagement/excel') ?>" class="btn btn-success btn-sm mr-2" title="Exportar a Excel">
+        <i class="fas fa-file-excel"></i> Excel
+    </a>
+
+    <button type="button" id="openModalButtonUser" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#addUserModal">
+        <i class="fas fa-user-plus"></i> Agregar Usuario
+    </button>
+</div>
 
         <div class="table-responsive">
             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">

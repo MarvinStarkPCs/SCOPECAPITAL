@@ -51,3 +51,24 @@
 .alert-warning .progress-bar {
     background-color: #ffc107;
 }
+/* Botón de cierre de alerta */
+.alert .close-btn {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+    transition: color 0.3s ease;
+    border-radius: 4px;
+}
+
+.alert .close-btn:hover {
+    color: #000;
+    background-color: rgba(0, 0, 0, 0.05);
+}

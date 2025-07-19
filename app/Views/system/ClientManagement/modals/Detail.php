@@ -214,6 +214,25 @@
                             <h5 class="text-primary">System Access</h5>
                             <div class="form-row">
                              
+                           
+
+                                    <div class="form-group col-md-4">
+                                    <label for="input_last_login_attempt">Last login attempt</label>
+                                    <input type="text"
+                                        class="form-control <?= session('errors-edit.last_login_attempt') ? 'is-invalid errors-edit' : '' ?>"
+                                        name="last_login_attempt" placeholder="last_login_attempt"
+                                        value="<?= old('last_login_attempt') ?>" readonly>
+                                    <div class="invalid-feedback"><?= session('errors-edit.last_login_attempt') ?></div>
+                                </div>
+     <div class="form-group col-md-4">
+                                    <label for="input_login_attempts">Login attempts</label>
+                                    <input type="text"
+                                        class="form-control <?= session('errors-edit.login_attempts') ? 'is-invalid errors-edit' : '' ?>"
+                                        name="login_attempts" placeholder="login_attempts"
+                                        value="<?= old('login_attempts') ?>" readonly>
+                                    <div class="invalid-feedback"><?= session('errors-edit.login_attempts') ?></div>
+                                </div>
+                              
                                 <div class="form-group col-md-4">
                                     <label>Status</label>
                                     <select disabled name="status"
@@ -324,6 +343,7 @@
             type: 'POST',
             dataType: 'json',
             success: function (data) {
+                console.log(data);
                 if (data) {
                     // Populate the form fields with the user data
                     $('#detailForm').find('input[name="name"]').val(data.name);
@@ -346,6 +366,8 @@
                     $('#detailForm').find('input[name="time"]').val(data.time);
                     $('#detailForm').find('input[name="balance"]').val(data.balance);
                     $('#detailForm').find('select[name="status"]').val(data.status);
+                    $('#detailForm').find('input[name="last_login_attempt"]').val(data.last_login_attempt);
+                    $('#detailForm').find('input[name="login_attempts"]').val(data.login_attempts);
                     $('#detailForm').find('input[name="agreement"]').val(data.agreement);
                     $('#detailForm').find('input[name="number"]').val(data.number);
                     $('#detailForm').find('input[name="letter"]').val(data.letter);

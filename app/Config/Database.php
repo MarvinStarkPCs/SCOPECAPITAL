@@ -27,9 +27,9 @@ class Database extends Config
     public array $default = [
         'DSN'          => '',
         'hostname'     => 'localhost',
-        'username'     => 'progr108_scopecapital',
-        'password'     => 'scopecapital2025*',
-        'database'     => 'progr108_scopecapital',
+        'username'     => 'root',
+        'password'     => '12345',
+        'database'     => 'scopecapital',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,

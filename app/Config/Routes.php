@@ -17,6 +17,11 @@ $routes->post('recover/send-link', 'AuthController::sendRecoveryLink');
 $routes->get('reset-password/(:segment)', 'AuthController::resetPassword/$1');
 $routes->post('reset-password/confirm', 'AuthController::resetPasswordConfirm');
 
+
+
+
+    $routes->post('historytransactions/filter', 'HistoryTransactionsController::filtrarPorFecha');
+
 // Rutas protegidas (requieren autenticación)
 $routes->group('admin', ['filter' => 'auth'], function ($routes) {
     $routes->get('dashboard', 'HomeController::index');
@@ -65,6 +70,7 @@ $routes->group('admin', ['filter' => 'auth'], function ($routes) {
     $routes->get('pqrsmanagement/cancel-request/(:num)', 'PqrsManagementController::cancelrequest/$1');
     $routes->post('pqrsmanagement/getDetails', 'PqrsManagementController::detailsRequest');
     $routes->post('pqrsmanagement/resolved-request', 'PqrsManagementController::solveRequest');
+    $routes->post('pqrsmanagement/excel', 'PqrsManagementController::exportToExcel'); // Exportar a Excel
 
     ///transactions
     $routes->get('transactions', 'TransactionsController::index');
@@ -78,6 +84,7 @@ $routes->group('admin', ['filter' => 'auth'], function ($routes) {
     $routes->post('clientmanagement/update/(:num)', 'ClientsManagementController::updateUser/$1'); // Actualizar usuario
     $routes->post('clientmanagement/getClient/(:num)', 'ClientsManagementController::getUserById/$1'); // Actualizar usuario
     $routes->get('clientmanagement/delete/(:num)', 'ClientsManagementController::deleteUser/$1'); // Eliminar usuario
+    $routes->get('clientmanagement/excel', 'ClientsManagementController::exportToExcel'); // Exportar a Excel
     $routes->post('clientmanagement/recalculateCompoundInterest', 'ClientsManagementController::recalculateCompoundInterest');
 
     // Rutas de autenticación (protegidas) para el modulo de historial
@@ -85,6 +92,8 @@ $routes->group('admin', ['filter' => 'auth'], function ($routes) {
     $routes->get('historytransactions', 'HistoryTransactionsController::index');
     $routes->get('historytransactions/detail/(:num)', 'HistoryTransactionsController::renderViewHistoryTransaction/$1');
     $routes->post('historytransactions/search', 'TransactionsController::search');
+    $routes->post('historytransactions/detail/filter', 'HistoryTransactionsController::filtrarPorFecha');
+
     // Rutas de autenticación (protegidas) para el modulo de seguridad
     ///usermanagemen
     $routes->get('usermanagement', 'UserManagementController::index'); // Listar usuarios
@@ -92,13 +101,25 @@ $routes->group('admin', ['filter' => 'auth'], function ($routes) {
     $routes->post('usermanagement/add', 'UserManagementController::addUser'); // Crear usuario
     $routes->post('usermanagement/update/(:num)', 'UserManagementController::updateUser/$1'); // Actualizar usuario
     $routes->get('usermanagement/delete/(:num)', 'UserManagementController::deleteUser/$1'); // Eliminar usuario
+    $routes->get('usermanagement/excel', 'UserManagementController::exportToExcel'); // Exportar a Excel
+
     ///changepassword
     $routes->get('changepassword', 'ChangePasswordController::index');  // Cargar formulario
     $routes->post('changepassword/update', 'ChangePasswordController::updatePassword');  // Enviar formulario
 });
 
 
+
+
+
+
+
+
 $routes->group('client', ['filter' => 'auth'], function ($routes) {
+
+    $routes->post('historytransactions/detail/filter', 'HistoryTransactionsController::filtrarPorFecha');
+
+
     $routes->get('dashboard', 'HomeController::index');
 
     $routes->get('profile', 'ProfileController::index_client');
@@ -109,8 +130,11 @@ $routes->group('client', ['filter' => 'auth'], function ($routes) {
 
     // Rutas de autenticación (protegidas) para pqrs client
     $routes->get('pqrs-sent', 'PqrsSentController::index');
-    $routes->post('pqrs-sent/save', 'PqrsSentController::save'); // Guardar PQRS
+    $routes->post('pqrs-sent/save', 'PqrsSentController::save'); // Guardar 
+    
     $routes->get('historytransactions/detail/(:num)', 'HistoryTransactionsController::renderViewHistoryTransaction/$1');
+
+
 
     //PQRS VIEW
     $routes->get('pqrs-sent/view', 'PqrsSentController::view'); // Ver detalles de una PQRS
