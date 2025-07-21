@@ -1,5 +1,6 @@
 <?php
 namespace App\Controllers;
+
 use App\Controllers\BaseController;
 use App\Models\ConfigurationModel;
 use CodeIgniter\Controller;
@@ -10,23 +11,22 @@ class ConfigurationController extends BaseController
     {
         $ConfigurationModel = new ConfigurationModel();
     
-        // Obtener la configuración SMTP desde la base de datos
-        $stmp_config_data = $ConfigurationModel->where('config_key', 'smtp_config')->first();
+        // Get SMTP configuration from the database
+        $smtpConfigData = $ConfigurationModel->where('config_key', 'smtp_config')->first();
     
-        // Decodificar el valor de config_value que es un JSON
-        $stmp_config = isset($stmp_config_data['config_value']) && !empty($stmp_config_data['config_value']) 
-        ? json_decode($stmp_config_data['config_value'], true) 
-        : [];
+        // Decode the config_value which is stored as JSON
+        $smtpConfig = isset($smtpConfigData['config_value']) && !empty($smtpConfigData['config_value']) 
+            ? json_decode($smtpConfigData['config_value'], true) 
+            : [];
 
-        // Pasar los datos decodificados a la vista
-        return view('aside/setting/setting', ['stmp_config' => $stmp_config]);
+        // Pass the decoded data to the view
+        return view('aside/setting/setting', ['stmp_config' => $smtpConfig]);
     }
     
-    
-    // Guardar configuración SMTP
+    // Save SMTP configuration
     public function saveSMTPConfig()
     {
-        // Reglas de validación
+        // Validation rules
         $rules = [
             'host' => 'required|valid_url',
             'port' => 'required|numeric|min_length[2]|max_length[5]',
@@ -34,13 +34,13 @@ class ConfigurationController extends BaseController
             'smtp_password' => 'required|min_length[6]'
         ];
 
-        // Validar los datos del formulario
+        // Validate form data
         if (!$this->validate($rules)) {
-            // Si la validación falla, redirige de vuelta con los errores
+            // If validation fails, redirect back with errors
             return redirect()->back()->withInput()->with('errors-insert', $this->validator->getErrors());
         }
 
-        // Tomar los datos del formulario
+        // Get form data
         $data = [
             'config_key' => 'smtp_config',
             'config_value' => json_encode([
@@ -52,21 +52,21 @@ class ConfigurationController extends BaseController
             ]),
             'updated_at' => date('Y-m-d H:i:s')
         ];
-        log_message('info', 'Datos enviados para actualizar SMTP: ' . print_r($data, true));
+        log_message('info', 'Data sent to update SMTP: ' . print_r($data, true));
 
-        // Verificar si la configuración fue guardada exitosamente
+        // Try to save the configuration
         try {
             $ConfigurationModel = new ConfigurationModel();
             $ConfigurationModel->updateSMTPConfig($data);
 
-            // Log: Éxito al actualizar la configuración
-            $this->logger->info('Configuración SMTP actualizada exitosamente.');
-            return redirect()->to('/admin/setting')->with('success', 'Configuración SMTP actualizada con éxito.');
+            // Log: Successfully updated configuration
+            $this->logger->info('SMTP configuration successfully updated.');
+            return redirect()->to('/admin/setting')->with('success', 'SMTP configuration updated successfully.');
 
         } catch (\Exception $e) {
-            // Log: Error al actualizar la configuración
-            $this->logger->error('Error al actualizar la configuración: ' . $e->getMessage());
-            return redirect()->back()->with('error', 'Hubo un problema al actualizar la configuración.');
+            // Log: Error updating configuration
+            $this->logger->error('Error updating configuration: ' . $e->getMessage());
+            return redirect()->back()->with('error', 'There was a problem updating the configuration.');
         }
     }
 }

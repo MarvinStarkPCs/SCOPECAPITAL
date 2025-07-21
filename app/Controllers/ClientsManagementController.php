@@ -39,7 +39,8 @@ class ClientsManagementController extends BaseController
             return $this->response->setJSON($user);
         } else {
             return $this->response->setStatusCode(ResponseInterface::HTTP_NOT_FOUND)
-                ->setJSON(['status' => 'error', 'message' => 'Usuario no encontrado']);
+                ->setJSON(['status' => 'error', 'message' => 'User not found']);
+
         }
     }
 
@@ -250,12 +251,12 @@ public function exportToExcel()
 
 
             // Crear mensaje con CID
-            $message = '
+        $message = '
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bienvenido a Scope Capital</title>
+    <title>Welcome to Scope Capital</title>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
     <link href="' . base_url('assets/fontawesome-free/css/all.min.css') . '" rel="stylesheet" type="text/css">
 </head>
@@ -263,38 +264,40 @@ public function exportToExcel()
     <div style="max-width: 600px; margin: auto; background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 0 10px rgba(0,0,0,0.05);">
         <div style="background-color: #192229; color: #F1C40F; padding: 20px; text-align: center;">
             <img src="https://i.imgur.com/ZQcJdWg.png" style="max-height: 60px; margin-bottom: 10px;">
-            <h2 style="margin: 0;">👋 Bienvenido a Scope Capital</h2>
+            <h2 style="margin: 0;">👋 Welcome to Scope Capital</h2>
         </div>
         <div style="padding: 30px;">
-            <p>Hola <strong>' . esc($data['name']) . ' ' . esc($data['last_name']) . '</strong>,</p>
-            <p>Tu cuenta ha sido creada exitosamente. A continuación te compartimos tus credenciales de acceso:</p>
+            <p>Hello <strong>' . esc($data['name']) . ' ' . esc($data['last_name']) . '</strong>,</p>
+            <p>Your account has been successfully created. Below are your login credentials:</p>
             <ul style="list-style: none; padding: 0;">
-                <li><strong>📧 Usuario:</strong> ' . esc($data['email']) . '</li>
-                <li><strong>🔒 Contraseña:</strong> SCOPECAPITAL2025</li>
+                <li><strong>📧 Username:</strong> ' . esc($data['email']) . '</li>
+                <li><strong>🔒 Password:</strong> SCOPECAPITAL2025</li>
             </ul>
-            <p>Puedes iniciar sesión haciendo clic en el siguiente botón:</p>
+            <p>You can log in by clicking the button below:</p>
             <p style="text-align: center;">
-                <a href="' . base_url('login') . '" style="background-color: #F1C40F; color: white; padding: 12px 25px; border-radius: 5px; text-decoration: none; font-weight: bold;">Iniciar sesión</a>
+                <a href="' . base_url('login') . '" style="background-color: #F1C40F; color: white; padding: 12px 25px; border-radius: 5px; text-decoration: none; font-weight: bold;">Log In</a>
             </p>
-            <p style="margin-top: 30px;">Gracias por confiar en nosotros,</p>
-            <p>El equipo de Scope Capital</p>
+            <p style="margin-top: 30px;">Thank you for trusting us,</p>
+            <p>The Scope Capital Team</p>
         </div>
         <div style="background-color: #192229; text-align: center; padding: 15px; font-size: 12px; color: #F1C40F;">
-            © ' . date("Y") . ' Scope Capital. Todos los derechos reservados.
+            © ' . date("Y") . ' Scope Capital. All rights reserved.
         </div>
     </div>
 </body>
 </html>';
 
+
             // Enviar el correo
-            $email->send($data['email'], 'Bienvenido a Scope Capital', $message);
+            $email->send($data['email'], 'Welcome to Scope Capital', $message);
+
+return redirect()->to('/admin/clientmanagement')->with('success', 'User added successfully');
 
 
-
-            return redirect()->to('/admin/clientmanagement')->with('success', 'Usuario agregado correctamente');
         } catch (\Exception $e) {
             log_message('error', 'Error al insertar usuario: ' . $e->getMessage());
-            return redirect()->back()->withInput()->with('errors-insert', ['db_error' => 'No se pudo registrar el usuario.']);
+return redirect()->back()->withInput()->with('errors-insert', ['db_error' => 'Failed to register the user.']);
+
         }
     }
 
@@ -311,7 +314,8 @@ public function exportToExcel()
         } else {
             log_message('error', 'Usuario no encontrado con ID: ' . $id);
             return $this->response->setStatusCode(ResponseInterface::HTTP_NOT_FOUND)
-                ->setJSON(['status' => 'error', 'message' => 'Usuario no encontrado']);
+          ->setJSON(['status' => 'error', 'message' => 'User not found']);
+
         }
     }
 public function updateUser($id)
@@ -409,12 +413,12 @@ public function updateUser($id)
         $balanceNew = round((float) $data['balance'], 4);
         $balanceOld = round((float) ($currentData['balance'] ?? 0), 4);
 
-        if ($recalculationChanged && $balanceNew === $balanceOld) {
-            log_message('error', 'Intento de actualización sin recalcular balance.');
-            return redirect()->back()->withInput()->with('errors-edit', [
-                'recalc' => 'Modificastes uno de los campos, Debes recalcular el balance antes de guardar.'
-            ]);
-        }
+ if ($recalculationChanged && $balanceNew === $balanceOld) {
+    log_message('error', 'Attempted update without recalculating balance.');
+    return redirect()->back()->withInput()->with('errors-edit', [
+        'recalc' => 'You modified one of the fields. You must recalculate the balance before saving.'
+    ]);
+}
 
         // Registrar historial si cambió balance
         if ($balanceNew !== $balanceOld) {
@@ -430,12 +434,14 @@ public function updateUser($id)
         // Actualizar
         $model->update($id, $data);
 
-        return redirect()->to('/admin/clientmanagement')->with('success', 'Usuario actualizado correctamente.');
+      return redirect()->to('/admin/clientmanagement')->with('success', 'User updated successfully.');
+
     } catch (\Exception $e) {
         log_message('error', "Error al actualizar usuario ID $id: " . $e->getMessage());
-        return redirect()->back()->withInput()->with('errors-edit', [
-            'db_error' => 'Ocurrió un error al actualizar el usuario.'
-        ]);
+       return redirect()->back()->withInput()->with('errors-edit', [
+    'db_error' => 'An error occurred while updating the user.'
+]);
+
     }
 }
 

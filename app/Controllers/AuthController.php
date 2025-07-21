@@ -32,22 +32,23 @@ class AuthController extends BaseController
     {
         log_message('info', 'El método authenticate fue llamado');
         // Reglas de validación con mensajes personalizados
-        $rules = [
-            'email' => [
-                'rules' => 'required|valid_email',
-                'errors' => [
-                    'required' => 'El campo de correo electrónico es obligatorio.',
-                    'valid_email' => 'Debe ingresar un correo electrónico válido.',
-                ],
-            ],
-            'password' => [
-                'rules' => 'required|min_length[8]',
-                'errors' => [
-                    'required' => 'El campo de contraseña es obligatorio.',
-                    'min_length' => 'La contraseña debe tener al menos 8 caracteres.',
-                ],
-            ],
-        ];
+     $rules = [
+    'email' => [
+        'rules' => 'required|valid_email',
+        'errors' => [
+            'required' => 'The email field is required.',
+            'valid_email' => 'You must enter a valid email address.',
+        ],
+    ],
+    'password' => [
+        'rules' => 'required|min_length[8]',
+        'errors' => [
+            'required' => 'The password field is required.',
+            'min_length' => 'The password must be at least 8 characters long.',
+        ],
+    ],
+];
+
         // Validación
         if (!$this->validate($rules)) {
             return redirect()->back()->with('error', implode('<br>', $this->validator->getErrors()));
@@ -59,13 +60,14 @@ class AuthController extends BaseController
         $user = $this->userModel->login($email, $password);
 
         // Manejo de respuestas especiales
-        if ($user === 'locked') {
-            return redirect()->back()->with('error', 'Demasiados intentos fallidos. Intenta nuevamente en 10 minutos.');
-        }
+     if ($user === 'locked') {
+    return redirect()->back()->with('error', 'Too many failed attempts. Please try again in 10 minutes.');
+}
 
-        if ($user === 'inactive') {
-            return redirect()->back()->with('error', 'Tu cuenta está desactivada. Contacta al administrador.');
-        }
+if ($user === 'inactive') {
+    return redirect()->back()->with('error', 'Your account is deactivated. Please contact the administrator.');
+}
+
 
         if ($user) {
             $session = session();
@@ -85,7 +87,7 @@ class AuthController extends BaseController
                 ? redirect()->to('/admin/pqrsmanagement')
                 : redirect()->to('/client/dashboard');
         } else {
-            return redirect()->back()->with('error', 'Correo electrónico o contraseña incorrectos.');
+return redirect()->back()->with('error', 'Incorrect email or password.');
         }
     }
 
@@ -115,7 +117,7 @@ class AuthController extends BaseController
         // Agregar un retraso en la sesión para evitar redirección inmediata con caché
         session_write_close();
 
-        return redirect()->to(base_url('/login'))->with('message', 'Sesión cerrada correctamente.');
+return redirect()->to(base_url('/login'))->with('message', 'You have successfully logged out.');
     }
     public function sendRecoveryLink(): RedirectResponse
     {
@@ -124,7 +126,8 @@ class AuthController extends BaseController
         $user = $this->userModel->where('email', $emailUsuario)->first();
 
         if (!$user) {
-            return redirect()->back()->with('error', 'No se encontró el correo en nuestra base de datos.');
+return redirect()->back()->with('error', 'Email not found in our database.');
+
         }
 
         // Generar token de recuperación
@@ -145,39 +148,39 @@ class AuthController extends BaseController
         ];
 
         // Construir mensaje HTML
-        $message = '
+     $message = '
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Recuperar contraseña - Scope Capital</title>
+  <title>Password Recovery - Scope Capital</title>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body style="font-family: Nunito, Arial, sans-serif; background-color: #f5f7fa; padding: 0; margin: 0; color: #333;">
   <div style="max-width: 600px; margin: auto; background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 0 10px rgba(0,0,0,0.05);">
     
-    <!-- Encabezado -->
+    <!-- Header -->
     <div style="background-color: #192229; color: #F1C40F; padding: 25px; text-align: center;">
-      <img src="https://i.imgur.com/ZQcJdWg.png" alt="Logo Scope Capital" style="max-height: 60px; margin-bottom: 10px;">
-      <h2 style="margin: 0;">🔐 Recupera tu contraseña</h2>
+      <img src="https://i.imgur.com/ZQcJdWg.png" alt="Scope Capital Logo" style="max-height: 60px; margin-bottom: 10px;">
+      <h2 style="margin: 0;">🔐 Reset Your Password</h2>
     </div>
     
-    <!-- Contenido principal -->
+    <!-- Main Content -->
     <div style="padding: 30px;">
-      <p>Hola <strong>' . esc($data["name"]) . ' ' . esc($data["last_name"]) . '</strong>,</p>
-      <p>Hemos recibido una solicitud para restablecer tu contraseña en Scope Capital.</p>
-      <p>Para continuar, haz clic en el siguiente botón:</p>
+      <p>Hello <strong>' . esc($data["name"]) . ' ' . esc($data["last_name"]) . '</strong>,</p>
+      <p>We received a request to reset your password for your Scope Capital account.</p>
+      <p>To proceed, please click the button below:</p>
       <p style="text-align: center; margin: 30px 0;">
-        <a href="' . $data['link'] . '" style="background-color: #F1C40F; color: #192229; text-decoration: none; padding: 12px 25px; border-radius: 5px; font-weight: bold;">Restablecer contraseña</a>
+        <a href="' . $data['link'] . '" style="background-color: #F1C40F; color: #192229; text-decoration: none; padding: 12px 25px; border-radius: 5px; font-weight: bold;">Reset Password</a>
       </p>
-      <p>Este enlace es válido por <strong>1 hora</strong>. Si no solicitaste este cambio, puedes ignorar este mensaje.</p>
-      <p style="margin-top: 40px;">Gracias por confiar en nosotros,</p>
-      <p>El equipo de Scope Capital</p>
+      <p>This link is valid for <strong>1 hour</strong>. If you did not request this change, you can safely ignore this message.</p>
+      <p style="margin-top: 40px;">Thank you for trusting us,</p>
+      <p>The Scope Capital Team</p>
     </div>
 
     <!-- Footer -->
     <div style="background-color: #192229; text-align: center; padding: 15px; font-size: 12px; color: #F1C40F;">
-      © ' . date("Y") . ' Scope Capital. Todos los derechos reservados.
+      © ' . date("Y") . ' Scope Capital. All rights reserved.
     </div>
 
   </div>
@@ -185,15 +188,16 @@ class AuthController extends BaseController
 </html>';
 
 
+
         // Enviar el correo
         $sendEmail = new SendEmail();
-        $enviado = $sendEmail->send($emailUsuario, 'Restablece tu contraseña - Scope Capital', $message);
+        $enviado = $sendEmail->send($emailUsuario, 'Reset Your Password - Scope Capital', $message);
+if ($enviado) {
+    return redirect()->to('recover')->with('success', 'We have sent you a link to reset your password.');
+} else {
+    return redirect()->to('recover')->with('error', 'An error occurred while sending the email. Please try again.');
+}
 
-        if ($enviado) {
-            return redirect()->to('recover')->with('success', 'Te hemos enviado un enlace para restablecer tu contraseña.');
-        } else {
-            return redirect()->to('recover')->with('error', 'Ocurrió un error al enviar el correo. Intenta nuevamente.');
-        }
     }
 
 
@@ -204,7 +208,8 @@ public function resetPassword($token)
         ->first();
 
     if (!$user) {
-        return redirect()->to('recover')->with('error', 'El enlace de recuperación es inválido o ha expirado.');
+return redirect()->to('recover')->with('error', 'The recovery link is invalid or has expired.');
+
     }
 
 
@@ -228,34 +233,35 @@ public function resetPasswordConfirm()
     $password = $this->request->getPost('password');
     $confirm = $this->request->getPost('confirm_password');
 
-    // Validaciones de seguridad
-    if (strlen($password) < 8) {
-        return redirect()->back()->with('error', 'La contraseña debe tener al menos 8 caracteres.');
-    }
+   // Security validations
+if (strlen($password) < 8) {
+    return redirect()->back()->with('error', 'The password must be at least 8 characters long.');
+}
 
-    if (!preg_match('/[A-Z]/', $password)) {
-        return redirect()->back()->with('error', 'La contraseña debe contener al menos una letra mayúscula.');
-    }
+if (!preg_match('/[A-Z]/', $password)) {
+    return redirect()->back()->with('error', 'The password must contain at least one uppercase letter.');
+}
 
-    if (!preg_match('/[a-z]/', $password)) {
-        return redirect()->back()->with('error', 'La contraseña debe contener al menos una letra minúscula.');
-    }
+if (!preg_match('/[a-z]/', $password)) {
+    return redirect()->back()->with('error', 'The password must contain at least one lowercase letter.');
+}
 
-    if (!preg_match('/\d/', $password)) {
-        return redirect()->back()->with('error', 'La contraseña debe contener al menos un número.');
-    }
+if (!preg_match('/\d/', $password)) {
+    return redirect()->back()->with('error', 'The password must contain at least one number.');
+}
 
-    if (!preg_match('/[\W_]/', $password)) {
-        return redirect()->back()->with('error', 'La contraseña debe contener al menos un carácter especial.');
-    }
+if (!preg_match('/[\W_]/', $password)) {
+    return redirect()->back()->with('error', 'The password must contain at least one special character.');
+}
 
-    if (preg_match('/\s/', $password)) {
-        return redirect()->back()->with('error', 'La contraseña no debe contener espacios.');
-    }
+if (preg_match('/\s/', $password)) {
+    return redirect()->back()->with('error', 'The password must not contain spaces.');
+}
 
-    if ($password !== $confirm) {
-        return redirect()->back()->with('error', 'Las contraseñas no coinciden.');
-    }
+if ($password !== $confirm) {
+    return redirect()->back()->with('error', 'Passwords do not match.');
+}
+
 
     // Verifica el token y su vigencia
     $user = $this->userModel->where('reset_token', $token)
@@ -263,7 +269,7 @@ public function resetPasswordConfirm()
         ->first();
 
     if (!$user) {
-        return redirect()->to('recover')->with('error', 'El enlace ha expirado o no es válido.');
+return redirect()->to('recover')->with('error', 'The link has expired or is invalid.');
     }
 
     // Guarda la nueva contraseña
@@ -273,7 +279,7 @@ public function resetPasswordConfirm()
         'reset_token_expiration' => null
     ]);
 
-    return redirect()->to('login')->with('success', 'Tu contraseña ha sido actualizada correctamente.');
+return redirect()->to('login')->with('success', 'Your password has been successfully updated.');
 }
 
 

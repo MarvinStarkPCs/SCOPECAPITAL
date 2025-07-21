@@ -11,7 +11,7 @@
 
         <div>
             <button id="btnExportarDetalles" class="btn btn-success btn-sm">
-                <i class="fas fa-file-excel"></i> Exportar con detalles
+                <i class="fas fa-file-excel"></i> Export to Excel
             </button>
 
 

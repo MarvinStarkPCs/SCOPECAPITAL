@@ -61,14 +61,15 @@ public function update()
         }
     }
 
-    // Actualizar los datos
-    if ($userModel->update($userId, $userData)) {
-        log_message('info', 'Perfil: Usuario ID ' . $userId . ' actualizado exitosamente.');
-        return redirect()->to('admin/profile')->with('message', 'Perfil actualizado correctamente.');
-    } else {
-        log_message('error', 'Perfil: Error al actualizar el usuario ID: ' . $userId);
-        return redirect()->back()->withInput()->with('error', 'No se pudo actualizar el perfil.');
-    }
+ // Update user data
+if ($userModel->update($userId, $userData)) {
+    log_message('info', 'Profile: User ID ' . $userId . ' updated successfully.');
+    return redirect()->to('admin/profile')->with('message', 'Profile updated successfully.');
+} else {
+    log_message('error', 'Profile: Failed to update user ID: ' . $userId);
+    return redirect()->back()->withInput()->with('error', 'Failed to update profile.');
+}
+
 }
 
 public function updateClient()
@@ -110,12 +111,13 @@ log_message('info', 'Datos enviados en el formulario de perfil: ' . print_r($use
 
     // Actualizar los datos
     if ($userModel->update($userId, $userData)) {
-        log_message('info', 'Perfil: Usuario ID ' . $userId . ' actualizado exitosamente.');
-        return redirect()->to('client/profile')->with('message', 'Perfil actualizado correctamente.');
-    } else {
-        log_message('error', 'Perfil: Error al actualizar el usuario ID: ' . $userId);
-        return redirect()->back()->withInput()->with('error', 'No se pudo actualizar el perfil.');
-    }
+    log_message('info', 'Profile: User ID ' . $userId . ' updated successfully.');
+    return redirect()->to('client/profile')->with('message', 'Profile updated successfully.');
+} else {
+    log_message('error', 'Profile: Failed to update user ID: ' . $userId);
+    return redirect()->back()->withInput()->with('error', 'Failed to update profile.');
+}
+
 }
 
 }

@@ -53,36 +53,37 @@
                             </td>
                         </tr>
 
-                        <!-- Modal Detalles -->
-                        <div class="modal fade" id="detailModal<?= $item['id_request'] ?>" tabindex="-1" role="dialog" aria-labelledby="detailModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header bg-primary text-white">
-                                        <h5 class="modal-title">Detalle PQRS #<?= esc($item['unique_code']) ?></h5>
-                                        <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <p><strong>Tipo:</strong> <?= esc($item['type']) ?></p>
-                                        <p><strong>Estado:</strong> <?= esc($item['status']) ?></p>
-                                        <p><strong>Descripción:</strong><br><?= esc($item['description']) ?></p>
-                                        <p><strong>Respuesta:</strong><br>
-                                            <?= $item['response'] ? esc($item['response']) : '<em>Aún no hay respuesta</em>' ?>
-                                        </p>
-                                        <p><strong>Creado:</strong> <?= esc($item['created_at']) ?></p>
-                                        <p><strong>Actualizado:</strong> <?= esc($item['updated_at']) ?></p>
-                                        <?php if (!empty($item['attachment_url'])): ?>
-                                            <p><strong>Adjunto:</strong>
-                                                <a href="<?= base_url('upload/pqrs/' . $item['attachment_url']) ?>" target="_blank">
-                                                    Ver archivo
-                                                </a>
-                                            </p>
-                                        <?php endif; ?>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <!-- Modal Details -->
+<div class="modal fade" id="detailModal<?= $item['id_request'] ?>" tabindex="-1" role="dialog" aria-labelledby="detailModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title">PQRS Detail #<?= esc($item['unique_code']) ?></h5>
+                <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Type:</strong> <?= esc($item['type']) ?></p>
+                <p><strong>Status:</strong> <?= esc($item['status']) ?></p>
+                <p><strong>Description:</strong><br><?= esc($item['description']) ?></p>
+                <p><strong>Response:</strong><br>
+                    <?= $item['response'] ? esc($item['response']) : '<em>No response yet</em>' ?>
+                </p>
+                <p><strong>Created:</strong> <?= esc($item['created_at']) ?></p>
+                <p><strong>Updated:</strong> <?= esc($item['updated_at']) ?></p>
+                <?php if (!empty($item['attachment_url'])): ?>
+                    <p><strong>Attachment:</strong>
+                        <a href="<?= base_url('upload/pqrs/' . $item['attachment_url']) ?>" target="_blank">
+                            View file
+                        </a>
+                    </p>
+                <?php endif; ?>
+            </div>
+        </div>
+    </div>
+</div>
+
 
                     <?php endforeach; ?>
                 </tbody>

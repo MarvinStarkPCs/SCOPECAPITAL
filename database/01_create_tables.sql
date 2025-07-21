@@ -110,14 +110,14 @@ CREATE TABLE parameters (
 
 -- Tabla request_types
 CREATE TABLE request_types (
-    name VARCHAR(50) NOT NULL UNIQUE,        -- Restricción UNIQUE
+    name VARCHAR(100) NOT NULL UNIQUE,        -- Restricción UNIQUE
     description VARCHAR(255),
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
 -- Tabla request_statuses
 CREATE TABLE request_statuses (
-    name ENUM('Pendiente', 'En proceso', 'Resuelta', 'Rechazada') NOT NULL,
+    name VARCHAR(100) NOT NULL,  -- Restricción UNIQUE
     description VARCHAR(255),
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );

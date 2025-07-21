@@ -3,69 +3,69 @@
 
 <div class="container shadow bg-dark-blue card p-4 mb-5">
     <div class="card-header py-3 bg-dark-blue">
-        <h6 class="m-0 font-weight-bold text-primary">Historial de Transacciones</h6>
+        <h6 class="m-0 font-weight-bold text-primary">Transaction History</h6>
     </div>
 
     <div class="row">
-        <!-- Información del Usuario -->
+        <!-- User Information -->
         <div class="col-md-6">
             <div class="card p-3 bg-light">
-                <h5><i class="fas fa-user"></i> Usuario: <?= esc($users['name'].' '. $users['last_name'] ?? 'No disponible'); ?></h5>
-                <p><i class="fas fa-id-card"></i> Cédula: <?= esc($users['identification'] ?? 'No disponible'); ?></p>
-                <p><i class="fas fa-envelope"></i> Correo: <?= esc($users['email'] ?? 'No disponible'); ?></p>
-                <p><i class="fas fa-clock"></i> Última sesión: <?= esc($users['last_login_attempt'] ?? 'No disponible'); ?></p>
+                <h5><i class="fas fa-user"></i> User: <?= esc($users['name'].' '. $users['last_name'] ?? 'Not available'); ?></h5>
+                <p><i class="fas fa-id-card"></i> ID: <?= esc($users['identification'] ?? 'Not available'); ?></p>
+                <p><i class="fas fa-envelope"></i> Email: <?= esc($users['email'] ?? 'Not available'); ?></p>
+                <p><i class="fas fa-clock"></i> Last login: <?= esc($users['last_login_attempt'] ?? 'Not available'); ?></p>
             </div>
         </div>
 
-        <!-- Información de Saldos -->
+        <!-- Balance Information -->
         <div class="col-md-6">
             <div class="card p-3 bg-light">
-                <h5><i class="fas fa-wallet"></i> Saldo y Transacciones</h5>
+                <h5><i class="fas fa-wallet"></i> Balance and Transactions</h5>
                 <p><i class="fas fa-dollar-sign"></i> Principal: <strong><?= esc($users['principal'] ?? '0'); ?> USD</strong></p>
-                <p><i class="fas fa-calculator"></i> Formula: <strong><?= esc($users['balance'] ?? '0'); ?> USD</strong></p>
-                <p><i class="fas fa-calendar-alt"></i> Última Transacción: 
-                    <strong><?= isset($transactions[0]['transaction_date']) ? esc($transactions[0]['transaction_date']) : 'No disponible'; ?></strong>
+                <p><i class="fas fa-calculator"></i> Calculated: <strong><?= esc($users['balance'] ?? '0'); ?> USD</strong></p>
+                <p><i class="fas fa-calendar-alt"></i> Last Transaction: 
+                    <strong><?= isset($transactions[0]['transaction_date']) ? esc($transactions[0]['transaction_date']) : 'Not available'; ?></strong>
                 </p>
             </div>
         </div>
     </div>
 
-    <!-- Filtro de fechas -->
+    <!-- Date Filter -->
     <div class="row mt-4 align-items-end">
         <div class="col-md-3">
-            <label for="start-date">Fecha Inicio:</label>
+            <label for="start-date">Start Date:</label>
             <input type="date" id="start-date" class="form-control">
         </div>
         <div class="col-md-3">
-            <label for="end-date">Fecha Fin:</label>
+            <label for="end-date">End Date:</label>
             <input type="date" id="end-date" class="form-control">
         </div>
-        <!-- Input oculto para ID desde URL -->
+        <!-- Hidden input for ID from URL -->
         <input type="hidden" id="user-id" name="user_id" value="">
         <div class="col-md-3">
-            <button class="btn btn-primary w-100" onclick="filterByDate()">Filtrar</button>
+            <button class="btn btn-primary w-100" onclick="filterByDate()">Filter</button>
         </div>
         <div class="col-md-3">
-            <button class="btn btn-secondary w-100" onclick="resetFilter()">Limpiar Filtro</button>
+            <button class="btn btn-secondary w-100" onclick="resetFilter()">Clear Filter</button>
         </div>
     </div>
 
     <div class="row mt-4">
-        <!-- Línea de tiempo -->
+        <!-- Timeline -->
         <div class="col-md-2 d-flex align-items-center">
             <div class="timeline">
                 <ul id="timeline-list"></ul>
             </div>
         </div>
 
-        <!-- Tabla de transacciones -->
+        <!-- Transactions Table -->
         <div class="col-md-10">
             <div class="d-flex align-items-center justify-content-end mb-3" style="gap: 15px;">
                 <button id="btnExportarExcel" class="btn btn-excel btn-sm">
-                    <i class="fas fa-file-excel"></i> Exportar a Excel
+                    <i class="fas fa-file-excel"></i> Export to Excel
                 </button>
                 <div class="d-flex align-items-center">
-                    <label for="itemsPerPage" class="me-2 mb-0 text-white">Mostrar:</label>
+                    <label for="itemsPerPage" class="me-2 mb-0 text-white">Show:</label>
                     <select id="itemsPerPage" class="form-select custom-select-sm">
                         <option value="10">10</option>
                         <option value="20">20</option>
@@ -78,9 +78,9 @@
                 <thead>
                     <tr>
                         <th>Principal</th>
-                        <th>Formula</th>
-                        <th>Tipo de Transacción</th>
-                        <th>Fecha</th>
+                        <th>Calculated</th>
+                        <th>Transaction Type</th>
+                        <th>Date</th>
                     </tr>
                 </thead>
                 <tbody id="transactions">
@@ -99,7 +99,6 @@
         </div>
     </div>
 </div>
-
 <!-- ESTILOS -->
 <style>
 .btn-excel i { margin-right: 6px; }
@@ -259,9 +258,10 @@ function renderPaginationControls(totalPages) {
     if (totalPages <= 1) return;
 
     $pagination.html(`
-        <button style="background-color: white" class="btn btn-sm btn-outline-primary me-2" onclick="changePage(-1)" ${currentPage === 1 ? 'disabled' : ''}>Anterior</button>
-        <span class="align-self-center me-2">Página ${currentPage} de ${totalPages}</span>
-        <button style="background-color: white"class="btn btn-sm btn-outline-primary" onclick="changePage(1)" ${currentPage === totalPages ? 'disabled' : ''}>Siguiente</button>
+       <button style="background-color: white" class="btn btn-sm btn-outline-primary me-2" onclick="changePage(-1)" ${currentPage === 1 ? 'disabled' : ''}>Previous</button>
+<span class="align-self-center me-2">Page ${currentPage} of ${totalPages}</span>
+<button style="background-color: white" class="btn btn-sm btn-outline-primary" onclick="changePage(1)" ${currentPage === totalPages ? 'disabled' : ''}>Next</button>
+
     `);
 }
 
@@ -285,8 +285,8 @@ document.getElementById("btnExportarExcel").addEventListener("click", function (
         mostrarAlerta('info', 'No hay datos para exportar.');
         return;
     }
+const encabezado = ["Principal", "Calculated Amount", "Transaction Type", "Date"];
 
-    const encabezado = ["Monto", "Monto Calculado", "Tipo de Transacción", "Fecha"];
     const data = [encabezado];
 
     filas.forEach(tr => {
@@ -308,8 +308,9 @@ document.getElementById("btnExportarExcel").addEventListener("click", function (
     }
 
     const libro = XLSX.utils.book_new();
-    XLSX.utils.book_append_sheet(libro, hoja, "Transacciones");
-    XLSX.writeFile(libro, "transacciones.xlsx");
+XLSX.utils.book_append_sheet(libro, hoja, "Transactions");
+XLSX.writeFile(libro, "transactions.xlsx");
+
 });
 </script>
 

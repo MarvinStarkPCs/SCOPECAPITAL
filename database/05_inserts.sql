@@ -5,21 +5,25 @@ VALUES
     ('ADMIN', 'ADMINISTRADOR CON ACCESO COMPLETO'),
     ('CLIENT', 'USUARIO CON PERMISOS DE EDICIÓN');
 
--- Insertar tipos de solicitud
+-- Insert request types
 INSERT INTO request_types (name, description)
 VALUES
-    ('PETICIÓN', 'SOLICITUD DE INFORMACIÓN O ACCIÓN'),
-    ('QUEJA', 'EXPRESIÓN DE INSATISFACCIÓN CON UN SERVICIO'),
-    ('RECLAMO', 'REQUERIMIENTO FORMAL PARA SOLUCIONAR UN PROBLEMA'),
-    ('SUGERENCIA', 'PROPUESTA DE MEJORA'),
-    ('DENUNCIA', 'INFORME DE UNA IRREGULARIDAD');
+    ('REQUEST', 'REQUEST FOR INFORMATION OR ACTION'),
+    ('COMPLAINT', 'EXPRESSION OF DISSATISFACTION WITH A SERVICE'),
+    ('CLAIM', 'FORMAL REQUEST TO RESOLVE A PROBLEM'),
+    ('SUGGESTION', 'IMPROVEMENT PROPOSAL'),
+    ('REPORT', 'REPORT OF AN IRREGULARITY');
 
--- Insertar estados de solicitud
+
+-- Insert request statuses
 INSERT INTO request_statuses (name, description)
 VALUES
-    ('PENDIENTE', 'SOLICITUD RECIBIDA PERO NO PROCESADA'),
-    ('RESUELTA', 'SOLICITUD ATENDIDA Y CERRADA'),
-    ('RECHAZADA', 'SOLICITUD NO ACEPTADA O INVÁLIDA');
+    ('PENDING', 'REQUEST RECEIVED BUT NOT YET PROCESSED'),
+    ('RESOLVED', 'REQUEST ADDRESSED AND CLOSED'),
+    ('REJECTED', 'REQUEST NOT ACCEPTED OR INVALID');
+
+
+
 
 -- Insertar usuarios
 INSERT INTO users (id_user, name, last_name, identification, email, password_hash, role_id, principal,rate, compoundingPeriods, time)
@@ -38,10 +42,5 @@ VALUES
 -- Insertar configuración
 INSERT INTO configuration (config_key, config_value, description)
 VALUES
-    ('smtp_host', 'smtp.gmail.com', 'Servidor SMTP'),
-    ('smtp_port', '587', 'Puerto SMTP (TLS)'),
-    ('smtp_user', 'tu_correo@gmail.com', 'Usuario SMTP'),
-    ('smtp_password', 'tu_contraseña', 'Contraseña SMTP'),
-    ('smtp_secure', 'tls', 'Tipo de seguridad (tls o ssl)'),
-    ('smtp_from_name', 'Nombre Remitente', 'Nombre del remitente'),
-    ('smtp_from_email', 'tu_correo@gmail.com', 'Correo electrónico del remitente');
+    ('smtp_config', '{"host":"smtp.gmail.com","username":"letrasylyrics48@gmail.com","port":"465","smtp_password":" tafi ljrp cmpz wbem","security":"ssl"}', 'Servidor SMTP');
+  
