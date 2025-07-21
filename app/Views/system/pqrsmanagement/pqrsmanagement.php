@@ -303,17 +303,17 @@
         return;
     }
 
-    const encabezado = [
-        "Código",
-        "Usuario",
-        "Tipo",
-        "Estado",
-        "Descripción",
-        "Respuesta",
-        "Fecha de creación",
-        "Fecha de actualización",
-        "Adjunto"
-    ];
+   const encabezado = [
+    "Code",
+    "User",
+    "Type",
+    "Status",
+    "Description",
+    "Response",
+    "Creation Date",
+    "Update Date",
+    "Attachment"
+];
 
     const filas = datosFiltrados.map(item => [
         item.unique_code,
